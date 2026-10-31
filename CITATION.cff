@@ -11,6 +11,7 @@ authors:
     given-names: Nayan
     affiliation: "International Islamic University Chittagong"
 repository-code: "https://github.com/26sudipta/same-packets-different-scores"
+doi: 10.5281/zenodo.23833798
 license: MIT
 keywords:
   - intrusion detection

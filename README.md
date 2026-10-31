@@ -75,5 +75,4 @@ their producers' terms and are not included.
 
 ## Citing
 
-See `CITATION.cff`. The version used for the paper is archived on Zenodo (DOI to be added once
-the deposit exists).
+See `CITATION.cff`. The version used for the paper is archived on Zenodo: https://doi.org/10.5281/zenodo.23833798 (version 1.0.0).
