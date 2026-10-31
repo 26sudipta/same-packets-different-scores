@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,benign,0.9997339025177351,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,bot,1.0,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,ddos,0.9999171018817873,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,dos_goldeneye,0.9993149120803837,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,dos_hulk,0.9998294388538291,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,dos_slowhttptest,0.9730722154222766,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,dos_slowloris,0.9938251543711407,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,ftp_patator,1.0,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,portscan,0.9995869475423379,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,ssh_patator,0.9977452085682075,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,web_bruteforce,0.9473684210526315,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,web_sqli,0.6666666666666666,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,web_xss,0.6666666666666666,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,MACRO_CPLUS,0.9418251258172048,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,11.8

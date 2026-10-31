@@ -1,0 +1,16 @@
+nfs2023_nte g split values [0, 1]
+nfs2023_nte r split values [0, 1]
+nfs2023_te g split values [0, 1]
+nfs2023_te r split values [0, 1]
+max leakage on the grouped split (must be 0): 0.0
+eligible classes: ['bot', 'ddos', 'dos_goldeneye', 'dos_hulk', 'dos_slowhttptest', 'dos_slowloris', 'ftp_patator', 'portscan', 'ssh_patator', 'web_bruteforce', 'web_xss']
+  population model  n_classes       rho  p_one_sided         verdict        role
+0     common   all         11  0.500000      0.06095  direction only     primary
+1     common    rf         11  0.509091      0.05760  direction only  robustness
+2     common  lgbm         11  0.109091      0.37777  direction only  robustness
+3     common   mlp         11  0.672727      0.01438       supported  robustness
+4        own   all         11  0.527273      0.05021  direction only  robustness
+5        own    rf         11  0.545455      0.04412       supported  robustness
+6        own  lgbm         11  0.190909      0.28932  direction only  robustness
+7        own   mlp         11  0.772727      0.00387       supported  robustness
+done

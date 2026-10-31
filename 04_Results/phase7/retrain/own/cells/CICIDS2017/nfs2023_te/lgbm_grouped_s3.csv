@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,benign,0.9993584519619233,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,bot,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,ddos,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,dos_goldeneye,0.9935985368084134,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,dos_hulk,0.9997461714189018,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,dos_slowhttptest,0.9752265861027191,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,dos_slowloris,0.993020304568528,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,ftp_patator,0.9987463435018805,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,portscan,0.9890273079778896,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,ssh_patator,0.9988738738738738,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,web_bruteforce,0.9787234042553191,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,web_sqli,0.8571428571428571,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,web_xss,0.6666666666666666,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9
+CICIDS2017,nfs2023_te,lgbm,grouped,3,flow,own,MACRO_CPLUS,0.957702346482998,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397491,170475,25.9

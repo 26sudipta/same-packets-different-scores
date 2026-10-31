@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,benign,0.999418895203561,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,bot,0.9932584269662922,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,ddos,0.9997589393330655,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,dos_goldeneye,0.983495145631068,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,dos_hulk,0.9995798672380473,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,dos_slowhttptest,0.9915824915824916,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,dos_slowloris,0.997545008183306,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,ftp_patator,0.9995848899958489,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,portscan,0.9997481742634097,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,ssh_patator,0.9926842993809791,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,web_bruteforce,0.9690721649484536,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,web_sqli,0.6666666666666666,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,web_xss,0.9090909090909091,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0
+CICIDS2017,wtmc2021,mlp,grouped,4,flow,own,MACRO_CPLUS,0.961652759883392,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",259635,110421,18.0

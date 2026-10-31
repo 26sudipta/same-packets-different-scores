@@ -1,0 +1,3 @@
+claim,day,arm,other,seed,test_records,mapped_records,conversations,records_per_conv,share_in_conv_absent_from_other,attempted,class_shares
+R4,,unsw_original,nf_unsw_v3,0,247612,247612,124096,1.9953261990716864,0.0,0,analysis:0.0008|backdoor:0.0004|benign:0.5686|dos:0.0045|exploits:0.0696|fuzzers:0.0246|generic:0.3162|reconnaissance:0.0133|shellcode:0.0017|worms:0.0002
+R4,,nf_unsw_v3,unsw_original,0,159605,159605,124096,1.286141374419804,0.0,0,analysis:0.0008|backdoor:0.0007|benign:0.8454|dos:0.0070|exploits:0.0487|fuzzers:0.0379|generic:0.0363|reconnaissance:0.0204|shellcode:0.0027|worms:0.0003

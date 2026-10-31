@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,benign,0.9997421306881672,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,bot,0.9977426636568849,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,ddos,0.9999185070491402,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,dos_goldeneye,0.99856184084372,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,dos_hulk,0.9998301341939867,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,dos_slowhttptest,0.9943074003795066,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,dos_slowloris,0.9995739241585002,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,ftp_patator,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,portscan,0.9979343964306371,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,ssh_patator,0.9966178128523112,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,web_bruteforce,0.9473684210526315,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,web_sqli,0.6666666666666666,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,web_xss,0.5,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7
+CICIDS2017,crisis2022_rpd,mlp,grouped,2,flow,own,MACRO_CPLUS,0.9306356844593963,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",259202,111469,23.7

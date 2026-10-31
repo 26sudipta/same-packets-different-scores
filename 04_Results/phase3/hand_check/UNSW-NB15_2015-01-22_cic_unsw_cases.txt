@@ -1,0 +1,207 @@
+Hand check cases, UNSW-NB15 2015-01-22, seed 3
+
+== case 1: conv 109755  (attack analysis, cic_unsw has several records)
+   key 149.171.126.14:80|175.45.176.0:6992|6  initiator 175.45.176.0:6992  cs 1421932855.000000 ce 1421932857.133152  sched analysis  episode 0
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=2
+   idx  2430287 cic_unsw        t0 1421932855.000000 t1 1421932856.472831 dur   1.472831 175.45.176.0:6992->149.171.126.14:80 rev 0 bytes 1340 own Analysis
+   idx   146717 unsw_original   t0 1421932855.500000 t1 1421932857.105987 dur   1.605987 175.45.176.0:6992->149.171.126.14:80 rev 0 bytes 2132 own Analysis
+   idx  1236785 nf_unsw_v3      t0 1421932855.713000 t1 1421932856.319000 dur   0.606000 175.45.176.0:6992->149.171.126.14:80 rev 0 bytes 2108 own Analysis
+   idx  2439709 cic_unsw        t0 1421932856.000000 t1 1421932857.133152 dur   1.133152 149.171.126.14:80->175.45.176.0:6992 rev 1 bytes 0 own Benign
+   pair unsw_original:146717 ~ nf_unsw_v3:1236785 overlap 0.606000
+   pair unsw_original:146717 ~ cic_unsw:2430287 overlap 0.972831
+   pair nf_unsw_v3:1236785 ~ cic_unsw:2430287 overlap 0.606000
+
+== case 2: conv 109815  (attack analysis, one record in every arm)
+   key 149.171.126.14:80|175.45.176.0:8498|6  initiator 175.45.176.0:8498  cs 1421932815.500000 ce 1421932817.633715  sched analysis  episode 0
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=1
+   idx   145718 unsw_original   t0 1421932815.500000 t1 1421932817.133715 dur   1.633715 175.45.176.0:8498->149.171.126.14:80 rev 0 bytes 938 own Analysis
+   idx  2435797 cic_unsw        t0 1421932816.000000 t1 1421932817.633715 dur   1.633715 175.45.176.0:8498->149.171.126.14:80 rev 0 bytes 398 own Analysis
+   idx  1235529 nf_unsw_v3      t0 1421932816.447000 t1 1421932817.081000 dur   0.634000 175.45.176.0:8498->149.171.126.14:80 rev 0 bytes 926 own Analysis
+   pair unsw_original:145718 ~ nf_unsw_v3:1235529 overlap 0.634000
+   pair unsw_original:145718 ~ cic_unsw:2435797 overlap 1.133715
+   pair nf_unsw_v3:1235529 ~ cic_unsw:2435797 overlap 0.634000
+
+== case 3: conv 104847  (attack backdoor, cic_unsw has several records)
+   key 149.171.126.11:80|175.45.176.1:57610|6  initiator 175.45.176.1:57610  cs 1421932923.000000 ce 1421932925.143536  sched backdoor  episode 9
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=2
+   idx  2431466 cic_unsw        t0 1421932923.000000 t1 1421932924.559346 dur   1.559346 175.45.176.1:57610->149.171.126.11:80 rev 0 bytes 436 own Backdoor
+   idx   148517 unsw_original   t0 1421932923.500000 t1 1421932925.143536 dur   1.643536 175.45.176.1:57610->149.171.126.11:80 rev 0 bytes 1234 own Backdoors
+   idx  1238791 nf_unsw_v3      t0 1421932923.712000 t1 1421932924.356000 dur   0.644000 175.45.176.1:57610->149.171.126.11:80 rev 0 bytes 1204 own Backdoor
+   idx  2440400 cic_unsw        t0 1421932924.000000 t1 1421932925.073813 dur   1.073813 175.45.176.1:57610->149.171.126.11:80 rev 0 bytes 0 own Backdoor
+   pair unsw_original:148517 ~ nf_unsw_v3:1238791 overlap 0.644000
+   pair unsw_original:148517 ~ cic_unsw:2431466 overlap 1.059346
+   pair nf_unsw_v3:1238791 ~ cic_unsw:2431466 overlap 0.644000
+
+== case 4: conv 109165  (attack backdoor, one record in every arm)
+   key 149.171.126.14:47262|175.45.176.2:64045|17  initiator 175.45.176.2:64045  cs 1421933732.500000 ce 1421933734.111912  sched backdoor  episode 27
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=1
+   idx   169641 unsw_original   t0 1421933732.500000 t1 1421933733.611912 dur   1.111912 175.45.176.2:64045->149.171.126.14:47262 rev 0 bytes 319 own Backdoors
+   idx  2478198 cic_unsw        t0 1421933733.000000 t1 1421933734.111912 dur   1.111912 175.45.176.2:64045->149.171.126.14:47262 rev 0 bytes 138 own Backdoor
+   idx  1259119 nf_unsw_v3      t0 1421933733.035000 t1 1421933733.147000 dur   0.112000 175.45.176.2:64045->149.171.126.14:47262 rev 0 bytes 306 own Backdoor
+   pair unsw_original:169641 ~ nf_unsw_v3:1259119 overlap 0.112000
+   pair unsw_original:169641 ~ cic_unsw:2478198 overlap 0.611912
+   pair nf_unsw_v3:1259119 ~ cic_unsw:2478198 overlap 0.112000
+
+== case 5: conv 104890  (attack dos, cic_unsw has several records)
+   key 149.171.126.11:80|175.45.176.2:36495|6  initiator 175.45.176.2:36495  cs 1421928534.000000 ce 1421928536.369466  sched dos  episode 92
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=2
+   idx  2267134 cic_unsw        t0 1421928534.000000 t1 1421928535.828141 dur   1.828141 175.45.176.2:36495->149.171.126.11:80 rev 0 bytes 5780 own DoS
+   idx    29404 unsw_original   t0 1421928534.500000 t1 1421928536.369466 dur   1.869466 175.45.176.2:36495->149.171.126.11:80 rev 0 bytes 6652 own DoS
+   idx  1120151 nf_unsw_v3      t0 1421928534.547000 t1 1421928535.417000 dur   0.870000 175.45.176.2:36495->149.171.126.11:80 rev 0 bytes 6628 own DoS
+   idx  2290434 cic_unsw        t0 1421928535.000000 t1 1421928536.041320 dur   1.041320 149.171.126.11:80->175.45.176.2:36495 rev 1 bytes 0 own Benign
+   pair unsw_original:29404 ~ nf_unsw_v3:1120151 overlap 0.870000
+   pair unsw_original:29404 ~ cic_unsw:2267134 overlap 1.328141
+   pair nf_unsw_v3:1120151 ~ cic_unsw:2267134 overlap 0.870000
+
+== case 6: conv 112459  (attack dos, one record in every arm)
+   key 149.171.126.16:4827|175.45.176.1:40641|17  initiator 175.45.176.1:40641  cs 1421933784.500000 ce 1421933786.000004  sched dos  episode 247
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=1
+   idx   171065 unsw_original   t0 1421933784.500000 t1 1421933785.500004 dur   1.000004 175.45.176.1:40641->149.171.126.16:4827 rev 0 bytes 142 own DoS
+   idx  2471310 cic_unsw        t0 1421933785.000000 t1 1421933786.000004 dur   1.000004 175.45.176.1:40641->149.171.126.16:4827 rev 0 bytes 86 own DoS
+   idx  1260632 nf_unsw_v3      t0 1421933785.114000 t1 1421933785.115000 dur   0.001000 175.45.176.1:40641->149.171.126.16:4827 rev 0 bytes 142 own DoS
+   pair unsw_original:171065 ~ nf_unsw_v3:1260632 overlap 0.001000
+   pair unsw_original:171065 ~ cic_unsw:2471310 overlap 0.500004
+   pair nf_unsw_v3:1260632 ~ cic_unsw:2471310 overlap 0.001000
+
+== case 7: conv 115873  (attack exploits, cic_unsw has several records)
+   key 149.171.126.18:80|175.45.176.0:7564|6  initiator 175.45.176.0:7564  cs 1421931397.000000 ce 1421931399.369854  sched exploits  episode 431
+   counts unsw_original=1, nf_unsw_v3=0, cic_unsw=2
+   idx  2368446 cic_unsw        t0 1421931397.000000 t1 1421931398.765475 dur   1.765475 175.45.176.0:7564->149.171.126.18:80 rev 0 bytes 1144 own Exploits
+   idx   105449 unsw_original   t0 1421931397.500000 t1 1421931399.369854 dur   1.869854 175.45.176.0:7564->149.171.126.18:80 rev 0 bytes 1936 own Exploits
+   idx  2371454 cic_unsw        t0 1421931398.000000 t1 1421931399.104374 dur   1.104374 149.171.126.18:80->175.45.176.0:7564 rev 1 bytes 0 own Benign
+   pair unsw_original:105449 ~ cic_unsw:2368446 overlap 1.265475
+
+== case 8: conv 111735  (attack exploits, one record in every arm)
+   key 149.171.126.16:111|175.45.176.1:59172|17  initiator 175.45.176.1:59172  cs 1421934317.500000 ce 1421934319.024438  sched exploits  episode 407
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=1
+   idx   183507 unsw_original   t0 1421934317.500000 t1 1421934318.524438 dur   1.024438 175.45.176.1:59172->149.171.126.16:111 rev 0 bytes 320 own Exploits
+   idx  2518473 cic_unsw        t0 1421934318.000000 t1 1421934319.024438 dur   1.024438 175.45.176.1:59172->149.171.126.16:111 rev 0 bytes 208 own Exploits
+   idx  1273392 nf_unsw_v3      t0 1421934318.413000 t1 1421934318.438000 dur   0.025000 175.45.176.1:59172->149.171.126.16:111 rev 0 bytes 320 own Exploits
+   pair unsw_original:183507 ~ nf_unsw_v3:1273392 overlap 0.025000
+   pair unsw_original:183507 ~ cic_unsw:2518473 overlap 0.524438
+   pair nf_unsw_v3:1273392 ~ cic_unsw:2518473 overlap 0.025000
+
+== case 9: conv 102980  (attack, no cic_unsw record)
+   key 149.171.126.10:520|175.45.176.3:13176|17  initiator 175.45.176.3:13176  cs 1421933502.500000 ce 1421933503.500000  sched fuzzers  episode 458
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=0
+   idx   163583 unsw_original   t0 1421933502.500000 t1 1421933503.500000 dur   1.000000 175.45.176.3:13176->149.171.126.10:520 rev 0 bytes 532 own Fuzzers
+   idx  1252257 nf_unsw_v3      t0 1421933503.368000 t1 1421933503.369000 dur   0.001000 175.45.176.3:13176->149.171.126.10:520 rev 0 bytes 532 own Fuzzers
+   pair unsw_original:163583 ~ nf_unsw_v3:1252257 overlap 0.001000
+
+== case 10: conv 75063  (one record in every arm)
+   key 149.171.126.0:54568|59.166.0.9:3577|17  initiator 59.166.0.9:3577  cs 1421969442.000000 ce 1421969443.501660  sched benign  episode -1
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=1
+   idx  3821515 cic_unsw        t0 1421969442.000000 t1 1421969443.001660 dur   1.001660 59.166.0.9:3577->149.171.126.0:54568 rev 0 bytes 616 own Benign
+   idx  1008369 unsw_original   t0 1421969442.500000 t1 1421969443.501660 dur   1.001660 59.166.0.9:3577->149.171.126.0:54568 rev 0 bytes 840 own Normal
+   idx  2133424 nf_unsw_v3      t0 1421969442.513000 t1 1421969442.515000 dur   0.002000 59.166.0.9:3577->149.171.126.0:54568 rev 0 bytes 840 own Benign
+   pair unsw_original:1008369 ~ nf_unsw_v3:2133424 overlap 0.002000
+   pair unsw_original:1008369 ~ cic_unsw:3821515 overlap 0.501660
+   pair nf_unsw_v3:2133424 ~ cic_unsw:3821515 overlap 0.002000
+
+== case 11: conv 334865  (cic_unsw splits, every other arm one record)
+   key 149.171.126.3:22|59.166.0.2:31861|6  initiator 59.166.0.2:31861  cs 1421948080.000000 ce 1421948081.520840  sched benign  episode -1
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=2
+   idx  2991300 cic_unsw        t0 1421948080.000000 t1 1421948081.020709 dur   1.020709 59.166.0.2:31861->149.171.126.3:22 rev 0 bytes 12834 own Benign
+   idx  2996033 cic_unsw        t0 1421948080.000000 t1 1421948081.000127 dur   1.000127 149.171.126.3:22->59.166.0.2:31861 rev 1 bytes 0 own Benign
+   idx   542035 unsw_original   t0 1421948080.500000 t1 1421948081.520840 dur   1.020840 59.166.0.2:31861->149.171.126.3:22 rev 0 bytes 25850 own Normal
+   idx  1617554 nf_unsw_v3      t0 1421948080.812000 t1 1421948080.833000 dur   0.021000 59.166.0.2:31861->149.171.126.3:22 rev 0 bytes 25850 own Benign
+   pair unsw_original:542035 ~ nf_unsw_v3:1617554 overlap 0.021000
+   pair unsw_original:542035 ~ cic_unsw:2991300 overlap 0.520709
+   pair nf_unsw_v3:1617554 ~ cic_unsw:2991300 overlap 0.021000
+
+== case 12: conv 471358  (cic_unsw one record, another arm several)
+   key 149.171.126.4:53|59.166.0.1:26677|17  initiator 59.166.0.1:26677  cs 1421938370.000000 ce 1421938371.501059  sched benign  episode -1
+   counts unsw_original=2, nf_unsw_v3=1, cic_unsw=1
+   other conversations on this key: conv 471359 [1421952803.000, 1421952804.501]
+   idx  2681273 cic_unsw        t0 1421938370.000000 t1 1421938371.001059 dur   1.001059 59.166.0.1:26677->149.171.126.4:53 rev 0 bytes 180 own Benign
+   idx   274707 unsw_original   t0 1421938370.500000 t1 1421938371.501059 dur   1.001059 59.166.0.1:26677->149.171.126.4:53 rev 0 bytes 292 own Normal
+   idx   274716 unsw_original   t0 1421938370.500000 t1 1421938371.501059 dur   1.001059 59.166.0.1:26677->149.171.126.4:53 rev 0 bytes 292 own Normal
+   idx  1377874 nf_unsw_v3      t0 1421938370.875000 t1 1421938370.877000 dur   0.002000 59.166.0.1:26677->149.171.126.4:53 rev 0 bytes 292 own Benign
+   pair unsw_original:274707 ~ nf_unsw_v3:1377874 overlap 0.002000
+   pair unsw_original:274707 ~ cic_unsw:2681273 overlap 0.501059
+   pair nf_unsw_v3:1377874 ~ cic_unsw:2681273 overlap 0.002000
+
+== case 13: conv 994748  (present in cic_unsw only)
+   key 192.168.241.243:67|192.168.241.243:68|17  initiator 192.168.241.243:68  cs 1421929268.000000 ce 1421929385.999524  sched benign  episode -1
+   counts unsw_original=0, nf_unsw_v3=0, cic_unsw=1
+   other conversations on this key: conv 994742 [1421927381.000, 1421927498.001]; conv 994743 [1421927517.000, 1421927624.000]; conv 994744 [1421927642.000, 1421928135.000]; conv 994745 [1421928150.000, 1421928413.000]; conv 994746 [1421928430.000, 1421928676.000]; conv 994747 [1421928693.000, 1421929251.999]; conv 994749 [1421929403.000, 1421929770.001]; conv 994750 [1421929806.000, 1421930289.000]; conv 994751 [1421930309.000, 1421930549.001]; conv 994752 [1421930582.000, 1421930950.000]
+   idx  2297605 cic_unsw        t0 1421929268.000000 t1 1421929385.999524 dur 117.999524 192.168.241.243:68->192.168.241.243:67 rev 0 bytes 2700 own Benign
+
+== case 14: conv 114064  (in every other arm, not in cic_unsw)
+   key 149.171.126.17:69|175.45.176.2:21511|17  initiator 175.45.176.2:21511  cs 1421933165.500000 ce 1421933166.500000  sched fuzzers  episode 525
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=0
+   idx   155154 unsw_original   t0 1421933165.500000 t1 1421933166.500000 dur   1.000000 175.45.176.2:21511->149.171.126.17:69 rev 0 bytes 1501 own Fuzzers
+   idx  1242736 nf_unsw_v3      t0 1421933165.642000 t1 1421933165.643000 dur   0.001000 175.45.176.2:21511->149.171.126.17:69 rev 0 bytes 1505 own Fuzzers
+   pair unsw_original:155154 ~ nf_unsw_v3:1242736 overlap 0.001000
+
+== case 15: conv 277218  (UDP)
+   key 149.171.126.2:53|59.166.0.3:6002|17  initiator 59.166.0.3:6002  cs 1421928664.500000 ce 1421928666.001075  sched benign  episode -1
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=1
+   idx    32975 unsw_original   t0 1421928664.500000 t1 1421928665.501075 dur   1.001075 59.166.0.3:6002->149.171.126.2:53 rev 0 bytes 324 own Normal
+   idx  2289788 cic_unsw        t0 1421928665.000000 t1 1421928666.001075 dur   1.001075 59.166.0.3:6002->149.171.126.2:53 rev 0 bytes 212 own Benign
+   idx  1124501 nf_unsw_v3      t0 1421928665.439000 t1 1421928665.441000 dur   0.002000 59.166.0.3:6002->149.171.126.2:53 rev 0 bytes 324 own Benign
+   pair unsw_original:32975 ~ nf_unsw_v3:1124501 overlap 0.002000
+   pair unsw_original:32975 ~ cic_unsw:2289788 overlap 0.501075
+   pair nf_unsw_v3:1124501 ~ cic_unsw:2289788 overlap 0.002000
+
+== case 16: conv 177234  (same endpoint key, two conversations (gap rule))
+   key 149.171.126.1:53|59.166.0.3:36682|17  initiator 59.166.0.3:36682  cs 1421946086.000000 ce 1421946087.501132  sched benign  episode -1
+   counts unsw_original=2, nf_unsw_v3=1, cic_unsw=1
+   other conversations on this key: conv 177235 [1421951416.500, 1421951418.001]
+   idx  2933142 cic_unsw        t0 1421946086.000000 t1 1421946087.001132 dur   1.001132 59.166.0.3:36682->149.171.126.1:53 rev 0 bytes 212 own Benign
+   idx   498226 unsw_original   t0 1421946086.500000 t1 1421946087.501132 dur   1.001132 59.166.0.3:36682->149.171.126.1:53 rev 0 bytes 324 own Normal
+   idx   498237 unsw_original   t0 1421946086.500000 t1 1421946087.501132 dur   1.001132 59.166.0.3:36682->149.171.126.1:53 rev 0 bytes 324 own Normal
+   idx  1566961 nf_unsw_v3      t0 1421946086.884000 t1 1421946086.886000 dur   0.002000 59.166.0.3:36682->149.171.126.1:53 rev 0 bytes 324 own Benign
+   pair unsw_original:498226 ~ nf_unsw_v3:1566961 overlap 0.002000
+   pair unsw_original:498226 ~ cic_unsw:2933142 overlap 0.501132
+   pair nf_unsw_v3:1566961 ~ cic_unsw:2933142 overlap 0.002000
+
+== case 17: conv 666992  (long conversation, many records)
+   key 149.171.126.6:53|59.166.0.1:26527|17  initiator 59.166.0.1:26527  cs 1421944918.000000 ce 1421944919.501045  sched benign  episode -1
+   counts unsw_original=3, nf_unsw_v3=1, cic_unsw=3
+   idx  2916171 cic_unsw        t0 1421944918.000000 t1 1421944919.001045 dur   1.001045 59.166.0.1:26527->149.171.126.6:53 rev 0 bytes 212 own Benign
+   idx  3282927 cic_unsw        t0 1421944918.000000 t1 1421944919.001045 dur   1.001045 59.166.0.1:26527->149.171.126.6:53 rev 0 bytes 212 own Benign
+   idx  3964785 cic_unsw        t0 1421944918.000000 t1 1421944919.001045 dur   1.001045 59.166.0.1:26527->149.171.126.6:53 rev 0 bytes 212 own Benign
+   idx   421420 unsw_original   t0 1421944918.500000 t1 1421944919.501045 dur   1.001045 59.166.0.1:26527->149.171.126.6:53 rev 0 bytes 324 own Normal
+   idx   421431 unsw_original   t0 1421944918.500000 t1 1421944919.501045 dur   1.001045 59.166.0.1:26527->149.171.126.6:53 rev 0 bytes 324 own Normal
+   idx   421444 unsw_original   t0 1421944918.500000 t1 1421944919.501045 dur   1.001045 59.166.0.1:26527->149.171.126.6:53 rev 0 bytes 324 own Normal
+   idx  1535178 nf_unsw_v3      t0 1421944918.867000 t1 1421944918.869000 dur   0.002000 59.166.0.1:26527->149.171.126.6:53 rev 0 bytes 324 own Benign
+   pair unsw_original:421420 ~ nf_unsw_v3:1535178 overlap 0.002000
+   pair unsw_original:421420 ~ cic_unsw:2916171 overlap 0.501045
+   pair unsw_original:421431 ~ cic_unsw:3282927 overlap 0.501045
+   pair unsw_original:421444 ~ cic_unsw:3964785 overlap 0.501045
+   pair nf_unsw_v3:1535178 ~ cic_unsw:2916171 overlap 0.002000
+
+== case 18: conv 731394  (random)
+   key 149.171.126.7:25974|59.166.0.1:51499|6  initiator 59.166.0.1:51499  cs 1421967788.000000 ce 1421967790.000125  sched benign  episode -1
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=2
+   idx  3760347 cic_unsw        t0 1421967788.000000 t1 1421967789.312856 dur   1.312856 59.166.0.1:51499->149.171.126.7:25974 rev 0 bytes 8192 own Benign
+   idx   971586 unsw_original   t0 1421967788.500000 t1 1421967789.812984 dur   1.312984 59.166.0.1:51499->149.171.126.7:25974 rev 0 bytes 9248 own Normal
+   idx  2091049 nf_unsw_v3      t0 1421967788.696000 t1 1421967789.009000 dur   0.313000 59.166.0.1:51499->149.171.126.7:25974 rev 0 bytes 9248 own Benign
+   idx  3775750 cic_unsw        t0 1421967789.000000 t1 1421967790.000125 dur   1.000125 149.171.126.7:25974->59.166.0.1:51499 rev 1 bytes 0 own Benign
+   pair unsw_original:971586 ~ nf_unsw_v3:2091049 overlap 0.313000
+   pair unsw_original:971586 ~ cic_unsw:3760347 overlap 0.812856
+   pair nf_unsw_v3:2091049 ~ cic_unsw:3760347 overlap 0.313000
+
+== case 19: conv 34953  (random)
+   key 149.171.126.0:32728|59.166.0.8:1880|17  initiator 59.166.0.8:1880  cs 1421972554.500000 ce 1421972556.001763  sched benign  episode -1
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=1
+   idx  1083567 unsw_original   t0 1421972554.500000 t1 1421972555.501763 dur   1.001763 59.166.0.8:1880->149.171.126.0:32728 rev 0 bytes 816 own Normal
+   idx  3986963 cic_unsw        t0 1421972555.000000 t1 1421972556.001763 dur   1.001763 59.166.0.8:1880->149.171.126.0:32728 rev 0 bytes 592 own Benign
+   idx  2218126 nf_unsw_v3      t0 1421972555.056000 t1 1421972555.058000 dur   0.002000 59.166.0.8:1880->149.171.126.0:32728 rev 0 bytes 816 own Benign
+   pair unsw_original:1083567 ~ nf_unsw_v3:2218126 overlap 0.002000
+   pair unsw_original:1083567 ~ cic_unsw:3986963 overlap 0.501763
+   pair nf_unsw_v3:2218126 ~ cic_unsw:3986963 overlap 0.002000
+
+== case 20: conv 115392  (random)
+   key 149.171.126.18:179|175.45.176.0:16734|6  initiator 175.45.176.0:16734  cs 1421929569.000000 ce 1421929571.028517  sched fuzzers  episode 529
+   counts unsw_original=1, nf_unsw_v3=1, cic_unsw=2
+   idx  2300307 cic_unsw        t0 1421929569.000000 t1 1421929570.437508 dur   1.437508 175.45.176.0:16734->149.171.126.18:179 rev 0 bytes 1082 own Fuzzers
+   idx    53933 unsw_original   t0 1421929569.500000 t1 1421929570.972621 dur   1.472621 175.45.176.0:16734->149.171.126.18:179 rev 0 bytes 1880 own Fuzzers
+   idx  1146798 nf_unsw_v3      t0 1421929569.965000 t1 1421929570.438000 dur   0.473000 175.45.176.0:16734->149.171.126.18:179 rev 0 bytes 1850 own Fuzzers
+   idx  2314227 cic_unsw        t0 1421929570.000000 t1 1421929571.028517 dur   1.028517 175.45.176.0:16734->149.171.126.18:179 rev 0 bytes 0 own Fuzzers
+   pair unsw_original:53933 ~ nf_unsw_v3:1146798 overlap 0.473000
+   pair unsw_original:53933 ~ cic_unsw:2300307 overlap 0.937508
+   pair nf_unsw_v3:1146798 ~ cic_unsw:2300307 overlap 0.472508
+
+arm pairs covered: 3 of 3; missing: []

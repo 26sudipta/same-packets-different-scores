@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,benign,0.9993720846788662,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,bot,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,ddos,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,dos_goldeneye,0.991044776119403,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,dos_hulk,0.9996660544331274,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,dos_slowhttptest,0.9857231533209186,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,dos_slowloris,0.9956155143338955,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,ftp_patator,0.9997912753078689,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,portscan,0.989247311827957,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,ssh_patator,0.9977477477477478,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,web_bruteforce,0.963855421686747,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,web_sqli,0.6666666666666666,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,web_xss,0.8,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,MACRO_CPLUS,0.9529792312402461,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,25.8

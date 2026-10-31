@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,benign,0.9993650865636444,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,bot,1.0,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,ddos,0.9999171018817873,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,dos_goldeneye,0.9853862212943633,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,dos_hulk,0.9996589358799455,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,dos_slowhttptest,0.9752339020363237,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,dos_slowloris,0.9940006315124724,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,ftp_patator,1.0,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,portscan,0.9995869475423379,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,ssh_patator,0.9971925884334644,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,web_bruteforce,0.9484536082474226,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,web_sqli,0.4,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,web_xss,0.6666666666666666,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0
+CICIDS2017,nfs2023_nte,rf,grouped,2,flow,own,MACRO_CPLUS,0.9204201300044944,"{""max_depth"": null, ""min_samples_leaf"": 1}",263160,113165,12.0

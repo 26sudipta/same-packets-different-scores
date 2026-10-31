@@ -1,0 +1,5 @@
+Seven CICIDS2017 releases agree on conversations, not on how they cut them into flows
+A flow-level score gap between two releases compares two different populations
+An expiry setting plus inherited record labels halves flow recall for two classes
+Per-conversation scoring removes most exporter share, not ranking disagreement
+Of 22 decidable published release comparisons, 15 survive on the same conversations

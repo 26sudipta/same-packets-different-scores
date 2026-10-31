@@ -1,0 +1,508 @@
+{
+  "name": "phase3_summary",
+  "created_utc": "2026-10-26T20:44:42+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/03_Code/phase3_summary.py",
+  "argv": [],
+  "params": {},
+  "git": {
+    "commit": "858dabdf42763f2b55e3433ee06c3c464159ba95",
+    "dirty": true
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/arm_facts/CICIDS2017_Friday.csv",
+      "bytes": 564,
+      "sha256": "cebd2a679136d9358c2afe81add5741380bedcf59b9c409351f24a0b61c63c56"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/arm_facts/CICIDS2017_Monday.csv",
+      "bytes": 522,
+      "sha256": "3e4d19e6a888f6a64263cfb8a4a014e2a4ee5aaa1bc5d9d90d166c41969c98ae"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/arm_facts/CICIDS2017_Thursday.csv",
+      "bytes": 568,
+      "sha256": "10d16d5e383b2d65199c2de18d80137537703c7c820c68b36fa543aaf8fe5ef1"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/arm_facts/CICIDS2017_Tuesday.csv",
+      "bytes": 530,
+      "sha256": "891fe1a7fedf075db83878633cba8fb3643aeb1ddb5d0b90f011f3a6965c40d4"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/arm_facts/CICIDS2017_Wednesday.csv",
+      "bytes": 557,
+      "sha256": "34edaff04dfb7bf480cef7ae96b7bb8f02f43411bbc05926825c7da009c5df2c"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/arm_facts/UNSW-NB15_2015-01-22.csv",
+      "bytes": 233,
+      "sha256": "69625fb9ed27a2638fc04126f2236a53c3e9c5433793217370c5d4e8dbaf6ebe"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/arm_facts/UNSW-NB15_2015-02-18.csv",
+      "bytes": 234,
+      "sha256": "15376a3da2d784f5c0662be623fd589f778e9b032b2a21a174a3413368f570bd"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_agreement/CICIDS2017_Friday.csv",
+      "bytes": 1835,
+      "sha256": "29afd79e1664c31d12bdf42d10c00cb80ee480e8731147b521fffdae244e6245"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_agreement/CICIDS2017_Monday.csv",
+      "bytes": 463,
+      "sha256": "5105db9adbfeb9438c350a242ba65f765d10ba552d22fe51480b38d2432b8b63"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_agreement/CICIDS2017_Thursday.csv",
+      "bytes": 1793,
+      "sha256": "55d157fa6dd4934c62af18166c0b8474a5dca63e84dc79a623cba2351d5e5837"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_agreement/CICIDS2017_Tuesday.csv",
+      "bytes": 1290,
+      "sha256": "0430938a9cae9098a6c6a9767a1c773ed453ae49d8b4744b43fe0ec216b44a0e"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_agreement/CICIDS2017_Wednesday.csv",
+      "bytes": 2534,
+      "sha256": "77a20ec440bb7eac54e506984a6a06ee06f1e035358bc1e6e7218453fa3b3b85"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_agreement/UNSW-NB15_2015-01-22.csv",
+      "bytes": 1117,
+      "sha256": "118607c78f79fd191500abf0c54c141d9bb40f9c66ead9a07d8f491682fb8eec"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_agreement/UNSW-NB15_2015-02-18.csv",
+      "bytes": 1220,
+      "sha256": "6806ba1ad7deab4c5a75c598305dcd889d132cea2644b4a40aeca9b81beb8336"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_confusion/CICIDS2017_Friday.csv",
+      "bytes": 1581,
+      "sha256": "cc4372ef60d57d31a23c1ea5ae947919b7ff43a5b31ca7c246c1c68ec2c0aa77"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_confusion/CICIDS2017_Monday.csv",
+      "bytes": 244,
+      "sha256": "f8d04e1486cfa373027e0e2863878ad827313c9eecb999e7b03b1f76a3b5d1c0"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_confusion/CICIDS2017_Thursday.csv",
+      "bytes": 2210,
+      "sha256": "c90b94bdbbad3dd0f420e2bf974a82336a334ff8015b829d70d10296172df21f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_confusion/CICIDS2017_Tuesday.csv",
+      "bytes": 1347,
+      "sha256": "d9d06d04c75b07ab7b4c6479d6583271251dfae3ff8243d30eac135a7e9c9617"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_confusion/CICIDS2017_Wednesday.csv",
+      "bytes": 3013,
+      "sha256": "24abdf697bd081c297b0cfe1613d2349394cc5be12e4177f4fe6bdc2df3711b5"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_confusion/UNSW-NB15_2015-01-22.csv",
+      "bytes": 2091,
+      "sha256": "20833700180eb3b9623043836397bbf5c85c3f8e88821c3d4e6ed9a1400084af"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/label_confusion/UNSW-NB15_2015-02-18.csv",
+      "bytes": 2578,
+      "sha256": "de6c803e2f048f9a0f2317db00e8d6feb44c44bc02f30b30efbff59971a26e52"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/window_rule_sensitivity/CICIDS2017_Friday.csv",
+      "bytes": 135,
+      "sha256": "f02e1e3b74a4acb1e3bba89d4126f458e142d704cfc25de16770d182f8d84b31"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/window_rule_sensitivity/CICIDS2017_Monday.csv",
+      "bytes": 59,
+      "sha256": "3ffe13bd97edc0c1c32e20fe2e88ae8a6cfa3142d98ee78f9ca4047603c922ab"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/window_rule_sensitivity/CICIDS2017_Thursday.csv",
+      "bytes": 160,
+      "sha256": "dfaf258451c1704c3a50f8d3f18f490526f85fc3073f754c6a4d85209d0a5d72"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/window_rule_sensitivity/CICIDS2017_Tuesday.csv",
+      "bytes": 117,
+      "sha256": "8d1b230c2ae82be6387c80130d444387bab7a518c012eca49ee53efb44f16f57"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/window_rule_sensitivity/CICIDS2017_Wednesday.csv",
+      "bytes": 213,
+      "sha256": "a9f8134b9209f0d686996b5e42c831d4d5d3e2bda9c7b2b6b5caafa1091fdd97"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/window_rule_sensitivity/UNSW-NB15_2015-01-22.csv",
+      "bytes": 251,
+      "sha256": "7f9b648cb1b8990697302eccf6d8bf9ed8da3590ffd7fd2c10f5511690e9085c"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/window_rule_sensitivity/UNSW-NB15_2015-02-18.csv",
+      "bytes": 259,
+      "sha256": "40a8b4d78e0312800f0b2b98e934fba50957193b329421ab7ffd3a042659297e"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/cardinality/CICIDS2017_Friday.csv",
+      "bytes": 13132,
+      "sha256": "0fd20a78ce971e6d9031e022a30ff2767c286d0c580f37f5ceb13c0f448b36f7"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/cardinality/CICIDS2017_Monday.csv",
+      "bytes": 4534,
+      "sha256": "679c45d6fe68d540c2482370e5ba0714e7eea254bda197f6e6b14590cc0ca31b"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/cardinality/CICIDS2017_Thursday.csv",
+      "bytes": 9593,
+      "sha256": "fc2a8183761e27952e1f00ef8fe7f9e7dcc8af85d7407e949f88e1ca6520d651"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/cardinality/CICIDS2017_Tuesday.csv",
+      "bytes": 8583,
+      "sha256": "6b5fc0fb307691d2434093806f50aaf92a809eae0e6a119c13ed409eb4db4fcb"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/cardinality/CICIDS2017_Wednesday.csv",
+      "bytes": 18240,
+      "sha256": "5cc51ec356fb4d3d9305c796af7df92d8d39aa0dfd7a68a23a22b2c5260ec901"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/cardinality/UNSW-NB15_2015-01-22.csv",
+      "bytes": 1738,
+      "sha256": "5c9a41548063512eac7a7f6e6cdd1b158eafc13bcd3b1210fd1af897601ec3bb"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/cardinality/UNSW-NB15_2015-02-18.csv",
+      "bytes": 1844,
+      "sha256": "bd95948e41439230cd59b0a9f470cad3eef20ba0aec3f79fe7a4ef0914082ab3"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/presence/CICIDS2017_Friday.csv",
+      "bytes": 825,
+      "sha256": "92d27f4d1d6732917f870ab5bdb03686380b7f25da7dba4ccefc5f9b486479d0"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/presence/CICIDS2017_Monday.csv",
+      "bytes": 431,
+      "sha256": "980882caa13006201da718e3049bd90c457b755728091f364ab38be761327056"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/presence/CICIDS2017_Thursday.csv",
+      "bytes": 759,
+      "sha256": "25f3efd25f181a935c0339ef9663d2f2482795fd5187a67bfbd96d97e4f9b082"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/presence/CICIDS2017_Tuesday.csv",
+      "bytes": 625,
+      "sha256": "156dbd18fc243bddaaeba4a11e0ad2b6dc193b06499e0ad2b4d63c4799cb607e"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/presence/CICIDS2017_Wednesday.csv",
+      "bytes": 911,
+      "sha256": "0504421bed6ce025c7fadbbb46a1f1dbdb86c18b83dd7377a0ebbde526a324a7"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/presence/UNSW-NB15_2015-01-22.csv",
+      "bytes": 515,
+      "sha256": "fc49c464a7c1d11c4e271f97bbf2a13e8021bd44d478d62ea30f9cfa2fc6cf8e"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/presence/UNSW-NB15_2015-02-18.csv",
+      "bytes": 573,
+      "sha256": "582bd4f7c65c6b8318068c44919548a524a131a5be05223ea663790a9e69ae6a"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/attempted/CICIDS2017_Friday.csv",
+      "bytes": 103,
+      "sha256": "fd695b02d0c829ebfaa69919f5bac44ddef9a53200fdbc69c50ce44b12d6b9a1"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/attempted/CICIDS2017_Monday.csv",
+      "bytes": 45,
+      "sha256": "33a01f3eaa54846a3c25aedd90a538500c3d3f12cf3a4a23624a0cdb34762446"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/attempted/CICIDS2017_Thursday.csv",
+      "bytes": 112,
+      "sha256": "1634e5034d60b4b2eb40f1a99552041d030d6a4bcf0f3e9ce77314c3f931aef3"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/attempted/CICIDS2017_Tuesday.csv",
+      "bytes": 93,
+      "sha256": "7d282f32ea54d9c5c7c5bc7ec27c7ecf275776f3fedc86fada767321fc8b609b"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/attempted/CICIDS2017_Wednesday.csv",
+      "bytes": 177,
+      "sha256": "d94aba23fecf877f928b93d63cebb1b71e2e194cd367d06ccafeeb714ad5ed3e"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/attempted/UNSW-NB15_2015-01-22.csv",
+      "bytes": 195,
+      "sha256": "7752687f8f23e4de9e1cdbfa7bb1ab9abca86ba4cbe1293a60aed4fbbddd114f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/attempted/UNSW-NB15_2015-02-18.csv",
+      "bytes": 203,
+      "sha256": "eb1411f3de6b9653a5737bc6d03b4257025a233daaa121081eac272a20bc0330"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/mixed/CICIDS2017_Friday.csv",
+      "bytes": 846,
+      "sha256": "e75285ec3c86f3a05e9d36355d1e35d556aa828bb3fb3ade3227b9c51d69657f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/mixed/CICIDS2017_Monday.csv",
+      "bytes": 80,
+      "sha256": "8c6dedbee5d31d2b84df82d742b4998d6cc10ef2e18e18e695316f3e1f6770b6"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/mixed/CICIDS2017_Thursday.csv",
+      "bytes": 1116,
+      "sha256": "40eabeaab8c0fb25d9a7306faa7e723340d48f98b1d7b9acde51c19d89f3acbd"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/mixed/CICIDS2017_Tuesday.csv",
+      "bytes": 644,
+      "sha256": "5e740fae4d0f48ec8091de6d753c72d0f6d5bbdeab96ff1efae5a09ce4219f0a"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/mixed/CICIDS2017_Wednesday.csv",
+      "bytes": 1508,
+      "sha256": "87ebcbe0bbc9222ec8ca7496e35778e8e5ab6ad3fed0892c9c80fcafb8211d58"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/mixed/UNSW-NB15_2015-01-22.csv",
+      "bytes": 716,
+      "sha256": "9163eaeb08eeb92011db8cde9556d9563824e92e7661e7ab9c798904896c898b"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/mixed/UNSW-NB15_2015-02-18.csv",
+      "bytes": 769,
+      "sha256": "349733663656193996eba77fea598c9310a543054b178da1dd500a90aa7e0de4"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/episodes/CICIDS2017_Friday.csv",
+      "bytes": 285,
+      "sha256": "a25c623d41e036ca797775c2b9f2f07302573f36a155130e462abae76278e9dd"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/episodes/CICIDS2017_Thursday.csv",
+      "bytes": 294,
+      "sha256": "4f378ec25bc8ff8ccaf187f704918b3e0df2babfb63691c1ae60b5e7848753a5"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/episodes/CICIDS2017_Tuesday.csv",
+      "bytes": 268,
+      "sha256": "262016146da9f4b1e5b237edef59b2dd2d2e6e0b7baa24342e50ee9d218ba185"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/episodes/CICIDS2017_Wednesday.csv",
+      "bytes": 371,
+      "sha256": "d670c4adbd9c0840b130ffa5fd33cc2141df6090cb93a72cb90d3a9fc5c1039a"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/episodes/UNSW-NB15_2015-01-22.csv",
+      "bytes": 289,
+      "sha256": "9aca0c5845141660f4b68d5cbd00104b600ecf94cb55cff1463774b274d89719"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/episodes/UNSW-NB15_2015-02-18.csv",
+      "bytes": 320,
+      "sha256": "a937b0d5c577d5fed49a0e49de6bec53a58a3e7f6c277b14ea5a25bf2bbf2961"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/leakage/CICIDS2017_Friday.csv",
+      "bytes": 13844,
+      "sha256": "0c3d6e2ce95cbb85d245612461c9e62dd46271df391f019c935e435d84b65369"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/leakage/CICIDS2017_Monday.csv",
+      "bytes": 3876,
+      "sha256": "1b3a6fd46d467b9c85d196e4f3e6f5edefa5c3d2f54042c13772191482094171"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/leakage/CICIDS2017_Thursday.csv",
+      "bytes": 13628,
+      "sha256": "daf03e0b374ea034145b1dc0cb5adbac9dc5d234d08542db5085756b1f34bec3"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/leakage/CICIDS2017_Tuesday.csv",
+      "bytes": 11168,
+      "sha256": "207680080a2226fa2d83ef9455cecb1ab8038ae693dde337fd5bb53af28ea648"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/leakage/CICIDS2017_Wednesday.csv",
+      "bytes": 20872,
+      "sha256": "3d2f31a794497327bb5bdcaf19f887ec886b53833b2390792db3bb49ae9bf419"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/leakage/UNSW-NB15_2015-01-22.csv",
+      "bytes": 9894,
+      "sha256": "0bcf66185212186b942e92db2d3628905b7cf64ab07e34acc2ecfe617a7e7736"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/leakage/UNSW-NB15_2015-02-18.csv",
+      "bytes": 10193,
+      "sha256": "8867e041bbb5e6f27979cec9b1df874d978b60c3760c3d66f9a73003812045ba"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/pair_stats/CICIDS2017_Friday.csv",
+      "bytes": 1691,
+      "sha256": "2b23652d79d1617dd48827edcf3984576cbd129b4a5d4f3ad2dafb8519cbef2f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/pair_stats/CICIDS2017_Monday.csv",
+      "bytes": 1697,
+      "sha256": "49948fb483b301336c05c8d9649bab1360912e293d9e8f532b7b5b3d2e77ffc8"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/pair_stats/CICIDS2017_Thursday.csv",
+      "bytes": 1668,
+      "sha256": "d51f3a3749744a770cf9c377cf590ac54361acc8a5bde73675d9b448f03e789f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/pair_stats/CICIDS2017_Tuesday.csv",
+      "bytes": 1692,
+      "sha256": "4ca738ac471917c615154ebba58798311c2f447463af81fb57a426cac732117b"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/pair_stats/CICIDS2017_Wednesday.csv",
+      "bytes": 1695,
+      "sha256": "180e5eec7564dc365fdb42f30ff292a6c7155b0cb9b0ecde4688f18fe090aab5"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/pair_stats/UNSW-NB15_2015-01-22.csv",
+      "bytes": 185,
+      "sha256": "8b9f041b88f17598a9891a4ee7fd8b8e10fe2a0762713c5188589d415d0ba72d"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/pair_stats/UNSW-NB15_2015-02-18.csv",
+      "bytes": 185,
+      "sha256": "23d088427c1fee6d2788c3ece365563809406b2d120f86bb615cfad561fda6fb"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/gap_sweep_CICIDS2017_Friday.csv",
+      "bytes": 2641,
+      "sha256": "daa5af2dbcbfa4e24af5351def1659c28f19637ca97f83f04c0c55d8c90e513f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/gap_sweep_CICIDS2017_Monday.csv",
+      "bytes": 994,
+      "sha256": "fde25bf01daebde750651f8a92a00784e8843178a9fdf883f8e684607be9043c"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/gap_sweep_CICIDS2017_Thursday.csv",
+      "bytes": 2758,
+      "sha256": "c0a4b1e83d05721ef6be81f5e6fbcfa101e5494df1559f4fd67c84d607ffd51c"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/gap_sweep_CICIDS2017_Tuesday.csv",
+      "bytes": 1830,
+      "sha256": "c9a75b4052ed7925d48e3234dd02f121aec13a871e8854001946d4a7d326da03"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/gap_sweep_CICIDS2017_Wednesday.csv",
+      "bytes": 3298,
+      "sha256": "790e3836a30ea5eda98b7b754b56cef9137d39b82dce042cc415c9cb2a61fe41"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/gap_sweep_UNSW-NB15_2015-01-22.csv",
+      "bytes": 4118,
+      "sha256": "bcd4ea747e357d27f70e70a42efed87065e3b4a41d33d29e9b8dfaaadb74d8fe"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/gap_sweep_UNSW-NB15_2015-02-18.csv",
+      "bytes": 4323,
+      "sha256": "ea2f74902c7aaa60465fc0c760d94354c65026a20aba29339de738d5d084168e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_arm_facts.csv",
+      "bytes": 3300,
+      "sha256": "b40fdc474d66e3fe1349ec58191222103d09d31959593ce70e1169afe469ebd8"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_label_agreement.csv",
+      "bytes": 13263,
+      "sha256": "9c754e209653a63adfd2f45d59f1d0903a922cb030998594abb245fd87cc0877"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_label_confusion.csv",
+      "bytes": 20650,
+      "sha256": "a10cdd1bc3668ba31bd808935b252b70fa11265e0deea5670650c0496eb4b972"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_window_rule_sensitivity.csv",
+      "bytes": 1791,
+      "sha256": "59ad7249291f13241b0b7e7a14073ef29f32c21005d3ed4d1c73c60e31881d5f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_cardinality.csv",
+      "bytes": 85655,
+      "sha256": "7d5f176719c863f0e748779d3d81d5365958540856f0f80e7d357a431c12b939"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_presence.csv",
+      "bytes": 5156,
+      "sha256": "5b30b1159b9624a92bc00053b2039659b4eb952bbf528091754a41b125b7f962"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_attempted.csv",
+      "bytes": 1307,
+      "sha256": "1529e2932a562728083b6cd46710b42225365812049e17081fb85f917b085fe8"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_mixed.csv",
+      "bytes": 7928,
+      "sha256": "9eb390af82f8df95816d45fc8547e234a804dc3194c6010e921ef857d237931f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_episodes.csv",
+      "bytes": 2165,
+      "sha256": "fef3866f6b8e3fa821ee9fe7b3d46243e8949e7351f91fbba99d3259cbe09acd"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_leakage.csv",
+      "bytes": 115237,
+      "sha256": "6ca75d281083c1740393dfc07578ccb00cb7a45ff9eed0aab0acbebb98bd6bed"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_pair_stats.csv",
+      "bytes": 10261,
+      "sha256": "9b28097151d07a391ad0635959fc7c6776f12941544b9aacfd72067d7d33c290"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/all_gap_sweep.csv",
+      "bytes": 19194,
+      "sha256": "90b07e65986b8bc864e62774d9d92a7b64ffbb8944a6aae577a331496f3e9fca"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/phase3_overview.csv",
+      "bytes": 1299,
+      "sha256": "2ce1eb9d39f2e29bcd247455806341a018273b3935595e45903694c6003cf081"
+    }
+  ]
+}

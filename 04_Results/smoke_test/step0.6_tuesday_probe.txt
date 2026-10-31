@@ -1,0 +1,29 @@
+
+========================================================================
+Tuesday
+========================================================================
+flow rows      original=  445,909  corrected=  322,003  ratio=1.38
+conversations  original=  211,628  corrected=  211,630  jaccard=1.0000
+               lycos    =  319,637 flows, 211,602 conversations
+three way key agreement = 99.7682%
+
+mapping cardinality over 211,631 conversations
+  1:1                        81,655  (38.58%)
+  n:1  original split        93,423  (44.14%)
+  1:n  corrected split          489  ( 0.23%)
+  n:m                        36,060  (17.04%)
+  original only                   1  ( 0.00%)
+  corrected only                  3  ( 0.00%)
+
+attack-labelled conversations: 6,970
+  1:1 among them: 4 (0.06%)
+  flow rows on those keys: original=15,442  corrected=6,990  ratio=2.21
+
+per class (fpc = flows per conversation)
+                         orig_flows  orig_convs  corr_flows  corr_convs  orig_fpc  corr_fpc
+Label                                                                                      
+BENIGN                       432074      206258      315031      204678      2.09      1.54
+FTP-Patator                    7938        3991        3973        3973      1.99      1.00
+FTP-Patator - Attempted           0           0          11          11       NaN      1.00
+SSH-Patator                    5897        2979        2980        2979      1.98      1.00
+SSH-Patator - Attempted           0           0           8           8       NaN      1.00

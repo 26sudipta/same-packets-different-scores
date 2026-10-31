@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,lycos,mlp,grouped,0,flow,own,benign,0.9991285842161111,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,bot,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,ddos,0.9999183873337142,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,dos_goldeneye,0.9836385836385836,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,dos_hulk,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,dos_slowhttptest,0.9784366576819407,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,dos_slowloris,0.9852276153150437,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,ftp_patator,0.9987515605493134,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,portscan,0.9983509234828496,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,ssh_patator,0.9971830985915493,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,web_bruteforce,0.8055555555555556,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,web_sqli,0.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,web_xss,0.07692307692307693,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5
+CICIDS2017,lycos,mlp,grouped,0,flow,own,MACRO_CPLUS,0.8325472340990566,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257149,110670,25.5

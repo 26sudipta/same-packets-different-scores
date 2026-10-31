@@ -1,0 +1,24 @@
+[14:52:41] cic_original: read Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv (225,745 rows)
+[14:52:42] cic_original: read Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv (286,467 rows)
+[14:52:43] cic_original: read Friday-WorkingHours-Morning.pcap_ISCX.csv (191,033 rows)
+[14:52:44] cic_original: read Monday-WorkingHours.pcap_ISCX.csv (529,918 rows)
+[14:52:45] cic_original: read Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv (288,602 rows)
+[14:52:46] cic_original: read Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv (170,366 rows)
+[14:52:47] cic_original: read Tuesday-WorkingHours.pcap_ISCX.csv (445,909 rows)
+[14:52:50] cic_original: read Wednesday-workingHours.pcap_ISCX.csv (692,703 rows)
+[14:56:37] R2 cic_original rf seed 0: 223 s
+[15:00:22] R2 cic_original rf seed 1: 225 s
+[15:04:04] R2 cic_original rf seed 2: 222 s
+[15:07:58] R2 cic_original rf seed 3: 234 s
+[15:11:59] R2 cic_original rf seed 4: 241 s
+[15:12:01] wtmc2021: read Friday-WorkingHours.csv (547,915 rows)
+[15:12:02] wtmc2021: read Monday-WorkingHours.csv (371,749 rows)
+[15:12:03] wtmc2021: read Thursday-WorkingHours.csv (362,368 rows)
+[15:12:04] wtmc2021: read Tuesday-WorkingHours.csv (322,003 rows)
+[15:12:06] wtmc2021: read Wednesday-WorkingHours.csv (496,779 rows)
+[15:15:35] R2 wtmc2021 rf seed 0: 206 s
+[15:19:01] R2 wtmc2021 rf seed 1: 206 s
+[15:22:12] R2 wtmc2021 rf seed 2: 191 s
+[15:25:17] R2 wtmc2021 rf seed 3: 186 s
+[15:28:27] R2 wtmc2021 rf seed 4: 190 s
+[15:28:27] R2 finished in 2146 s

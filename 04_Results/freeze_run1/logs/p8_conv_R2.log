@@ -1,0 +1,28 @@
+[16:37:29] CICIDS2017: 342,037 subsample conversations
+[16:37:29] cic_original: read Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv (225,745 rows)
+[16:37:30] cic_original: read Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv (286,467 rows)
+[16:37:31] cic_original: read Friday-WorkingHours-Morning.pcap_ISCX.csv (191,033 rows)
+[16:37:32] cic_original: read Monday-WorkingHours.pcap_ISCX.csv (529,918 rows)
+[16:37:33] cic_original: read Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv (288,602 rows)
+[16:37:34] cic_original: read Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv (170,366 rows)
+[16:37:35] cic_original: read Tuesday-WorkingHours.pcap_ISCX.csv (445,909 rows)
+[16:37:38] cic_original: read Wednesday-workingHours.pcap_ISCX.csv (692,703 rows)
+[16:37:43] R2 cic_original : 511,866 usable records in the population
+[16:37:44] wtmc2021: read Friday-WorkingHours.csv (547,915 rows)
+[16:37:45] wtmc2021: read Monday-WorkingHours.csv (371,749 rows)
+[16:37:46] wtmc2021: read Thursday-WorkingHours.csv (362,368 rows)
+[16:37:47] wtmc2021: read Tuesday-WorkingHours.csv (322,003 rows)
+[16:37:49] wtmc2021: read Wednesday-WorkingHours.csv (496,779 rows)
+[16:37:52] R2 wtmc2021 : 369,954 usable records in the population
+[16:37:52] R2 cic_wtmc : 341,541 conversations in both arms
+[16:38:16] R2 sched cic_wtmc cic_original rf seed 0 : 357,917 train, 153,948 test, 24 s
+[16:38:40] R2 sched cic_wtmc cic_original rf seed 1 : 357,606 train, 154,259 test, 24 s
+[16:39:04] R2 sched cic_wtmc cic_original rf seed 2 : 358,013 train, 153,852 test, 24 s
+[16:39:28] R2 sched cic_wtmc cic_original rf seed 3 : 358,330 train, 153,535 test, 24 s
+[16:39:53] R2 sched cic_wtmc cic_original rf seed 4 : 358,984 train, 152,881 test, 24 s
+[16:40:10] R2 sched cic_wtmc wtmc2021 rf seed 0 : 258,585 train, 111,287 test, 18 s
+[16:40:28] R2 sched cic_wtmc wtmc2021 rf seed 1 : 258,390 train, 111,482 test, 18 s
+[16:40:46] R2 sched cic_wtmc wtmc2021 rf seed 2 : 258,624 train, 111,248 test, 18 s
+[16:41:04] R2 sched cic_wtmc wtmc2021 rf seed 3 : 259,223 train, 110,649 test, 18 s
+[16:41:23] R2 sched cic_wtmc wtmc2021 rf seed 4 : 259,507 train, 110,365 test, 18 s
+[16:41:23] R2 sched finished in 235 s

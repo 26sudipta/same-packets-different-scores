@@ -1,0 +1,16 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,benign,0.9975184492859164,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,bot,0.9390919158361019,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,ddos,0.9995145631067961,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,dos_goldeneye,0.9887058823529412,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,dos_hulk,0.9981455725544738,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,dos_slowhttptest,0.956236975290265,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,dos_slowloris,0.9713656387665198,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,ftp_patator,0.9727506426735218,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,heartbleed,0.0,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,portscan,0.9987742093650405,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,ssh_patator,0.997737556561086,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,web_bruteforce,0.8566350710900474,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,web_sqli,0.7692307692307693,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,web_xss,0.7150395778364116,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7
+CICIDS2017,bccc2017,lgbm,grouped,2,flow,own,MACRO_CPLUS,0.8686247731392778,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336732,144570,45.7

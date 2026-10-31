@@ -1,0 +1,4 @@
+start_rule,overlap_rule,conversations
+benign,benign,285799
+ftp_patator,ftp_patator,3992
+ssh_patator,ssh_patator,2959

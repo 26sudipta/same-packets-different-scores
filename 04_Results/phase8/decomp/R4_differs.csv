@@ -1,0 +1,5 @@
+claim,day,arm,other,seed,test_records,mapped_records,conversations,records_per_conv,share_in_conv_absent_from_other,attempted,class_shares
+R4,,unsw_original,nf_unsw_v2,0,762014,762014,608173,1.2529559845636027,,0,analysis:0.0011|backdoor:0.0009|benign:0.8735|dos:0.0064|exploits:0.0175|fuzzers:0.0095|generic:0.0848|reconnaissance:0.0055|shellcode:0.0006|worms:0.0001
+R4,,nf_unsw_v2,unsw_original,0,717083,0,0,0.0,,0,analysis:0.0010|backdoor:0.0009|benign:0.9602|dos:0.0024|exploits:0.0132|fuzzers:0.0093|generic:0.0069|reconnaissance:0.0053|shellcode:0.0006|worms:0.0001
+R4,,unsw_original,nf_unsw_v3,0,762014,762014,608173,1.2529559845636027,0.05744120186768222,0,analysis:0.0011|backdoor:0.0009|benign:0.8735|dos:0.0064|exploits:0.0175|fuzzers:0.0095|generic:0.0848|reconnaissance:0.0055|shellcode:0.0006|worms:0.0001
+R4,,nf_unsw_v3,unsw_original,0,709628,709628,595908,1.190834826852467,0.021900206868951055,0,analysis:0.0005|backdoor:0.0020|benign:0.9460|dos:0.0025|exploits:0.0181|fuzzers:0.0143|generic:0.0083|reconnaissance:0.0072|shellcode:0.0010|worms:0.0001

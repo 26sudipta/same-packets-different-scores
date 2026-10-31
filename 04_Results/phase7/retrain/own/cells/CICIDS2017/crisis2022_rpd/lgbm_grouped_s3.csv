@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,benign,0.9998385124691443,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,bot,0.9977324263038548,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,ddos,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,dos_goldeneye,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,dos_hulk,0.9996611318197222,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,dos_slowhttptest,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,dos_slowloris,0.9995793016407236,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,ftp_patator,0.9991624790619765,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,portscan,0.99849523491055,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,ssh_patator,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,web_bruteforce,0.9894736842105263,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,web_sqli,0.4,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,web_xss,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,3,flow,own,MACRO_CPLUS,0.9526109823397307,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259790,110881,28.5

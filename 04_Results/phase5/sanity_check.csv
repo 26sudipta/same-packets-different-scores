@@ -1,0 +1,4 @@
+row,benchmark,arm,model,split,seed,unit,population,cls,units_scored,tp,fp,fn,f1_recomputed,f1_table,support_table,agree
+12602,UNSW-NB15,nf_unsw_v3,lgbm,grouped,3,flow,own,benign,161547,138587,422,1641,0.9926120105859897,0.9926120105859897,140228,True
+17055,UNSW-NB15,unsw_released,rf,grouped,4,conversation,own,fuzzers,133315,5430,1443,382,0.8561292865589278,0.8561292865589278,5812,True
+3765,CICIDS2017,crisis2022_rpd,mlp,grouped,0,conversation,common,dos_slowloris,102568,1155,8,4,0.9948320413436692,0.9948320413436692,1159,True

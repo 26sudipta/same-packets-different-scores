@@ -1,0 +1,9 @@
+benchmark,setting,kind,eligible,exporter_above,model_above,h2
+CICIDS2017,five models,per_df,7,4,3,holds
+CICIDS2017,five models,raw,7,4,2,holds
+CICIDS2017,three models,per_df,7,4,2,holds
+CICIDS2017,three models,raw,7,6,1,holds
+UNSW-NB15,five models,per_df,6,4,1,holds
+UNSW-NB15,five models,raw,6,3,2,does not hold
+UNSW-NB15,three models,per_df,6,6,0,holds
+UNSW-NB15,three models,raw,6,6,0,holds

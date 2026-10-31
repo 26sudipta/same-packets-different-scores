@@ -1,0 +1,6 @@
+start_rule,overlap_rule,conversations
+benign,benign,263868
+bot,bot,736
+ddos,ddos,93178
+excluded,excluded,1468
+portscan,portscan,160057

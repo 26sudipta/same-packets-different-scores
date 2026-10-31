@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,benign,0.9814802470346045,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,bot,0.6666666666666666,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,ddos,0.9996404171161453,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,dos_goldeneye,0.7713612256923984,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,dos_hulk,0.9354460487085859,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,dos_slowhttptest,0.9657965796579658,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,dos_slowloris,0.9947932618683002,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,ftp_patator,0.9997912753078689,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,portscan,0.9991645781119465,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,ssh_patator,0.6693907875185735,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,web_bruteforce,0.6153846153846154,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,web_sqli,0.4,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,web_xss,0.4375,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6
+CICIDS2017,nfs2023_te,lgbm,grouped,1,flow,own,MACRO_CPLUS,0.8028012079282824,"{""num_leaves"": 31, ""learning_rate"": 0.05}",396732,171234,31.6

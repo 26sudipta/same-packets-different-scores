@@ -1,0 +1,279 @@
+UNSW-NB15 unsw_dedup rf_grouped_s0: train 338,170 test 144,889 11 s, peak 1355 MB, macro flow=0.713 conversation=0.693
+UNSW-NB15 unsw_dedup rf_grouped_s1: train 336,472 test 146,587 11 s, peak 1355 MB, macro flow=0.739 conversation=0.722
+UNSW-NB15 unsw_dedup rf_grouped_s2: train 338,148 test 144,911 12 s, peak 1355 MB, macro flow=0.729 conversation=0.715
+UNSW-NB15 unsw_dedup rf_grouped_s3: train 339,670 test 143,389 11 s, peak 1355 MB, macro flow=0.715 conversation=0.702
+UNSW-NB15 unsw_dedup rf_grouped_s4: train 335,136 test 147,923 12 s, peak 1355 MB, macro flow=0.730 conversation=0.710
+UNSW-NB15 unsw_dedup rf_random_s0: train 337,620 test 145,439 11 s, peak 1355 MB, macro flow=0.747 conversation=0.727
+UNSW-NB15 unsw_dedup rf_random_s1: train 338,714 test 144,345 11 s, peak 1355 MB, macro flow=0.742 conversation=0.724
+UNSW-NB15 unsw_dedup rf_random_s2: train 338,178 test 144,881 11 s, peak 1355 MB, macro flow=0.744 conversation=0.724
+UNSW-NB15 unsw_dedup rf_random_s3: train 337,778 test 145,281 11 s, peak 1355 MB, macro flow=0.754 conversation=0.733
+UNSW-NB15 unsw_dedup rf_random_s4: train 338,227 test 144,832 11 s, peak 1355 MB, macro flow=0.755 conversation=0.732
+UNSW-NB15 unsw_dedup lgbm_grouped_s0: train 338,170 test 144,889 37 s, peak 1377 MB, macro flow=0.742 conversation=0.726
+UNSW-NB15 unsw_dedup lgbm_grouped_s1: train 336,472 test 146,587 37 s, peak 1383 MB, macro flow=0.774 conversation=0.759
+UNSW-NB15 unsw_dedup lgbm_grouped_s2: train 338,148 test 144,911 34 s, peak 1388 MB, macro flow=0.760 conversation=0.746
+UNSW-NB15 unsw_dedup lgbm_grouped_s3: train 339,670 test 143,389 37 s, peak 1392 MB, macro flow=0.758 conversation=0.749
+UNSW-NB15 unsw_dedup lgbm_grouped_s4: train 335,136 test 147,923 37 s, peak 1392 MB, macro flow=0.751 conversation=0.734
+UNSW-NB15 unsw_dedup lgbm_random_s0: train 337,620 test 145,439 35 s, peak 1392 MB, macro flow=0.777 conversation=0.762
+UNSW-NB15 unsw_dedup lgbm_random_s1: train 338,714 test 144,345 35 s, peak 1392 MB, macro flow=0.772 conversation=0.756
+UNSW-NB15 unsw_dedup lgbm_random_s2: train 338,178 test 144,881 37 s, peak 1392 MB, macro flow=0.764 conversation=0.747
+UNSW-NB15 unsw_dedup lgbm_random_s3: train 337,778 test 145,281 34 s, peak 1392 MB, macro flow=0.778 conversation=0.760
+UNSW-NB15 unsw_dedup lgbm_random_s4: train 338,227 test 144,832 35 s, peak 1394 MB, macro flow=0.778 conversation=0.762
+UNSW-NB15 unsw_dedup mlp_grouped_s0: train 338,170 test 144,889 57 s, peak 1486 MB, macro flow=0.643 conversation=0.605
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_dedup mlp_grouped_s1: train 336,472 test 146,587 65 s, peak 1503 MB, macro flow=0.633 conversation=0.604
+UNSW-NB15 unsw_dedup mlp_grouped_s2: train 338,148 test 144,911 38 s, peak 1504 MB, macro flow=0.654 conversation=0.617
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_dedup mlp_grouped_s3: train 339,670 test 143,389 68 s, peak 1504 MB, macro flow=0.672 conversation=0.643
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_dedup mlp_grouped_s4: train 335,136 test 147,923 68 s, peak 1506 MB, macro flow=0.662 conversation=0.629
+UNSW-NB15 unsw_dedup mlp_random_s0: train 337,620 test 145,439 63 s, peak 1506 MB, macro flow=0.669 conversation=0.636
+UNSW-NB15 unsw_dedup mlp_random_s1: train 338,714 test 144,345 62 s, peak 1506 MB, macro flow=0.660 conversation=0.625
+UNSW-NB15 unsw_dedup mlp_random_s2: train 338,178 test 144,881 79 s, peak 1506 MB, macro flow=0.663 conversation=0.624
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_dedup mlp_random_s3: train 337,778 test 145,281 74 s, peak 1508 MB, macro flow=0.673 conversation=0.641
+UNSW-NB15 unsw_dedup mlp_random_s4: train 338,227 test 144,832 59 s, peak 1518 MB, macro flow=0.665 conversation=0.626
+UNSW-NB15 nf_unsw_v3 rf_grouped_s0: train 374,042 test 160,383 11 s, peak 1869 MB, macro flow=0.765 conversation=0.750
+UNSW-NB15 nf_unsw_v3 rf_grouped_s1: train 372,120 test 162,305 12 s, peak 1869 MB, macro flow=0.769 conversation=0.756
+UNSW-NB15 nf_unsw_v3 rf_grouped_s2: train 372,715 test 161,710 12 s, peak 1869 MB, macro flow=0.780 conversation=0.766
+UNSW-NB15 nf_unsw_v3 rf_grouped_s3: train 372,482 test 161,943 11 s, peak 1869 MB, macro flow=0.769 conversation=0.760
+UNSW-NB15 nf_unsw_v3 rf_grouped_s4: train 371,831 test 162,594 11 s, peak 1869 MB, macro flow=0.773 conversation=0.759
+UNSW-NB15 nf_unsw_v3 rf_random_s0: train 373,603 test 160,822 11 s, peak 1869 MB, macro flow=0.778 conversation=0.766
+UNSW-NB15 nf_unsw_v3 rf_random_s1: train 373,941 test 160,484 12 s, peak 1869 MB, macro flow=0.766 conversation=0.754
+UNSW-NB15 nf_unsw_v3 rf_random_s2: train 374,106 test 160,319 12 s, peak 1869 MB, macro flow=0.778 conversation=0.767
+UNSW-NB15 nf_unsw_v3 rf_random_s3: train 374,507 test 159,918 11 s, peak 1869 MB, macro flow=0.780 conversation=0.768
+UNSW-NB15 nf_unsw_v3 rf_random_s4: train 373,886 test 160,539 12 s, peak 1869 MB, macro flow=0.773 conversation=0.761
+UNSW-NB15 nf_unsw_v3 lgbm_grouped_s0: train 374,042 test 160,383 40 s, peak 1873 MB, macro flow=0.771 conversation=0.762
+UNSW-NB15 nf_unsw_v3 lgbm_grouped_s1: train 372,120 test 162,305 42 s, peak 1873 MB, macro flow=0.781 conversation=0.771
+UNSW-NB15 nf_unsw_v3 lgbm_grouped_s2: train 372,715 test 161,710 41 s, peak 1887 MB, macro flow=0.793 conversation=0.783
+UNSW-NB15 nf_unsw_v3 lgbm_grouped_s3: train 372,482 test 161,943 38 s, peak 1887 MB, macro flow=0.788 conversation=0.781
+UNSW-NB15 nf_unsw_v3 lgbm_grouped_s4: train 371,831 test 162,594 42 s, peak 1887 MB, macro flow=0.776 conversation=0.766
+UNSW-NB15 nf_unsw_v3 lgbm_random_s0: train 373,603 test 160,822 40 s, peak 1887 MB, macro flow=0.801 conversation=0.793
+UNSW-NB15 nf_unsw_v3 lgbm_random_s1: train 373,941 test 160,484 39 s, peak 1887 MB, macro flow=0.776 conversation=0.768
+UNSW-NB15 nf_unsw_v3 lgbm_random_s2: train 374,106 test 160,319 39 s, peak 1887 MB, macro flow=0.783 conversation=0.774
+UNSW-NB15 nf_unsw_v3 lgbm_random_s3: train 374,507 test 159,918 42 s, peak 1897 MB, macro flow=0.792 conversation=0.784
+UNSW-NB15 nf_unsw_v3 lgbm_random_s4: train 373,886 test 160,539 45 s, peak 1899 MB, macro flow=0.782 conversation=0.774
+UNSW-NB15 nf_unsw_v3 mlp_grouped_s0: train 374,042 test 160,383 69 s, peak 2001 MB, macro flow=0.691 conversation=0.665
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 nf_unsw_v3 mlp_grouped_s1: train 372,120 test 162,305 75 s, peak 2057 MB, macro flow=0.692 conversation=0.666
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 nf_unsw_v3 mlp_grouped_s2: train 372,715 test 161,710 78 s, peak 2059 MB, macro flow=0.704 conversation=0.683
+UNSW-NB15 nf_unsw_v3 mlp_grouped_s3: train 372,482 test 161,943 41 s, peak 2059 MB, macro flow=0.689 conversation=0.665
+UNSW-NB15 nf_unsw_v3 mlp_grouped_s4: train 371,831 test 162,594 62 s, peak 2059 MB, macro flow=0.689 conversation=0.665
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 nf_unsw_v3 mlp_random_s0: train 373,603 test 160,822 73 s, peak 2060 MB, macro flow=0.732 conversation=0.715
+UNSW-NB15 nf_unsw_v3 mlp_random_s1: train 373,941 test 160,484 57 s, peak 2061 MB, macro flow=0.689 conversation=0.666
+UNSW-NB15 nf_unsw_v3 mlp_random_s2: train 374,106 test 160,319 70 s, peak 2077 MB, macro flow=0.716 conversation=0.697
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 nf_unsw_v3 mlp_random_s3: train 374,507 test 159,918 79 s, peak 2082 MB, macro flow=0.722 conversation=0.705
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 nf_unsw_v3 mlp_random_s4: train 373,886 test 160,539 71 s, peak 2083 MB, macro flow=0.701 conversation=0.679
+UNSW-NB15 unsw_released rf_grouped_s0: train 533,444 test 221,385 17 s, peak 2410 MB, macro flow=0.730 conversation=0.688
+UNSW-NB15 unsw_released rf_grouped_s1: train 522,441 test 232,388 17 s, peak 2410 MB, macro flow=0.746 conversation=0.718
+UNSW-NB15 unsw_released rf_grouped_s2: train 504,141 test 250,688 16 s, peak 2410 MB, macro flow=0.739 conversation=0.717
+UNSW-NB15 unsw_released rf_grouped_s3: train 529,816 test 225,013 18 s, peak 2410 MB, macro flow=0.732 conversation=0.706
+UNSW-NB15 unsw_released rf_grouped_s4: train 491,644 test 263,185 16 s, peak 2410 MB, macro flow=0.750 conversation=0.722
+UNSW-NB15 unsw_released rf_random_s0: train 527,996 test 226,833 17 s, peak 2410 MB, macro flow=0.790 conversation=0.756
+UNSW-NB15 unsw_released rf_random_s1: train 528,827 test 226,002 16 s, peak 2410 MB, macro flow=0.785 conversation=0.752
+UNSW-NB15 unsw_released rf_random_s2: train 528,380 test 226,449 16 s, peak 2410 MB, macro flow=0.789 conversation=0.755
+UNSW-NB15 unsw_released rf_random_s3: train 527,948 test 226,881 18 s, peak 2410 MB, macro flow=0.784 conversation=0.748
+UNSW-NB15 unsw_released rf_random_s4: train 528,679 test 226,150 16 s, peak 2410 MB, macro flow=0.789 conversation=0.752
+UNSW-NB15 unsw_released lgbm_grouped_s0: train 533,444 test 221,385 50 s, peak 2410 MB, macro flow=0.757 conversation=0.717
+UNSW-NB15 unsw_released lgbm_grouped_s1: train 522,441 test 232,388 48 s, peak 2410 MB, macro flow=0.785 conversation=0.757
+UNSW-NB15 unsw_released lgbm_grouped_s2: train 504,141 test 250,688 49 s, peak 2410 MB, macro flow=0.757 conversation=0.741
+UNSW-NB15 unsw_released lgbm_grouped_s3: train 529,816 test 225,013 50 s, peak 2410 MB, macro flow=0.767 conversation=0.744
+UNSW-NB15 unsw_released lgbm_grouped_s4: train 491,644 test 263,185 47 s, peak 2410 MB, macro flow=0.763 conversation=0.735
+UNSW-NB15 unsw_released lgbm_random_s0: train 527,996 test 226,833 51 s, peak 2410 MB, macro flow=0.806 conversation=0.778
+UNSW-NB15 unsw_released lgbm_random_s1: train 528,827 test 226,002 49 s, peak 2410 MB, macro flow=0.799 conversation=0.771
+UNSW-NB15 unsw_released lgbm_random_s2: train 528,380 test 226,449 47 s, peak 2410 MB, macro flow=0.809 conversation=0.779
+UNSW-NB15 unsw_released lgbm_random_s3: train 527,948 test 226,881 50 s, peak 2410 MB, macro flow=0.809 conversation=0.777
+UNSW-NB15 unsw_released lgbm_random_s4: train 528,679 test 226,150 51 s, peak 2410 MB, macro flow=0.802 conversation=0.768
+UNSW-NB15 unsw_released mlp_grouped_s0: train 533,444 test 221,385 103 s, peak 2410 MB, macro flow=0.690 conversation=0.631
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_released mlp_grouped_s1: train 522,441 test 232,388 103 s, peak 2410 MB, macro flow=0.680 conversation=0.633
+UNSW-NB15 unsw_released mlp_grouped_s2: train 504,141 test 250,688 87 s, peak 2410 MB, macro flow=0.654 conversation=0.609
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_released mlp_grouped_s3: train 529,816 test 225,013 116 s, peak 2410 MB, macro flow=0.678 conversation=0.636
+UNSW-NB15 unsw_released mlp_grouped_s4: train 491,644 test 263,185 98 s, peak 2410 MB, macro flow=0.647 conversation=0.596
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_released mlp_random_s0: train 527,996 test 226,833 112 s, peak 2410 MB, macro flow=0.700 conversation=0.647
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_released mlp_random_s1: train 528,827 test 226,002 106 s, peak 2410 MB, macro flow=0.726 conversation=0.677
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_released mlp_random_s2: train 528,380 test 226,449 111 s, peak 2410 MB, macro flow=0.701 conversation=0.647
+UNSW-NB15 unsw_released mlp_random_s3: train 527,948 test 226,881 58 s, peak 2410 MB, macro flow=0.658 conversation=0.598
+UNSW-NB15 unsw_released mlp_random_s4: train 528,679 test 226,150 73 s, peak 2410 MB, macro flow=0.688 conversation=0.631
+UNSW-NB15 unsw_collapsed rf_grouped_s0: train 324,015 test 138,461 11 s, peak 2440 MB, macro flow=0.706 conversation=0.690
+UNSW-NB15 unsw_collapsed rf_grouped_s1: train 321,828 test 140,648 11 s, peak 2440 MB, macro flow=0.729 conversation=0.712
+UNSW-NB15 unsw_collapsed rf_grouped_s2: train 322,585 test 139,891 10 s, peak 2440 MB, macro flow=0.741 conversation=0.726
+UNSW-NB15 unsw_collapsed rf_grouped_s3: train 324,502 test 137,974 10 s, peak 2440 MB, macro flow=0.731 conversation=0.718
+UNSW-NB15 unsw_collapsed rf_grouped_s4: train 321,381 test 141,095 11 s, peak 2440 MB, macro flow=0.734 conversation=0.717
+UNSW-NB15 unsw_collapsed rf_random_s0: train 323,214 test 139,262 10 s, peak 2440 MB, macro flow=0.730 conversation=0.715
+UNSW-NB15 unsw_collapsed rf_random_s1: train 324,382 test 138,094 11 s, peak 2440 MB, macro flow=0.728 conversation=0.714
+UNSW-NB15 unsw_collapsed rf_random_s2: train 323,708 test 138,768 10 s, peak 2440 MB, macro flow=0.732 conversation=0.718
+UNSW-NB15 unsw_collapsed rf_random_s3: train 323,406 test 139,070 11 s, peak 2440 MB, macro flow=0.730 conversation=0.713
+UNSW-NB15 unsw_collapsed rf_random_s4: train 323,835 test 138,641 11 s, peak 2440 MB, macro flow=0.726 conversation=0.711
+UNSW-NB15 unsw_collapsed lgbm_grouped_s0: train 324,015 test 138,461 35 s, peak 2440 MB, macro flow=0.740 conversation=0.728
+UNSW-NB15 unsw_collapsed lgbm_grouped_s1: train 321,828 test 140,648 32 s, peak 2440 MB, macro flow=0.769 conversation=0.757
+UNSW-NB15 unsw_collapsed lgbm_grouped_s2: train 322,585 test 139,891 32 s, peak 2440 MB, macro flow=0.744 conversation=0.733
+UNSW-NB15 unsw_collapsed lgbm_grouped_s3: train 324,502 test 137,974 34 s, peak 2440 MB, macro flow=0.758 conversation=0.748
+UNSW-NB15 unsw_collapsed lgbm_grouped_s4: train 321,381 test 141,095 32 s, peak 2440 MB, macro flow=0.757 conversation=0.742
+UNSW-NB15 unsw_collapsed lgbm_random_s0: train 323,214 test 139,262 32 s, peak 2440 MB, macro flow=0.755 conversation=0.745
+UNSW-NB15 unsw_collapsed lgbm_random_s1: train 324,382 test 138,094 32 s, peak 2440 MB, macro flow=0.756 conversation=0.745
+UNSW-NB15 unsw_collapsed lgbm_random_s2: train 323,708 test 138,768 32 s, peak 2440 MB, macro flow=0.759 conversation=0.748
+UNSW-NB15 unsw_collapsed lgbm_random_s3: train 323,406 test 139,070 34 s, peak 2440 MB, macro flow=0.766 conversation=0.753
+UNSW-NB15 unsw_collapsed lgbm_random_s4: train 323,835 test 138,641 31 s, peak 2440 MB, macro flow=0.757 conversation=0.745
+UNSW-NB15 unsw_collapsed mlp_grouped_s0: train 324,015 test 138,461 46 s, peak 2440 MB, macro flow=0.646 conversation=0.618
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_collapsed mlp_grouped_s1: train 321,828 test 140,648 71 s, peak 2440 MB, macro flow=0.655 conversation=0.627
+UNSW-NB15 unsw_collapsed mlp_grouped_s2: train 322,585 test 139,891 37 s, peak 2440 MB, macro flow=0.652 conversation=0.621
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_collapsed mlp_grouped_s3: train 324,502 test 137,974 66 s, peak 2440 MB, macro flow=0.642 conversation=0.616
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_collapsed mlp_grouped_s4: train 321,381 test 141,095 66 s, peak 2440 MB, macro flow=0.662 conversation=0.628
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_collapsed mlp_random_s0: train 323,214 test 139,262 66 s, peak 2440 MB, macro flow=0.654 conversation=0.627
+UNSW-NB15 unsw_collapsed mlp_random_s1: train 324,382 test 138,094 59 s, peak 2440 MB, macro flow=0.630 conversation=0.605
+UNSW-NB15 unsw_collapsed mlp_random_s2: train 323,708 test 138,768 54 s, peak 2440 MB, macro flow=0.655 conversation=0.630
+UNSW-NB15 unsw_collapsed mlp_random_s3: train 323,406 test 139,070 55 s, peak 2440 MB, macro flow=0.641 conversation=0.613
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+UNSW-NB15 unsw_collapsed mlp_random_s4: train 323,835 test 138,641 67 s, peak 2440 MB, macro flow=0.634 conversation=0.606
+     benchmark             arm model    split  seed  n_train  n_test  seconds  peak_rss_mb
+0    UNSW-NB15      unsw_dedup    rf  grouped     0   338170  144889     11.2         1355
+1    UNSW-NB15      unsw_dedup    rf  grouped     1   336472  146587     11.5         1355
+2    UNSW-NB15      unsw_dedup    rf  grouped     2   338148  144911     11.6         1355
+3    UNSW-NB15      unsw_dedup    rf  grouped     3   339670  143389     11.5         1355
+4    UNSW-NB15      unsw_dedup    rf  grouped     4   335136  147923     11.8         1355
+5    UNSW-NB15      unsw_dedup    rf   random     0   337620  145439     11.2         1355
+6    UNSW-NB15      unsw_dedup    rf   random     1   338714  144345     11.0         1355
+7    UNSW-NB15      unsw_dedup    rf   random     2   338178  144881     11.2         1355
+8    UNSW-NB15      unsw_dedup    rf   random     3   337778  145281     11.1         1355
+9    UNSW-NB15      unsw_dedup    rf   random     4   338227  144832     11.2         1355
+10   UNSW-NB15      unsw_dedup  lgbm  grouped     0   338170  144889     36.6         1377
+11   UNSW-NB15      unsw_dedup  lgbm  grouped     1   336472  146587     37.1         1383
+12   UNSW-NB15      unsw_dedup  lgbm  grouped     2   338148  144911     33.9         1388
+13   UNSW-NB15      unsw_dedup  lgbm  grouped     3   339670  143389     36.9         1392
+14   UNSW-NB15      unsw_dedup  lgbm  grouped     4   335136  147923     36.7         1392
+15   UNSW-NB15      unsw_dedup  lgbm   random     0   337620  145439     35.2         1392
+16   UNSW-NB15      unsw_dedup  lgbm   random     1   338714  144345     34.6         1392
+17   UNSW-NB15      unsw_dedup  lgbm   random     2   338178  144881     36.5         1392
+18   UNSW-NB15      unsw_dedup  lgbm   random     3   337778  145281     34.3         1392
+19   UNSW-NB15      unsw_dedup  lgbm   random     4   338227  144832     34.9         1394
+20   UNSW-NB15      unsw_dedup   mlp  grouped     0   338170  144889     57.3         1486
+21   UNSW-NB15      unsw_dedup   mlp  grouped     1   336472  146587     65.5         1503
+22   UNSW-NB15      unsw_dedup   mlp  grouped     2   338148  144911     37.8         1504
+23   UNSW-NB15      unsw_dedup   mlp  grouped     3   339670  143389     68.1         1504
+24   UNSW-NB15      unsw_dedup   mlp  grouped     4   335136  147923     68.2         1506
+25   UNSW-NB15      unsw_dedup   mlp   random     0   337620  145439     62.6         1506
+26   UNSW-NB15      unsw_dedup   mlp   random     1   338714  144345     61.7         1506
+27   UNSW-NB15      unsw_dedup   mlp   random     2   338178  144881     79.0         1506
+28   UNSW-NB15      unsw_dedup   mlp   random     3   337778  145281     73.9         1508
+29   UNSW-NB15      unsw_dedup   mlp   random     4   338227  144832     59.4         1518
+30   UNSW-NB15      nf_unsw_v3    rf  grouped     0   374042  160383     11.5         1869
+31   UNSW-NB15      nf_unsw_v3    rf  grouped     1   372120  162305     11.7         1869
+32   UNSW-NB15      nf_unsw_v3    rf  grouped     2   372715  161710     12.4         1869
+33   UNSW-NB15      nf_unsw_v3    rf  grouped     3   372482  161943     11.1         1869
+34   UNSW-NB15      nf_unsw_v3    rf  grouped     4   371831  162594     11.4         1869
+35   UNSW-NB15      nf_unsw_v3    rf   random     0   373603  160822     10.6         1869
+36   UNSW-NB15      nf_unsw_v3    rf   random     1   373941  160484     11.6         1869
+37   UNSW-NB15      nf_unsw_v3    rf   random     2   374106  160319     11.5         1869
+38   UNSW-NB15      nf_unsw_v3    rf   random     3   374507  159918     11.2         1869
+39   UNSW-NB15      nf_unsw_v3    rf   random     4   373886  160539     11.9         1869
+40   UNSW-NB15      nf_unsw_v3  lgbm  grouped     0   374042  160383     39.9         1873
+41   UNSW-NB15      nf_unsw_v3  lgbm  grouped     1   372120  162305     42.1         1873
+42   UNSW-NB15      nf_unsw_v3  lgbm  grouped     2   372715  161710     40.9         1887
+43   UNSW-NB15      nf_unsw_v3  lgbm  grouped     3   372482  161943     37.9         1887
+44   UNSW-NB15      nf_unsw_v3  lgbm  grouped     4   371831  162594     42.3         1887
+45   UNSW-NB15      nf_unsw_v3  lgbm   random     0   373603  160822     39.8         1887
+46   UNSW-NB15      nf_unsw_v3  lgbm   random     1   373941  160484     39.4         1887
+47   UNSW-NB15      nf_unsw_v3  lgbm   random     2   374106  160319     39.3         1887
+48   UNSW-NB15      nf_unsw_v3  lgbm   random     3   374507  159918     42.3         1897
+49   UNSW-NB15      nf_unsw_v3  lgbm   random     4   373886  160539     45.2         1899
+50   UNSW-NB15      nf_unsw_v3   mlp  grouped     0   374042  160383     69.4         2001
+51   UNSW-NB15      nf_unsw_v3   mlp  grouped     1   372120  162305     74.6         2057
+52   UNSW-NB15      nf_unsw_v3   mlp  grouped     2   372715  161710     77.6         2059
+53   UNSW-NB15      nf_unsw_v3   mlp  grouped     3   372482  161943     41.0         2059
+54   UNSW-NB15      nf_unsw_v3   mlp  grouped     4   371831  162594     61.9         2059
+55   UNSW-NB15      nf_unsw_v3   mlp   random     0   373603  160822     73.0         2060
+56   UNSW-NB15      nf_unsw_v3   mlp   random     1   373941  160484     56.6         2061
+57   UNSW-NB15      nf_unsw_v3   mlp   random     2   374106  160319     70.3         2077
+58   UNSW-NB15      nf_unsw_v3   mlp   random     3   374507  159918     79.3         2082
+59   UNSW-NB15      nf_unsw_v3   mlp   random     4   373886  160539     70.8         2083
+60   UNSW-NB15   unsw_released    rf  grouped     0   533444  221385     16.7         2410
+61   UNSW-NB15   unsw_released    rf  grouped     1   522441  232388     17.0         2410
+62   UNSW-NB15   unsw_released    rf  grouped     2   504141  250688     16.5         2410
+63   UNSW-NB15   unsw_released    rf  grouped     3   529816  225013     17.6         2410
+64   UNSW-NB15   unsw_released    rf  grouped     4   491644  263185     16.5         2410
+65   UNSW-NB15   unsw_released    rf   random     0   527996  226833     17.1         2410
+66   UNSW-NB15   unsw_released    rf   random     1   528827  226002     16.3         2410
+67   UNSW-NB15   unsw_released    rf   random     2   528380  226449     16.2         2410
+68   UNSW-NB15   unsw_released    rf   random     3   527948  226881     17.5         2410
+69   UNSW-NB15   unsw_released    rf   random     4   528679  226150     15.8         2410
+70   UNSW-NB15   unsw_released  lgbm  grouped     0   533444  221385     50.0         2410
+71   UNSW-NB15   unsw_released  lgbm  grouped     1   522441  232388     48.4         2410
+72   UNSW-NB15   unsw_released  lgbm  grouped     2   504141  250688     49.3         2410
+73   UNSW-NB15   unsw_released  lgbm  grouped     3   529816  225013     50.4         2410
+74   UNSW-NB15   unsw_released  lgbm  grouped     4   491644  263185     46.8         2410
+75   UNSW-NB15   unsw_released  lgbm   random     0   527996  226833     50.5         2410
+76   UNSW-NB15   unsw_released  lgbm   random     1   528827  226002     48.7         2410
+77   UNSW-NB15   unsw_released  lgbm   random     2   528380  226449     47.2         2410
+78   UNSW-NB15   unsw_released  lgbm   random     3   527948  226881     49.8         2410
+79   UNSW-NB15   unsw_released  lgbm   random     4   528679  226150     51.4         2410
+80   UNSW-NB15   unsw_released   mlp  grouped     0   533444  221385    103.2         2410
+81   UNSW-NB15   unsw_released   mlp  grouped     1   522441  232388    103.1         2410
+82   UNSW-NB15   unsw_released   mlp  grouped     2   504141  250688     86.6         2410
+83   UNSW-NB15   unsw_released   mlp  grouped     3   529816  225013    115.8         2410
+84   UNSW-NB15   unsw_released   mlp  grouped     4   491644  263185     98.0         2410
+85   UNSW-NB15   unsw_released   mlp   random     0   527996  226833    112.4         2410
+86   UNSW-NB15   unsw_released   mlp   random     1   528827  226002    105.6         2410
+87   UNSW-NB15   unsw_released   mlp   random     2   528380  226449    111.3         2410
+88   UNSW-NB15   unsw_released   mlp   random     3   527948  226881     57.5         2410
+89   UNSW-NB15   unsw_released   mlp   random     4   528679  226150     73.0         2410
+90   UNSW-NB15  unsw_collapsed    rf  grouped     0   324015  138461     11.0         2440
+91   UNSW-NB15  unsw_collapsed    rf  grouped     1   321828  140648     10.8         2440
+92   UNSW-NB15  unsw_collapsed    rf  grouped     2   322585  139891     10.5         2440
+93   UNSW-NB15  unsw_collapsed    rf  grouped     3   324502  137974     10.5         2440
+94   UNSW-NB15  unsw_collapsed    rf  grouped     4   321381  141095     10.9         2440
+95   UNSW-NB15  unsw_collapsed    rf   random     0   323214  139262     10.4         2440
+96   UNSW-NB15  unsw_collapsed    rf   random     1   324382  138094     11.2         2440
+97   UNSW-NB15  unsw_collapsed    rf   random     2   323708  138768     10.3         2440
+98   UNSW-NB15  unsw_collapsed    rf   random     3   323406  139070     10.7         2440
+99   UNSW-NB15  unsw_collapsed    rf   random     4   323835  138641     10.9         2440
+100  UNSW-NB15  unsw_collapsed  lgbm  grouped     0   324015  138461     34.5         2440
+101  UNSW-NB15  unsw_collapsed  lgbm  grouped     1   321828  140648     32.4         2440
+102  UNSW-NB15  unsw_collapsed  lgbm  grouped     2   322585  139891     31.6         2440
+103  UNSW-NB15  unsw_collapsed  lgbm  grouped     3   324502  137974     34.4         2440
+104  UNSW-NB15  unsw_collapsed  lgbm  grouped     4   321381  141095     32.2         2440
+105  UNSW-NB15  unsw_collapsed  lgbm   random     0   323214  139262     31.6         2440
+106  UNSW-NB15  unsw_collapsed  lgbm   random     1   324382  138094     32.0         2440
+107  UNSW-NB15  unsw_collapsed  lgbm   random     2   323708  138768     31.9         2440
+108  UNSW-NB15  unsw_collapsed  lgbm   random     3   323406  139070     34.0         2440
+109  UNSW-NB15  unsw_collapsed  lgbm   random     4   323835  138641     31.2         2440
+110  UNSW-NB15  unsw_collapsed   mlp  grouped     0   324015  138461     45.7         2440
+111  UNSW-NB15  unsw_collapsed   mlp  grouped     1   321828  140648     70.7         2440
+112  UNSW-NB15  unsw_collapsed   mlp  grouped     2   322585  139891     36.5         2440
+113  UNSW-NB15  unsw_collapsed   mlp  grouped     3   324502  137974     66.2         2440
+114  UNSW-NB15  unsw_collapsed   mlp  grouped     4   321381  141095     66.1         2440
+115  UNSW-NB15  unsw_collapsed   mlp   random     0   323214  139262     66.5         2440
+116  UNSW-NB15  unsw_collapsed   mlp   random     1   324382  138094     58.9         2440
+117  UNSW-NB15  unsw_collapsed   mlp   random     2   323708  138768     54.0         2440
+118  UNSW-NB15  unsw_collapsed   mlp   random     3   323406  139070     54.7         2440
+119  UNSW-NB15  unsw_collapsed   mlp   random     4   323835  138641     66.7         2440

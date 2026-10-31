@@ -1,0 +1,696 @@
+macro,value,source
+NcountChecks,23,count_check.csv rows
+NcountChecksMatched,All,count_check.csv match
+NcicRows,"2{,}830{,}743","release_inventory.csv rows, cic_original"
+NbcccOffset,4,"release_inventory.csv utc_offset_hours, bccc2017, hours behind UTC"
+NbcccWindowsSame,four,"release_clock.csv, BCCC start = LYCOS start"
+NbcccWindows,six,"release_clock.csv, windows"
+NunswOffsetShareA,99.97,phase3/unsw_clock_offset.csv
+NunswOffsetShareB,99.998,phase3/unsw_clock_offset.csv
+NunswTruncOutside,50,phase3/unsw_trunc_window.csv
+SetT,15,instrument.py DEFAULT_T
+SetSweep,"5, 15, 30, 60, 120 and 300",phase3/all_gap_sweep.csv T
+SetTestPct,30,instrument.py TEST_FRACTION
+SetTestFrac,0.3,instrument.py TEST_FRACTION
+SetTrainFrac,0.7,"instrument.py TEST_FRACTION, one minus"
+SetLeakTwo,0.82,Eq. leak at n = 2 with q = TEST_FRACTION
+SetSeeds,0 to 4,instrument.py SEEDS
+SetValPct,20,phase5_grid.py VAL_FRACTION
+SetBenignFraction,0.2,phase5/settings.json
+SetAttackCap,"20{,}000",phase5/settings.json
+SetGridSize,four,phase5_grid.py GRID
+SetMinTest,20,"phase5_analysis.py MIN_TEST_CONVS, phase6_rq3.py MIN_CONV"
+SetTailMs,10,agreement.py TAIL_DUR
+SetBoot,"1{,}000","boot in the latest phase4_agreement, phase5_analysis and phase7_rq4 manifests"
+NhandCases,60,tests/fixtures/handcheck_*_cases.csv rows
+NhandPerBench,20,tests/fixtures/handcheck_*_cases.csv rows per benchmark
+NactiveTimeout,120,"phase4/arm_durations.csv, longest record of the six CICIDS2017 arms other than BCCC"
+NsweepCicStableMin,5,"phase3/all_gap_sweep.csv, CICIDS2017 scored classes unchanged"
+NsweepCicStableMax,30,"phase3/all_gap_sweep.csv, CICIDS2017 scored classes unchanged"
+NsweepUnswUpMax,0.1,"phase3/all_gap_sweep.csv, UNSW-NB15 scored classes, largest change from T to the top of the CIC stable range"
+NsweepGenericFivePct,3,"phase3/all_gap_sweep.csv, UNSW-NB15 Generic, T=5 over T=15 minus one, larger day"
+NsweepGenericFive,"3{,}277","phase3/all_gap_sweep.csv, UNSW-NB15 Generic at T=5, same day"
+NsweepGenericFifteen,"3{,}182","phase3/all_gap_sweep.csv, UNSW-NB15 Generic at T=15, same day"
+NnondefUnmappedMax,69,phase3/all_gap_sweep.csv T=15
+NnondefAmbigMin,0,phase3/all_gap_sweep.csv T=15
+NnondefAmbigMax,"2{,}234",phase3/all_gap_sweep.csv T=15
+NcicDayRecordsMin,"445{,}909",phase3/phase3_overview.csv records_cic_original
+NcicDayRecordsMax,"703{,}245",phase3/phase3_overview.csv records_cic_original
+NsweepDdosLow,"93{,}178",phase3/all_gap_sweep.csv
+NsweepDdosSixty,"92{,}980",phase3/all_gap_sweep.csv
+NsweepDdosOneTwenty,"63{,}540",phase3/all_gap_sweep.csv
+NsweepHulkLow,"158{,}517",phase3/all_gap_sweep.csv
+NsweepHulkOneTwenty,"14{,}375",phase3/all_gap_sweep.csv
+NsweepBenignMaxChange,0.4,"phase3/all_gap_sweep.csv, benign, largest relative change over T"
+NexclThursday,"239{,}079",phase3/phase3_overview.csv
+NexclFriday,"1{,}468",phase3/phase3_overview.csv
+NlabelGoodMin,0.99,"phase3/all_label_agreement.csv, min over classes"
+NlabelSlowhttp,0.32,"phase3/all_label_agreement.csv, CRiSIS and both NFS-2023"
+NlabelSlowloris,0.57,"phase3/all_label_agreement.csv, CRiSIS and both NFS-2023"
+NlabelWebBf,0.11,"phase3/all_label_agreement.csv, CRiSIS and both NFS-2023"
+NlabelXss,0.03,"phase3/all_label_agreement.csv, CRiSIS and both NFS-2023"
+NsshWindowEndMinutes,53,"release_label_counts.csv, SSH-Patator last_utc, NFS-2023 minus LYCOS, whole minutes"
+NmixedTe,54,"phase3/all_mixed.csv, NFS-2023-TE attack conversations with own labels mixed"
+NmixedOrig,7,"phase3/all_mixed.csv, CIC original"
+NmixedOtherMax,0.1,"phase3/all_mixed.csv, largest share in the other CICIDS2017 arms"
+NomegaMaxGap,0.010,"phase7/omega_h2.csv, largest |omega squared minus share|"
+NomegaChanged,no,"phase7/omega_h2.csv, decided H2 classes whose direction changes under omega squared"
+RQonePairs,21,phase4/agreement_matrix.csv
+RQoneConvJaccardMin,0.997,phase4/agreement_matrix.csv
+RQoneConvJaccardMax,1.000,phase4/agreement_matrix.csv
+RQoneFlowJaccardMin,0.649,phase4/agreement_matrix.csv
+RQoneFlowJaccardMax,0.999,phase4/agreement_matrix.csv
+RQoneFlowRatio,1.54,phase4/flows_per_conv.csv
+RQoneFlowsMin,"1{,}837{,}498",phase4/flows_per_conv.csv
+RQoneFlowsMinArm,LYCOS,phase4/flows_per_conv.csv
+RQoneFlowsMax,"2{,}826{,}174",phase4/flows_per_conv.csv
+RQoneFlowsMaxArm,NFS-2023-TE,phase4/flows_per_conv.csv
+RQoneConvSpread,0.18,"phase4/flows_per_conv.csv, percent"
+RQonePortscanFpc,1.00 to 1.01,phase4/flows_per_conv.csv common
+RQoneFtpSplitArms,three,phase4/flows_per_conv.csv common
+RQoneFtpOneArms,four,phase4/flows_per_conv.csv common
+RQoneFtpSplitRange,2.00 to 2.39,phase4/flows_per_conv.csv common
+RQoneFtpFpcOrig,2.37,phase4/flows_per_conv.csv common
+RQoneFtpFpcWtmc,1.00,phase4/flows_per_conv.csv common
+RQoneSshFpcOrig,2.00,phase4/flows_per_conv.csv common
+RQoneSshFpcWtmc,1.00,phase4/flows_per_conv.csv common
+RQoneHulkOneArms,four,phase4/flows_per_conv.csv common
+RQoneHulkOrig,1.50,phase4/flows_per_conv.csv common
+RQoneHulkBccc,2.21,phase4/flows_per_conv.csv common
+RQoneHulkTe,2.37,phase4/flows_per_conv.csv common
+RQoneMacroBccc,1.61,"phase4/flows_per_conv.csv common, MACRO_ATTACK"
+RQoneMacroCorrected,1.82,"phase4/flows_per_conv.csv common, MACRO_ATTACK"
+RQoneMacroTe,2.69,"phase4/flows_per_conv.csv common, MACRO_ATTACK"
+RQoneHeartbleedRecords,11 or 12,phase4/flows_per_conv.csv common
+RQoneHeartbleedCut,11,"phase4/flows_per_conv.csv common, WTMC, CRiSIS, LYCOS"
+RQoneFtpThreeOrig,37,phase4/flows_per_conv.csv common share_3
+RQoneFtpThreeBccc,39,phase4/flows_per_conv.csv common share_3
+RQoneDdosBccc,1.03,phase4/flows_per_conv.csv common
+RQoneGoldenBccc,1.00,phase4/flows_per_conv.csv common
+RQoneTailFtpTe,99.5,phase4/split_causes.csv share_tail
+RQoneTailBccc,98 to 100,"phase4/split_causes.csv share_tail, BCCC"
+RQoneCutSlowloris,99 to 100,phase4/split_causes.csv share_cut
+RQoneIdleNfs,69 to 96,"phase4/split_causes.csv share_idle, NFS"
+RQoneBcccLongest,"30{,}155",phase4/arm_durations.csv
+RQoneOrigWtmcOneOne,0.635,phase4/agreement_matrix.csv
+RQoneOrigWtmcManyOne,0.314,phase4/agreement_matrix.csv
+RQoneLeakOrig,0.44,"phase3/all_leakage.csv random_flow, pooled"
+RQoneLeakTe,0.53,"phase3/all_leakage.csv random_flow, pooled"
+RQoneLeakBccc,0.39,"phase3/all_leakage.csv random_flow, pooled"
+RQoneLeakLow,0.07 to 0.08,"phase3/all_leakage.csv random_flow, pooled"
+RQoneLeakUnswOrig,0.04,phase3/all_leakage.csv
+RQoneLeakUnswVthree,0.08,phase3/all_leakage.csv
+RQoneLeakUnswCic,0.68,"phase3/all_leakage.csv, the largest of every arm"
+RQoneLeakAllMin,0.04,"phase3/all_leakage.csv, every arm"
+RQoneLeakAllMax,0.68,"phase3/all_leakage.csv, every arm"
+RQoneLeakCicMin,0.07,"phase3/all_leakage.csv, CICIDS2017 arms"
+RQoneLeakCicMax,0.53,"phase3/all_leakage.csv, CICIDS2017 arms"
+RQoneLeakFactor,seven,"phase3/all_leakage.csv, largest over smallest CICIDS2017 arm, rounded down"
+RQoneAlphaCic,0.988,phase4/alpha.csv
+RQoneAlphaCicLo,0.988,phase4/alpha.csv
+RQoneAlphaCicHi,0.988,phase4/alpha.csv
+RQoneAlphaCicUnits,"1{,}718{,}246",phase4/alpha.csv
+RQoneAlphaCicObs,0.995,phase4/alpha.csv
+RQoneAlphaUnsw,0.824,phase4/alpha.csv
+RQoneAlphaUnswLo,0.822,phase4/alpha.csv
+RQoneAlphaUnswHi,0.826,phase4/alpha.csv
+RQoneAlphaUnswUnits,"2{,}016{,}038",phase4/alpha.csv
+RQoneAlphaUnswObs,0.986,phase4/alpha.csv
+RQoneAlphaTuesday,0.999,phase4/alpha.csv
+RQoneAlphaWednesday,0.983,phase4/alpha.csv
+RQoneAlphaThursday,0.470,phase4/alpha.csv
+RQoneAlphaFriday,0.989,phase4/alpha.csv
+RQoneVthreeExtraA,"37{,}577","phase3/all_label_agreement.csv, NF-v3 benign records labelled attack"
+RQoneVthreeExtraB,"4{,}445",phase3/all_label_agreement.csv
+RQoneUnswAttackRatio,3.74,phase4/flows_per_conv.csv
+RQoneUnswAttackOrig,"321{,}311",phase4/flows_per_conv.csv
+RQoneUnswAttackVthree,"86{,}010",phase4/flows_per_conv.csv
+RQoneUnswAttackCic,"119{,}957",phase4/flows_per_conv.csv
+RQoneUnswAttackCicDedup,"119{,}957",phase4/flows_per_conv.csv
+RQoneUnswAttackOrigDedup,"99{,}671",phase4/flows_per_conv.csv
+RQoneUnswAttackConvRatio,1.06,"phase4/flows_per_conv.csv, three arms"
+RQoneUnswAttackRatioDedup,1.16,"phase4/flows_per_conv.csv, original and NF-v3"
+RQoneUnswAttackJaccard,0.239,phase4/agreement_matrix.csv
+RQoneUnswAttackJaccardDedup,0.709,phase4/agreement_matrix.csv
+RQoneUnswAttackJaccardOrigCic,0.189,phase4/agreement_matrix.csv
+RQoneUnswAttackConvJaccardOrigCic,0.994,phase4/agreement_matrix.csv
+RQoneUnswAttackOneNOrigCic,75,"phase4/agreement_matrix.csv, share of conversations split 1:n"
+RQoneUnswAttackJaccardOrigCicDedup,0.438,phase4/agreement_matrix.csv
+RQoneUnswAttackConvJaccardOrigCicDedup,0.994,phase4/agreement_matrix.csv
+RQoneUnswAttackOneNOrigCicDedup,79,"phase4/agreement_matrix.csv, share of conversations split 1:n"
+RQoneUnswAttackJaccardVthreeCic,0.454,phase4/agreement_matrix.csv
+RQoneUnswAttackConvJaccardVthreeCic,0.935,phase4/agreement_matrix.csv
+RQoneUnswAttackOneNVthreeCic,71,"phase4/agreement_matrix.csv, share of conversations split 1:n"
+RQoneUnswAttackJaccardVthreeCicDedup,0.454,phase4/agreement_matrix.csv
+RQoneUnswAttackConvJaccardVthreeCicDedup,0.935,phase4/agreement_matrix.csv
+RQoneUnswAttackOneNVthreeCicDedup,71,"phase4/agreement_matrix.csv, share of conversations split 1:n"
+RQoneCicUnswAttackFpc,1.82,phase4/flows_per_conv.csv
+RQoneUnswDups,"480{,}630",phase4/unsw_dups.csv
+RQoneUnswDupsA,"64{,}006",phase4/unsw_dups.csv
+RQoneUnswDupsB,"416{,}624",phase4/unsw_dups.csv
+RQoneNearA,"21{,}557",phase4/unsw_near_repeats.csv
+RQoneNearB,"23{,}769",phase4/unsw_near_repeats.csv
+RQoneNearSample,"3{,}000",phase4/unsw_near_repeats.csv
+RQoneNearAttackCat,"1{,}494",phase4/unsw_near_repeats.csv
+RQoneNearCt,"1{,}429",phase4/unsw_near_repeats.csv
+NprotoUnresolved,36,phase3/unsw_protocol_names.csv
+RQtwoCells,360,"phase5/results.csv, distinct cells"
+RQtwoReproCells,three,phase5/reproducibility_check.csv
+RQtwoSanityCells,three,phase5/sanity_check.csv
+RQtwoMacroRfMin,0.759,phase5/macro_summary.csv grouped flow own
+RQtwoMacroRfMax,0.935,phase5/macro_summary.csv grouped flow own
+RQtwoMacroLgbmMin,0.777,phase5/macro_summary.csv grouped flow own
+RQtwoMacroLgbmMax,0.928,phase5/macro_summary.csv grouped flow own
+RQtwoMacroMlpMin,0.704,phase5/macro_summary.csv grouped flow own
+RQtwoMacroMlpMax,0.853,phase5/macro_summary.csv grouped flow own
+RQtwoMlpLastArms,every,"phase5/macro_summary.csv grouped flow own, arms where the MLP has the lowest mean macro-F1"
+RQtwoTeSmallMin,0.665,"phase5/results.csv nfs2023_te grouped flow own, SSH-Patator and Bot, per model mean"
+RQtwoTeSmallMax,0.669,"phase5/results.csv nfs2023_te grouped flow own, SSH-Patator and Bot, per model mean"
+RQtwoWUnsw,0.867,"phase5/kendall_w.csv UNSW-NB15 primary, grouped flow own"
+RQtwoWUnswLo,0.778,phase5/kendall_w.csv
+RQtwoWUnswHi,0.956,phase5/kendall_w.csv
+RQtwoWUnswMin,0.822,"phase5/kendall_w.csv UNSW-NB15 primary, every split, unit and population"
+RQtwoWUnswMax,0.867,"phase5/kendall_w.csv UNSW-NB15 primary, every split, unit and population"
+RQtwoUnswCicMin,0.433,phase5/macro_summary.csv
+RQtwoUnswCicMax,0.542,phase5/macro_summary.csv
+RQtwoUnswVthreeMin,0.717,phase5/macro_summary.csv
+RQtwoUnswVthreeMax,0.788,phase5/macro_summary.csv
+RQtwoUnswDedupMin,0.646,phase5/macro_summary.csv
+RQtwoUnswDedupMax,0.754,phase5/macro_summary.csv
+RQtwoEligibleCic,seven,phase5/h2_judgement.csv primary
+RQtwoExporterAboveCic,six,phase5/h2_judgement.csv primary
+RQtwoModelAboveCic,one,phase5/h2_judgement.csv primary
+RQtwoHtwoCic,holds,phase5/h2_judgement.csv
+RQtwoEligibleUnsw,six,phase5/h2_judgement.csv primary
+RQtwoExporterAboveUnsw,six,phase5/h2_judgement.csv primary
+RQtwoModelAboveUnsw,zero,phase5/h2_judgement.csv primary
+RQtwoHtwoUnsw,holds,phase5/h2_judgement.csv
+RQtwoSshArm,0.970,phase5/variance_shares.csv
+RQtwoSshModel,0.006,phase5/variance_shares.csv
+RQtwoBotArm,0.841,phase5/variance_shares.csv
+RQtwoBotModel,0.038,phase5/variance_shares.csv
+RQtwoXssArm,0.214,phase5/variance_shares.csv
+RQtwoXssModel,0.639,phase5/variance_shares.csv
+RQtwoInterWebBf,0.609,phase5/variance_shares.csv
+RQtwoInterFtp,0.431,phase5/variance_shares.csv
+RQtwoInterSlowloris,0.421,phase5/variance_shares.csv
+RQtwoSeedCicMax,0.096,phase5/variance_shares.csv
+RQtwoSeedCicMaxClass,Web SQL injection,phase5/variance_shares.csv
+RQtwoSeedUnswGeneric,0.006,phase5/variance_shares.csv
+RQtwoSeedUnswBenign,0.043,phase5/variance_shares.csv
+RQtwoSqliTest,four,phase5/h2_judgement.csv
+RQtwoWormsLo,0.077,phase5/h2_judgement.csv
+RQtwoWormsHi,0.381,phase5/h2_judgement.csv
+RQtwoExporterAboveConvOwn,five,phase5/h2_judgement.csv
+RQtwoExporterAboveConvCommon,five,phase5/h2_judgement.csv
+RQtwoExporterAboveRandomOwn,five,phase5/h2_judgement.csv
+RQtwoSlowhttpConv,$-0.254$,phase5/h2_judgement.csv
+RQtwoSlowhttpConvLo,$-0.402$,phase5/h2_judgement.csv
+RQtwoSlowhttpConvHi,$-0.006$,phase5/h2_judgement.csv
+RQtwoPopNearZero,ten,phase5/share_contrasts.csv |own-common| rounds to at most 0.001
+RQtwoPopScored,thirteen,phase5/share_contrasts.csv
+RQtwoPopPortscan,$-0.123$,phase5/share_contrasts.csv
+RQtwoPopPortscanLo,$-0.181$,phase5/share_contrasts.csv
+RQtwoPopPortscanHi,$-0.053$,phase5/share_contrasts.csv
+RQtwoPopSlowloris,$-0.036$,phase5/share_contrasts.csv
+RQtwoPopSlowlorisLo,$-0.048$,phase5/share_contrasts.csv
+RQtwoPopSlowlorisHi,$-0.025$,phase5/share_contrasts.csv
+RQtwoPopDdos,$-0.014$,phase5/share_contrasts.csv
+RQtwoPopDdosLo,$-0.065$,phase5/share_contrasts.csv
+RQtwoPopDdosHi,0.004,phase5/share_contrasts.csv
+RQtwoPopUnswBenign,0.072,phase5/share_contrasts.csv
+RQtwoPopUnswBenignLo,0.043,phase5/share_contrasts.csv
+RQtwoPopUnswBenignHi,0.154,phase5/share_contrasts.csv
+RQtwoPopUnswFuzzers,0.000,phase5/share_contrasts.csv
+RQtwoPopUnswFuzzersLo,0.000,phase5/share_contrasts.csv
+RQtwoPopUnswFuzzersHi,0.001,phase5/share_contrasts.csv
+RQtwoPopUnswRecon,0.000,phase5/share_contrasts.csv
+RQtwoPopUnswReconLo,$-0.001$,phase5/share_contrasts.csv
+RQtwoPopUnswReconHi,0.001,phase5/share_contrasts.csv
+RQtwoPopUnswGeneric,$-0.002$,phase5/share_contrasts.csv
+RQtwoPopUnswGenericLo,$-0.008$,phase5/share_contrasts.csv
+RQtwoPopUnswGenericHi,0.000,phase5/share_contrasts.csv
+RQtwoUnswReleasedHtwo,holds,phase5/share_contrasts.csv as_released
+RQtwoUnswReleasedLead,"Generic, DoS, Shellcode, Analysis, Backdoor and Worms","phase5/share_contrasts.csv as_released, interval above zero"
+RQtwoUnswReleasedLeadN,six,phase5/share_contrasts.csv as_released
+RQtwoUnswReleasedModel,none,"phase5/share_contrasts.csv as_released, interval below zero"
+RQtwoUnswReleasedUndecided,none,phase5/share_contrasts.csv as_released
+RQtwoUnswCollapsedHtwo,holds,phase5/share_contrasts.csv near_repeats_collapsed
+RQtwoUnswCollapsedLead,"Generic, DoS, Shellcode, Analysis, Backdoor and Worms","phase5/share_contrasts.csv near_repeats_collapsed, interval above zero"
+RQtwoUnswCollapsedLeadN,six,phase5/share_contrasts.csv near_repeats_collapsed
+RQtwoUnswCollapsedModel,none,"phase5/share_contrasts.csv near_repeats_collapsed, interval below zero"
+RQtwoUnswCollapsedUndecided,none,phase5/share_contrasts.csv near_repeats_collapsed
+RQtwoUnswWithoutCicHtwo,does not hold,phase5/share_contrasts.csv without_cic_unsw
+RQtwoUnswWithoutCicLead,Shellcode and Analysis,"phase5/share_contrasts.csv without_cic_unsw, interval above zero"
+RQtwoUnswWithoutCicLeadN,two,phase5/share_contrasts.csv without_cic_unsw
+RQtwoUnswWithoutCicModel,Generic and DoS,"phase5/share_contrasts.csv without_cic_unsw, interval below zero"
+RQtwoUnswWithoutCicUndecided,Backdoor and Worms,phase5/share_contrasts.csv without_cic_unsw
+RQtwoWFlow,0.886,phase5/kendall_w.csv
+RQtwoWFlowLo,0.780,phase5/kendall_w.csv
+RQtwoWFlowHi,0.919,phase5/kendall_w.csv
+RQtwoWConv,0.820,phase5/kendall_w.csv
+RQtwoWConvLo,0.763,phase5/kendall_w.csv
+RQtwoWConvHi,0.869,phase5/kendall_w.csv
+RQtwoLoaoLead,six,"phase5/loao_flow.csv, NFS-2023-TE dropped, point estimates"
+RQtwoLoaoSshArm,0.294,phase5/loao_flow.csv
+RQtwoLoaoSshModel,0.153,phase5/loao_flow.csv
+RQtwoLoaoBotArm,0.524,phase5/loao_flow.csv
+RQtwoLoaoBotModel,0.132,phase5/loao_flow.csv
+RQthreeClasses,eleven,phase6/table_6_1.csv
+RQthreeDoubled,eight,"phase6/table_6_1.csv, fpc_te at least 1.95"
+RQthreeDoubledMin,2.0,phase6/table_6_1.csv
+RQthreeDoubledMax,2.4,phase6/table_6_1.csv
+RQthreeFlowBotNte,0.998,phase6/table_6_1.csv
+RQthreeFlowBotTe,0.666,phase6/table_6_1.csv
+RQthreeConvBotTe,0.999,phase6/table_6_1.csv
+RQthreeFlowSshNte,0.996,phase6/table_6_1.csv
+RQthreeFlowSshTe,0.667,phase6/table_6_1.csv
+RQthreeConvSshTe,0.995,phase6/table_6_1.csv
+RQthreeFirstFin,"1.00, 0.997, 1.00, 1.00 and 1.00",phase6/mechanism.csv pos 1
+RQthreeSecondIdle,"0.958 of Bot, 0.981 of SSH-Patator, 0.974 of Web brute force, 0.952 of Web XSS and 0.737 of DoS GoldenEye",phase6/mechanism.csv pos 2
+RQthreeBenignTailPackets,1 to 2,"phase6/mechanism.csv benign pos 2, 3+"
+RQthreeBenignTailBytes,66 to 120,"phase6/mechanism.csv benign pos 2, 3+"
+RQthreeTailBytes,60 to 66,phase6/mechanism.csv pos 2
+RQthreeRecallFirstBot,0.999,phase6/mechanism.csv
+RQthreeRecallSecondBot,0.000,phase6/mechanism.csv
+RQthreeRecallFirstSsh,0.998,phase6/mechanism.csv
+RQthreeRecallSecondSsh,0.014,phase6/mechanism.csv
+RQthreeRecallFirstWebBf,0.891,phase6/mechanism.csv
+RQthreeRecallSecondWebBf,0.000,phase6/mechanism.csv
+RQthreeRecallFirstGolden,0.996,phase6/mechanism.csv
+RQthreeRecallSecondGolden,0.263,phase6/mechanism.csv
+RQthreeSmallerAtConv,ten,phase6/unit_gaps.csv
+RQthreeHulkGapFlow,0.066,phase6/unit_gaps.csv
+RQthreeHulkGapConv,0.128,phase6/unit_gaps.csv
+RQthreeConvGapMaxOther,0.05,"phase6/unit_gaps.csv, largest conversation gap except DoS Hulk, rounded up"
+RQthreeHulkFalseTe,"1{,}748",phase6/false_alarms.csv
+RQthreeHulkFalseNte,1,phase6/false_alarms.csv
+RQthreeInflMax,0.006,phase6/deltas_6_2.csv
+RQthreeDLeakMin,0.003,phase6/deltas_6_2.csv
+RQthreeDLeakMax,0.798,phase6/deltas_6_2.csv
+RQthreeDInflMin,$-0.002$,phase6/deltas_6_2.csv
+RQthreeDInflMax,0.009,phase6/deltas_6_2.csv
+RQthreeLeakTeMin,0.69,phase6/table_6_1.csv
+RQthreeLeakTeMax,0.80,phase6/table_6_1.csv
+RQthreeRhoPooled,0.50,phase6/test_6_2.csv
+RQthreePPooled,0.061,phase6/test_6_2.csv
+RQthreeRhoRf,0.51,phase6/test_6_2.csv
+RQthreePRf,0.058,phase6/test_6_2.csv
+RQthreeRhoLgbm,0.11,phase6/test_6_2.csv
+RQthreePLgbm,0.38,phase6/test_6_2.csv
+RQthreeRhoMlp,0.67,phase6/test_6_2.csv
+RQthreePMlp,0.014,phase6/test_6_2.csv
+RQthreeRhoOwn,0.53,phase6/test_6_2.csv
+RQthreePOwn,0.050,phase6/test_6_2.csv
+RQthreeVerdict,direction only,phase6/test_6_2.csv
+RQfourWFlow,0.886,phase7/h4.csv baseline common
+RQfourWConv,0.820,phase7/h4.csv baseline common
+RQfourDiff,$-0.065$,phase7/h4.csv baseline common
+RQfourDiffLo,$-0.090$,phase7/h4.csv baseline common
+RQfourDiffHi,0.008,phase7/h4.csv baseline common
+RQfourVerdict,not supported (undecided),phase7/h4.csv baseline common
+RQfourWFlowUnsw,0.867,phase7/h4.csv baseline common UNSW-NB15
+RQfourWConvUnsw,0.822,phase7/h4.csv baseline common UNSW-NB15
+RQfourDiffUnsw,$-0.044$,phase7/h4.csv baseline common UNSW-NB15
+RQfourDiffLoUnsw,$-0.089$,phase7/h4.csv baseline common UNSW-NB15
+RQfourDiffHiUnsw,0.044,phase7/h4.csv baseline common UNSW-NB15
+RQfourUnswConvAbove,one,phase7/h2_benchmark.csv UNSW-NB15 baseline conversation
+RQfourUnswConvElig,six,phase7/h2_benchmark.csv UNSW-NB15 baseline conversation
+RQfourUnswOwnAbove,three,phase7/h2_benchmark.csv UNSW-NB15 own_scoring flow
+RQfourUnswOwnElig,six,phase7/h2_benchmark.csv UNSW-NB15 own_scoring flow
+RQfourFoldRetrainedClasses,two,phase7/sensitivity_table.csv fold_retrained K4_changed
+RQfourClassesOf,twelve,phase7/sensitivity_table.csv K4_of
+RQfiveRows,26,phase8/verdicts_sched.csv
+RQfiveSurvive,15,phase8/verdicts_sched.csv
+RQfiveReverse,three,phase8/verdicts_sched.csv
+RQfiveContradicted,two,phase8/verdicts_sched.csv
+RQfiveNotObtained,zero,phase8/verdicts_sched.csv
+RQfiveNotSupported,two,"phase8/verdicts_sched.csv, not supported other than by construction"
+RQoneThuWithinMin,0.981,"phase4/alpha_pairs.csv Thursday labels multiclass, pairs of arms, minimum within CIC original, WTMC, LYCOS, BCCC"
+RQoneThuGroupTwo,1.000,"phase4/alpha_pairs.csv Thursday labels multiclass, pairs of arms, CRiSIS-2022 with NFS-2023-nTE"
+RQoneThuCrossMin,0.159,"phase4/alpha_pairs.csv Thursday labels multiclass, pairs of arms, between the two groups"
+RQoneThuCrossMax,0.165,"phase4/alpha_pairs.csv Thursday labels multiclass, pairs of arms, between the two groups"
+RQoneThuTeMin,0.081,"phase4/alpha_pairs.csv Thursday labels multiclass, pairs of arms, NFS-2023-TE with every other arm"
+RQoneThuTeMax,0.171,"phase4/alpha_pairs.csv Thursday labels multiclass, pairs of arms, NFS-2023-TE with every other arm"
+RQoneThuWtmcAttBenign,1.000,"phase4/alpha_pairs.csv Thursday attempted_benign, WTMC with CRiSIS and nTE (minimum)"
+RQfourShareFallsCic,ten,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourShareRisesCic,two,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourShareUndecidedCic,zero,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourShareOfCic,twelve,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourShareFallsUnsw,ten,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourShareRisesUnsw,zero,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourShareUndecidedUnsw,zero,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourShareOfUnsw,ten,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourSshVerdict,falls,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourSshShareFlow,0.970,phase7/shares.csv baseline common arm flow
+RQfourSshShareConv,0.301,phase7/shares.csv baseline common arm conversation
+RQfourGoldenVerdict,falls,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourGoldenShareFlow,0.999,phase7/shares.csv baseline common arm flow
+RQfourGoldenShareConv,0.408,phase7/shares.csv baseline common arm conversation
+RQfourBotVerdict,falls,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourBotShareFlow,0.841,phase7/shares.csv baseline common arm flow
+RQfourBotShareConv,0.559,phase7/shares.csv baseline common arm conversation
+RQfourHulkVerdict,rises,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourHulkShareFlow,0.439,phase7/shares.csv baseline common arm flow
+RQfourHulkShareConv,0.722,phase7/shares.csv baseline common arm conversation
+RQfourFtpVerdict,rises,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourFtpShareFlow,0.489,phase7/shares.csv baseline common arm flow
+RQfourFtpShareConv,0.966,phase7/shares.csv baseline common arm conversation
+RQfourGenericVerdict,falls,"phase7/contrasts.csv baseline common arm_share_change, fixed set"
+RQfourGenericShareFlow,0.945,phase7/shares.csv baseline common arm flow
+RQfourGenericShareConv,0.272,phase7/shares.csv baseline common arm conversation
+RQfourLargeCic,four,phase7/residual.csv baseline large_residual
+RQfourLargeUnsw,seven,phase7/residual.csv baseline large_residual
+RQfourResRecallMin,0.99,"phase7/residual_errors.csv CICIDS2017, lowest recall over the four classes and seven arms, floored to 2 decimals"
+RQfourFpFtp,"3{,}321",phase7/residual_errors.csv ftp_patator cic_original fp
+RQfourFpOneFtp,"3{,}304",phase7/residual_errors.csv ftp_patator cic_original fp_one_attack_record_of_several
+RQfourFpSsh,"2{,}161",phase7/residual_errors.csv ssh_patator bccc2017 fp
+RQfourFpOneSsh,"2{,}147",phase7/residual_errors.csv ssh_patator bccc2017 fp_one_attack_record_of_several
+RQfourFpBot,520,phase7/residual_errors.csv bot bccc2017 fp
+RQfourFpOneBot,514,phase7/residual_errors.csv bot bccc2017 fp_one_attack_record_of_several
+RQfourFpHulk,"26{,}192",phase7/residual_errors.csv dos_hulk nfs2023_te fp
+RQfourFpOneHulk,"26{,}164",phase7/residual_errors.csv dos_hulk nfs2023_te fp_one_attack_record_of_several
+RQfourFpHulkBccc,"11{,}625",phase7/residual_errors.csv dos_hulk bccc2017 fp
+RQfourFpOneHulkBccc,"4{,}405",phase7/residual_errors.csv dos_hulk bccc2017 fp_one_attack_record_of_several
+RQfourFpMultiHulkBccc,"11{,}605",phase7/residual_errors.csv dos_hulk bccc2017 fp_multi_record
+RQfourPrecOtherMin,0.997,"phase7/residual_errors.csv CICIDS2017, lowest precision in the four arms without tail records, floored to 3 decimals"
+RQfourUnswCicLowestFone,five,"phase7/residual.csv UNSW-NB15 large residual, classes where CIC-UNSW-NB15 has the lowest mean F1"
+RQfourUnswCicLowestRecall,five,"phase7/residual_errors.csv UNSW-NB15 large residual, classes where CIC-UNSW-NB15 has the lowest recall"
+RQfourUnswCicMultiMin,49,"phase7/residual_errors.csv cic_unsw, share of the class's conversations with several records, smallest"
+RQfourUnswCicMultiMax,98,"phase7/residual_errors.csv cic_unsw, largest"
+RQfourUnswOtherMultiMax,8,"phase7/residual_errors.csv UNSW-NB15 original and NF-v3, largest share of conversations with several records"
+RQfourUnswCicFnBenign,2,"phase7/residual_errors.csv cic_unsw, missed attack conversations called benign, pooled over the classes"
+RQfourBytesLarge,zero,phase7/residual.csv rule_bytes CICIDS2017
+RQfourBytesSpreadMax,0.003,"phase7/residual.csv rule_bytes CICIDS2017, largest spread among the baseline large-residual classes"
+RQfourLoaoSshBccc,0.113,phase7/loao.csv baseline ssh_patator without bccc2017
+RQfourLoaoHulkTe,0.307,phase7/loao.csv baseline dos_hulk without nfs2023_te
+RQfourLoaoFtpOrig,0.774,phase7/loao.csv baseline ftp_patator without cic_original
+RQfourFoldScoreWFlow,0.837,phase7/h4.csv fold_scoring common w_seed_mean w_flow
+RQfourFoldScoreWConv,0.502,phase7/h4.csv fold_scoring common w_seed_mean w_conversation
+RQfourFoldScoreDiff,$-0.335$,phase7/h4.csv fold_scoring common w_seed_mean diff
+RQfourFoldScoreDiffLo,$-0.355$,phase7/h4.csv fold_scoring common w_seed_mean diff_lo
+RQfourFoldScoreDiffHi,$-0.269$,phase7/h4.csv fold_scoring common w_seed_mean diff_hi
+RQfourFoldScoreVerdict,reversed,phase7/h4.csv fold_scoring
+RQfourFoldRetrWFlow,0.616,phase7/h4.csv fold_retrained common w_seed_mean w_flow
+RQfourFoldRetrWConv,0.535,phase7/h4.csv fold_retrained common w_seed_mean w_conversation
+RQfourFoldRetrDiff,$-0.082$,phase7/h4.csv fold_retrained common w_seed_mean diff
+RQfourFoldRetrDiffLo,$-0.159$,phase7/h4.csv fold_retrained common w_seed_mean diff_lo
+RQfourFoldRetrDiffHi,0.041,phase7/h4.csv fold_retrained common w_seed_mean diff_hi
+RQfourFoldRetrVerdict,not supported (undecided),phase7/h4.csv fold_retrained
+RQfourOwnScoreWFlow,0.167,phase7/h4.csv own_scoring common w_seed_mean w_flow
+RQfourOwnScoreWConv,0.176,phase7/h4.csv own_scoring common w_seed_mean w_conversation
+RQfourOwnScoreDiff,0.008,phase7/h4.csv own_scoring common w_seed_mean diff
+RQfourOwnScoreDiffLo,$-0.049$,phase7/h4.csv own_scoring common w_seed_mean diff_lo
+RQfourOwnScoreDiffHi,0.024,phase7/h4.csv own_scoring common w_seed_mean diff_hi
+RQfourOwnScoreVerdict,not supported (undecided),phase7/h4.csv own_scoring
+RQfourOwnRetrWFlow,0.237,phase7/h4.csv own_retrained common w_seed_mean w_flow
+RQfourOwnRetrWConv,0.216,phase7/h4.csv own_retrained common w_seed_mean w_conversation
+RQfourOwnRetrDiff,$-0.020$,phase7/h4.csv own_retrained common w_seed_mean diff
+RQfourOwnRetrDiffLo,$-0.078$,phase7/h4.csv own_retrained common w_seed_mean diff_lo
+RQfourOwnRetrDiffHi,0.041,phase7/h4.csv own_retrained common w_seed_mean diff_hi
+RQfourOwnRetrVerdict,not supported (undecided),phase7/h4.csv own_retrained
+RQfourSensVariants,eleven,phase7/sensitivity_table.csv CICIDS2017 variants
+RQfourSensChangedHfour,one,phase7/sensitivity_table.csv K1_changed
+RQfourSensChangedHtwoFlow,zero,phase7/sensitivity_table.csv K2_changed
+RQfourSensChangedHtwoConv,one,phase7/sensitivity_table.csv K3_changed
+RQfourSensTClassMax,one,"phase7/sensitivity_table.csv T variants, most class verdicts or directions changed"
+RQfourSensKfourMax,four,phase7/sensitivity_table.csv K4_changed max
+RQfourSensKfiveMax,nine,phase7/sensitivity_table.csv K5_changed max
+RQfourOwnRetrKfive,nine,phase7/sensitivity_table.csv own_retrained K5_changed
+RQfourOwnRetrHtwoAbove,six,phase7/h2_benchmark.csv own_retrained flow
+RQfourOwnRetrHtwoElig,six,phase7/h2_benchmark.csv own_retrained flow
+RQfourEpisodeMax,five,"phase7/units.csv episode CICIDS2017, most test episodes of one attack class"
+RQfourEpisodeMaxClass,Bot,phase7/units.csv episode CICIDS2017
+RQfourEpisodeStradDos,54 to 59,"phase7/units.csv episode UNSW-NB15 dos, percent of test episodes that straddle, over seeds"
+RQfourEpisodeStradExploits,98 to 99,"phase7/units.csv episode UNSW-NB15 exploits, percent of test episodes that straddle, over seeds"
+RQfourSshTestConv,888,phase7/units.csv baseline ssh_patator test conversations per seed
+RQfourBackdoorTest,106,phase7/units.csv baseline backdoor
+RQfourBackdoorTrain,249,phase7/units.csv baseline backdoor
+RQfourBackdoorEpTest,103 to 105,"phase7/units.csv episode backdoor, over seeds"
+RQfourBackdoorEpStrad,5 to 8,"phase7/units.csv episode backdoor, over seeds"
+RQfiveNotEstimable,three,phase8/verdicts_sched.csv
+RQfiveZero,one,phase8/verdicts_sched.csv
+RQfiveLdaPub,0.155,phase8/verdicts_sched.csv R1 lda published_gap
+RQfiveLdaFlow,0.155,phase8/verdicts_sched.csv R1 lda flow_rebuilt_gap
+RQfiveLdaConv,0.164,phase8/verdicts_sched.csv R1 lda conv_gap
+RQfiveLdaConvLo,0.162,phase8/verdicts_sched.csv R1 lda conv_lo
+RQfiveLdaConvHi,0.167,phase8/verdicts_sched.csv R1 lda conv_hi
+RQfiveBotPub,0.390,phase8/verdicts_sched.csv R2 bot published_gap
+RQfiveBotFlow,0.183,phase8/verdicts_sched.csv R2 bot flow_rebuilt_gap
+RQfiveBotConv,0.030,phase8/verdicts_sched.csv R2 bot conv_gap
+RQfiveBotConvLo,0.021,phase8/verdicts_sched.csv R2 bot conv_lo
+RQfiveBotConvHi,0.040,phase8/verdicts_sched.csv R2 bot conv_hi
+RQfiveXssPub,0.610,phase8/verdicts_sched.csv R2 web_xss published_gap
+RQfiveXssConv,0.197,phase8/verdicts_sched.csv R2 web_xss conv_gap
+RQfiveWebBfPub,0.180,phase8/verdicts_sched.csv R2 web_bruteforce published_gap
+RQfiveWebBfFlow,0.222,phase8/verdicts_sched.csv R2 web_bruteforce flow_rebuilt_gap
+RQfiveWebBfConv,$-0.040$,phase8/verdicts_sched.csv R2 web_bruteforce conv_gap
+RQfiveWebBfConvLo,$-0.055$,phase8/verdicts_sched.csv R2 web_bruteforce conv_lo
+RQfiveWebBfConvHi,$-0.027$,phase8/verdicts_sched.csv R2 web_bruteforce conv_hi
+RQfiveQtwoPub,$-0.200$,phase8/verdicts_sched.csv R3 Q2 published_gap
+RQfiveQtwoFlow,$-0.217$,phase8/verdicts_sched.csv R3 Q2 flow_rebuilt_gap
+RQfiveQtwoC,$-0.039$,phase8/verdicts_sched.csv R3 Q2 C
+RQfiveQtwoW,$-0.178$,phase8/verdicts_sched.csv R3 Q2 W
+RQfiveQthreePub,0.200,phase8/verdicts_sched.csv R3 Q3 published_gap
+RQfiveQthreeFlow,0.211,phase8/verdicts_sched.csv R3 Q3 flow_rebuilt_gap
+RQfiveQthreeFlowLo,0.209,phase8/verdicts_sched.csv R3 Q3 flow_rebuilt_lo
+RQfiveQthreeFlowHi,0.212,phase8/verdicts_sched.csv R3 Q3 flow_rebuilt_hi
+RQfiveQthreeConv,0.000,phase8/verdicts_sched.csv R3 Q3 conv_gap
+RQfiveQthreeConvLo,0.000,phase8/verdicts_sched.csv R3 Q3 conv_lo
+RQfiveQthreeConvHi,0.000,phase8/verdicts_sched.csv R3 Q3 conv_hi
+RQfiveQfourFlow,$-0.006$,phase8/verdicts_sched.csv R3 Q4 flow_rebuilt_gap
+RQfiveQfourConv,0.000,phase8/verdicts_sched.csv R3 Q4 conv_gap
+RQfiveBinPub,0.050,phase8/verdicts_sched.csv R4 bin_v2 published_gap
+RQfiveBinFlow,$-0.009$,phase8/verdicts_sched.csv R4 bin_v2 flow_rebuilt_gap
+RQfiveBinConv,$-0.003$,phase8/verdicts_sched.csv R4 bin_v2 conv_gap
+RQfiveBinConvLo,$-0.004$,phase8/verdicts_sched.csv R4 bin_v2 conv_lo
+RQfiveBinConvHi,$-0.002$,phase8/verdicts_sched.csv R4 bin_v2 conv_hi
+RQfiveFuzzPub,0.301,phase8/verdicts_sched.csv R4 fuzzers_v2 published_gap
+RQfiveFuzzFlow,0.254,phase8/verdicts_sched.csv R4 fuzzers_v2 flow_rebuilt_gap
+RQfiveFuzzConv,$-0.019$,phase8/verdicts_sched.csv R4 fuzzers_v2 conv_gap
+RQfiveFuzzConvLo,$-0.024$,phase8/verdicts_sched.csv R4 fuzzers_v2 conv_lo
+RQfiveFuzzConvHi,$-0.013$,phase8/verdicts_sched.csv R4 fuzzers_v2 conv_hi
+RQfiveWormsPub,0.807,phase8/verdicts_sched.csv R4 worms_v2 published_gap
+RQfiveWormsConv,0.685,phase8/verdicts_sched.csv R4 worms_v2 conv_gap
+RQfiveWormsConvLo,0.593,phase8/verdicts_sched.csv R4 worms_v2 conv_lo
+RQfiveWormsConvHi,0.763,phase8/verdicts_sched.csv R4 worms_v2 conv_hi
+RQfiveTueWtmcPub,0.129,phase8/verdicts_sched.csv R5 a_Tuesday_wtmc2021_vs_cic published_gap
+RQfiveTueWtmcConv,0.106,phase8/verdicts_sched.csv R5 a_Tuesday_wtmc2021_vs_cic conv_gap
+RQfiveTueCrisisPub,0.128,phase8/verdicts_sched.csv R5 a_Tuesday_crisis2022_rp_vs_cic published_gap
+RQfiveTueCrisisConv,0.105,phase8/verdicts_sched.csv R5 a_Tuesday_crisis2022_rp_vs_cic conv_gap
+RQfiveThuCrisisPub,0.047,phase8/verdicts_sched.csv R5 b_Thursday_crisis_vs_wtmc published_gap
+RQfiveThuCrisisFlow,0.047,phase8/verdicts_sched.csv R5 b_Thursday_crisis_vs_wtmc flow_rebuilt_gap
+RQfiveThuCrisisFlowLo,0.008,phase8/verdicts_sched.csv R5 b_Thursday_crisis_vs_wtmc flow_rebuilt_lo
+RQfiveThuCrisisFlowHi,0.099,phase8/verdicts_sched.csv R5 b_Thursday_crisis_vs_wtmc flow_rebuilt_hi
+RQfiveThuCrisisConv,0.000,phase8/verdicts_sched.csv R5 b_Thursday_crisis_vs_wtmc conv_gap
+RQfiveThuCrisisConvLo,$-0.001$,phase8/verdicts_sched.csv R5 b_Thursday_crisis_vs_wtmc conv_lo
+RQfiveThuCrisisConvHi,0.001,phase8/verdicts_sched.csv R5 b_Thursday_crisis_vs_wtmc conv_hi
+RQfiveThuNteTePub,0.050,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_te published_gap
+RQfiveThuNteTeFlow,0.050,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_te flow_rebuilt_gap
+RQfiveThuNteTeFlowDef,0.177,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_te defined_flow_gap
+RQfiveThuNteTeConv,0.292,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_te conv_gap
+RQfiveThuNteTeConvLo,0.279,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_te conv_lo
+RQfiveThuNteTeConvHi,0.305,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_te conv_hi
+RQfiveThuNteCicPub,0.051,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_cic published_gap
+RQfiveThuNteCicConv,0.015,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_cic conv_gap
+RQfiveThuNteCicC,$-0.229$,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_cic C
+RQfiveThuNteCicW,$-0.479$,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_cic W
+RQfiveThuNteCicNonshared,0.758,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_cic nonshared
+RQfiveWedTeConv,$-0.022$,phase8/verdicts_sched.csv R5 c_Wednesday_te_vs_nte conv_gap
+RQfiveWedTeConvLo,$-0.023$,phase8/verdicts_sched.csv R5 c_Wednesday_te_vs_nte conv_lo
+RQfiveWedTeConvHi,$-0.021$,phase8/verdicts_sched.csv R5 c_Wednesday_te_vs_nte conv_hi
+RQfiveThuTeConv,$-0.292$,phase8/verdicts_sched.csv R5 c_Thursday_te_vs_nte conv_gap
+RQfiveThuTeConvLo,$-0.305$,phase8/verdicts_sched.csv R5 c_Thursday_te_vs_nte conv_lo
+RQfiveThuTeConvHi,$-0.279$,phase8/verdicts_sched.csv R5 c_Thursday_te_vs_nte conv_hi
+RQfiveQthreeRecall,99.7,"phase8/verdicts_sched.csv R3 Q3 conv_A (Exp_RPD), percent; conv_B (Exp_RP) rounds to the same"
+RQfiveBinFlowExcludesZero,includes,"phase8/verdicts_sched.csv R4 bin_v2, whether the per-flow interval excludes zero"
+RQfiveBinFlowLo,$-0.0155$,"phase8/verdicts_sched.csv R4 bin_v2 flow_rebuilt_lo, four decimals"
+RQfiveBinFlowHi,0.0040,"phase8/verdicts_sched.csv R4 bin_v2 flow_rebuilt_hi, four decimals"
+RQfiveBotC,$-0.026$,phase8/decomp/R2_gaps.csv bot C
+RQfiveXssC,$-0.062$,phase8/decomp/R2_gaps.csv web_xss C
+RQfiveWebBfC,0.022,phase8/decomp/R2_gaps.csv web_bruteforce C
+RQfiveBinC,$-0.036$,phase8/decomp/R4_gaps.csv bin_v2 C
+RQfiveBinW,0.027,phase8/decomp/R4_gaps.csv bin_v2 W
+RQfiveBinVthreeFlow,0.022,phase8/decomp/R4_gaps.csv bin_v3 G
+RQfiveBinVthreeFlowLo,0.016,phase8/decomp/R4_gaps.csv bin_v3 G_lo
+RQfiveBinVthreeFlowHi,0.036,phase8/decomp/R4_gaps.csv bin_v3 G_hi
+RQfiveThuNteTeFlowDefLo,0.168,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_te defined_flow_lo
+RQfiveThuNteTeFlowDefHi,0.186,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_te defined_flow_hi
+RQfiveThuNteCicShared,$-0.708$,phase8/verdicts_sched.csv R5 b_Thursday_nte_vs_cic C plus W
+RQfiveFoldWebBfConv,0.011,phase8/verdicts_fold.csv R2 web_bruteforce conv_gap
+RQfiveFoldWebBfConvLo,$-0.009$,phase8/verdicts_fold.csv R2 web_bruteforce conv_lo
+RQfiveFoldWebBfConvHi,0.031,phase8/verdicts_fold.csv R2 web_bruteforce conv_hi
+RQfiveFoldWebBfVerdict,not supported,phase8/verdicts_fold.csv R2 web_bruteforce
+RQfiveFoldBotVerdict,survives,phase8/verdicts_fold.csv R2 bot
+RQfiveFoldXssVerdict,not estimable,phase8/verdicts_fold.csv R2 web_xss
+RQfiveFidelityMax,0.001,"phase8/decomp/R1_arms.csv and R5_arms.csv, largest |rebuilt mean minus published|"
+RQfiveRfourOrigOurs,0.977,phase8/decomp/R4_arms.csv bin_v2 unsw_original mean
+RQfiveRfourOrigPub,0.92,phase8/decomp/R4_arms.csv bin_v2 unsw_original published
+RQfiveRtwoBotOrigOurs,0.81,phase8/decomp/R2_arms.csv bot cic_original mean
+RQfiveRtwoBotOrigPub,0.60,phase8/decomp/R2_arms.csv bot cic_original published
+RQfiveThuFprNte,0.02,"phase8/decomp/R5_conv_sched_conv_gaps.csv c_Thursday_te_vs_nte fpr_A (nTE), percent"
+RQfiveThuFprTe,8.7,"phase8/decomp/R5_conv_sched_conv_gaps.csv c_Thursday_te_vs_nte fpr_B (TE), percent"
+RQfiveThuRecallTe,0.999,phase8/decomp/R5_conv_sched_conv_gaps.csv c_Thursday_te_vs_nte recall_B (TE)
+RQfiveThuRecallNte,0.991,phase8/decomp/R5_conv_sched_conv_gaps.csv c_Thursday_te_vs_nte recall_A (nTE)
+RevPrimAboveCic,6,"phase11/analysis/ms_h2.csv, raw shares, flow, own"
+RevEligCic,7,phase11/analysis/ms_h2.csv
+RevPerdfAboveCic,4,"phase11/analysis/ms_h2.csv, per degree of freedom"
+RevPerdfHtwoCic,holds,phase11/analysis/ms_h2.csv
+RevPrimAboveUnsw,6,"phase11/analysis/ms_h2.csv, raw shares, flow, own"
+RevEligUnsw,6,phase11/analysis/ms_h2.csv
+RevPerdfAboveUnsw,6,"phase11/analysis/ms_h2.csv, per degree of freedom"
+RevPerdfHtwoUnsw,holds,phase11/analysis/ms_h2.csv
+RevBcaSame,13,"phase11/analysis/bca.csv, eligible classes, same verdict under BCa"
+RevBcaN,13,phase11/analysis/bca.csv
+RevBcaGenericShare,0.943,"phase11/analysis/bca.csv, UNSW-NB15 Generic exporter share"
+RevBcaGenericPctLo,0.831,phase11/analysis/bca.csv
+RevBcaGenericPctHi,0.953,phase11/analysis/bca.csv
+RevBcaGenericLo,0.920,phase11/analysis/bca.csv
+RevBcaGenericHi,0.960,phase11/analysis/bca.csv
+RevThrHoldCic,9,phase11/analysis/thresholds.csv
+RevThrEligMinCic,3,phase11/analysis/thresholds.csv
+RevThrEligMaxCic,8,phase11/analysis/thresholds.csv
+RevThrHoldUnsw,9,phase11/analysis/thresholds.csv
+RevThrEligMinUnsw,4,phase11/analysis/thresholds.csv
+RevThrEligMaxUnsw,6,phase11/analysis/thresholds.csv
+RevThrSettings,nine,"phase11/analysis/thresholds.csv, settings per benchmark"
+RevSubHoldCic,seven,phase11/analysis/h2_subsets_verdict.csv
+RevSubNCic,seven,phase11/analysis/h2_subsets_verdict.csv
+RevSubAboveMinCic,5,phase11/analysis/h2_subsets_verdict.csv
+RevSubHoldUnsw,two,phase11/analysis/h2_subsets_verdict.csv
+RevSubNUnsw,three,phase11/analysis/h2_subsets_verdict.csv
+RevSubAboveMinUnsw,2,phase11/analysis/h2_subsets_verdict.csv
+RevSubUnswNoCicAbove,2,phase11/analysis/h2_subsets_verdict.csv
+RevSubUnswNoCicModel,2,phase11/analysis/h2_subsets_verdict.csv
+RevHtAboveCic,5,phase11/analysis/ht_h2_verdict.csv
+RevHtHtwoCic,holds,phase11/analysis/ht_h2_verdict.csv
+RevHtAboveUnsw,6,phase11/analysis/ht_h2_verdict.csv
+RevHtHtwoUnsw,holds,phase11/analysis/ht_h2_verdict.csv
+RevPayAbove,3,phase11/analysis/payload_h2_verdict.csv
+RevPayElig,6,phase11/analysis/payload_h2_verdict.csv
+RevPayHtwo,does not hold,phase11/analysis/payload_h2_verdict.csv
+RevPayPointAbove,5,"phase11/analysis/payload_h2.csv, point estimate above zero"
+RevPayModelAbove,0,phase11/analysis/payload_h2.csv
+RevPayAboveConv,2,phase11/analysis/payload_h2_verdict.csv
+RevTtlAbove,6,phase11/analysis/ttl_h2_verdict.csv
+RevTtlElig,6,phase11/analysis/ttl_h2_verdict.csv
+RevTtlDosWith,0.430,phase11/analysis/ttl_h2.csv
+RevTtlDosWithout,0.249,phase11/analysis/ttl_h2.csv
+RevTtlMinLo,0.076,"phase11/analysis/ttl_h2.csv, smallest lower bound"
+RevFiveAboveCic,4,phase11/analysis/models_h2_verdict.csv
+RevFiveAboveUnsw,3,phase11/analysis/models_h2_verdict.csv
+RevFiveLrLowest,10,"phase11/analysis/models_macro.csv, arms where logistic regression has the lowest macro F1, flow, common"
+RevFiveArms,10,phase11/analysis/models_macro.csv
+RevFivePerdfAboveCic,4,phase11/analysis/models_h2_verdict.csv
+RevFivePerdfAboveUnsw,4,phase11/analysis/models_h2_verdict.csv
+RevEqCicFlowTwo,63,"phase11/analysis/equivalence.csv, per class, margin 0.02"
+RevEqCicFlowFive,74,"phase11/analysis/equivalence.csv, per class, margin 0.05"
+RevEqMacCicFlowFive,65,"phase11/analysis/equivalence.csv, macro, margin 0.05"
+RevEqMacCicFlowTwo,48,"phase11/analysis/equivalence.csv, macro, margin 0.02"
+RevEqCicConvTwo,76,"phase11/analysis/equivalence.csv, per class, margin 0.02"
+RevEqCicConvFive,84,"phase11/analysis/equivalence.csv, per class, margin 0.05"
+RevEqMacCicConvFive,90,"phase11/analysis/equivalence.csv, macro, margin 0.05"
+RevEqMacCicConvTwo,57,"phase11/analysis/equivalence.csv, macro, margin 0.02"
+RevEqTestsCic,756,phase11/analysis/equivalence.csv
+RevEqUnswFlowTwo,14,"phase11/analysis/equivalence.csv, per class, margin 0.02"
+RevEqUnswFlowFive,23,"phase11/analysis/equivalence.csv, per class, margin 0.05"
+RevEqMacUnswFlowFive,11,"phase11/analysis/equivalence.csv, macro, margin 0.05"
+RevEqMacUnswFlowTwo,0,"phase11/analysis/equivalence.csv, macro, margin 0.02"
+RevEqUnswConvTwo,20,"phase11/analysis/equivalence.csv, per class, margin 0.02"
+RevEqUnswConvFive,38,"phase11/analysis/equivalence.csv, per class, margin 0.05"
+RevEqMacUnswConvFive,22,"phase11/analysis/equivalence.csv, macro, margin 0.05"
+RevEqMacUnswConvTwo,0,"phase11/analysis/equivalence.csv, macro, margin 0.02"
+RevEqTestsUnsw,90,phase11/analysis/equivalence.csv
+RevHtPrecMeanMaxCic,0.086,"phase11/analysis/ht.csv, largest mean fall in precision"
+RevHtFoneMeanMaxCic,0.043,"phase11/analysis/ht.csv, largest mean fall in F1"
+RevHtPrecMeanMaxUnsw,0.293,"phase11/analysis/ht.csv, largest mean fall in precision"
+RevHtFoneMeanMaxUnsw,0.220,"phase11/analysis/ht.csv, largest mean fall in F1"
+RevPayConvSlowhttp,"2{,}808","phase11/payload/payload_check.csv, WTMC-2021"
+RevPayConvSlowloris,"1{,}662","phase11/payload/payload_check.csv, WTMC-2021"
+RevPayConvWebBf,"1{,}210","phase11/payload/payload_check.csv, WTMC-2021"
+RevPayConvXss,640,"phase11/payload/payload_check.csv, WTMC-2021"
+RevPayConvGolden,80,"phase11/payload/payload_check.csv, WTMC-2021"
+RevPayConvHulk,56,"phase11/payload/payload_check.csv, WTMC-2021"
+RevPayBotFlowNte,0.998,phase11/analysis/pay RQ3 F1
+RevPayBotFlowTe,0.997,phase11/analysis/pay RQ3 F1
+RevPaySshFlowNte,0.996,phase11/analysis/pay RQ3 F1
+RevPaySshFlowTe,0.992,phase11/analysis/pay RQ3 F1
+RevPayMaxGapFlow,0.027,"phase11/analysis/pay RQ3 F1, largest TE minus nTE"
+RevOwnBotFlowNte,0.998,phase11/analysis/own RQ3 F1
+RevOwnBotFlowTe,0.999,phase11/analysis/own RQ3 F1
+RevOwnSshFlowNte,0.997,phase11/analysis/own RQ3 F1
+RevOwnSshFlowTe,0.996,phase11/analysis/own RQ3 F1
+RevOwnMaxGapFlow,0.044,"phase11/analysis/own RQ3 F1, largest TE minus nTE"
+RevSchBotFlowNte,0.998,phase11/analysis/sch RQ3 F1
+RevSchBotFlowTe,0.666,phase11/analysis/sch RQ3 F1
+RevSchSshFlowNte,0.996,phase11/analysis/sch RQ3 F1
+RevSchSshFlowTe,0.667,phase11/analysis/sch RQ3 F1
+RevSchMaxGapFlow,0.332,"phase11/analysis/sch RQ3 F1, largest TE minus nTE"
+RevPayWFlow,0.641,phase11/analysis/payload_h4.csv
+RevPayWConv,0.624,phase11/analysis/payload_h4.csv
+RevPayWDiffLo,$-0.135$,phase11/analysis/payload_h4.csv
+RevPayWDiffHi,0.041,phase11/analysis/payload_h4.csv
+RevPayShareFell,6,phase11/analysis/payload_shares.csv
+RevPayShareN,10,phase11/analysis/payload_shares.csv
+RevSchLarge,four,"schedule_shares_check.csv, RQ4 large-residual rule"
+RevPayLarge,zero,"phase11/analysis/payload_shares.csv, RQ4 large-residual rule"
+RevPaySpreadMax,0.047,"phase11/analysis/payload_shares.csv, conversation unit, attack classes"
+RevPayShareBot,0.455,"phase11/analysis/payload_shares.csv, flow"
+RevSchShareBot,0.841,"phase11/analysis/schedule_shares_check.csv, flow"
+RevPayShareSsh,0.458,"phase11/analysis/payload_shares.csv, flow"
+RevSchShareSsh,0.970,"phase11/analysis/schedule_shares_check.csv, flow"
+RevIdleNte,"3{,}885",phase11/nfs_idle_probe.csv
+RevIdleNteSixty,"3{,}885","phase11/nfs_idle_probe.csv, gap of 60 s or more"
+RevIdleTe,"4{,}137",phase11/nfs_idle_probe.csv
+RevIdleTeSixty,"3{,}885","phase11/nfs_idle_probe.csv, gap of 60 s or more"
+RevIdleGapLoris,100,phase11/nfs_idle_probe.csv
+RevIdleGapHttp,109,phase11/nfs_idle_probe.csv
+RevHulkExtra,"190{,}492",phase11/split_probe.csv
+RevHulkAfterRst,"131{,}637",phase11/split_probe.csv
+RevHulkAfterFin,"58{,}855",phase11/split_probe.csv
+RevHulkCarryRst,"190{,}285",phase11/split_probe.csv
+RevHulkNoPay,"188{,}312",phase11/split_probe.csv
+RevGoldenConvs,"6{,}770",phase11/split_probe.csv
+RevDdosExtra,"2{,}555",phase11/split_probe.csv
+RevDdosAfterRst,"2{,}555",phase11/split_probe.csv
+RevDdosConvs,"93{,}178",phase11/split_probe.csv
+RevFtpBcccExtra,"5{,}539",phase11/split_probe.csv
+RevFtpBcccExtraRst,"5{,}460",phase11/split_probe.csv
+RevFtpBcccAfterRst,"4{,}044",phase11/split_probe.csv
+RevFtpOrigExtra,"5{,}488",phase11/split_probe.csv
+RevFtpOrigSyn,"1{,}010",phase11/split_probe.csv
+RevFtpOrigNoPay,"1{,}082",phase11/split_probe.csv
+RevFtpOrigPk,24,phase11/split_probe.csv
+RevFiveWFlowCic,0.869,phase11/analysis/models_w.csv
+RevFiveWConvCic,0.817,phase11/analysis/models_w.csv
+RevFiveWDiffLoCic,$-0.074$,phase11/analysis/models_w.csv
+RevFiveWDiffHiCic,$-0.024$,phase11/analysis/models_w.csv
+RevFiveVerdictCic,reversed,phase11/analysis/models_w.csv
+RevFiveWFlowUnsw,0.929,phase11/analysis/models_w.csv
+RevFiveWConvUnsw,0.920,phase11/analysis/models_w.csv
+RevFiveWDiffLoUnsw,$-0.018$,phase11/analysis/models_w.csv
+RevFiveWDiffHiUnsw,0.009,phase11/analysis/models_w.csv
+RevFiveVerdictUnsw,not supported (undecided),phase11/analysis/models_w.csv
+RevLooJaccMinCic,0.883,phase11/loo/instrument_loo_CICIDS2017.csv
+RevLooJaccPlusOrig,0.864,phase11/loo/instrument_loo_CICIDS2017.csv
+RevLooJaccMinUnsw,0.999,phase11/loo/instrument_loo_UNSW-NB15.csv
+RevLooJaccOtherMinCic,0.999,"phase11/loo/instrument_loo_CICIDS2017.csv, arms other than BCCC-CIC-IDS2017 left out"
+RevLooBenignDropBccc,0.832,phase11/loo/instrument_loo_CICIDS2017.csv
+RevLooSlowlorisDropBccc,0.605,phase11/loo/instrument_loo_CICIDS2017.csv
+RevLooSlowhttpDropBccc,0.670,phase11/loo/instrument_loo_CICIDS2017.csv
+RevLooHulkPlusOrig,0.001,phase11/loo/instrument_loo_CICIDS2017.csv
+RevLooDdosPlusOrig,0.276,phase11/loo/instrument_loo_CICIDS2017.csv
+RevLooAttackMinUnsw,0.931,"phase11/loo/instrument_loo_UNSW-NB15.csv, attack classes with 20 or more conversations"
+RevLooWMinCic,0.806,phase11/analysis/loo_scores.csv
+RevLooWMaxCic,0.844,phase11/analysis/loo_scores.csv
+RevLooFoneMaxChange,0.023,"phase11/analysis/loo_scores.csv, largest change in conversation F1"
+RevFiveDecided,22,"phase8/verdicts_sched.csv, verdicts other than not estimable, zero by construction and data not obtained"
+RevFiveUndecided,four,phase8/verdicts_sched.csv
+RevFiveSurvivePct,68,"phase8/verdicts_sched.csv, survives over decided"
+RevFullPairs,104,"phase11/analysis/full.csv, arm and attack class pairs with 20 or more test records"
+RevFullWithinFive,88,"phase11/analysis/full.csv, share with flow F1 change of at most 0.05"
+RevFullFoneMedian,$-0.008$,"phase11/analysis/full.csv, median change in flow F1"
+RevFullFoneMaxAbs,0.288,"phase11/analysis/full.csv, flow, own, attack classes"
+RevFullPrecMaxFall,0.193,phase11/analysis/full.csv
+RevFullFuzzRecallMin,0.331,"phase11/analysis/full.csv, UNSW-NB15 Fuzzers, smallest recall fall"
+RevFullFuzzRecallMax,0.494,"phase11/analysis/full.csv, UNSW-NB15 Fuzzers, largest recall fall"

@@ -1,0 +1,9 @@
+benchmark,setting,kind,eligible,exporter_above,model_above,h2
+CICIDS2017,"full-data prevalence, conversation",raw,7,5,2,holds
+CICIDS2017,"full-data prevalence, flow",raw,7,5,1,holds
+CICIDS2017,"subsample prevalence, conversation",raw,7,5,2,holds
+CICIDS2017,"subsample prevalence, flow",raw,7,6,1,holds
+UNSW-NB15,"full-data prevalence, conversation",raw,6,1,3,does not hold
+UNSW-NB15,"full-data prevalence, flow",raw,6,6,0,holds
+UNSW-NB15,"subsample prevalence, conversation",raw,6,1,3,does not hold
+UNSW-NB15,"subsample prevalence, flow",raw,6,6,0,holds

@@ -1,0 +1,11 @@
+benchmark,setting,kind,eligible,exporter_above,model_above,h2
+CICIDS2017,without bccc2017,raw,7,5,1,holds
+CICIDS2017,without cic_original,raw,7,6,1,holds
+CICIDS2017,without crisis2022_rpd,raw,7,6,1,holds
+CICIDS2017,without lycos,raw,7,6,1,holds
+CICIDS2017,without nfs2023_nte,raw,7,6,1,holds
+CICIDS2017,without nfs2023_te,raw,7,6,1,holds
+CICIDS2017,without wtmc2021,raw,7,6,1,holds
+UNSW-NB15,without cic_unsw,raw,6,2,2,does not hold
+UNSW-NB15,without nf_unsw_v3,raw,6,4,1,holds
+UNSW-NB15,without unsw_dedup,raw,6,5,1,holds

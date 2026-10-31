@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,benign,0.9995121755249852,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,bot,1.0,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,ddos,1.0,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,dos_goldeneye,0.9863080684596577,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,dos_hulk,0.9988311905159459,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,dos_slowhttptest,0.9934640522875817,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,dos_slowloris,0.9974747474747475,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,ftp_patator,1.0,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,portscan,0.9995814148179154,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,ssh_patator,0.9949295774647887,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,web_bruteforce,0.9285714285714286,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,web_sqli,0.0,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,web_xss,0.8421052631578947,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8
+CICIDS2017,wtmc2021,mlp,grouped,1,flow,own,MACRO_CPLUS,0.9031367629442264,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258514,111542,14.8

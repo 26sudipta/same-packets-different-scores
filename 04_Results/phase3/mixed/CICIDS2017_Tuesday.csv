@@ -1,0 +1,15 @@
+arm,own_class,attack_conversations,mixed,attack_under_majority,attack_under_all
+cic_original,ftp_patator,3991,1534,3985,2457
+cic_original,ssh_patator,2979,65,2978,2914
+wtmc2021,ftp_patator,3973,0,3973,3973
+wtmc2021,ssh_patator,2980,0,2980,2980
+crisis2022_rpd,ftp_patator,3973,11,3973,3962
+crisis2022_rpd,ssh_patator,2980,8,2980,2972
+lycos,ftp_patator,3992,0,3992,3992
+lycos,ssh_patator,2959,0,2959,2959
+nfs2023_nte,ftp_patator,3992,11,3992,3981
+nfs2023_nte,ssh_patator,2980,10,2980,2970
+nfs2023_te,ftp_patator,3992,21,3981,3971
+nfs2023_te,ssh_patator,2980,2976,2932,4
+bccc2017,ftp_patator,3992,0,3992,3992
+bccc2017,ssh_patator,2980,0,2980,2980

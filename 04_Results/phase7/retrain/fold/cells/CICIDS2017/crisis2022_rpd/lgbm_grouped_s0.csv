@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,benign,0.9996098411824107,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,bot,0.9977324263038548,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,ddos,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,dos_goldeneye,0.9884448724121329,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,dos_hulk,0.999750395207588,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,dos_slowhttptest,0.9958437240232751,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,dos_slowloris,0.9982578397212544,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,ftp_patator,0.9995845450768591,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,portscan,0.9994222038794882,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,ssh_patator,0.9983174425126192,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,web_bruteforce,0.9523809523809523,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,web_sqli,0.6666666666666666,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,web_xss,0.8888888888888888,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5
+CICIDS2017,crisis2022_rpd,lgbm,grouped,0,flow,own,MACRO_CPLUS,0.9603769075581531,"{""num_leaves"": 127, ""learning_rate"": 0.05}",259138,111533,30.5

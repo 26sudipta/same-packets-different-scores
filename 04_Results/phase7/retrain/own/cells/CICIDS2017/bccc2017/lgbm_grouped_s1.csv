@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,benign,0.9978437258929485,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,bot,0.9365962180200222,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,ddos,0.9999201086522329,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,dos_goldeneye,0.9914853358561968,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,dos_hulk,0.9979771764436471,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,dos_slowhttptest,0.9688175362766286,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,dos_slowloris,0.9727371864776445,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,ftp_patator,0.9717266913497139,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,portscan,0.9992532979341243,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,ssh_patator,0.9980231573001976,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,web_bruteforce,0.8494117647058823,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,web_sqli,0.7692307692307693,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,web_xss,0.6931216931216931,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,MACRO_CPLUS,0.934318820097054,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,46.6

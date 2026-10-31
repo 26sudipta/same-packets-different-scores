@@ -1,0 +1,81 @@
+benchmark,arm,model,k,config,val_macro_f1,seconds,chosen
+CICIDS2017,cic_original,lr,0,"{""C"": 0.01}",0.6615338222096019,24.6,False
+CICIDS2017,cic_original,lr,1,"{""C"": 0.1}",0.7205699015017284,32.3,False
+CICIDS2017,cic_original,lr,2,"{""C"": 1.0}",0.7295698209705672,40.8,False
+CICIDS2017,cic_original,lr,3,"{""C"": 10.0}",0.7301414956858756,40.5,True
+CICIDS2017,cic_original,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.8317373053205763,33.2,False
+CICIDS2017,cic_original,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.8666312867391,33.1,True
+CICIDS2017,cic_original,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.8231677279646757,33.3,False
+CICIDS2017,cic_original,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.8288790139398099,33.7,False
+CICIDS2017,wtmc2021,lr,0,"{""C"": 0.01}",0.7311550543039532,15.8,False
+CICIDS2017,wtmc2021,lr,1,"{""C"": 0.1}",0.8091131989341904,12.6,False
+CICIDS2017,wtmc2021,lr,2,"{""C"": 1.0}",0.8223890075009105,19.8,False
+CICIDS2017,wtmc2021,lr,3,"{""C"": 10.0}",0.8744624977597331,27.2,True
+CICIDS2017,wtmc2021,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.9064205721125496,17.5,False
+CICIDS2017,wtmc2021,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.9071502592962806,17.4,True
+CICIDS2017,wtmc2021,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.8483097889026574,17.4,False
+CICIDS2017,wtmc2021,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.8518201084946002,17.6,False
+CICIDS2017,crisis2022_rpd,lr,0,"{""C"": 0.01}",0.7319843463885203,15.6,False
+CICIDS2017,crisis2022_rpd,lr,1,"{""C"": 0.1}",0.8092628514340494,14.0,False
+CICIDS2017,crisis2022_rpd,lr,2,"{""C"": 1.0}",0.8202452864070939,20.9,False
+CICIDS2017,crisis2022_rpd,lr,3,"{""C"": 10.0}",0.8744929917824957,26.7,True
+CICIDS2017,crisis2022_rpd,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.9062473669486893,18.5,False
+CICIDS2017,crisis2022_rpd,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.9069238200462342,18.2,True
+CICIDS2017,crisis2022_rpd,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.8482167747469689,18.5,False
+CICIDS2017,crisis2022_rpd,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.8519934352422752,18.4,False
+CICIDS2017,lycos,lr,0,"{""C"": 0.01}",0.7312375241556818,14.9,False
+CICIDS2017,lycos,lr,1,"{""C"": 0.1}",0.8108816580776765,13.3,False
+CICIDS2017,lycos,lr,2,"{""C"": 1.0}",0.8177397691058693,17.2,False
+CICIDS2017,lycos,lr,3,"{""C"": 10.0}",0.8228907690156426,23.6,True
+CICIDS2017,lycos,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.8584827403084853,17.3,False
+CICIDS2017,lycos,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.9116828253460061,17.3,True
+CICIDS2017,lycos,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.8463298998187974,17.4,False
+CICIDS2017,lycos,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.8490848798845895,17.5,False
+CICIDS2017,nfs2023_nte,lr,0,"{""C"": 0.01}",0.721508665919228,12.3,False
+CICIDS2017,nfs2023_nte,lr,1,"{""C"": 0.1}",0.7991997990121777,13.3,False
+CICIDS2017,nfs2023_nte,lr,2,"{""C"": 1.0}",0.8107087089046026,19.5,False
+CICIDS2017,nfs2023_nte,lr,3,"{""C"": 10.0}",0.8142434759373308,29.8,True
+CICIDS2017,nfs2023_nte,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.8905351130568498,15.6,True
+CICIDS2017,nfs2023_nte,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.8481537886466097,15.7,False
+CICIDS2017,nfs2023_nte,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.838166540388626,15.7,False
+CICIDS2017,nfs2023_nte,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.846870148513967,15.7,False
+CICIDS2017,nfs2023_te,lr,0,"{""C"": 0.01}",0.6368347807318974,17.8,False
+CICIDS2017,nfs2023_te,lr,1,"{""C"": 0.1}",0.697492092332941,25.9,False
+CICIDS2017,nfs2023_te,lr,2,"{""C"": 1.0}",0.7047983353411992,41.5,False
+CICIDS2017,nfs2023_te,lr,3,"{""C"": 10.0}",0.7065744181514165,40.8,True
+CICIDS2017,nfs2023_te,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.7392054192352872,34.6,True
+CICIDS2017,nfs2023_te,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.7361441226632959,34.8,False
+CICIDS2017,nfs2023_te,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.7336308240705053,34.8,False
+CICIDS2017,nfs2023_te,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.7349880536360185,34.6,False
+CICIDS2017,bccc2017,lr,0,"{""C"": 0.01}",0.6057843759352047,35.2,False
+CICIDS2017,bccc2017,lr,1,"{""C"": 0.1}",0.6639775370491571,40.8,False
+CICIDS2017,bccc2017,lr,2,"{""C"": 1.0}",0.6680568426859431,42.3,False
+CICIDS2017,bccc2017,lr,3,"{""C"": 10.0}",0.6689043092783961,42.1,True
+CICIDS2017,bccc2017,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.8260818442955251,37.8,True
+CICIDS2017,bccc2017,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.799305227659226,37.4,False
+CICIDS2017,bccc2017,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.7951536856000663,38.0,False
+CICIDS2017,bccc2017,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.7999375128594342,37.4,False
+UNSW-NB15,unsw_dedup,lr,0,"{""C"": 0.01}",0.41978892491852243,15.3,False
+UNSW-NB15,unsw_dedup,lr,1,"{""C"": 0.1}",0.43175763660131555,22.9,False
+UNSW-NB15,unsw_dedup,lr,2,"{""C"": 1.0}",0.4499852525795414,32.6,True
+UNSW-NB15,unsw_dedup,lr,3,"{""C"": 10.0}",0.44585520735035633,32.3,False
+UNSW-NB15,unsw_dedup,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.5712238571734847,22.4,False
+UNSW-NB15,unsw_dedup,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.5793006039569016,22.1,True
+UNSW-NB15,unsw_dedup,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.5407734238776355,22.7,False
+UNSW-NB15,unsw_dedup,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.5547489006699939,22.6,False
+UNSW-NB15,nf_unsw_v3,lr,0,"{""C"": 0.01}",0.43863083752626497,19.7,False
+UNSW-NB15,nf_unsw_v3,lr,1,"{""C"": 0.1}",0.4818758107318635,30.2,False
+UNSW-NB15,nf_unsw_v3,lr,2,"{""C"": 1.0}",0.5259622431708024,37.0,False
+UNSW-NB15,nf_unsw_v3,lr,3,"{""C"": 10.0}",0.5274638850004544,36.8,True
+UNSW-NB15,nf_unsw_v3,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.724867073808385,30.9,False
+UNSW-NB15,nf_unsw_v3,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.7400115802807876,29.1,True
+UNSW-NB15,nf_unsw_v3,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.6929949919405571,31.2,False
+UNSW-NB15,nf_unsw_v3,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.7392245302126458,29.1,False
+UNSW-NB15,cic_unsw,lr,0,"{""C"": 0.01}",0.28331693670834496,24.7,False
+UNSW-NB15,cic_unsw,lr,1,"{""C"": 0.1}",0.30015813376582867,43.2,False
+UNSW-NB15,cic_unsw,lr,2,"{""C"": 1.0}",0.31701208169058137,51.2,False
+UNSW-NB15,cic_unsw,lr,3,"{""C"": 10.0}",0.3170976288140374,50.7,True
+UNSW-NB15,cic_unsw,knn,0,"{""n_neighbors"": 5, ""weights"": ""uniform""}",0.41541307030958324,85.9,False
+UNSW-NB15,cic_unsw,knn,1,"{""n_neighbors"": 5, ""weights"": ""distance""}",0.4211177920801104,84.5,True
+UNSW-NB15,cic_unsw,knn,2,"{""n_neighbors"": 15, ""weights"": ""uniform""}",0.38900901921901154,84.4,False
+UNSW-NB15,cic_unsw,knn,3,"{""n_neighbors"": 15, ""weights"": ""distance""}",0.4061154692391812,81.4,False

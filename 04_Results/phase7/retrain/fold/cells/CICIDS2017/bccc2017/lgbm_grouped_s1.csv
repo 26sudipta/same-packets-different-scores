@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,benign,0.9980926146583243,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,bot,0.9365962180200222,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,ddos,0.9999201086522329,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,dos_goldeneye,0.9869168106640336,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,dos_hulk,0.9980888311291186,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,dos_slowhttptest,0.9786259541984733,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,dos_slowloris,0.9790897908979089,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,ftp_patator,0.9715631835773179,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,portscan,0.9992520568436799,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,ssh_patator,0.9980220401243289,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,web_bruteforce,0.9,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,web_sqli,0.6666666666666666,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,web_xss,0.8484848484848485,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4
+CICIDS2017,bccc2017,lgbm,grouped,1,flow,own,MACRO_CPLUS,0.9431783941474581,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336789,144513,47.4

@@ -1,0 +1,65 @@
+{
+  "name": "phase5_data_UNSW-NB15",
+  "created_utc": "2026-10-28T19:50:32+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/03_Code/phase5_data.py",
+  "argv": [
+    "UNSW-NB15"
+  ],
+  "params": {
+    "benchmark": "UNSW-NB15",
+    "days": [
+      "2015-01-22",
+      "2015-02-18"
+    ],
+    "benign_fraction": 0.2,
+    "attack_cap": 20000,
+    "subsample_seed": 1000,
+    "seconds": 19
+  },
+  "git": {
+    "commit": "e2b3684a3528dcd04fb1a621a6eb02953ad3e774",
+    "dirty": true
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase5/settings.json",
+      "bytes": 184,
+      "sha256": "ab7d88299d5f3ee92fd3664880416c616ce93820c926dc8dc72017d274a7cb03"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase5/feature_table.csv",
+      "bytes": 13211,
+      "sha256": "4b5814a7490f7f6c230f43783db12208b06a821aec95c9586c85f5f702f511c5"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase5/subsample_counts.csv",
+      "bytes": 764,
+      "sha256": "88d3948e499b2c7abe262cba0b5da00ad9dca1dece9c5208bb648d4e863bdb77"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/_freeze_cache/_cache_phase5/main/UNSW-NB15/unsw_original.parquet",
+      "bytes": 38071334,
+      "sha256": "d7c27aa4abd8bd55b8ae38b6522d1697cf3f2709c20af1f7a944fe356e28cf72"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/_freeze_cache/_cache_phase5/main/UNSW-NB15/nf_unsw_v3.parquet",
+      "bytes": 32222179,
+      "sha256": "2d22d6b707046b32db427e99ce2d44f9ffbe9dd4fdce0190736b2acf1df02c6a"
+    }
+  ]
+}

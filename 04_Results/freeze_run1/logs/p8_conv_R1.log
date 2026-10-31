@@ -1,0 +1,35 @@
+[16:31:29] CICIDS2017: 342,037 subsample conversations
+[16:31:43] R1 cic_original : 512,335 usable records in the population
+[16:31:50] R1 lycos : 367,819 usable records in the population
+[16:31:50] R1 cic_lycos : 340,809 conversations in both arms
+[16:31:54] R1 sched cic_lycos cic_original lda seed 0 : 357,433 train, 153,750 test, 3 s
+[16:31:57] R1 sched cic_lycos cic_original lda seed 1 : 357,163 train, 154,020 test, 3 s
+[16:32:01] R1 sched cic_lycos cic_original lda seed 2 : 357,594 train, 153,589 test, 3 s
+[16:32:04] R1 sched cic_lycos cic_original lda seed 3 : 357,793 train, 153,390 test, 3 s
+[16:32:08] R1 sched cic_lycos cic_original lda seed 4 : 358,529 train, 152,654 test, 3 s
+[16:32:21] R1 sched cic_lycos cic_original dt seed 0 : 357,433 train, 153,750 test, 13 s
+[16:32:34] R1 sched cic_lycos cic_original dt seed 1 : 357,163 train, 154,020 test, 13 s
+[16:32:47] R1 sched cic_lycos cic_original dt seed 2 : 357,594 train, 153,589 test, 13 s
+[16:33:01] R1 sched cic_lycos cic_original dt seed 3 : 357,793 train, 153,390 test, 13 s
+[16:33:13] R1 sched cic_lycos cic_original dt seed 4 : 358,529 train, 152,654 test, 12 s
+[16:33:38] R1 sched cic_lycos cic_original rf seed 0 : 357,433 train, 153,750 test, 25 s
+[16:34:03] R1 sched cic_lycos cic_original rf seed 1 : 357,163 train, 154,020 test, 25 s
+[16:34:28] R1 sched cic_lycos cic_original rf seed 2 : 357,594 train, 153,589 test, 25 s
+[16:34:53] R1 sched cic_lycos cic_original rf seed 3 : 357,793 train, 153,390 test, 25 s
+[16:35:18] R1 sched cic_lycos cic_original rf seed 4 : 358,529 train, 152,654 test, 25 s
+[16:35:21] R1 sched cic_lycos lycos lda seed 0 : 256,875 train, 110,550 test, 3 s
+[16:35:24] R1 sched cic_lycos lycos lda seed 1 : 256,706 train, 110,719 test, 3 s
+[16:35:26] R1 sched cic_lycos lycos lda seed 2 : 256,943 train, 110,482 test, 3 s
+[16:35:29] R1 sched cic_lycos lycos lda seed 3 : 257,435 train, 109,990 test, 3 s
+[16:35:32] R1 sched cic_lycos lycos lda seed 4 : 257,768 train, 109,657 test, 3 s
+[16:35:40] R1 sched cic_lycos lycos dt seed 0 : 256,875 train, 110,550 test, 8 s
+[16:35:48] R1 sched cic_lycos lycos dt seed 1 : 256,706 train, 110,719 test, 8 s
+[16:35:56] R1 sched cic_lycos lycos dt seed 2 : 256,943 train, 110,482 test, 8 s
+[16:36:04] R1 sched cic_lycos lycos dt seed 3 : 257,435 train, 109,990 test, 8 s
+[16:36:13] R1 sched cic_lycos lycos dt seed 4 : 257,768 train, 109,657 test, 8 s
+[16:36:27] R1 sched cic_lycos lycos rf seed 0 : 256,875 train, 110,550 test, 15 s
+[16:36:42] R1 sched cic_lycos lycos rf seed 1 : 256,706 train, 110,719 test, 15 s
+[16:36:57] R1 sched cic_lycos lycos rf seed 2 : 256,943 train, 110,482 test, 15 s
+[16:37:12] R1 sched cic_lycos lycos rf seed 3 : 257,435 train, 109,990 test, 15 s
+[16:37:27] R1 sched cic_lycos lycos rf seed 4 : 257,768 train, 109,657 test, 15 s
+[16:37:27] R1 sched finished in 358 s

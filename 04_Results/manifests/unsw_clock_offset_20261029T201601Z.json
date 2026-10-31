@@ -1,0 +1,53 @@
+{
+  "name": "unsw_clock_offset",
+  "created_utc": "2026-10-29T20:16:01+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/03_Code/unsw_clock_offset.py",
+  "argv": [],
+  "params": {},
+  "git": {
+    "commit": "829e4014321d15d0007b6d784c4b0e1a3b04c917",
+    "dirty": true
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/instrument/UNSW-NB15/2015-01-22/records.parquet",
+      "bytes": 120937955,
+      "sha256": "511dddfa47d0f352002158a37618afd7d11d1f7cd5cc310ec658037e70d3a486"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/instrument/UNSW-NB15/2015-01-22/conversations.parquet",
+      "bytes": 27824640,
+      "sha256": "5d0f2633f69005775f625356a6bfe4678a756a22f6eb9f87e5b19b761280c8c5"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/instrument/UNSW-NB15/2015-02-18/records.parquet",
+      "bytes": 133472764,
+      "sha256": "5574e19f202bb0ffe2887940b5ed1a56b30b3c11d83b885bda7f23102ebaa1f8"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/instrument/UNSW-NB15/2015-02-18/conversations.parquet",
+      "bytes": 28763458,
+      "sha256": "4f952d639c66bbb7282df2f78cef0c039c2e1ad132a015c8261539de2030f4a9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase3/unsw_clock_offset.csv",
+      "bytes": 315,
+      "sha256": "0ebc938a28d0955a358cc3ad16803b492805898cf050c508186e195a2c7b4f7b"
+    }
+  ]
+}

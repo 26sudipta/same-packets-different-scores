@@ -1,0 +1,7 @@
+start_rule,overlap_rule,conversations
+benign,benign,294063
+dos_goldeneye,dos_goldeneye,6770
+dos_hulk,dos_hulk,158517
+dos_slowhttptest,dos_slowhttptest,4369
+dos_slowloris,dos_slowloris,3899
+heartbleed,heartbleed,1

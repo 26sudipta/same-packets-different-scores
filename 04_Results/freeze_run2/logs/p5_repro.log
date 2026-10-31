@@ -1,0 +1,13 @@
+UNSW-NB15 unsw_dedup rf_grouped_s1: train 336,472 test 146,587 11 s, peak 1331 MB, macro flow=0.739 conversation=0.722
+   benchmark         arm model    split  seed  n_train  n_test  seconds  peak_rss_mb
+0  UNSW-NB15  unsw_dedup    rf  grouped     1   336472  146587     11.4         1331
+CICIDS2017 wtmc2021 lgbm_random_s2: train 258,885 test 111,171 42 s, peak 1056 MB, macro flow=0.942 conversation=0.942
+    benchmark       arm model   split  seed  n_train  n_test  seconds  peak_rss_mb
+0  CICIDS2017  wtmc2021  lgbm  random     2   258885  111171     42.3         1056
+CICIDS2017 lycos mlp_grouped_s0: train 257,149 test 110,670 34 s, peak 1052 MB, macro flow=0.875 conversation=0.875
+    benchmark    arm model    split  seed  n_train  n_test  seconds  peak_rss_mb
+0  CICIDS2017  lycos   mlp  grouped     0   257149  110670     34.5         1052
+    benchmark         arm            cell    rows  predictions_identical
+0   UNSW-NB15  unsw_dedup   rf_grouped_s1  146587                   True
+1  CICIDS2017    wtmc2021  lgbm_random_s2  111171                   True
+2  CICIDS2017       lycos  mlp_grouped_s0  110670                   True

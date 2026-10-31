@@ -1,0 +1,30 @@
+[11:30:39] UNSW-NB15: 452,147 subsample conversations
+[11:30:41] unsw_original: read UNSW-NB15_1.csv (700,001 rows)
+[11:30:42] unsw_original: read UNSW-NB15_2.csv (700,000 rows)
+[11:30:42] unsw_original: read UNSW-NB15_3.csv (700,000 rows)
+[11:30:43] unsw_original: read UNSW-NB15_4.csv (440,043 rows)
+[11:30:54] R4 unsw_original : 754,829 usable records in the population
+[11:30:57] nf_unsw_v3: read NF-UNSW-NB15-v3.csv (2,365,424 rows)
+[11:31:01] R4 nf_unsw_v3 : 534,425 usable records in the population
+[11:31:02] R4 unsw_v3 : 412,896 conversations in both arms
+[11:31:31] R4 sched unsw_v3 unsw_original et_bin seed 0 : 510,172 train, 211,326 test, 29 s
+[11:31:59] R4 sched unsw_v3 unsw_original et_bin seed 1 : 499,083 train, 222,415 test, 28 s
+[11:32:28] R4 sched unsw_v3 unsw_original et_bin seed 2 : 481,041 train, 240,457 test, 29 s
+[11:32:57] R4 sched unsw_v3 unsw_original et_bin seed 3 : 506,363 train, 215,135 test, 29 s
+[11:33:26] R4 sched unsw_v3 unsw_original et_bin seed 4 : 468,214 train, 253,284 test, 29 s
+[11:33:59] R4 sched unsw_v3 unsw_original et_multi seed 0 : 510,172 train, 211,326 test, 33 s
+[11:34:31] R4 sched unsw_v3 unsw_original et_multi seed 1 : 499,083 train, 222,415 test, 32 s
+[11:35:04] R4 sched unsw_v3 unsw_original et_multi seed 2 : 481,041 train, 240,457 test, 34 s
+[11:35:39] R4 sched unsw_v3 unsw_original et_multi seed 3 : 506,363 train, 215,135 test, 34 s
+[11:36:13] R4 sched unsw_v3 unsw_original et_multi seed 4 : 468,214 train, 253,284 test, 34 s
+[11:36:31] R4 sched unsw_v3 nf_unsw_v3 et_bin seed 0 : 366,671 train, 157,375 test, 18 s
+[11:36:49] R4 sched unsw_v3 nf_unsw_v3 et_bin seed 1 : 364,829 train, 159,217 test, 18 s
+[11:37:06] R4 sched unsw_v3 nf_unsw_v3 et_bin seed 2 : 365,590 train, 158,456 test, 17 s
+[11:37:24] R4 sched unsw_v3 nf_unsw_v3 et_bin seed 3 : 365,167 train, 158,879 test, 18 s
+[11:37:41] R4 sched unsw_v3 nf_unsw_v3 et_bin seed 4 : 364,677 train, 159,369 test, 17 s
+[11:38:01] R4 sched unsw_v3 nf_unsw_v3 et_multi seed 0 : 366,671 train, 157,375 test, 20 s
+[11:38:20] R4 sched unsw_v3 nf_unsw_v3 et_multi seed 1 : 364,829 train, 159,217 test, 19 s
+[11:38:40] R4 sched unsw_v3 nf_unsw_v3 et_multi seed 2 : 365,590 train, 158,456 test, 20 s
+[11:38:59] R4 sched unsw_v3 nf_unsw_v3 et_multi seed 3 : 365,167 train, 158,879 test, 19 s
+[11:39:18] R4 sched unsw_v3 nf_unsw_v3 et_multi seed 4 : 364,677 train, 159,369 test, 19 s
+[11:39:18] R4 sched finished in 519 s

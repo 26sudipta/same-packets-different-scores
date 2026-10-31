@@ -1,0 +1,42 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets and large intermediates (datasets live in the Research folder, see 03_Code/README.md)
+*.parquet
+*.pkl
+*.npz
+*.zip
+*.pcap
+*.pcapng
+Datasets/
+data/
+
+# Third party papers: copyrighted, kept on disk only
+02_Literature/**/*.pdf
+02_Literature/**/*.mht
+Research_paper/
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.lof
+*.lot
+05_Paper/build/
+
+# Editor and OS clutter
+.DS_Store
+*~
+.~lock.*
+05_Paper/main.pdf
+05_Paper/main_build.log

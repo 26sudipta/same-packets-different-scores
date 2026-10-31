@@ -1,0 +1,19 @@
+2015-01-22: 994,838 scored conversations, 2,222,554 records
+2015-02-18: 1,027,025 scored conversations, 2,682,914 records
+kept 452,147 of 2,021,863 conversations, 1,289,254 records
+unsw_original: 754,829 records, 39 features (15 s)
+nf_unsw_v3: 534,425 records, 46 features (19 s)
+             arm  n_features  records
+0  unsw_original          39   754829
+1     nf_unsw_v3          46   534425
+   benchmark           sched  conversations    kept
+0  UNSW-NB15        analysis            438     438
+1  UNSW-NB15        backdoor            355     355
+2  UNSW-NB15          benign        1955181  391037
+3  UNSW-NB15             dos           3636    3636
+4  UNSW-NB15        exploits          25572   20000
+5  UNSW-NB15         fuzzers          19603   19603
+6  UNSW-NB15         generic           3779    3779
+7  UNSW-NB15  reconnaissance          11630   11630
+8  UNSW-NB15       shellcode           1511    1511
+9  UNSW-NB15           worms            158     158

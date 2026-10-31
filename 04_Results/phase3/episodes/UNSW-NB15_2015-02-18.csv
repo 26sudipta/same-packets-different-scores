@@ -1,0 +1,10 @@
+sched,episodes,conversations,episodes_seen_unsw_original,episodes_seen_nf_unsw_v3,episodes_seen_cic_unsw
+analysis,16,372,16,16,15
+backdoor,290,307,290,279,287
+dos,1700,3087,1700,1639,1686
+exploits,563,21814,563,562,560
+fuzzers,512,15733,512,500,508
+generic,1728,3182,1728,1670,1725
+reconnaissance,1652,9905,1652,1623,1652
+shellcode,1010,1288,1010,966,1010
+worms,132,134,132,127,132

@@ -1,0 +1,149 @@
+[16:29:04] CICIDS2017: 342,037 subsample conversations
+[16:29:05] cic_original: read Tuesday-WorkingHours.pcap_ISCX.csv (445,909 rows)
+[16:29:08] R5 cic_original Tuesday: 101,412 usable records in the population
+[16:29:09] wtmc2021: read Tuesday-WorkingHours.csv (322,003 rows)
+[16:29:11] R5 wtmc2021 Tuesday: 70,026 usable records in the population
+[16:29:11] R5 cic_wtmc2021 Tuesday: 64,053 conversations in both arms
+[16:29:13] R5 sched cic_wtmc2021 cic_original rf seed 0 Tuesday: 70,674 train, 30,738 test, 1 s
+[16:29:14] R5 sched cic_wtmc2021 cic_original rf seed 1 Tuesday: 70,804 train, 30,608 test, 1 s
+[16:29:15] R5 sched cic_wtmc2021 cic_original rf seed 2 Tuesday: 70,560 train, 30,852 test, 1 s
+[16:29:17] R5 sched cic_wtmc2021 cic_original rf seed 3 Tuesday: 71,012 train, 30,400 test, 1 s
+[16:29:18] R5 sched cic_wtmc2021 cic_original rf seed 4 Tuesday: 71,097 train, 30,315 test, 1 s
+[16:29:19] R5 sched cic_wtmc2021 wtmc2021 rf seed 0 Tuesday: 48,805 train, 21,221 test, 1 s
+[16:29:19] R5 sched cic_wtmc2021 wtmc2021 rf seed 1 Tuesday: 48,908 train, 21,118 test, 1 s
+[16:29:20] R5 sched cic_wtmc2021 wtmc2021 rf seed 2 Tuesday: 48,660 train, 21,366 test, 1 s
+[16:29:21] R5 sched cic_wtmc2021 wtmc2021 rf seed 3 Tuesday: 49,125 train, 20,901 test, 1 s
+[16:29:22] R5 sched cic_wtmc2021 wtmc2021 rf seed 4 Tuesday: 49,150 train, 20,876 test, 1 s
+[16:29:23] crisis2022_rpd: read Tuesday-WorkingHours.csv (322,462 rows)
+[16:29:24] R5 crisis2022_rpd Tuesday: 70,026 usable records in the population
+[16:29:24] R5 cic_crisis2022_rpd Tuesday: 64,053 conversations in both arms
+[16:29:26] R5 sched cic_crisis2022_rpd cic_original rf seed 0 Tuesday: 70,674 train, 30,738 test, 1 s
+[16:29:27] R5 sched cic_crisis2022_rpd cic_original rf seed 1 Tuesday: 70,804 train, 30,608 test, 1 s
+[16:29:28] R5 sched cic_crisis2022_rpd cic_original rf seed 2 Tuesday: 70,560 train, 30,852 test, 1 s
+[16:29:29] R5 sched cic_crisis2022_rpd cic_original rf seed 3 Tuesday: 71,012 train, 30,400 test, 1 s
+[16:29:31] R5 sched cic_crisis2022_rpd cic_original rf seed 4 Tuesday: 71,097 train, 30,315 test, 1 s
+[16:29:31] R5 sched cic_crisis2022_rpd crisis2022_rpd rf seed 0 Tuesday: 48,805 train, 21,221 test, 1 s
+[16:29:32] R5 sched cic_crisis2022_rpd crisis2022_rpd rf seed 1 Tuesday: 48,908 train, 21,118 test, 1 s
+[16:29:33] R5 sched cic_crisis2022_rpd crisis2022_rpd rf seed 2 Tuesday: 48,660 train, 21,366 test, 1 s
+[16:29:34] R5 sched cic_crisis2022_rpd crisis2022_rpd rf seed 3 Tuesday: 49,125 train, 20,901 test, 1 s
+[16:29:34] R5 sched cic_crisis2022_rpd crisis2022_rpd rf seed 4 Tuesday: 49,150 train, 20,876 test, 1 s
+[16:29:35] nfs2023_nte: read Tuesday.csv (325,677 rows)
+[16:29:37] R5 nfs2023_nte Tuesday: 70,970 usable records in the population
+[16:29:37] R5 cic_nfs2023_nte Tuesday: 64,031 conversations in both arms
+[16:29:38] R5 sched cic_nfs2023_nte cic_original rf seed 0 Tuesday: 70,640 train, 30,730 test, 1 s
+[16:29:39] R5 sched cic_nfs2023_nte cic_original rf seed 1 Tuesday: 70,769 train, 30,601 test, 1 s
+[16:29:41] R5 sched cic_nfs2023_nte cic_original rf seed 2 Tuesday: 70,532 train, 30,838 test, 1 s
+[16:29:42] R5 sched cic_nfs2023_nte cic_original rf seed 3 Tuesday: 70,999 train, 30,371 test, 1 s
+[16:29:43] R5 sched cic_nfs2023_nte cic_original rf seed 4 Tuesday: 71,068 train, 30,302 test, 1 s
+[16:29:44] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 0 Tuesday: 49,523 train, 21,438 test, 1 s
+[16:29:44] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 1 Tuesday: 49,637 train, 21,324 test, 1 s
+[16:29:45] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 2 Tuesday: 49,381 train, 21,580 test, 1 s
+[16:29:46] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 3 Tuesday: 49,856 train, 21,105 test, 1 s
+[16:29:47] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 4 Tuesday: 49,852 train, 21,109 test, 1 s
+[16:29:48] cic_original: read Tuesday-WorkingHours.pcap_ISCX.csv (445,909 rows)
+[16:29:50] R5 cic_original Tuesday: 101,412 usable records in the population
+[16:29:51] nfs2023_te: read Tuesday.csv (467,254 rows)
+[16:29:53] R5 nfs2023_te Tuesday: 104,860 usable records in the population
+[16:29:53] R5 cic_nfs2023_te Tuesday: 64,029 conversations in both arms
+[16:29:54] R5 sched cic_nfs2023_te cic_original rf seed 0 Tuesday: 70,633 train, 30,723 test, 1 s
+[16:29:55] R5 sched cic_nfs2023_te cic_original rf seed 1 Tuesday: 70,769 train, 30,587 test, 1 s
+[16:29:57] R5 sched cic_nfs2023_te cic_original rf seed 2 Tuesday: 70,525 train, 30,831 test, 1 s
+[16:29:58] R5 sched cic_nfs2023_te cic_original rf seed 3 Tuesday: 70,992 train, 30,364 test, 1 s
+[16:29:59] R5 sched cic_nfs2023_te cic_original rf seed 4 Tuesday: 71,061 train, 30,295 test, 1 s
+[16:30:00] R5 sched cic_nfs2023_te nfs2023_te rf seed 0 Tuesday: 73,183 train, 31,668 test, 1 s
+[16:30:01] R5 sched cic_nfs2023_te nfs2023_te rf seed 1 Tuesday: 73,277 train, 31,574 test, 1 s
+[16:30:03] R5 sched cic_nfs2023_te nfs2023_te rf seed 2 Tuesday: 72,955 train, 31,896 test, 1 s
+[16:30:04] R5 sched cic_nfs2023_te nfs2023_te rf seed 3 Tuesday: 73,499 train, 31,352 test, 1 s
+[16:30:05] R5 sched cic_nfs2023_te nfs2023_te rf seed 4 Tuesday: 73,590 train, 31,261 test, 1 s
+[16:30:06] wtmc2021: read Thursday-WorkingHours.csv (362,368 rows)
+[16:30:07] R5 wtmc2021 Thursday: 24,143 usable records in the population
+[16:30:08] crisis2022_rpd: read Thursday-WorkingHours.csv (363,853 rows)
+[16:30:09] R5 crisis2022_rpd Thursday: 24,143 usable records in the population
+[16:30:09] R5 wtmc_crisis Thursday: 21,901 conversations in both arms
+[16:30:10] R5 sched wtmc_crisis wtmc2021 rf seed 0 Thursday: 16,686 train, 7,457 test, 0 s
+[16:30:10] R5 sched wtmc_crisis wtmc2021 rf seed 1 Thursday: 16,903 train, 7,240 test, 0 s
+[16:30:10] R5 sched wtmc_crisis wtmc2021 rf seed 2 Thursday: 16,854 train, 7,289 test, 0 s
+[16:30:11] R5 sched wtmc_crisis wtmc2021 rf seed 3 Thursday: 16,863 train, 7,280 test, 0 s
+[16:30:11] R5 sched wtmc_crisis wtmc2021 rf seed 4 Thursday: 16,895 train, 7,248 test, 0 s
+[16:30:11] R5 sched wtmc_crisis crisis2022_rpd rf seed 0 Thursday: 16,686 train, 7,457 test, 0 s
+[16:30:12] R5 sched wtmc_crisis crisis2022_rpd rf seed 1 Thursday: 16,903 train, 7,240 test, 0 s
+[16:30:12] R5 sched wtmc_crisis crisis2022_rpd rf seed 2 Thursday: 16,854 train, 7,289 test, 0 s
+[16:30:12] R5 sched wtmc_crisis crisis2022_rpd rf seed 3 Thursday: 16,863 train, 7,280 test, 0 s
+[16:30:13] R5 sched wtmc_crisis crisis2022_rpd rf seed 4 Thursday: 16,895 train, 7,248 test, 0 s
+[16:30:14] cic_original: read Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv (170,366 rows)
+[16:30:15] cic_original: read Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv (288,602 rows)
+[16:30:16] R5 cic_original Thursday: 33,149 usable records in the population
+[16:30:17] nfs2023_nte: read Thursday.csv (358,302 rows)
+[16:30:18] R5 nfs2023_nte Thursday: 24,579 usable records in the population
+[16:30:18] R5 cic_nfs2023_nte Thursday: 21,887 conversations in both arms
+[16:30:18] R5 sched cic_nfs2023_nte cic_original rf seed 0 Thursday: 22,985 train, 10,149 test, 0 s
+[16:30:19] R5 sched cic_nfs2023_nte cic_original rf seed 1 Thursday: 23,157 train, 9,977 test, 0 s
+[16:30:19] R5 sched cic_nfs2023_nte cic_original rf seed 2 Thursday: 23,089 train, 10,045 test, 0 s
+[16:30:19] R5 sched cic_nfs2023_nte cic_original rf seed 3 Thursday: 23,152 train, 9,982 test, 0 s
+[16:30:20] R5 sched cic_nfs2023_nte cic_original rf seed 4 Thursday: 23,160 train, 9,974 test, 0 s
+[16:30:20] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 0 Thursday: 16,878 train, 7,696 test, 0 s
+[16:30:21] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 1 Thursday: 17,160 train, 7,414 test, 0 s
+[16:30:21] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 2 Thursday: 17,178 train, 7,396 test, 0 s
+[16:30:21] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 3 Thursday: 17,066 train, 7,508 test, 0 s
+[16:30:22] R5 sched cic_nfs2023_nte nfs2023_nte rf seed 4 Thursday: 17,211 train, 7,363 test, 0 s
+[16:30:22] nfs2023_nte: read Tuesday.csv (325,677 rows)
+[16:30:23] R5 nfs2023_nte Tuesday: 70,970 usable records in the population
+[16:30:24] nfs2023_te: read Tuesday.csv (467,254 rows)
+[16:30:25] R5 nfs2023_te Tuesday: 104,860 usable records in the population
+[16:30:25] R5 nte_te Tuesday: 64,038 conversations in both arms
+[16:30:25] R5 sched nte_te nfs2023_nte rf seed 0 Tuesday: 49,524 train, 21,444 test, 1 s
+[16:30:26] R5 sched nte_te nfs2023_nte rf seed 1 Tuesday: 49,644 train, 21,324 test, 1 s
+[16:30:27] R5 sched nte_te nfs2023_nte rf seed 2 Tuesday: 49,387 train, 21,581 test, 1 s
+[16:30:27] R5 sched nte_te nfs2023_nte rf seed 3 Tuesday: 49,863 train, 21,105 test, 1 s
+[16:30:28] R5 sched nte_te nfs2023_nte rf seed 4 Tuesday: 49,858 train, 21,110 test, 1 s
+[16:30:29] R5 sched nte_te nfs2023_te rf seed 0 Tuesday: 73,185 train, 31,675 test, 1 s
+[16:30:30] R5 sched nte_te nfs2023_te rf seed 1 Tuesday: 73,284 train, 31,576 test, 1 s
+[16:30:32] R5 sched nte_te nfs2023_te rf seed 2 Tuesday: 72,962 train, 31,898 test, 1 s
+[16:30:33] R5 sched nte_te nfs2023_te rf seed 3 Tuesday: 73,507 train, 31,353 test, 1 s
+[16:30:34] R5 sched nte_te nfs2023_te rf seed 4 Tuesday: 73,597 train, 31,263 test, 1 s
+[16:30:35] nfs2023_nte: read Wednesday.csv (503,140 rows)
+[16:30:36] R5 nfs2023_nte Wednesday: 105,187 usable records in the population
+[16:30:37] nfs2023_te: read Wednesday.csv (865,413 rows)
+[16:30:38] R5 nfs2023_te Wednesday: 168,225 usable records in the population
+[16:30:38] R5 nte_te Wednesday: 94,138 conversations in both arms
+[16:30:40] R5 sched nte_te nfs2023_nte rf seed 0 Wednesday: 73,611 train, 31,566 test, 2 s
+[16:30:42] R5 sched nte_te nfs2023_nte rf seed 1 Wednesday: 73,745 train, 31,432 test, 2 s
+[16:30:44] R5 sched nte_te nfs2023_nte rf seed 2 Wednesday: 73,741 train, 31,436 test, 2 s
+[16:30:45] R5 sched nte_te nfs2023_nte rf seed 3 Wednesday: 73,576 train, 31,601 test, 2 s
+[16:30:47] R5 sched nte_te nfs2023_nte rf seed 4 Wednesday: 73,909 train, 31,268 test, 2 s
+[16:30:50] R5 sched nte_te nfs2023_te rf seed 0 Wednesday: 117,726 train, 50,499 test, 3 s
+[16:30:52] R5 sched nte_te nfs2023_te rf seed 1 Wednesday: 117,999 train, 50,226 test, 3 s
+[16:30:55] R5 sched nte_te nfs2023_te rf seed 2 Wednesday: 117,885 train, 50,340 test, 3 s
+[16:30:58] R5 sched nte_te nfs2023_te rf seed 3 Wednesday: 117,578 train, 50,647 test, 3 s
+[16:31:01] R5 sched nte_te nfs2023_te rf seed 4 Wednesday: 118,260 train, 49,965 test, 3 s
+[16:31:01] nfs2023_nte: read Thursday.csv (358,302 rows)
+[16:31:02] R5 nfs2023_nte Thursday: 24,579 usable records in the population
+[16:31:03] nfs2023_te: read Thursday.csv (485,224 rows)
+[16:31:04] R5 nfs2023_te Thursday: 35,346 usable records in the population
+[16:31:04] R5 nte_te Thursday: 21,886 conversations in both arms
+[16:31:04] R5 sched nte_te nfs2023_nte rf seed 0 Thursday: 16,877 train, 7,696 test, 0 s
+[16:31:04] R5 sched nte_te nfs2023_nte rf seed 1 Thursday: 17,159 train, 7,414 test, 0 s
+[16:31:05] R5 sched nte_te nfs2023_nte rf seed 2 Thursday: 17,177 train, 7,396 test, 0 s
+[16:31:05] R5 sched nte_te nfs2023_nte rf seed 3 Thursday: 17,065 train, 7,508 test, 0 s
+[16:31:05] R5 sched nte_te nfs2023_nte rf seed 4 Thursday: 17,211 train, 7,362 test, 0 s
+[16:31:06] R5 sched nte_te nfs2023_te rf seed 0 Thursday: 24,445 train, 10,901 test, 0 s
+[16:31:06] R5 sched nte_te nfs2023_te rf seed 1 Thursday: 24,681 train, 10,665 test, 0 s
+[16:31:07] R5 sched nte_te nfs2023_te rf seed 2 Thursday: 24,662 train, 10,684 test, 0 s
+[16:31:07] R5 sched nte_te nfs2023_te rf seed 3 Thursday: 24,612 train, 10,734 test, 0 s
+[16:31:07] R5 sched nte_te nfs2023_te rf seed 4 Thursday: 24,741 train, 10,605 test, 0 s
+[16:31:08] nfs2023_nte: read Friday.csv (547,186 rows)
+[16:31:09] R5 nfs2023_nte Friday: 99,810 usable records in the population
+[16:31:11] nfs2023_te: read Friday.csv (775,694 rows)
+[16:31:11] R5 nfs2023_te Friday: 147,146 usable records in the population
+[16:31:12] R5 nte_te Friday: 93,611 conversations in both arms
+[16:31:13] R5 sched nte_te nfs2023_nte rf seed 0 Friday: 69,893 train, 29,917 test, 1 s
+[16:31:14] R5 sched nte_te nfs2023_nte rf seed 1 Friday: 69,405 train, 30,405 test, 1 s
+[16:31:15] R5 sched nte_te nfs2023_nte rf seed 2 Friday: 69,568 train, 30,242 test, 1 s
+[16:31:16] R5 sched nte_te nfs2023_nte rf seed 3 Friday: 70,168 train, 29,642 test, 1 s
+[16:31:18] R5 sched nte_te nfs2023_nte rf seed 4 Friday: 69,986 train, 29,824 test, 1 s
+[16:31:20] R5 sched nte_te nfs2023_te rf seed 0 Friday: 103,019 train, 44,127 test, 2 s
+[16:31:22] R5 sched nte_te nfs2023_te rf seed 1 Friday: 102,282 train, 44,864 test, 2 s
+[16:31:24] R5 sched nte_te nfs2023_te rf seed 2 Friday: 102,662 train, 44,484 test, 2 s
+[16:31:26] R5 sched nte_te nfs2023_te rf seed 3 Friday: 103,138 train, 44,008 test, 2 s
+[16:31:28] R5 sched nte_te nfs2023_te rf seed 4 Friday: 102,988 train, 44,158 test, 2 s
+[16:31:28] R5 sched finished in 145 s

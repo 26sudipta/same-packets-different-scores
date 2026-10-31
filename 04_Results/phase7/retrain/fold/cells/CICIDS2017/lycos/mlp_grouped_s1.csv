@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,lycos,mlp,grouped,1,flow,own,benign,0.9994388879569158,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,bot,0.9954954954954955,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,ddos,0.999920044774926,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,dos_goldeneye,0.986100950987564,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,dos_hulk,0.99933233183108,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,dos_slowhttptest,0.9896193771626297,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,dos_slowloris,0.9944373127941806,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,ftp_patator,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,portscan,0.9988304093567252,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,ssh_patator,0.9921612541993281,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,web_bruteforce,0.9534883720930233,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,web_sqli,0.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,web_xss,0.8888888888888888,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6
+CICIDS2017,lycos,mlp,grouped,1,flow,own,MACRO_CPLUS,0.9075164096569813,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",256990,110829,18.6

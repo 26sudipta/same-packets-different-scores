@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,benign,0.999806192712846,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,bot,0.995475113122172,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,ddos,0.9999169917821864,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,dos_goldeneye,0.9977189781021898,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,dos_hulk,0.9994054191794784,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,dos_slowhttptest,0.9781818181818182,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,dos_slowloris,0.993020304568528,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,ftp_patator,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,portscan,0.9995823937192015,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,ssh_patator,0.9994372537985369,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,web_bruteforce,0.9787234042553191,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,web_sqli,0.6666666666666666,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,web_xss,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,3,flow,own,MACRO_CPLUS,0.9698411181606879,"{""num_leaves"": 127, ""learning_rate"": 0.05}",263760,112565,19.4

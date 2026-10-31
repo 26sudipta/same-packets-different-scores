@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,benign,0.9995414030714236,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,bot,0.9954545454545455,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,ddos,0.9995888496011841,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,dos_goldeneye,0.994538114462123,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,dos_hulk,0.9994186529358027,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,dos_slowhttptest,0.9854304635761589,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,dos_slowloris,0.9940191387559809,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,ftp_patator,1.0,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,portscan,0.9995841304167014,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,ssh_patator,0.9960652051714446,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,web_bruteforce,0.8068756319514662,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,web_sqli,0.0,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,web_xss,0.14414414414414414,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3
+CICIDS2017,wtmc2021,mlp,grouped,0,flow,own,MACRO_CPLUS,0.8395892522723827,"{""hidden_layer_sizes"": [64], ""alpha"": 0.001}",258699,111357,13.3

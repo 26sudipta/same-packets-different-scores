@@ -1,0 +1,21 @@
+conv,key_str,cs,sched,reason
+109755,149.171.126.14:80|175.45.176.0:6992|6,1421932855.0,analysis,"attack analysis, cic_unsw has several records"
+109815,149.171.126.14:80|175.45.176.0:8498|6,1421932815.5,analysis,"attack analysis, one record in every arm"
+104847,149.171.126.11:80|175.45.176.1:57610|6,1421932923.0,backdoor,"attack backdoor, cic_unsw has several records"
+109165,149.171.126.14:47262|175.45.176.2:64045|17,1421933732.5,backdoor,"attack backdoor, one record in every arm"
+104890,149.171.126.11:80|175.45.176.2:36495|6,1421928534.0,dos,"attack dos, cic_unsw has several records"
+112459,149.171.126.16:4827|175.45.176.1:40641|17,1421933784.5,dos,"attack dos, one record in every arm"
+115873,149.171.126.18:80|175.45.176.0:7564|6,1421931397.0,exploits,"attack exploits, cic_unsw has several records"
+111735,149.171.126.16:111|175.45.176.1:59172|17,1421934317.5,exploits,"attack exploits, one record in every arm"
+102980,149.171.126.10:520|175.45.176.3:13176|17,1421933502.5,fuzzers,"attack, no cic_unsw record"
+75063,149.171.126.0:54568|59.166.0.9:3577|17,1421969442.0,benign,one record in every arm
+334865,149.171.126.3:22|59.166.0.2:31861|6,1421948080.0,benign,"cic_unsw splits, every other arm one record"
+471358,149.171.126.4:53|59.166.0.1:26677|17,1421938370.0,benign,"cic_unsw one record, another arm several"
+994748,192.168.241.243:67|192.168.241.243:68|17,1421929268.0,benign,present in cic_unsw only
+114064,149.171.126.17:69|175.45.176.2:21511|17,1421933165.5,fuzzers,"in every other arm, not in cic_unsw"
+277218,149.171.126.2:53|59.166.0.3:6002|17,1421928664.5,benign,UDP
+177234,149.171.126.1:53|59.166.0.3:36682|17,1421946086.0,benign,"same endpoint key, two conversations (gap rule)"
+666992,149.171.126.6:53|59.166.0.1:26527|17,1421944918.0,benign,"long conversation, many records"
+731394,149.171.126.7:25974|59.166.0.1:51499|6,1421967788.0,benign,random
+34953,149.171.126.0:32728|59.166.0.8:1880|17,1421972554.5,benign,random
+115392,149.171.126.18:179|175.45.176.0:16734|6,1421929569.0,fuzzers,random

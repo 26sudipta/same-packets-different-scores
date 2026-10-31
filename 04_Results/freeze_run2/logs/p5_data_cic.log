@@ -1,0 +1,36 @@
+Monday: 339,147 scored conversations, 3,073,212 records
+Tuesday: 292,750 scored conversations, 2,614,398 records
+Wednesday: 467,619 scored conversations, 4,317,093 records
+Thursday: 102,031 scored conversations, 906,811 records
+Friday: 517,839 scored conversations, 4,273,258 records
+kept 342,037 of 1,719,386 conversations, 3,046,474 records
+cic_original: 512,335 records, 78 features (23 s)
+wtmc2021: 370,056 records, 77 features (31 s)
+crisis2022_rpd: 370,671 records, 80 features (38 s)
+lycos: 367,819 records, 76 features (43 s)
+nfs2023_nte: 376,325 records, 58 features (48 s)
+nfs2023_te: 567,966 records, 58 features (55 s)
+bccc2017: 481,302 records, 115 features (66 s)
+              arm  n_features  records
+0    cic_original          78   512335
+1        wtmc2021          77   370056
+2  crisis2022_rpd          80   370671
+3           lycos          76   367819
+4     nfs2023_nte          58   376325
+5      nfs2023_te          58   567966
+6        bccc2017         115   481302
+     benchmark             sched  conversations    kept
+0   CICIDS2017            benign        1282873  257276
+1   CICIDS2017               bot            736     736
+2   CICIDS2017              ddos          93178   20000
+3   CICIDS2017     dos_goldeneye           6770    6770
+4   CICIDS2017          dos_hulk         158517   20000
+5   CICIDS2017  dos_slowhttptest           4369    4369
+6   CICIDS2017     dos_slowloris           3899    3899
+7   CICIDS2017       ftp_patator           3992    3992
+8   CICIDS2017        heartbleed              1       1
+9   CICIDS2017          portscan         160057   20000
+10  CICIDS2017       ssh_patator           2959    2959
+11  CICIDS2017    web_bruteforce           1361    1361
+12  CICIDS2017          web_sqli             12      12
+13  CICIDS2017           web_xss            662     662

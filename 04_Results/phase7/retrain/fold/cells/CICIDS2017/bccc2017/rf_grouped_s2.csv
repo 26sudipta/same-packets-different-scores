@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,benign,0.9978748225250725,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,bot,0.9262926292629263,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,ddos,0.9995145631067961,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,dos_goldeneye,0.9864298050826549,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,dos_hulk,0.9973285841495992,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,dos_slowhttptest,0.9785661492978566,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,dos_slowloris,0.9904534606205251,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,ftp_patator,0.9717417365987326,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,portscan,0.9987701893908338,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,ssh_patator,0.9951990963004801,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,web_bruteforce,0.8855721393034826,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,web_sqli,0.6153846153846154,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,web_xss,0.36363636363636365,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,MACRO_CPLUS,0.900520319589226,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8

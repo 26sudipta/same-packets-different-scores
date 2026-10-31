@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,benign,0.9979642410591363,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,bot,0.9220636663007684,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,ddos,1.0,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,dos_goldeneye,0.9886531820424272,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,dos_hulk,0.9971368294153105,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,dos_slowhttptest,0.987673343605547,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,dos_slowloris,0.9855072463768116,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,ftp_patator,0.9740861506778788,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,portscan,0.9986868023637557,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,ssh_patator,0.9923750353007625,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,web_bruteforce,0.9060773480662984,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,web_sqli,0.7058823529411765,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,web_xss,0.7428571428571429,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2
+CICIDS2017,bccc2017,rf,grouped,0,flow,own,MACRO_CPLUS,0.9383817954620781,"{""max_depth"": null, ""min_samples_leaf"": 1}",336314,144988,23.2

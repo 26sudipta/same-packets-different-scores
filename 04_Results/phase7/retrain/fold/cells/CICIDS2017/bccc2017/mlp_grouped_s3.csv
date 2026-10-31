@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,benign,0.9716246053904126,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,bot,0.6553323029366306,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,ddos,0.9992719035676725,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,dos_goldeneye,0.9881947860304968,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,dos_hulk,0.8129995376180725,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,dos_slowhttptest,0.7930720145852325,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,dos_slowloris,0.8979857050032488,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,ftp_patator,0.7922824302134647,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,portscan,0.9952590867503951,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,ssh_patator,0.8950727597651263,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,web_bruteforce,0.3865546218487395,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,web_sqli,0.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,web_xss,0.4,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5
+CICIDS2017,bccc2017,mlp,grouped,3,flow,own,MACRO_CPLUS,0.7375115195161149,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",336234,145068,34.5

@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,benign,0.9977542449401055,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,bot,0.9327548806941431,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,ddos,0.9995145631067961,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,dos_goldeneye,0.9854460093896713,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,dos_hulk,0.9976332694691762,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,dos_slowhttptest,0.9654545454545455,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,dos_slowloris,0.975200583515682,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,ftp_patator,0.9717804002052335,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,portscan,0.9985963173974073,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,ssh_patator,0.9974626444883,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,web_bruteforce,0.8600357355568791,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,web_sqli,0.7142857142857143,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,web_xss,0.7176165803108808,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0
+CICIDS2017,bccc2017,lgbm,grouped,3,flow,own,MACRO_CPLUS,0.9318104222165027,"{""num_leaves"": 31, ""learning_rate"": 0.1}",336234,145068,50.0

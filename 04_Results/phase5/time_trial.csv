@@ -1,0 +1,4 @@
+benchmark,day,arm,model,split,seed,config,n_train,n_test,seconds,peak_rss_mb,classes
+CICIDS2017,Tuesday,cic_original,rf,grouped,0,"{""max_depth"": null, ""min_samples_leaf"": 1}",312366,133543,14.9,1082,3
+CICIDS2017,Tuesday,cic_original,lgbm,grouped,0,"{""num_leaves"": 127, ""learning_rate"": 0.1}",312366,133543,26,1074,3
+CICIDS2017,Tuesday,cic_original,mlp,grouped,0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",312366,133543,93,1188,3

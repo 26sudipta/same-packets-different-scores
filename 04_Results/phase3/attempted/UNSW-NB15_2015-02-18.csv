@@ -1,0 +1,10 @@
+sched,conversations,with_wtmc,attempted_only
+analysis,372,0,0
+backdoor,307,0,0
+dos,3087,0,0
+exploits,21814,0,0
+fuzzers,15733,0,0
+generic,3182,0,0
+reconnaissance,9905,0,0
+shellcode,1288,0,0
+worms,134,0,0

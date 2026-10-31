@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,benign,0.9994861224835531,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,bot,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,ddos,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,dos_goldeneye,0.9857376665887304,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,dos_hulk,0.9993297587131368,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,dos_slowhttptest,0.9854423292273237,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,dos_slowloris,0.9947575360419397,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,ftp_patator,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,portscan,0.9996651598861543,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,ssh_patator,0.9966178128523112,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,web_bruteforce,0.9534883720930233,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,web_sqli,0.6666666666666666,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,web_xss,0.875,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4
+CICIDS2017,nfs2023_nte,lgbm,grouped,1,flow,own,MACRO_CPLUS,0.9581685711194491,"{""num_leaves"": 127, ""learning_rate"": 0.05}",262833,113492,20.4

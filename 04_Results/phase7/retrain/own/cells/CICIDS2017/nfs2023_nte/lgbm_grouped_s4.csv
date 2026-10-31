@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,benign,0.9998337451485114,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,bot,0.995475113122172,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,ddos,0.9999175801533009,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,dos_goldeneye,0.998641304347826,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,dos_hulk,0.9996625042186973,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,dos_slowhttptest,0.9850560398505604,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,dos_slowloris,0.9936346276257161,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,ftp_patator,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,portscan,0.9996642041638684,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,ssh_patator,0.9960474308300395,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,web_bruteforce,0.9574468085106383,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,web_sqli,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,web_xss,0.9230769230769231,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,MACRO_CPLUS,0.9883427908498656,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,19.3

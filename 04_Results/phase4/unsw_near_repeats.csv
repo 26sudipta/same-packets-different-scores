@@ -1,0 +1,8 @@
+quantity,value
+records_after_exact_dups_2015-01-22,1023196
+near_repeats_2015-01-22,21557
+records_after_exact_dups_2015-02-18,1036218
+near_repeats_2015-02-18,23769
+sample,3000
+differ_only_attack_cat,1494
+differ_only_ct_features,1429

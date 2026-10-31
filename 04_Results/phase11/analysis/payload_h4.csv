@@ -1,0 +1,2 @@
+variant,benchmark,models,w_flow,w_flow_lo,w_flow_hi,w_conversation,w_conversation_lo,w_conversation_hi,diff,lo,hi,verdict,fixed_classes
+payload,CICIDS2017,rf+lgbm+mlp,0.6408163265306122,0.4204081632653061,0.7877551020408162,0.6244897959183674,0.3795918367346939,0.7673469387755102,-0.01632653061224476,-0.1346938775510203,0.04081632653061218,not supported (undecided),benign;bot;ddos;dos_goldeneye;dos_hulk;dos_slowhttptest;dos_slowloris;ftp_patator;portscan;ssh_patator;web_bruteforce

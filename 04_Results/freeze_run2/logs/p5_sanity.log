@@ -1,0 +1,4 @@
+     row   benchmark             arm model    split  seed          unit population             cls  units_scored    tp   fp   fn  f1_recomputed  f1_table  support_table  agree
+0  11727   UNSW-NB15      nf_unsw_v3   mlp  grouped     1          flow        own  reconnaissance        162305  2969  232  281       0.920477  0.920477           3250   True
+1  15871   UNSW-NB15   unsw_released    rf  grouped     4  conversation     common        backdoor        124169    63    6   39       0.736842  0.736842            102   True
+2   3503  CICIDS2017  crisis2022_rpd  lgbm   random     1          flow        own     ftp_patator        111689  1201    0    0       1.000000  1.000000           1201   True

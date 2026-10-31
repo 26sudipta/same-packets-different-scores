@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,benign,0.9993784395340392,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,bot,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,ddos,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,dos_goldeneye,0.9952477936184657,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,dos_hulk,0.9998319327731092,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,dos_slowhttptest,0.9838509316770186,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,dos_slowloris,0.9933184855233853,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,ftp_patator,0.9983270598076118,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,portscan,0.9888106092001657,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,ssh_patator,0.9983098591549295,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,web_bruteforce,0.946236559139785,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,web_sqli,0.8571428571428571,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,web_xss,0.8333333333333334,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,4,flow,own,MACRO_CPLUS,0.9687529123772846,"{""num_leaves"": 31, ""learning_rate"": 0.05}",398430,169536,26.0

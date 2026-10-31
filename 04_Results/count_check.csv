@@ -1,0 +1,24 @@
+release,day,expected_flows,got_flows,flow_diff,expected_attacks,got_attacks,attack_diff,attempted_excluded,match,source
+cic_original,Tue,445909,445909,0,13835.0,13835,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_nte,Tue,325677,325677,0,6972.0,6972,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_te,Tue,467254,467254,0,10943.0,10943,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+wtmc2021,Tue,321984,321984,0,6953.0,6953,0.0,True,True,"Pekar and Jozsa 2024, Table 2 (attempted excluded)"
+crisis2022_rpd,Tue,322462,322462,0,6953.0,6953,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_nte,Mon,376826,376826,0,0.0,0,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_nte,Wed,503140,503140,0,173873.0,173873,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_nte,Thu,358302,358302,0,64174.0,64174,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_nte,Fri,547186,547186,0,253845.0,253845,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_te,Mon,559775,559775,0,0.0,0,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_te,Wed,865413,865413,0,174398.0,174398,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_te,Thu,485224,485224,0,71480.0,71480,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+nfs2023_te,Fri,775694,775694,0,256733.0,256733,0.0,False,True,"Pekar and Jozsa 2024, Table 2"
+cic_original,all,2830743,2830743,0,,557646,,False,True,01_Context/Carried_Forward_Facts.md section 4 or 5
+cic_original_ml,all,2830743,2830743,0,,557646,,False,True,01_Context/Carried_Forward_Facts.md section 4 or 5
+wtmc2021,all,2100814,2100814,0,,443121,,False,True,01_Context/Carried_Forward_Facts.md section 4 or 5
+wtmc2021,all,2091670,2091670,0,,433977,,True,True,"01_Context/Carried_Forward_Facts.md section 4 or 5 (minus 9,144 attempted)"
+cic_original,Tue,445909,445909,0,,13835,,False,True,01_Context/Carried_Forward_Facts.md section 4 or 5
+wtmc2021,Tue,322003,322003,0,,6972,,False,True,01_Context/Carried_Forward_Facts.md section 4 or 5
+lycos,Tue,319637,319637,0,,6962,,False,True,01_Context/Carried_Forward_Facts.md section 4 or 5
+unsw_original,all,2540044,2540044,0,,321283,,False,True,research.unsw.edu.au UNSW-NB15 page (four CSVs)
+nf_unsw_v3,all,2365424,2365424,0,,127693,,False,True,staff.itee.uq.edu.au/marius/NIDS_datasets NF-UNSW-NB15-v3
+cic_unsw,all,3540241,3540241,0,89583.0,89583,0.0,False,True,"unb.ca/cic/datasets/cic-unsw-nb15.html, CICFlowMeter column of the class table"

@@ -1,0 +1,48 @@
+[     0 s] draw: 170 candidates, picked ['RQoneAlphaCicLo', 'RQthreeLeakTeMin', 'RQoneFtpThreeBccc']
+[    18 s] (c) 3,992 conversations; three records: 0.387776 (record table), 0.387776 (raw CSV count); counts equal for 3,992
+[    30 s] (b) split rebuilt for 2,826,174 TE records, 0 differ from the frozen split
+[    40 s] (b) 567,966 records in the Phase 5 table, 0 five tuple and 0 label mismatches
+[    41 s] (b) classes with fpc >= 1.95: bot 0.7068, ddos 0.7165, dos_goldeneye 0.7071, dos_hulk 0.7984, ftp_patator 0.6928, heartbleed 1.0000, ssh_patator 0.7017, web_bruteforce 0.7008, web_sqli 0.8286, web_xss 0.7253
+[    55 s] (a) cic_original: 2,830,743 records re-read, 0 five tuple and 0 label mismatches, 1,717,059 scored conversations
+[    67 s] (a) wtmc2021: 2,100,814 records re-read, 0 five tuple and 0 label mismatches, 1,717,748 scored conversations
+[    77 s] (a) crisis2022_rpd: 2,104,683 records re-read, 0 five tuple and 0 label mismatches, 1,718,583 scored conversations
+[    87 s] (a) lycos: 1,837,498 records re-read, 0 five tuple and 0 label mismatches, 1,715,520 scored conversations
+[    97 s] (a) nfs2023_nte: 2,111,131 records re-read, 0 five tuple and 0 label mismatches, 1,717,274 scored conversations
+[   111 s] (a) nfs2023_te: 3,153,360 records re-read, 0 five tuple and 0 label mismatches, 1,717,098 scored conversations
+[   128 s] (a) bccc2017: 2,438,052 records re-read, 0 five tuple and 0 label mismatches, 1,716,091 scored conversations
+[   138 s] (a) 1,718,246 units, alpha 0.987949; bootstrap of 1000 resamples
+[   883 s] (a) bootstrap 100 of 1000
+[  1655 s] (a) bootstrap 200 of 1000
+[  2432 s] (a) bootstrap 300 of 1000
+[  3189 s] (a) bootstrap 400 of 1000
+[  3946 s] (a) bootstrap 500 of 1000
+[  4731 s] (a) bootstrap 600 of 1000
+[  5498 s] (a) bootstrap 700 of 1000
+[  6359 s] (a) bootstrap 800 of 1000
+[  7233 s] (a) bootstrap 900 of 1000
+[  8091 s] (a) bootstrap 1000 of 1000
+                                      check                                                                        expected                                                                                           rederived           tol  passed
+0                          c: conversations                                                                            3992                                                                                                3992  0.000000e+00    True
+1                      c: raw rows bccc2017                                                                    0 mismatches                                                 0 tuple, 0 label of 9,531; classes ftp_patator 9531  0.000000e+00    True
+2    c: share with 3 records (record table)                                                                        0.387776                                                                                            0.387776  5.000000e-07    True
+3   c: share with 3 records (raw CSV count)                                                                        0.387776                                                                                            0.387776  5.000000e-07    True
+4          c: per conversation counts equal                                                                            3992                                                                                                3992  0.000000e+00    True
+5                c: macro RQoneFtpThreeBccc                                                                              39                                                                                                  39  0.000000e+00    True
+6            b: split rebuilt from the rule                                                                               0                                                                                                   0  0.000000e+00    True
+7            b: raw rows nfs2023_te (table)                                                                    0 mismatches                                                                         0 tuple, 0 label of 567,966  0.000000e+00    True
+8                           b: classes kept  bot;ddos;dos_goldeneye;dos_hulk;ftp_patator;ssh_patator;web_bruteforce;web_xss  bot;ddos;dos_goldeneye;dos_hulk;ftp_patator;heartbleed;ssh_patator;web_bruteforce;web_sqli;web_xss  0.000000e+00   False
+9                    b: min leakage (class)                                                          0.692789 (ftp_patator)                                                                              0.692789 (ftp_patator)  1.000000e-09    True
+10                b: macro RQthreeLeakTeMin                                                                            0.69                                                                                                0.69  0.000000e+00    True
+11                                 a: units                                                                         1718246                                                                                             1718246  0.000000e+00    True
+12                                 a: alpha                                                                        0.987949                                                                                            0.987949  1.000000e-06    True
+13                              a: alpha_lo                                                                        0.987793                                                                                            0.987778  2.000000e-04    True
+14                              a: alpha_hi                                                                        0.988118                                                                                            0.988118  2.000000e-04    True
+15                 a: macro RQoneAlphaCicLo                                                                           0.988                                                                                               0.988  0.000000e+00    True
+16                 a: raw rows cic_original                                                                    0 mismatches                                                                       0 tuple, 0 label of 2,830,743  0.000000e+00    True
+17                     a: raw rows wtmc2021                                                                    0 mismatches                                                                       0 tuple, 0 label of 2,100,814  0.000000e+00    True
+18               a: raw rows crisis2022_rpd                                                                    0 mismatches                                                                       0 tuple, 0 label of 2,104,683  0.000000e+00    True
+19                        a: raw rows lycos                                                                    0 mismatches                                                                       0 tuple, 0 label of 1,837,498  0.000000e+00    True
+20                  a: raw rows nfs2023_nte                                                                    0 mismatches                                                                       0 tuple, 0 label of 2,111,131  0.000000e+00    True
+21                   a: raw rows nfs2023_te                                                                    0 mismatches                                                                       0 tuple, 0 label of 3,153,360  0.000000e+00    True
+22                     a: raw rows bccc2017                                                                    0 mismatches                                                                       0 tuple, 0 label of 2,438,052  0.000000e+00    True
+[  8096 s] SOME CHECKS FAILED

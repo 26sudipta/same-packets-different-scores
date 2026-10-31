@@ -1,0 +1,60 @@
+CICIDS2017: 420 cell units, universe 342,031 conversations (110 s)
+CICIDS2017: bootstrap 50/1000 (124 s)
+CICIDS2017: bootstrap 100/1000 (135 s)
+CICIDS2017: bootstrap 150/1000 (146 s)
+CICIDS2017: bootstrap 200/1000 (157 s)
+CICIDS2017: bootstrap 250/1000 (169 s)
+CICIDS2017: bootstrap 300/1000 (180 s)
+CICIDS2017: bootstrap 350/1000 (192 s)
+CICIDS2017: bootstrap 400/1000 (203 s)
+CICIDS2017: bootstrap 450/1000 (214 s)
+CICIDS2017: bootstrap 500/1000 (226 s)
+CICIDS2017: bootstrap 550/1000 (237 s)
+CICIDS2017: bootstrap 600/1000 (248 s)
+CICIDS2017: bootstrap 650/1000 (260 s)
+CICIDS2017: bootstrap 700/1000 (271 s)
+CICIDS2017: bootstrap 750/1000 (282 s)
+CICIDS2017: bootstrap 800/1000 (293 s)
+CICIDS2017: bootstrap 850/1000 (305 s)
+CICIDS2017: bootstrap 900/1000 (316 s)
+CICIDS2017: bootstrap 950/1000 (328 s)
+CICIDS2017: bootstrap 1000/1000 (339 s)
+CICIDS2017: done (339 s)
+UNSW-NB15: 240 cell units, universe 449,261 conversations (49 s)
+UNSW-NB15: bootstrap 50/1000 (58 s)
+UNSW-NB15: bootstrap 100/1000 (66 s)
+UNSW-NB15: bootstrap 150/1000 (74 s)
+UNSW-NB15: bootstrap 200/1000 (82 s)
+UNSW-NB15: bootstrap 250/1000 (90 s)
+UNSW-NB15: bootstrap 300/1000 (98 s)
+UNSW-NB15: bootstrap 350/1000 (106 s)
+UNSW-NB15: bootstrap 400/1000 (114 s)
+UNSW-NB15: bootstrap 450/1000 (122 s)
+UNSW-NB15: bootstrap 500/1000 (130 s)
+UNSW-NB15: bootstrap 550/1000 (138 s)
+UNSW-NB15: bootstrap 600/1000 (146 s)
+UNSW-NB15: bootstrap 650/1000 (154 s)
+UNSW-NB15: bootstrap 700/1000 (162 s)
+UNSW-NB15: bootstrap 750/1000 (170 s)
+UNSW-NB15: bootstrap 800/1000 (178 s)
+UNSW-NB15: bootstrap 850/1000 (186 s)
+UNSW-NB15: bootstrap 900/1000 (194 s)
+UNSW-NB15: bootstrap 950/1000 (202 s)
+UNSW-NB15: bootstrap 1000/1000 (210 s)
+UNSW-NB15: done (211 s)
+      benchmark               cls    split  unit population  min_test_conversations  eligible  arm_minus_model        lo        hi               verdict  primary_setting
+0    CICIDS2017  dos_slowhttptest  grouped  flow        own                    1311      True         0.115556  0.048820  0.180838  exporter above model             True
+8    CICIDS2017       ftp_patator  grouped  flow        own                    1198      True         0.410605  0.381249  0.440313  exporter above model             True
+16   CICIDS2017     dos_slowloris  grouped  flow        own                    1160      True         0.255672  0.191213  0.325140  exporter above model             True
+24   CICIDS2017       ssh_patator  grouped  flow        own                     888      True         0.963980  0.959952  0.967578  exporter above model             True
+32   CICIDS2017    web_bruteforce  grouped  flow        own                     408      True         0.280303  0.265321  0.292159  exporter above model             True
+40   CICIDS2017               bot  grouped  flow        own                     221      True         0.803321  0.787937  0.816656  exporter above model             True
+48   CICIDS2017           web_xss  grouped  flow        own                     199      True        -0.424850 -0.471929 -0.358405  model above exporter             True
+56   CICIDS2017          web_sqli  grouped  flow        own                       4     False        -0.376723 -0.479569 -0.029585          not eligible             True
+64   CICIDS2017        heartbleed  grouped  flow        own                       0     False              NaN       NaN       NaN          not eligible             True
+72    UNSW-NB15           generic  grouped  flow        own                    1058      True        -0.465050 -0.656097 -0.174485  model above exporter             True
+80    UNSW-NB15               dos  grouped  flow        own                    1006      True        -0.585947 -0.710924 -0.423597  model above exporter             True
+88    UNSW-NB15         shellcode  grouped  flow        own                     419      True         0.528227  0.388083  0.625937  exporter above model             True
+96    UNSW-NB15          analysis  grouped  flow        own                     110      True         0.542012  0.254328  0.680280  exporter above model             True
+104   UNSW-NB15          backdoor  grouped  flow        own                      99      True        -0.693337 -0.786114 -0.395533  model above exporter             True
+112   UNSW-NB15             worms  grouped  flow        own                      44      True         0.023623 -0.160258  0.191032             undecided             True

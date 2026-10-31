@@ -1,0 +1,6 @@
+{
+  "benign_fraction": 0.2,
+  "attack_cap": 20000,
+  "subsample_seed": 1000,
+  "decided": "27 October 2026, step 5.3, from the Tuesday time trial (04_Results/phase5/time_trial.csv)"
+}

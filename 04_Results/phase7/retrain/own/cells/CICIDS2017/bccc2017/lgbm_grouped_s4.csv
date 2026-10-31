@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,benign,0.9977721196690006,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,bot,0.9495614035087719,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,ddos,0.9997590167884971,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,dos_goldeneye,0.9885594209666122,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,dos_hulk,0.9981542170490074,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,dos_slowhttptest,0.9639667385278718,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,dos_slowloris,0.9715120525931337,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,ftp_patator,0.9754601226993865,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,portscan,0.9984223200199286,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,ssh_patator,0.9977324263038548,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,web_bruteforce,0.8501492537313433,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,web_sqli,0.7368421052631579,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,web_xss,0.7063389391979301,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7
+CICIDS2017,bccc2017,lgbm,grouped,4,flow,own,MACRO_CPLUS,0.9334023181783458,"{""num_leaves"": 31, ""learning_rate"": 0.1}",337433,143869,46.7

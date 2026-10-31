@@ -1,0 +1,11 @@
+start_rule,overlap_rule,conversations
+analysis,analysis,55
+backdoor,backdoor,48
+benign,benign,984183
+dos,dos,549
+exploits,exploits,3748
+fuzzers,fuzzers,3640
+generic,generic,558
+reconnaissance,reconnaissance,1725
+shellcode,shellcode,223
+worms,worms,24

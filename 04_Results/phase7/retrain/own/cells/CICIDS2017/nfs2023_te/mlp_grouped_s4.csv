@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,benign,0.9992841703883987,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,bot,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,ddos,0.9999196722628324,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,dos_goldeneye,0.9878048780487805,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,dos_hulk,0.999915959324313,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,dos_slowhttptest,0.9681846537741734,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,dos_slowloris,0.9913875598086125,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,ftp_patator,0.9979096989966555,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,portscan,0.9885647994696719,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,ssh_patator,0.9954853273137697,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,web_bruteforce,0.9574468085106383,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,web_sqli,0.4,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,web_xss,0.8333333333333334,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7
+CICIDS2017,nfs2023_te,mlp,grouped,4,flow,own,MACRO_CPLUS,0.9322489893254754,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",398430,169536,66.7

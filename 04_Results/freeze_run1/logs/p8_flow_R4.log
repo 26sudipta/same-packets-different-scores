@@ -1,0 +1,37 @@
+[15:28:30] unsw_original: read UNSW-NB15_1.csv (700,001 rows)
+[15:28:31] unsw_original: read UNSW-NB15_2.csv (700,000 rows)
+[15:28:32] unsw_original: read UNSW-NB15_3.csv (700,000 rows)
+[15:28:32] unsw_original: read UNSW-NB15_4.csv (440,043 rows)
+[15:30:55] R4 unsw_original bin seed 0: 132 s
+[15:33:22] R4 unsw_original multi seed 0: 147 s
+[15:35:39] R4 unsw_original bin seed 1: 135 s
+[15:38:05] R4 unsw_original multi seed 1: 146 s
+[15:40:19] R4 unsw_original bin seed 2: 132 s
+[15:42:45] R4 unsw_original multi seed 2: 146 s
+[15:44:55] R4 unsw_original bin seed 3: 129 s
+[15:47:16] R4 unsw_original multi seed 3: 141 s
+[15:49:28] R4 unsw_original bin seed 4: 129 s
+[15:51:55] R4 unsw_original multi seed 4: 147 s
+[15:51:57] nf_unsw_v2: read NF-UNSW-NB15-v2.csv (2,390,275 rows)
+[15:53:26] R4 nf_unsw_v2 bin seed 0: 85 s
+[15:55:07] R4 nf_unsw_v2 multi seed 0: 101 s
+[15:56:33] R4 nf_unsw_v2 bin seed 1: 85 s
+[15:58:10] R4 nf_unsw_v2 multi seed 1: 96 s
+[15:59:32] R4 nf_unsw_v2 bin seed 2: 80 s
+[16:01:04] R4 nf_unsw_v2 multi seed 2: 92 s
+[16:02:30] R4 nf_unsw_v2 bin seed 3: 84 s
+[16:04:10] R4 nf_unsw_v2 multi seed 3: 101 s
+[16:05:35] R4 nf_unsw_v2 bin seed 4: 83 s
+[16:07:10] R4 nf_unsw_v2 multi seed 4: 95 s
+[16:07:13] nf_unsw_v3: read NF-UNSW-NB15-v3.csv (2,365,424 rows)
+[16:08:35] R4 nf_unsw_v3 bin seed 0: 78 s
+[16:10:06] R4 nf_unsw_v3 multi seed 0: 91 s
+[16:11:26] R4 nf_unsw_v3 bin seed 1: 78 s
+[16:12:57] R4 nf_unsw_v3 multi seed 1: 92 s
+[16:14:17] R4 nf_unsw_v3 bin seed 2: 77 s
+[16:15:47] R4 nf_unsw_v3 multi seed 2: 91 s
+[16:17:01] R4 nf_unsw_v3 bin seed 3: 72 s
+[16:18:27] R4 nf_unsw_v3 multi seed 3: 86 s
+[16:19:41] R4 nf_unsw_v3 bin seed 4: 72 s
+[16:21:06] R4 nf_unsw_v3 multi seed 4: 85 s
+[16:21:06] R4 finished in 3157 s

@@ -1,0 +1,40 @@
+{
+  "name": "phase5_sanity",
+  "created_utc": "2026-10-27T14:56:44+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/03_Code/phase5_sanity.py",
+  "argv": [],
+  "params": {
+    "seed": 20261027
+  },
+  "git": {
+    "commit": "f436191518893d612bf174b64424359b9e21cf99",
+    "dirty": true
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase5/results.csv",
+      "bytes": 2865176,
+      "sha256": "ecc205e7feb456582dfa64ec0365785b5816ecccf18d3d82da251210a3ee3307"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase5/sanity_check.csv",
+      "bytes": 487,
+      "sha256": "1d5ee3ff36cc51ee58e31d94a112232a942a89d42fb30ba6f75684f808f45750"
+    }
+  ]
+}

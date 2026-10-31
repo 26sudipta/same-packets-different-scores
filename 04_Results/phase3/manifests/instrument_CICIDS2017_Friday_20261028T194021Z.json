@@ -1,0 +1,254 @@
+{
+  "name": "instrument_CICIDS2017_Friday",
+  "created_utc": "2026-10-28T19:40:21+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/03_Code/build_instrument.py",
+  "argv": [
+    "CICIDS2017",
+    "Friday"
+  ],
+  "params": {
+    "benchmark": "CICIDS2017",
+    "day": "Friday",
+    "settings": {
+      "T_seconds": 15,
+      "window_rule": "start",
+      "attempted": "keep",
+      "mixed_rule": "any",
+      "episode_gap_seconds_unsw": 300,
+      "test_fraction": 0.3,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "pair_tolerance_seconds": 0.0
+    },
+    "use_cache": true,
+    "cache_version": "v2",
+    "frozen_dir": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/instrument/CICIDS2017/Friday",
+    "seconds": 104.8
+  },
+  "git": {
+    "commit": "e2b3684a3528dcd04fb1a621a6eb02953ad3e774",
+    "dirty": true
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CICIDS2017_Original_LabelledFlows/Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "bytes": 75386737,
+      "sha256": "c061cd98f39d8054aeaed6244a5129a20b3985983d0d022b860ae8aa07fe8d21"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CICIDS2017_Original_LabelledFlows/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "bytes": 101874777,
+      "sha256": "7e2ddaa80a5849ba629463296b6128436c161b4a32e8034bb5beae06b0c45e08"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CICIDS2017_Original_LabelledFlows/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "bytes": 96101069,
+      "sha256": "1f779b4f0d78f9225554c4de53b5a2c07912b60dcd136ee4c5c1d0d2496b7cc4"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CICIDS2017_Corrected_WTMC2021/Friday-WorkingHours.csv",
+      "bytes": 282607319,
+      "sha256": "8bf5a79222d2a553b75fe1ee81cc3ddff89b87befaef52e62368fdb2e3a79def"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CRiSIS2022_RPD/Friday-WorkingHours.csv",
+      "bytes": 294949383,
+      "sha256": "ed95cad4a8a16498c400ed6079937e491277ab840b5a6593fab3a559774b9432"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/LYCOS-IDS2017_GitHubMirror/lycos-ids2017/Friday-WorkingHours.pcap_lycos.csv",
+      "bytes": 249367364,
+      "sha256": "cb5c1781b958a5e90fa6cbe207a1833f2532e11f5918dc8337c9d5f3ead3b685"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/NFS2023_nTE/Friday.csv",
+      "bytes": 228609634,
+      "sha256": "714c6d7b5d5b017e9dc0494abdeafdcf90be862c0eb8dec3c37d87ccdea1858e"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/NFS2023_TE/Friday.csv",
+      "bytes": 306290810,
+      "sha256": "9e183a801fef704fa1083e99a76388537a9d4a942431569c8dc785ea9c0204e3"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/botnet_ares.csv",
+      "bytes": 3970009,
+      "sha256": "b9eb602b58149f7344af9588d6297ca97bbd56986c052c52c5e4c26ec174e457"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/ddos_loit.csv",
+      "bytes": 91106783,
+      "sha256": "eab5792f8bc9cd4f8a260dd0db679115a307f0dcfd1faa27788895890a989e6d"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/dos_golden_eye.csv",
+      "bytes": 8033918,
+      "sha256": "5e700322dd433160707e7dd01b59e0ffa102ac37fe35b791672d77903f5a7408"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/dos_hulk.csv",
+      "bytes": 274531955,
+      "sha256": "80083cd04b2bb71479a4a6b1529c8663fb968b85db9be6ee1304eebe22e1f230"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/dos_slowhttptest.csv",
+      "bytes": 5259702,
+      "sha256": "7d7d67d148114f632ea4857e2ce40f92fc8defc6e519684005661119ed629ece"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/dos_slowloris.csv",
+      "bytes": 4250619,
+      "sha256": "afbfb067b7f903718f1fb9f3619d77013a823ee609d1bf41f9104ae3e7537e40"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/friday_benign.csv",
+      "bytes": 292152442,
+      "sha256": "d9eb52c55fb853141b396112a89dfe446b29f0d74f0fbe078758baa8e6597da0"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/ftp_patator.csv",
+      "bytes": 7464334,
+      "sha256": "108e96dc275b95bb8d532365094ac75f52b3976a2ca38528abbf747a927f412a"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/heartbleed.csv",
+      "bytes": 12202,
+      "sha256": "b70011706bc3c47644a9329eb4d42b61d7f1beb33fd25b828aa59de527c9e35d"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/monday_benign.csv",
+      "bytes": 395476465,
+      "sha256": "cbe3cd4ad31d01ad2e4eefed97a93fff369aa08e6e418547a91763191db80cc6"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/portscan.csv",
+      "bytes": 118227835,
+      "sha256": "f011d440afa0f2a08b54a8e462e86b88fd0727c7a4dcf85b63dc552794408a90"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/ssh_patator-new.csv",
+      "bytes": 4917060,
+      "sha256": "f951c6a77714165399d6a94ff19673b644a869f424e7afa329b33c92bbd48720"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/thursday_benign.csv",
+      "bytes": 107877588,
+      "sha256": "41b1b19272f3725ea25d64e665aa49bf5e7a80ee82b7e872068e4f1d1c79c403"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/tuesday_benign.csv",
+      "bytes": 317906473,
+      "sha256": "c9a7fc1a0b131cf370b07c7b590ce515e9c6284b9cecb113efcfd607b43fb4eb"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/web_brute_force.csv",
+      "bytes": 1918388,
+      "sha256": "914d643cf3189549aa97f91c18a62b252d627ac2c9cb88092edbbb4e73c6801c"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/web_sql_injection.csv",
+      "bytes": 20710,
+      "sha256": "e1bb810635fc11d8933065f525a48c46497e2a6feb85e262941b051601479941"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/web_xss.csv",
+      "bytes": 934644,
+      "sha256": "10a7d0b23e98d48d3751e0223b2473dcfc48aadbbb448985fbd2bb8de9a6b6f4"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/BCCC_CIC_IDS2017/wednesday_benign.csv",
+      "bytes": 318328885,
+      "sha256": "8666a22b84476589605b9250c7a0ac099cc8e9a4ea56126c0e65fe20172bdfcb"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/instrument/CICIDS2017/Friday/records.parquet",
+      "bytes": 126543117,
+      "sha256": "463b1ee40ff9b1705777fa37e1e9ae00415d8112e3ff9476c6af42fbea68f325"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/instrument/CICIDS2017/Friday/conversations.parquet",
+      "bytes": 11556409,
+      "sha256": "b2a733985e06a55ce434a0fee36db57b0859e89b7fb3df41d0808dfb3294ac9d"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/instrument/CICIDS2017/Friday/pairs.parquet",
+      "bytes": 147010734,
+      "sha256": "634ac0faf85c2aaf0e391ad3b5354a84fb5bb4e78c7634f78dc1ed0d0082e952"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/arm_facts/CICIDS2017_Friday.csv",
+      "bytes": 564,
+      "sha256": "56641bbff3a519fb83d290009ff12d66e551890cadd073cbfa7f562049492da2"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/label_confusion/CICIDS2017_Friday.csv",
+      "bytes": 1581,
+      "sha256": "cc4372ef60d57d31a23c1ea5ae947919b7ff43a5b31ca7c246c1c68ec2c0aa77"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/label_agreement/CICIDS2017_Friday.csv",
+      "bytes": 1835,
+      "sha256": "29afd79e1664c31d12bdf42d10c00cb80ee480e8731147b521fffdae244e6245"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/window_rule_sensitivity/CICIDS2017_Friday.csv",
+      "bytes": 135,
+      "sha256": "0a34e7340b21bd821d4002c80d6cf5d956d104753e07fbfaaf5e4eedd434ecf4"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/cardinality/CICIDS2017_Friday.csv",
+      "bytes": 13133,
+      "sha256": "cfbaa8be3443e12b5bfb3d4d3999368237cde614ba276ea66e709a230ed4be29"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/presence/CICIDS2017_Friday.csv",
+      "bytes": 825,
+      "sha256": "d0aa68871ca59bcf7051648d337206104ea53c3ee6fdc450b5789fa88c41b7af"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/attempted/CICIDS2017_Friday.csv",
+      "bytes": 103,
+      "sha256": "fd695b02d0c829ebfaa69919f5bac44ddef9a53200fdbc69c50ce44b12d6b9a1"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/mixed/CICIDS2017_Friday.csv",
+      "bytes": 846,
+      "sha256": "e75285ec3c86f3a05e9d36355d1e35d556aa828bb3fb3ade3227b9c51d69657f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/episodes/CICIDS2017_Friday.csv",
+      "bytes": 285,
+      "sha256": "a25c623d41e036ca797775c2b9f2f07302573f36a155130e462abae76278e9dd"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/leakage/CICIDS2017_Friday.csv",
+      "bytes": 13844,
+      "sha256": "d5c8f1c6e7899bdcc6719a66102b0d700dfc6a94c1103a4e8a17d1f440cbc9e8"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase3/pair_stats/CICIDS2017_Friday.csv",
+      "bytes": 1691,
+      "sha256": "e2d6bd6d4a2ff68478e1a09748551f0aaca16bee3f3cc0e438f6134fe619aefa"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,benign,0.9997510666504571,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,bot,0.9977324263038548,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,ddos,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,dos_goldeneye,0.999043062200957,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,dos_hulk,0.9994954591321897,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,dos_slowhttptest,0.9980806142034548,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,dos_slowloris,0.9991673605328892,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,ftp_patator,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,portscan,0.998234255444379,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,ssh_patator,0.9966139954853274,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,web_bruteforce,0.9361702127659575,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,web_sqli,0.8571428571428571,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,web_xss,0.8333333333333334,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1
+CICIDS2017,crisis2022_rpd,lgbm,grouped,4,flow,own,MACRO_CPLUS,0.9703665110150506,"{""num_leaves"": 127, ""learning_rate"": 0.05}",260065,110606,27.1

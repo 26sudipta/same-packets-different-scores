@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,benign,0.999259648782918,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,bot,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,ddos,0.9998381091144568,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,dos_goldeneye,0.9929175234178661,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,dos_hulk,0.9998303071440693,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,dos_slowhttptest,0.9760589318600368,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,dos_slowloris,0.9935064935064936,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,ftp_patator,0.998744769874477,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,portscan,0.9884195074213016,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,ssh_patator,0.9983098591549295,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,web_bruteforce,0.9583333333333334,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,web_sqli,0.8571428571428571,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,web_xss,0.6666666666666666,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6
+CICIDS2017,nfs2023_te,lgbm,grouped,2,flow,own,MACRO_CPLUS,0.9560790774938005,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397143,170823,26.6

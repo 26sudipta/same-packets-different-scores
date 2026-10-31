@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,benign,0.9994674583031182,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,bot,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,ddos,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,dos_goldeneye,0.9850471589602025,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,dos_hulk,0.9997494780793319,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,dos_slowhttptest,0.9743003997715591,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,dos_slowloris,0.9893333333333333,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,ftp_patator,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,portscan,0.9996692027786966,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,ssh_patator,0.996082820369334,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,web_bruteforce,0.9111111111111111,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,web_sqli,0.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,web_xss,0.8,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6
+CICIDS2017,nfs2023_nte,mlp,grouped,0,flow,own,MACRO_CPLUS,0.8965200740543605,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.0001}",263149,113176,37.6

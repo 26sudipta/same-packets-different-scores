@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,benign,0.9992043339583347,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,bot,1.0,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,ddos,0.9996761658031088,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,dos_goldeneye,0.9906199954243881,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,dos_hulk,0.999830335934849,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,dos_slowhttptest,0.9711833231146536,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,dos_slowloris,0.9928478543563068,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,ftp_patator,0.998744769874477,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,portscan,0.9882544861337683,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,ssh_patator,0.9977452085682075,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,web_bruteforce,0.9473684210526315,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,web_sqli,0.4,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,web_xss,0.6666666666666666,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4
+CICIDS2017,nfs2023_te,rf,grouped,2,flow,own,MACRO_CPLUS,0.9193955046836456,"{""max_depth"": null, ""min_samples_leaf"": 3}",397143,170823,16.4

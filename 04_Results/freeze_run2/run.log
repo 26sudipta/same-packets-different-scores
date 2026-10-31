@@ -1,0 +1,99 @@
+2026-10-29 01:19:09 run_all.sh at commit e2b3684, data /home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets, caches /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/_freeze_cache
+2026-10-29 01:19:09 start env
+2026-10-29 01:19:09 done env (0 s)
+2026-10-29 01:19:09 start hashes
+2026-10-29 01:19:27 done hashes (18 s)
+2026-10-29 01:19:27 start p2_inventory
+2026-10-29 01:21:23 done p2_inventory (116 s)
+2026-10-29 01:21:23 start p2_counts
+2026-10-29 01:21:24 done p2_counts (1 s)
+2026-10-29 01:21:24 start p2_clock
+2026-10-29 01:22:44 done p2_clock (80 s)
+2026-10-29 01:22:44 start p3
+2026-10-29 01:45:54 done p3 (1390 s)
+2026-10-29 01:45:54 start p4
+2026-10-29 01:49:05 done p4 (191 s)
+2026-10-29 01:49:05 start p5_data_cic
+2026-10-29 01:50:13 done p5_data_cic (68 s)
+2026-10-29 01:50:13 start p5_data_unsw
+2026-10-29 01:50:32 done p5_data_unsw (19 s)
+2026-10-29 01:50:32 start p5_tune_cic
+2026-10-29 02:24:53 done p5_tune_cic (2061 s)
+2026-10-29 02:24:53 start p5_tune_unsw
+2026-10-29 02:34:21 done p5_tune_unsw (568 s)
+2026-10-29 02:34:21 start p5_grid_unsw
+2026-10-29 04:04:02 done p5_grid_unsw (5381 s)
+2026-10-29 04:04:02 start p5_grid_cic
+2026-10-29 06:14:59 done p5_grid_cic (7857 s)
+2026-10-29 06:14:59 start p5_analysis
+2026-10-29 06:24:13 done p5_analysis (554 s)
+2026-10-29 06:24:13 start p5_sanity
+2026-10-29 06:24:15 done p5_sanity (2 s)
+2026-10-29 06:24:15 start p5_tests
+2026-10-29 06:24:16 done p5_tests (1 s)
+2026-10-29 06:24:16 start p5_repro
+2026-10-29 06:25:57 done p5_repro (101 s)
+2026-10-29 06:25:57 start p6
+2026-10-29 06:26:42 done p6 (45 s)
+2026-10-29 06:26:42 start p7_extras
+2026-10-29 06:37:38 done p7_extras (656 s)
+2026-10-29 06:37:38 start p7_fold
+2026-10-29 07:34:19 done p7_fold (3401 s)
+2026-10-29 07:34:19 start p7_own
+2026-10-29 08:30:12 done p7_own (3353 s)
+2026-10-29 08:30:12 start p7_rq4
+2026-10-29 09:10:54 done p7_rq4 (2442 s)
+2026-10-29 09:10:54 start p7_resid
+2026-10-29 09:11:27 done p7_resid (33 s)
+2026-10-29 09:11:27 start p7_omega
+2026-10-29 09:11:29 done p7_omega (2 s)
+2026-10-29 09:11:29 CRiSIS-2022 Exp_RP files present: 0 of 5
+2026-10-29 09:11:29 start p8_flow_R1
+2026-10-29 09:18:13 done p8_flow_R1 (404 s)
+2026-10-29 09:18:13 start p8_flow_R5
+2026-10-29 09:41:26 done p8_flow_R5 (1393 s)
+2026-10-29 09:41:26 start p8_flow_R2
+2026-10-29 10:16:32 done p8_flow_R2 (2106 s)
+2026-10-29 10:16:32 start p8_flow_R4
+2026-10-29 11:06:04 done p8_flow_R4 (2972 s)
+2026-10-29 11:06:04 start p8_flow_R3
+2026-10-29 11:14:10 done p8_flow_R3 (486 s)
+2026-10-29 11:14:10 start p8_conv_R5
+2026-10-29 11:16:37 done p8_conv_R5 (147 s)
+2026-10-29 11:16:37 start p8_conv_R1
+2026-10-29 11:22:40 done p8_conv_R1 (363 s)
+2026-10-29 11:22:40 start p8_conv_R2
+2026-10-29 11:26:38 done p8_conv_R2 (238 s)
+2026-10-29 11:26:38 start p8_conv_R2f
+2026-10-29 11:30:38 done p8_conv_R2f (240 s)
+2026-10-29 11:30:38 start p8_conv_R4
+2026-10-29 11:39:19 done p8_conv_R4 (521 s)
+2026-10-29 11:39:19 start p8_decomp_flow
+2026-10-29 12:02:07 done p8_decomp_flow (1368 s)
+2026-10-29 12:02:07 start p8_decomp_conv
+2026-10-29 12:04:41 done p8_decomp_conv (154 s)
+2026-10-29 12:04:41 start p8_decomp_convf
+2026-10-29 12:05:11 done p8_decomp_convf (30 s)
+2026-10-29 12:05:11 start p8_verdicts
+2026-10-29 12:05:12 done p8_verdicts (1 s)
+2026-10-29 12:05:12 start p8_verdicts_fold
+2026-10-29 12:05:13 done p8_verdicts_fold (1 s)
+2026-10-29 12:05:13 start p9_oneoffs
+2026-10-29 12:05:26 done p9_oneoffs (13 s)
+2026-10-29 12:05:26 start p9_loao
+2026-10-29 12:05:28 done p9_loao (2 s)
+2026-10-29 12:05:28 start numbers
+2026-10-29 12:05:29 done numbers (1 s)
+2026-10-29 12:05:29 start figures
+2026-10-29 12:05:33 done figures (4 s)
+2026-10-29 12:05:33 start p9_sanity
+2026-10-29 14:38:02 done p9_sanity (9149 s)
+2026-10-29 14:38:02 start tests
+2026-10-29 14:38:16 done tests (14 s)
+2026-10-29 14:38:16 start regen
+2026-10-29 14:38:17 FAILED regen (see 04_Results/freeze/logs/regen.log)
+2026-10-29 15:14:57 run_all.sh at commit b9784b3, data /home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets, caches /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/_freeze_cache
+2026-10-29 15:14:57 CRiSIS-2022 Exp_RP files present: 0 of 5
+2026-10-29 15:14:57 start regen
+2026-10-29 15:14:58 done regen (1 s)
+2026-10-29 15:14:58 ALL DONE

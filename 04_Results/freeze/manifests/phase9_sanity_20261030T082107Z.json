@@ -1,0 +1,63 @@
+{
+  "name": "phase9_sanity",
+  "created_utc": "2026-10-30T08:21:07+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/03_Code/phase9_sanity.py",
+  "argv": [],
+  "params": {
+    "draw_seed": 20261028,
+    "candidates": 176,
+    "drawn": [
+      "RQoneAlphaCicLo",
+      "RQthreeLeakTeMin",
+      "RQoneFtpThreeBccc"
+    ],
+    "boot": 1000,
+    "krippendorff": "package"
+  },
+  "git": {
+    "commit": "829e4014321d15d0007b6d784c4b0e1a3b04c917",
+    "dirty": true
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/freeze/numbers.csv",
+      "bytes": 33762,
+      "sha256": "439d7a15fc0077c81b4bcd8052b8245c2419ad34751568618b048e65faae9478"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase4/alpha.csv",
+      "bytes": 89170,
+      "sha256": "02bf7c9e21e8e1dfa32816d5bc9512a8c82d4a463b9e32d35062a4e6ffe1283b"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase4/flows_per_conv.csv",
+      "bytes": 139629,
+      "sha256": "7c97b93a3c9285c541724bb26d191305ff7d50c47c9cb3edf9fb8f8948a0e6f1"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase6/table_6_1.csv",
+      "bytes": 3413,
+      "sha256": "1ae9492505c556d3927005ecc8c34abf41aa9ec9ca36f75297fc5760513db111"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/freeze/sanity_9_3.csv",
+      "bytes": 1574,
+      "sha256": "97354b94a26b65ea4ab5ffffb7bb9d9cbed5821c7371a8f96199624ab3a62661"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,benign,0.9994088715185115,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,bot,0.995475113122172,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,ddos,0.9998351738915444,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,dos_goldeneye,0.9838783970520497,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,dos_hulk,0.9994939271255061,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,dos_slowhttptest,0.9839816933638444,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,dos_slowloris,0.9935165174436554,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,ftp_patator,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,portscan,0.9996642041638684,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,ssh_patator,0.9955005624296963,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,web_bruteforce,0.9361702127659575,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,web_sqli,1.0,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,web_xss,0.8333333333333334,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7
+CICIDS2017,nfs2023_nte,lgbm,grouped,4,flow,own,MACRO_CPLUS,0.9784813850930877,"{""num_leaves"": 127, ""learning_rate"": 0.05}",264217,112108,20.7

@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,benign,0.9992995207612336,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,bot,0.995475113122172,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,ddos,0.9998381091144568,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,dos_goldeneye,0.9913083257090577,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,dos_hulk,0.999492385786802,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,dos_slowhttptest,0.9746070133010882,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,dos_slowloris,0.993020304568528,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,ftp_patator,0.9987463435018805,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,portscan,0.988943894389439,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,ssh_patator,0.9977452085682075,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,web_bruteforce,0.9787234042553191,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,web_sqli,0.4,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,web_xss,0.6666666666666666,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,MACRO_CPLUS,0.9218358684419118,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,16.1

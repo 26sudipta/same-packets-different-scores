@@ -1,0 +1,21 @@
+conv,key_str,cs,sched,reason
+188664,149.171.126.19:80|175.45.176.2:19421|6,1424247093.0,analysis,"attack analysis, some arm has several records"
+105240,149.171.126.10:80|175.45.176.3:41530|6,1424261716.5,analysis,"attack analysis, one record in every arm"
+120576,149.171.126.12:21|175.45.176.3:4395|6,1424229928.0,backdoor,"attack backdoor, some arm has several records"
+121263,149.171.126.12:33471|175.45.176.3:35817|6,1424234108.5,backdoor,"attack backdoor, one record in every arm"
+116200,149.171.126.11:80|175.45.176.3:41584|6,1424239517.0,dos,"attack dos, some arm has several records"
+173212,149.171.126.17:80|175.45.176.3:46461|6,1424241688.5,dos,"attack dos, one record in every arm"
+176639,149.171.126.18:21|175.45.176.3:33613|6,1424245716.0,exploits,"attack exploits, some arm has several records"
+153059,149.171.126.15:80|175.45.176.2:17231|6,1424243017.0,exploits,"attack exploits, one record in every arm"
+43903,149.171.126.0:47150|59.166.0.2:46345|6,1424245127.0,benign,one record in every arm
+103247,149.171.126.10:64639|175.45.176.1:11095|6,1424261234.0,exploits,"n:1, unsw_original splits"
+302716,149.171.126.2:21|59.166.0.7:39574|6,1424233895.0,benign,"1:n, nf_unsw_v3 splits"
+139130,149.171.126.14:179|175.45.176.3:26210|6,1424234645.0,fuzzers,n:m
+626767,149.171.126.5:53|59.166.0.2:30450|17,1424244305.5,benign,unsw_original only
+478529,149.171.126.4:111|59.166.0.3:17856|17,1424255290.0,benign,nf_unsw_v3 only
+124821,149.171.126.12:80|175.45.176.2:5570|6,1424261132.5,dos,several ground truth categories
+187294,149.171.126.19:5600|175.45.176.0:48207|17,1424257283.214,benign,UDP
+125389,149.171.126.13:0|175.45.176.0:0|-1,1424223144.5,exploits,neither TCP nor UDP
+617087,149.171.126.5:5190|59.166.0.3:1997|6,1424243857.0,benign,"same endpoint key, two conversations (gap rule)"
+18872,149.171.126.0:21|59.166.0.3:23374|6,1424250286.5,benign,"long conversation, many records"
+116989,149.171.126.12:1100|175.45.176.0:29968|6,1424251765.0,exploits,random

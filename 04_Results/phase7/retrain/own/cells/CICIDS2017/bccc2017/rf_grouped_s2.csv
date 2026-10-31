@@ -1,0 +1,16 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,benign,0.99732388421741,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,bot,0.9283351708930541,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,ddos,0.9995145631067961,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,dos_goldeneye,0.9884949518666354,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,dos_hulk,0.9971776531993041,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,dos_slowhttptest,0.9607666966157532,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,dos_slowloris,0.97759823723834,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,ftp_patator,0.9717320541373994,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,heartbleed,0.0,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,portscan,0.9987742093650405,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,ssh_patator,0.9957639085004236,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,web_bruteforce,0.8448377581120944,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,web_sqli,0.7142857142857143,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,web_xss,0.6906666666666667,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8
+CICIDS2017,bccc2017,rf,grouped,2,flow,own,MACRO_CPLUS,0.8618051048717593,"{""max_depth"": null, ""min_samples_leaf"": 1}",336732,144570,23.8

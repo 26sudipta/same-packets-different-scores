@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,lycos,mlp,grouped,2,flow,own,benign,0.9993220731813309,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,bot,0.9977426636568849,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,ddos,0.9996761658031088,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,dos_goldeneye,0.9846752614935539,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,dos_hulk,0.9995759477567636,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,dos_slowhttptest,0.9818496110630942,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,dos_slowloris,0.9918907383696116,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,ftp_patator,0.9979175343606831,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,portscan,0.9985165650238997,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,ssh_patator,0.9966139954853274,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,web_bruteforce,0.9484536082474226,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,web_sqli,0.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,web_xss,0.6666666666666666,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7
+CICIDS2017,lycos,mlp,grouped,2,flow,own,MACRO_CPLUS,0.8894539100852575,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",257221,110598,15.7

@@ -1,0 +1,39 @@
+%% Appendices (plan step 10.8). Numbers are macros or protocol constants (\setnum).
+\renewcommand{\theHtable}{app.\thetable}% link targets of the appendix tables must differ from Tables 1 to 4
+\section{The instrument step by step}\label{app:instrument}
+
+The steps below are what \texttt{instrument.py} and \texttt{build\_instrument.py} do for one benchmark and one capture day. Each step names the section of the paper that motivates it.
+
+\begin{enumerate}
+\item \emph{Load and clock.} Read every arm's records for the day, convert start times to UTC with the arm's offset (Section~\ref{sec:clocks}), and give each record the interval from its start to its start plus its duration plus the resolution of its arm's clock. UNSW-NB15 start times, which are rounded, are shifted by half the resolution first.
+\item \emph{Key.} Give each record the key (lower endpoint, higher endpoint, protocol), with an endpoint written as address and port, ports set to zero for protocols other than TCP and UDP, and every protocol other than ICMP, TCP and UDP put in one class (Section~\ref{sec:key}).
+\item \emph{Conversations.} Pool the records of the defining arms, which are all arms except CIC original. Sort them by key, start and end. Walking through each key in that order, a record opens a new conversation when its start is more than $T$ after the latest end seen so far for the key.
+\item \emph{Mapping.} For each CIC original record, take the latest conversation of the same key that starts before the record's latest possible start, and up to \setnum{3} conversations before that one. A candidate is reachable when the record starts within $T$ of its end. The record joins the reachable candidate whose span is closest to the record's duration, ties going to the later one. Records with no reachable candidate form conversations of their own by the rule of the previous step and are counted as unmapped.
+\item \emph{Initiator.} The initiator is the source endpoint of the earliest record of the conversation; a record whose source is the other endpoint is marked as reversed.
+\item \emph{Ground truth.} Label each conversation from the attack schedule (Section~\ref{sec:gt}): \cicids{} conversations by attacker, victim, port, protocol and window, with the endpoints in either order and the conversation start inside the window, and the drop rules giving the label ``excluded''; UNSW-NB15 conversations from the ground truth file on the same key by overlap of intervals, the most frequent category winning. Every record takes the label of its conversation.
+\item \emph{Pairing.} For each pair of arms and each conversation both have, form every pair of their records whose intervals overlap. Rank the pairs by the gap between their start windows, then by the difference in duration, then same direction before reversed, then larger overlap, then smaller raw start difference, and assign them greedily one to one. When a conversation has more than \setnum{250{,}000} candidate pairs, pair its records in time order instead. Records left without a partner stay unpaired. Record the cardinality class of the conversation for the pair of arms.
+\item \emph{Episodes.} Group the attack conversations of one class between one pair of hosts: on \cicids{} within one schedule window, on UNSW-NB15 by the rule of the conversation step applied with a gap of \setnum{300} seconds.
+\item \emph{Splits.} For each seed, hash an identifier of each conversation (benchmark, day, key and start) with a seeded SipHash, and within each class and day send the lowest \SetTestPct{} percent of hashes to the test set. The random flow split applies the same rule to records, per arm and class.
+\item \emph{Freeze.} Write the conversation table, the record to conversation map and the pairs with a manifest of input hashes, settings and the code version.
+\end{enumerate}
+
+The \NhandCases{} hand-checked conversations of Section~\ref{sec:method} are frozen as unit test fixtures of these steps.
+
+\section{Models, hyperparameters and seeds}\label{app:models}
+
+All models are from scikit-learn and LightGBM at the versions pinned with the code. The random forest has \setnum{100} trees. LightGBM has \setnum{200} boosting rounds, an L2 penalty of \setnum{1} on leaf values, and deterministic, row-wise training. The multilayer perceptron applies a signed log transform and standard scaling, and trains with early stopping for at most \setnum{50} epochs in batches of \setnum{512}. Each model's grid has \SetGridSize{} settings: for the random forest, maximum depth unlimited or \setnum{20} crossed with a minimum of \setnum{1} or \setnum{3} samples per leaf; for LightGBM, \setnum{31} or \setnum{127} leaves crossed with a learning rate of \setnum{0.1} or \setnum{0.05}; for the multilayer perceptron, one hidden layer of \setnum{64} units or two of \setnum{128} and \setnum{64}, crossed with an L2 penalty of \setnum{0.0001} or \setnum{0.001}. Tuning uses seed \setnum{0} of the grouped split, with a validation set of \SetValPct{} percent of the training conversations drawn by the same hash rule with its own seed. The seed of a cell, one of \SetSeeds{}, selects both the split and the model's random state. Table~\ref{tab:hyper} gives the setting chosen for each arm.
+
+\input{../tables/app_hyper.tex}
+
+\section{Per-class F1}\label{app:f1}
+
+Tables~\ref{tab:f1-cic} and \ref{tab:f1-unsw} give per-class F1 at both units on the common population, the setting of RQ4.
+
+\input{../tables/app_f1_cic.tex}
+\input{../tables/app_f1_unsw.tex}
+
+\section{Conversations at every gap}\label{app:tsweep}
+
+Table~\ref{tab:tsweep} gives the number of conversations per class at every value of $T$ in the sweep of Section~\ref{sec:key}.
+
+\input{../tables/app_tsweep.tex}

@@ -1,0 +1,4 @@
+benchmark,arm,cell,rows,predictions_identical
+UNSW-NB15,unsw_dedup,rf_grouped_s1,143424,True
+CICIDS2017,wtmc2021,lgbm_random_s2,111171,True
+CICIDS2017,lycos,mlp_grouped_s0,110670,True

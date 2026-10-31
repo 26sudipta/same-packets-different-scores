@@ -1,0 +1,254 @@
+release,file,day_utc,label,rows,first_utc,last_utc
+cic_original,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,2017-07-07,DDoS,128027,2017-07-07 18:56:00,2017-07-07 19:16:00
+cic_original,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,2017-07-07,BENIGN,97718,2017-07-07 18:30:00,2017-07-07 20:02:00
+cic_original,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,2017-07-07,PortScan,158930,2017-07-07 16:05:00,2017-07-07 18:23:00
+cic_original,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,2017-07-07,BENIGN,127537,2017-07-07 16:00:00,2017-07-07 18:29:00
+cic_original,Friday-WorkingHours-Morning.pcap_ISCX.csv,2017-07-07,BENIGN,189067,2017-07-07 11:59:00,2017-07-07 15:59:00
+cic_original,Friday-WorkingHours-Morning.pcap_ISCX.csv,2017-07-07,Bot,1966,2017-07-07 12:34:00,2017-07-07 15:59:00
+cic_original,Monday-WorkingHours.pcap_ISCX.csv,2017-07-03,BENIGN,529918,2017-07-03 11:55:58,2017-07-03 20:01:34
+cic_original,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,2017-07-06,BENIGN,288566,2017-07-06 16:00:00,2017-07-06 20:04:00
+cic_original,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,2017-07-06,Infiltration,36,2017-07-06 17:19:00,2017-07-06 18:45:00
+cic_original,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,2017-07-06,BENIGN,168186,2017-07-06 11:59:00,2017-07-06 15:59:00
+cic_original,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,2017-07-06,Web Attack  Brute Force,1507,2017-07-06 12:15:00,2017-07-06 13:00:00
+cic_original,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,2017-07-06,Web Attack  XSS,652,2017-07-06 13:15:00,2017-07-06 13:35:00
+cic_original,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,2017-07-06,Web Attack  Sql Injection,21,2017-07-06 13:40:00,2017-07-06 13:42:00
+cic_original,Tuesday-WorkingHours.pcap_ISCX.csv,2017-07-04,BENIGN,432074,2017-07-04 11:53:00,2017-07-04 20:00:00
+cic_original,Tuesday-WorkingHours.pcap_ISCX.csv,2017-07-04,FTP-Patator,7938,2017-07-04 12:17:00,2017-07-04 13:30:00
+cic_original,Tuesday-WorkingHours.pcap_ISCX.csv,2017-07-04,SSH-Patator,5897,2017-07-04 17:09:00,2017-07-04 18:11:00
+cic_original,Wednesday-workingHours.pcap_ISCX.csv,2017-07-05,BENIGN,440031,2017-07-05 11:42:00,2017-07-05 20:10:00
+cic_original,Wednesday-workingHours.pcap_ISCX.csv,2017-07-05,DoS Hulk,231073,2017-07-05 13:43:00,2017-07-05 14:07:00
+cic_original,Wednesday-workingHours.pcap_ISCX.csv,2017-07-05,DoS GoldenEye,10293,2017-07-05 14:10:00,2017-07-05 14:19:00
+cic_original,Wednesday-workingHours.pcap_ISCX.csv,2017-07-05,DoS slowloris,5796,2017-07-05 12:01:00,2017-07-05 17:25:00
+cic_original,Wednesday-workingHours.pcap_ISCX.csv,2017-07-05,DoS Slowhttptest,5499,2017-07-05 13:15:00,2017-07-05 13:37:00
+cic_original,Wednesday-workingHours.pcap_ISCX.csv,2017-07-05,Heartbleed,11,2017-07-05 18:12:00,2017-07-05 18:32:00
+cic_original_ml,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,no timestamp,DDoS,128027,,
+cic_original_ml,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,no timestamp,BENIGN,97718,,
+cic_original_ml,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,no timestamp,PortScan,158930,,
+cic_original_ml,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,no timestamp,BENIGN,127537,,
+cic_original_ml,Friday-WorkingHours-Morning.pcap_ISCX.csv,no timestamp,BENIGN,189067,,
+cic_original_ml,Friday-WorkingHours-Morning.pcap_ISCX.csv,no timestamp,Bot,1966,,
+cic_original_ml,Monday-WorkingHours.pcap_ISCX.csv,no timestamp,BENIGN,529918,,
+cic_original_ml,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,no timestamp,BENIGN,288566,,
+cic_original_ml,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,no timestamp,Infiltration,36,,
+cic_original_ml,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,no timestamp,BENIGN,168186,,
+cic_original_ml,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,no timestamp,Web Attack ï¿½ Brute Force,1507,,
+cic_original_ml,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,no timestamp,Web Attack ï¿½ XSS,652,,
+cic_original_ml,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,no timestamp,Web Attack ï¿½ Sql Injection,21,,
+cic_original_ml,Tuesday-WorkingHours.pcap_ISCX.csv,no timestamp,BENIGN,432074,,
+cic_original_ml,Tuesday-WorkingHours.pcap_ISCX.csv,no timestamp,FTP-Patator,7938,,
+cic_original_ml,Tuesday-WorkingHours.pcap_ISCX.csv,no timestamp,SSH-Patator,5897,,
+cic_original_ml,Wednesday-workingHours.pcap_ISCX.csv,no timestamp,BENIGN,440031,,
+cic_original_ml,Wednesday-workingHours.pcap_ISCX.csv,no timestamp,DoS Hulk,231073,,
+cic_original_ml,Wednesday-workingHours.pcap_ISCX.csv,no timestamp,DoS GoldenEye,10293,,
+cic_original_ml,Wednesday-workingHours.pcap_ISCX.csv,no timestamp,DoS slowloris,5796,,
+cic_original_ml,Wednesday-workingHours.pcap_ISCX.csv,no timestamp,DoS Slowhttptest,5499,,
+cic_original_ml,Wednesday-workingHours.pcap_ISCX.csv,no timestamp,Heartbleed,11,,
+wtmc2021,Friday-WorkingHours.csv,2017-07-07,BENIGN,291433,2017-07-07 11:59:50,2017-07-07 20:02:40
+wtmc2021,Friday-WorkingHours.csv,2017-07-07,PortScan,159151,2017-07-07 15:37:57,2017-07-07 18:23:53
+wtmc2021,Friday-WorkingHours.csv,2017-07-07,DDoS,95123,2017-07-07 18:56:31,2017-07-07 19:16:10
+wtmc2021,Friday-WorkingHours.csv,2017-07-07,Bot - Attempted,1470,2017-07-07 14:03:14,2017-07-07 15:59:53
+wtmc2021,Friday-WorkingHours.csv,2017-07-07,Bot,738,2017-07-07 12:34:13,2017-07-07 14:20:40
+wtmc2021,Monday-WorkingHours.csv,2017-07-03,BENIGN,371749,2017-07-03 11:55:58,2017-07-03 20:01:34
+wtmc2021,Thursday-WorkingHours.csv,2017-07-06,BENIGN,360264,2017-07-06 11:59:00,2017-07-06 20:04:36
+wtmc2021,Thursday-WorkingHours.csv,2017-07-06,Web Attack - Brute Force - Attempted,1214,2017-07-06 12:19:27,2017-07-06 13:00:10
+wtmc2021,Thursday-WorkingHours.csv,2017-07-06,Web Attack - XSS - Attempted,652,2017-07-06 13:15:35,2017-07-06 13:35:33
+wtmc2021,Thursday-WorkingHours.csv,2017-07-06,Web Attack - Brute Force,151,2017-07-06 12:15:54,2017-07-06 12:59:41
+wtmc2021,Thursday-WorkingHours.csv,2017-07-06,Infiltration,32,2017-07-06 17:19:02,2017-07-06 18:44:24
+wtmc2021,Thursday-WorkingHours.csv,2017-07-06,Web Attack - XSS,27,2017-07-06 13:15:35,2017-07-06 13:35:45
+wtmc2021,Thursday-WorkingHours.csv,2017-07-06,Infiltration - Attempted,16,2017-07-06 17:30:21,2017-07-06 17:40:29
+wtmc2021,Thursday-WorkingHours.csv,2017-07-06,Web Attack - Sql Injection,12,2017-07-06 13:40:07,2017-07-06 13:42:50
+wtmc2021,Tuesday-WorkingHours.csv,2017-07-04,BENIGN,315031,2017-07-04 11:53:44,2017-07-04 20:00:30
+wtmc2021,Tuesday-WorkingHours.csv,2017-07-04,FTP-Patator,3973,2017-07-04 12:17:52,2017-07-04 13:20:13
+wtmc2021,Tuesday-WorkingHours.csv,2017-07-04,SSH-Patator,2980,2017-07-04 17:09:01,2017-07-04 19:04:15
+wtmc2021,Tuesday-WorkingHours.csv,2017-07-04,FTP-Patator - Attempted,11,2017-07-04 12:22:57,2017-07-04 12:24:34
+wtmc2021,Tuesday-WorkingHours.csv,2017-07-04,SSH-Patator - Attempted,8,2017-07-04 18:09:01,2017-07-04 18:09:06
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,BENIGN,319216,2017-07-05 11:42:42,2017-07-05 20:10:14
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,DoS Hulk,158469,2017-07-05 13:43:23,2017-07-05 14:01:34
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,DoS GoldenEye,7567,2017-07-05 14:10:03,2017-07-05 14:19:49
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,DoS slowloris,4001,2017-07-05 12:48:46,2017-07-05 13:10:34
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,DoS Slowhttptest - Attempted,3369,2017-07-05 13:15:38,2017-07-05 13:37:49
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,DoS Slowhttptest,1742,2017-07-05 13:15:37,2017-07-05 13:35:18
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,DoS slowloris - Attempted,1731,2017-07-05 12:01:00,2017-07-05 13:10:11
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,DoS Hulk - Attempted,593,2017-07-05 13:44:42,2017-07-05 14:07:21
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,DoS GoldenEye - Attempted,80,2017-07-05 14:10:03,2017-07-05 14:11:34
+wtmc2021,Wednesday-WorkingHours.csv,2017-07-05,Heartbleed,11,2017-07-05 18:12:15,2017-07-05 18:32:18
+crisis2022_rpd,Friday-WorkingHours.csv,2017-07-07,BENIGN,293367,2017-07-07 11:59:50,2017-07-07 20:02:40
+crisis2022_rpd,Friday-WorkingHours.csv,2017-07-07,PortScan,159579,2017-07-07 15:37:57,2017-07-07 18:23:53
+crisis2022_rpd,Friday-WorkingHours.csv,2017-07-07,DDoS,95144,2017-07-07 18:56:31,2017-07-07 19:16:10
+crisis2022_rpd,Friday-WorkingHours.csv,2017-07-07,Bot,738,2017-07-07 12:34:13,2017-07-07 14:20:40
+crisis2022_rpd,Monday-WorkingHours.csv,2017-07-03,BENIGN,372425,2017-07-03 11:55:58,2017-07-03 20:01:34
+crisis2022_rpd,Thursday-WorkingHours.csv,2017-07-06,BENIGN,291295,2017-07-06 11:59:00,2017-07-06 20:04:44
+crisis2022_rpd,Thursday-WorkingHours.csv,2017-07-06,Port_scan,72336,2017-07-06 17:33:30,2017-07-06 18:46:04
+crisis2022_rpd,Thursday-WorkingHours.csv,2017-07-06,Web Attack - Brute Force,151,2017-07-06 12:15:54,2017-07-06 12:59:41
+crisis2022_rpd,Thursday-WorkingHours.csv,2017-07-06,Infiltration,32,2017-07-06 17:19:02,2017-07-06 18:44:24
+crisis2022_rpd,Thursday-WorkingHours.csv,2017-07-06,Web Attack - XSS,27,2017-07-06 13:15:35,2017-07-06 13:35:45
+crisis2022_rpd,Thursday-WorkingHours.csv,2017-07-06,Web Attack - Sql Injection,12,2017-07-06 13:40:07,2017-07-06 13:42:50
+crisis2022_rpd,Tuesday-WorkingHours.csv,2017-07-04,BENIGN,315509,2017-07-04 11:53:44,2017-07-04 20:00:30
+crisis2022_rpd,Tuesday-WorkingHours.csv,2017-07-04,FTP-Patator,3973,2017-07-04 12:17:52,2017-07-04 13:20:13
+crisis2022_rpd,Tuesday-WorkingHours.csv,2017-07-04,SSH-Patator,2980,2017-07-04 17:09:01,2017-07-04 19:04:15
+crisis2022_rpd,Wednesday-WorkingHours.csv,2017-07-05,BENIGN,325324,2017-07-05 11:42:42,2017-07-05 20:10:14
+crisis2022_rpd,Wednesday-WorkingHours.csv,2017-07-05,DoS Hulk,158470,2017-07-05 13:43:23,2017-07-05 14:01:34
+crisis2022_rpd,Wednesday-WorkingHours.csv,2017-07-05,DoS GoldenEye,7567,2017-07-05 14:10:03,2017-07-05 14:19:49
+crisis2022_rpd,Wednesday-WorkingHours.csv,2017-07-05,DoS slowloris,4001,2017-07-05 12:48:46,2017-07-05 13:10:34
+crisis2022_rpd,Wednesday-WorkingHours.csv,2017-07-05,DoS Slowhttptest,1742,2017-07-05 13:15:37,2017-07-05 13:35:18
+crisis2022_rpd,Wednesday-WorkingHours.csv,2017-07-05,Heartbleed,11,2017-07-05 18:12:15,2017-07-05 18:32:18
+lycos,Friday-WorkingHours.pcap_lycos.csv,2017-07-07,benign,286438,2017-07-07 11:59:50,2017-07-07 20:02:39
+lycos,Friday-WorkingHours.pcap_lycos.csv,2017-07-07,portscan,160106,2017-07-07 16:05:33,2017-07-07 18:23:53
+lycos,Friday-WorkingHours.pcap_lycos.csv,2017-07-07,ddos,95683,2017-07-07 18:56:31,2017-07-07 19:16:10
+lycos,Friday-WorkingHours.pcap_lycos.csv,2017-07-07,bot,735,2017-07-07 13:04:13,2017-07-07 14:01:58
+lycos,Monday-WorkingHours.pcap_lycos.csv,2017-07-03,benign,367181,2017-07-03 11:56:37,2017-07-03 20:01:34
+lycos,Thursday-WorkingHours.pcap_lycos.csv,2017-07-06,benign,110448,2017-07-06 11:59:00,2017-07-06 14:59:58
+lycos,Thursday-WorkingHours.pcap_lycos.csv,2017-07-06,webattack_bruteforce,1360,2017-07-06 12:15:54,2017-07-06 12:59:57
+lycos,Thursday-WorkingHours.pcap_lycos.csv,2017-07-06,webattack_xss,661,2017-07-06 13:15:35,2017-07-06 13:34:59
+lycos,Thursday-WorkingHours.pcap_lycos.csv,2017-07-06,webattack_sql_injection,12,2017-07-06 13:40:07,2017-07-06 13:42:50
+lycos,Tuesday-WorkingHours.pcap_lycos.csv,2017-07-04,benign,312675,2017-07-04 11:53:44,2017-07-04 20:00:30
+lycos,Tuesday-WorkingHours.pcap_lycos.csv,2017-07-04,ftp_patator,4003,2017-07-04 12:17:52,2017-07-04 13:20:13
+lycos,Tuesday-WorkingHours.pcap_lycos.csv,2017-07-04,ssh_patator,2959,2017-07-04 17:09:01,2017-07-04 18:10:56
+lycos,Wednesday-WorkingHours.pcap_lycos.csv,2017-07-05,benign,318933,2017-07-05 11:42:42,2017-07-05 20:07:59
+lycos,Wednesday-WorkingHours.pcap_lycos.csv,2017-07-05,dos_hulk,158988,2017-07-05 13:43:23,2017-07-05 14:01:34
+lycos,Wednesday-WorkingHours.pcap_lycos.csv,2017-07-05,dos_goldeneye,6765,2017-07-05 14:10:03,2017-07-05 14:18:58
+lycos,Wednesday-WorkingHours.pcap_lycos.csv,2017-07-05,dos_slowloris,5674,2017-07-05 12:01:00,2017-07-05 17:24:56
+lycos,Wednesday-WorkingHours.pcap_lycos.csv,2017-07-05,dos_slowhttptest,4866,2017-07-05 13:15:37,2017-07-05 13:35:24
+lycos,Wednesday-WorkingHours.pcap_lycos.csv,2017-07-05,heartbleed,11,2017-07-05 18:12:15,2017-07-05 18:32:18
+nfs2023_nte,Friday.csv,2017-07-07,BENIGN,293341,2017-07-07 11:59:50,2017-07-07 20:02:40
+nfs2023_nte,Friday.csv,2017-07-07,PortScan,159929,2017-07-07 16:05:33,2017-07-07 18:23:53
+nfs2023_nte,Friday.csv,2017-07-07,DDoS,93178,2017-07-07 18:56:31,2017-07-07 19:16:10
+nfs2023_nte,Friday.csv,2017-07-07,Bot,738,2017-07-07 12:34:13,2017-07-07 14:20:40
+nfs2023_nte,Monday.csv,2017-07-03,BENIGN,376826,2017-07-03 11:56:37,2017-07-03 20:01:34
+nfs2023_nte,Thursday.csv,2017-07-06,BENIGN,294128,2017-07-06 11:59:00,2017-07-06 20:04:36
+nfs2023_nte,Thursday.csv,2017-07-06,PortScan,63957,2017-07-06 16:20:22,2017-07-06 19:36:19
+nfs2023_nte,Thursday.csv,2017-07-06,Web Attack - Brute Force,151,2017-07-06 12:15:54,2017-07-06 12:59:41
+nfs2023_nte,Thursday.csv,2017-07-06,Web Attack - XSS,27,2017-07-06 13:15:35,2017-07-06 13:35:45
+nfs2023_nte,Thursday.csv,2017-07-06,Infiltration,27,2017-07-06 17:19:02,2017-07-06 18:44:24
+nfs2023_nte,Thursday.csv,2017-07-06,Web Attack - Sql Injection,12,2017-07-06 13:40:07,2017-07-06 13:42:50
+nfs2023_nte,Tuesday.csv,2017-07-04,BENIGN,318705,2017-07-04 11:53:44,2017-07-04 20:00:30
+nfs2023_nte,Tuesday.csv,2017-07-04,FTP-Patator,3992,2017-07-04 12:17:52,2017-07-04 13:20:13
+nfs2023_nte,Tuesday.csv,2017-07-04,SSH-Patator,2980,2017-07-04 17:09:01,2017-07-04 19:04:15
+nfs2023_nte,Wednesday.csv,2017-07-05,BENIGN,329267,2017-07-05 11:42:42,2017-07-05 20:10:14
+nfs2023_nte,Wednesday.csv,2017-07-05,DoS Hulk,158027,2017-07-05 13:43:23,2017-07-05 14:01:34
+nfs2023_nte,Wednesday.csv,2017-07-05,DoS GoldenEye,7916,2017-07-05 14:10:03,2017-07-05 14:20:08
+nfs2023_nte,Wednesday.csv,2017-07-05,DoS slowloris,5192,2017-07-05 12:48:46,2017-07-05 13:10:34
+nfs2023_nte,Wednesday.csv,2017-07-05,DoS Slowhttptest,2727,2017-07-05 13:15:37,2017-07-05 13:35:18
+nfs2023_nte,Wednesday.csv,2017-07-05,Heartbleed,11,2017-07-05 18:12:15,2017-07-05 18:32:18
+nfs2023_te,Friday.csv,2017-07-07,BENIGN,518961,2017-07-07 11:59:50,2017-07-07 20:02:41
+nfs2023_te,Friday.csv,2017-07-07,PortScan,160310,2017-07-07 16:05:33,2017-07-07 18:24:01
+nfs2023_te,Friday.csv,2017-07-07,DDoS,95685,2017-07-07 18:56:31,2017-07-07 19:16:10
+nfs2023_te,Friday.csv,2017-07-07,Bot,738,2017-07-07 12:34:13,2017-07-07 14:20:40
+nfs2023_te,Monday.csv,2017-07-03,BENIGN,559775,2017-07-03 11:56:37,2017-07-03 20:01:34
+nfs2023_te,Thursday.csv,2017-07-06,BENIGN,413744,2017-07-06 11:59:00,2017-07-06 20:04:36
+nfs2023_te,Thursday.csv,2017-07-06,PortScan,71262,2017-07-06 12:01:26,2017-07-06 20:03:13
+nfs2023_te,Thursday.csv,2017-07-06,Web Attack - Brute Force,151,2017-07-06 12:15:54,2017-07-06 12:59:41
+nfs2023_te,Thursday.csv,2017-07-06,Infiltration,28,2017-07-06 17:19:02,2017-07-06 18:45:12
+nfs2023_te,Thursday.csv,2017-07-06,Web Attack - XSS,27,2017-07-06 13:15:35,2017-07-06 13:35:45
+nfs2023_te,Thursday.csv,2017-07-06,Web Attack - Sql Injection,12,2017-07-06 13:40:07,2017-07-06 13:42:50
+nfs2023_te,Tuesday.csv,2017-07-04,BENIGN,456311,2017-07-04 11:53:44,2017-07-04 20:00:30
+nfs2023_te,Tuesday.csv,2017-07-04,FTP-Patator,7963,2017-07-04 12:17:52,2017-07-04 13:20:13
+nfs2023_te,Tuesday.csv,2017-07-04,SSH-Patator,2980,2017-07-04 17:09:01,2017-07-04 19:04:15
+nfs2023_te,Wednesday.csv,2017-07-05,BENIGN,691015,2017-07-05 11:42:42,2017-07-05 20:10:14
+nfs2023_te,Wednesday.csv,2017-07-05,DoS Hulk,158546,2017-07-05 13:43:23,2017-07-05 14:01:34
+nfs2023_te,Wednesday.csv,2017-07-05,DoS GoldenEye,7917,2017-07-05 14:10:03,2017-07-05 14:20:08
+nfs2023_te,Wednesday.csv,2017-07-05,DoS slowloris,5192,2017-07-05 12:48:46,2017-07-05 13:10:34
+nfs2023_te,Wednesday.csv,2017-07-05,DoS Slowhttptest,2732,2017-07-05 13:15:37,2017-07-05 13:35:19
+nfs2023_te,Wednesday.csv,2017-07-05,Heartbleed,11,2017-07-05 18:12:15,2017-07-05 18:32:18
+bccc2017,botnet_ares.csv,2017-07-07,Botnet_ARES,5508,2017-07-07 13:04:13,2017-07-07 20:01:12
+bccc2017,ddos_loit.csv,2017-07-07,DDoS_LOIT,95733,2017-07-07 18:56:31,2017-07-07 19:16:12
+bccc2017,dos_golden_eye.csv,2017-07-05,DoS_GoldenEye,8364,2017-07-05 14:10:03,2017-07-05 14:29:16
+bccc2017,dos_hulk.csv,2017-07-05,DoS_Hulk,349240,2017-07-05 13:43:01,2017-07-05 14:07:21
+bccc2017,dos_slowhttptest.csv,2017-07-05,DoS_Slowhttptest,6860,2017-07-05 13:14:02,2017-07-05 13:42:57
+bccc2017,dos_slowloris.csv,2017-07-05,DoS_Slowloris,5177,2017-07-05 12:48:46,2017-07-05 13:13:57
+bccc2017,friday_benign.csv,2017-07-07,Benign,364102,2017-07-07 11:59:50,2017-07-07 20:02:41
+bccc2017,ftp_patator.csv,2017-07-04,FTP-Patator,9531,2017-07-04 12:17:52,2017-07-04 13:20:17
+bccc2017,heartbleed.csv,2017-07-05,Heartbleed,12,2017-07-05 17:52:55,2017-07-05 18:12:15
+bccc2017,monday_benign.csv,2017-07-03,Benign,495338,2017-07-03 11:55:58,2017-07-03 20:01:34
+bccc2017,portscan.csv,2017-07-07,Port_Scan,161323,2017-07-07 16:55:32,2017-07-07 18:24:01
+bccc2017,ssh_patator-new.csv,2017-07-04,SSH-Patator,5949,2017-07-04 17:09:01,2017-07-04 19:04:15
+bccc2017,thursday_benign.csv,2017-07-06,Benign,133770,2017-07-06 11:59:00,2017-07-06 14:59:59
+bccc2017,tuesday_benign.csv,2017-07-04,Benign,395976,2017-07-04 11:53:44,2017-07-04 20:00:30
+bccc2017,web_brute_force.csv,2017-07-06,Web_Brute_Force,2734,2017-07-06 12:15:54,2017-07-06 13:00:11
+bccc2017,web_sql_injection.csv,2017-07-06,Web_SQL_Injection,24,2017-07-06 13:40:07,2017-07-06 13:42:55
+bccc2017,web_xss.csv,2017-07-06,Web_XSS,1358,2017-07-06 13:15:35,2017-07-06 13:35:52
+bccc2017,wednesday_benign.csv,2017-07-05,Benign,397053,2017-07-05 11:42:42,2017-07-05 20:10:14
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Normal,677786,2015-01-22 11:49:37,2015-01-22 19:44:02
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Generic,7522,2015-01-22 11:50:20,2015-01-22 13:46:06
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Exploits,5409,2015-01-22 11:50:15,2015-01-22 13:46:13
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Fuzzers,5051,2015-01-22 11:53:16,2015-01-22 13:47:28
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Reconnaissance,1759,2015-01-22 11:50:14,2015-01-22 13:46:09
+unsw_original,UNSW-NB15_1.csv,2015-01-22,DoS,1167,2015-01-22 11:50:19,2015-01-22 13:46:02
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Backdoors,534,2015-01-22 12:01:34,2015-01-22 13:45:17
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Analysis,526,2015-01-22 12:43:22,2015-01-22 13:32:21
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Shellcode,223,2015-01-22 11:51:05,2015-01-22 13:45:57
+unsw_original,UNSW-NB15_1.csv,2015-01-22,Worms,24,2015-01-22 11:54:55,2015-01-22 13:45:51
+unsw_original,UNSW-NB15_2.csv,2015-01-22,Normal,352861,2015-01-22 19:43:15,2015-01-22 23:59:59
+unsw_original,UNSW-NB15_2.csv,2015-01-23,Normal,34340,2015-01-23 00:00:00,2015-01-23 00:25:24
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Normal,260050,2015-02-18 00:23:28,2015-02-18 03:45:29
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Generic,27883,2015-02-18 00:24:20,2015-02-18 03:45:26
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Exploits,11103,2015-02-18 00:23:59,2015-02-18 03:45:26
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Fuzzers,4668,2015-02-18 00:24:20,2015-02-18 03:45:27
+unsw_original,UNSW-NB15_2.csv,2015-02-18,DoS,4637,2015-02-18 00:24:20,2015-02-18 03:45:29
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Reconnaissance,3116,2015-02-18 00:24:20,2015-02-18 03:45:24
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Analysis,608,2015-02-18 00:24:28,2015-02-18 03:44:36
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Backdoor,370,2015-02-18 00:24:20,2015-02-18 03:44:04
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Shellcode,324,2015-02-18 00:38:35,2015-02-18 03:45:09
+unsw_original,UNSW-NB15_2.csv,2015-02-18,Worms,40,2015-02-18 00:42:25,2015-02-18 03:42:10
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Normal,542575,2015-02-18 03:45:07,2015-02-18 09:00:09
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Generic,118198,2015-02-18 03:45:37,2015-02-18 09:00:08
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Exploits,16574,2015-02-18 03:45:29,2015-02-18 09:00:04
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Fuzzers,9137,2015-02-18 03:45:29,2015-02-18 08:58:51
+unsw_original,UNSW-NB15_3.csv,2015-02-18,DoS,5642,2015-02-18 03:44:59,2015-02-18 08:59:59
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Reconnaissance,5582,2015-02-18 03:45:45,2015-02-18 09:00:05
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Analysis,873,2015-02-18 03:52:01,2015-02-18 08:54:12
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Backdoor,759,2015-02-18 03:45:39,2015-02-18 09:00:07
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Shellcode,593,2015-02-18 03:45:39,2015-02-18 09:00:00
+unsw_original,UNSW-NB15_3.csv,2015-02-18,Worms,67,2015-02-18 03:45:50,2015-02-18 08:56:46
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Normal,351149,2015-02-18 08:59:44,2015-02-18 12:21:08
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Generic,61878,2015-02-18 09:00:10,2015-02-18 12:21:08
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Exploits,11439,2015-02-18 09:00:09,2015-02-18 12:21:08
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Fuzzers,5390,2015-02-18 09:00:10,2015-02-18 12:21:07
+unsw_original,UNSW-NB15_4.csv,2015-02-18,DoS,4907,2015-02-18 09:00:10,2015-02-18 12:21:06
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Reconnaissance,3530,2015-02-18 09:00:10,2015-02-18 12:21:07
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Analysis,670,2015-02-18 09:01:01,2015-02-18 12:16:22
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Backdoor,666,2015-02-18 09:00:10,2015-02-18 12:19:48
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Shellcode,371,2015-02-18 09:00:29,2015-02-18 12:21:01
+unsw_original,UNSW-NB15_4.csv,2015-02-18,Worms,43,2015-02-18 09:01:36,2015-02-18 12:12:54
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Benign,1078112,2015-01-22 11:49:36,2015-01-22 23:59:59
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Fuzzers,6046,2015-01-22 11:54:15,2015-01-22 13:47:28
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Exploits,5622,2015-01-22 11:50:14,2015-01-22 13:47:26
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Generic,2405,2015-01-22 11:50:19,2015-01-22 13:46:05
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Reconnaissance,2155,2015-01-22 11:50:13,2015-01-22 13:47:28
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,DoS,624,2015-01-22 11:50:18,2015-01-22 13:46:26
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Shellcode,280,2015-01-22 11:51:05,2015-01-22 13:45:56
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Analysis,267,2015-01-22 13:20:13,2015-01-22 13:32:21
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Backdoor,43,2015-01-22 12:01:34,2015-01-22 13:45:17
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-22,Worms,20,2015-01-22 11:54:55,2015-01-22 13:45:50
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-01-23,Benign,39778,2015-01-23 00:00:04,2015-01-23 00:25:23
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Benign,1119841,2015-02-18 00:23:27,2015-02-18 12:29:24
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Exploits,37126,2015-02-18 00:23:30,2015-02-18 12:22:44
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Fuzzers,27770,2015-02-18 00:23:28,2015-02-18 12:22:34
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Generic,17246,2015-02-18 00:24:19,2015-02-18 12:22:46
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Reconnaissance,14919,2015-02-18 00:23:31,2015-02-18 12:22:37
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,DoS,5356,2015-02-18 00:37:45,2015-02-18 12:22:42
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Backdoor,4616,2015-02-18 00:23:27,2015-02-18 12:29:24
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Shellcode,2101,2015-02-18 00:38:34,2015-02-18 12:21:20
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Analysis,959,2015-02-18 01:47:11,2015-02-18 12:16:21
+nf_unsw_v3,NF-UNSW-NB15-v3.csv,2015-02-18,Worms,138,2015-02-18 00:42:25,2015-02-18 12:12:54
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Benign,1693378,2015-01-22 11:49:41,2015-01-22 23:59:59
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Fuzzers,5627,2015-01-22 11:54:15,2015-01-22 13:46:52
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Exploits,4538,2015-01-22 11:50:14,2015-01-22 13:46:13
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Reconnaissance,2489,2015-01-22 11:50:13,2015-01-22 13:46:09
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Generic,680,2015-01-22 11:50:19,2015-01-22 13:46:05
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,DoS,676,2015-01-22 11:50:18,2015-01-22 13:46:02
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Shellcode,315,2015-01-22 11:51:05,2015-01-22 13:45:56
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Backdoor,64,2015-01-22 12:01:34,2015-01-22 13:45:17
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Analysis,54,2015-01-22 13:20:13,2015-01-22 13:32:21
+cic_unsw,CICFlowMeter_out.csv,2015-01-22,Worms,37,2015-01-22 11:54:55,2015-01-22 13:45:50
+cic_unsw,CICFlowMeter_out.csv,2015-01-23,Benign,58064,2015-01-23 00:00:00,2015-01-23 00:25:23
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Benign,1699216,2015-02-18 00:23:27,2015-02-18 12:29:24
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Exploits,26413,2015-02-18 00:23:58,2015-02-18 12:24:39
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Fuzzers,23986,2015-02-18 00:24:27,2015-02-18 12:29:20
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Reconnaissance,14246,2015-02-18 00:25:04,2015-02-18 12:21:07
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Generic,3952,2015-02-18 00:37:46,2015-02-18 12:29:21
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,DoS,3791,2015-02-18 00:37:45,2015-02-18 12:21:09
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Shellcode,1787,2015-02-18 00:38:34,2015-02-18 12:21:00
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Backdoor,388,2015-02-18 00:39:31,2015-02-18 12:19:48
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Analysis,331,2015-02-18 01:47:11,2015-02-18 12:16:21
+cic_unsw,CICFlowMeter_out.csv,2015-02-18,Worms,209,2015-02-18 00:42:25,2015-02-18 12:12:55

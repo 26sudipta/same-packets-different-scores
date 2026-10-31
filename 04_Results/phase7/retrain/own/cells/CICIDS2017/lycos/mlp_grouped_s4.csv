@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,lycos,mlp,grouped,4,flow,own,benign,0.9991552282980546,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,bot,0.9977426636568849,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,ddos,1.0,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,dos_goldeneye,0.9818621523579202,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,dos_hulk,0.9998324115971174,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,dos_slowhttptest,0.9783491204330176,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,dos_slowloris,0.9923394225103123,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,ftp_patator,0.9970893970893971,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,portscan,0.9988276670574443,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,ssh_patator,0.9954853273137697,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,web_bruteforce,0.8015873015873016,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,web_sqli,0.4,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,web_xss,0.04878048780487805,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6
+CICIDS2017,lycos,mlp,grouped,4,flow,own,MACRO_CPLUS,0.860850090746623,"{""hidden_layer_sizes"": [128, 64], ""alpha"": 0.001}",258041,109778,18.6

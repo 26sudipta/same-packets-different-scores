@@ -1,0 +1,433 @@
+CICIDS2017 cic_original rf_grouped_s0: train 358,235 test 154,100 24 s, peak 1240 MB, macro flow=0.881 conversation=0.894
+CICIDS2017 cic_original rf_grouped_s1: train 357,943 test 154,392 24 s, peak 1240 MB, macro flow=0.869 conversation=0.877
+CICIDS2017 cic_original rf_grouped_s2: train 358,339 test 153,996 24 s, peak 1240 MB, macro flow=0.884 conversation=0.900
+CICIDS2017 cic_original rf_grouped_s3: train 358,654 test 153,681 23 s, peak 1240 MB, macro flow=0.874 conversation=0.882
+CICIDS2017 cic_original rf_grouped_s4: train 359,316 test 153,019 23 s, peak 1240 MB, macro flow=0.887 conversation=0.897
+CICIDS2017 cic_original rf_random_s0: train 358,634 test 153,701 24 s, peak 1240 MB, macro flow=0.859 conversation=0.870
+CICIDS2017 cic_original rf_random_s1: train 358,730 test 153,605 24 s, peak 1263 MB, macro flow=0.900 conversation=0.899
+CICIDS2017 cic_original rf_random_s2: train 358,714 test 153,621 23 s, peak 1263 MB, macro flow=0.868 conversation=0.883
+CICIDS2017 cic_original rf_random_s3: train 358,181 test 154,154 23 s, peak 1263 MB, macro flow=0.885 conversation=0.886
+CICIDS2017 cic_original rf_random_s4: train 358,446 test 153,889 23 s, peak 1263 MB, macro flow=0.873 conversation=0.899
+CICIDS2017 cic_original lgbm_grouped_s0: train 358,235 test 154,100 44 s, peak 1352 MB, macro flow=0.884 conversation=0.873
+CICIDS2017 cic_original lgbm_grouped_s1: train 357,943 test 154,392 44 s, peak 1352 MB, macro flow=0.862 conversation=0.858
+CICIDS2017 cic_original lgbm_grouped_s2: train 358,339 test 153,996 45 s, peak 1352 MB, macro flow=0.882 conversation=0.873
+CICIDS2017 cic_original lgbm_grouped_s3: train 358,654 test 153,681 45 s, peak 1361 MB, macro flow=0.857 conversation=0.852
+CICIDS2017 cic_original lgbm_grouped_s4: train 359,316 test 153,019 45 s, peak 1361 MB, macro flow=0.896 conversation=0.894
+CICIDS2017 cic_original lgbm_random_s0: train 358,634 test 153,701 44 s, peak 1361 MB, macro flow=0.882 conversation=0.895
+CICIDS2017 cic_original lgbm_random_s1: train 358,730 test 153,605 45 s, peak 1361 MB, macro flow=0.892 conversation=0.901
+CICIDS2017 cic_original lgbm_random_s2: train 358,714 test 153,621 46 s, peak 1363 MB, macro flow=0.887 conversation=0.892
+CICIDS2017 cic_original lgbm_random_s3: train 358,181 test 154,154 45 s, peak 1363 MB, macro flow=0.883 conversation=0.893
+CICIDS2017 cic_original lgbm_random_s4: train 358,446 test 153,889 45 s, peak 1363 MB, macro flow=0.864 conversation=0.891
+CICIDS2017 cic_original mlp_grouped_s0: train 358,235 test 154,100 74 s, peak 1556 MB, macro flow=0.836 conversation=0.832
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+CICIDS2017 cic_original mlp_grouped_s1: train 357,943 test 154,392 78 s, peak 1612 MB, macro flow=0.841 conversation=0.846
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+CICIDS2017 cic_original mlp_grouped_s2: train 358,339 test 153,996 79 s, peak 1616 MB, macro flow=0.839 conversation=0.845
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+CICIDS2017 cic_original mlp_grouped_s3: train 358,654 test 153,681 73 s, peak 1618 MB, macro flow=0.830 conversation=0.834
+CICIDS2017 cic_original mlp_grouped_s4: train 359,316 test 153,019 80 s, peak 1620 MB, macro flow=0.816 conversation=0.810
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+CICIDS2017 cic_original mlp_random_s0: train 358,634 test 153,701 79 s, peak 1625 MB, macro flow=0.809 conversation=0.833
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+CICIDS2017 cic_original mlp_random_s1: train 358,730 test 153,605 84 s, peak 1625 MB, macro flow=0.823 conversation=0.832
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+CICIDS2017 cic_original mlp_random_s2: train 358,714 test 153,621 76 s, peak 1625 MB, macro flow=0.851 conversation=0.867
+CICIDS2017 cic_original mlp_random_s3: train 358,181 test 154,154 66 s, peak 1625 MB, macro flow=0.831 conversation=0.831
+CICIDS2017 cic_original mlp_random_s4: train 358,446 test 153,889 69 s, peak 1625 MB, macro flow=0.806 conversation=0.821
+CICIDS2017 wtmc2021 rf_grouped_s0: train 258,699 test 111,357 18 s, peak 1686 MB, macro flow=0.905 conversation=0.905
+CICIDS2017 wtmc2021 rf_grouped_s1: train 258,514 test 111,542 18 s, peak 1686 MB, macro flow=0.885 conversation=0.885
+CICIDS2017 wtmc2021 rf_grouped_s2: train 258,760 test 111,296 18 s, peak 1686 MB, macro flow=0.887 conversation=0.887
+CICIDS2017 wtmc2021 rf_grouped_s3: train 259,350 test 110,706 18 s, peak 1686 MB, macro flow=0.881 conversation=0.881
+CICIDS2017 wtmc2021 rf_grouped_s4: train 259,635 test 110,421 18 s, peak 1686 MB, macro flow=0.905 conversation=0.905
+CICIDS2017 wtmc2021 rf_random_s0: train 259,355 test 110,701 17 s, peak 1686 MB, macro flow=0.861 conversation=0.861
+CICIDS2017 wtmc2021 rf_random_s1: train 259,071 test 110,985 17 s, peak 1686 MB, macro flow=0.891 conversation=0.891
+CICIDS2017 wtmc2021 rf_random_s2: train 258,885 test 111,171 17 s, peak 1686 MB, macro flow=0.866 conversation=0.866
+CICIDS2017 wtmc2021 rf_random_s3: train 258,893 test 111,163 17 s, peak 1686 MB, macro flow=0.892 conversation=0.892
+CICIDS2017 wtmc2021 rf_random_s4: train 259,222 test 110,834 18 s, peak 1686 MB, macro flow=0.917 conversation=0.917
+CICIDS2017 wtmc2021 lgbm_grouped_s0: train 258,699 test 111,357 34 s, peak 1686 MB, macro flow=0.919 conversation=0.918
+CICIDS2017 wtmc2021 lgbm_grouped_s1: train 258,514 test 111,542 35 s, peak 1686 MB, macro flow=0.909 conversation=0.909
+CICIDS2017 wtmc2021 lgbm_grouped_s2: train 258,760 test 111,296 34 s, peak 1686 MB, macro flow=0.912 conversation=0.912
+CICIDS2017 wtmc2021 lgbm_grouped_s3: train 259,350 test 110,706 36 s, peak 1686 MB, macro flow=0.923 conversation=0.923
+CICIDS2017 wtmc2021 lgbm_grouped_s4: train 259,635 test 110,421 37 s, peak 1686 MB, macro flow=0.933 conversation=0.933
+CICIDS2017 wtmc2021 lgbm_random_s0: train 259,355 test 110,701 35 s, peak 1686 MB, macro flow=0.900 conversation=0.914
+CICIDS2017 wtmc2021 lgbm_random_s1: train 259,071 test 110,985 34 s, peak 1686 MB, macro flow=0.913 conversation=0.913
+CICIDS2017 wtmc2021 lgbm_random_s2: train 258,885 test 111,171 36 s, peak 1686 MB, macro flow=0.942 conversation=0.942
+CICIDS2017 wtmc2021 lgbm_random_s3: train 258,893 test 111,163 36 s, peak 1686 MB, macro flow=0.911 conversation=0.911
+CICIDS2017 wtmc2021 lgbm_random_s4: train 259,222 test 110,834 37 s, peak 1686 MB, macro flow=0.920 conversation=0.920
+CICIDS2017 wtmc2021 mlp_grouped_s0: train 258,699 test 111,357 16 s, peak 1686 MB, macro flow=0.833 conversation=0.833
+CICIDS2017 wtmc2021 mlp_grouped_s1: train 258,514 test 111,542 16 s, peak 1687 MB, macro flow=0.834 conversation=0.834
+CICIDS2017 wtmc2021 mlp_grouped_s2: train 258,760 test 111,296 17 s, peak 1687 MB, macro flow=0.828 conversation=0.828
+CICIDS2017 wtmc2021 mlp_grouped_s3: train 259,350 test 110,706 18 s, peak 1687 MB, macro flow=0.832 conversation=0.832
+CICIDS2017 wtmc2021 mlp_grouped_s4: train 259,635 test 110,421 17 s, peak 1687 MB, macro flow=0.886 conversation=0.886
+CICIDS2017 wtmc2021 mlp_random_s0: train 259,355 test 110,701 18 s, peak 1687 MB, macro flow=0.835 conversation=0.849
+CICIDS2017 wtmc2021 mlp_random_s1: train 259,071 test 110,985 16 s, peak 1688 MB, macro flow=0.842 conversation=0.842
+CICIDS2017 wtmc2021 mlp_random_s2: train 258,885 test 111,171 21 s, peak 1688 MB, macro flow=0.827 conversation=0.842
+CICIDS2017 wtmc2021 mlp_random_s3: train 258,893 test 111,163 12 s, peak 1688 MB, macro flow=0.842 conversation=0.842
+CICIDS2017 wtmc2021 mlp_random_s4: train 259,222 test 110,834 23 s, peak 1688 MB, macro flow=0.893 conversation=0.893
+CICIDS2017 crisis2022_rpd rf_grouped_s0: train 259,138 test 111,533 18 s, peak 1829 MB, macro flow=0.884 conversation=0.883
+CICIDS2017 crisis2022_rpd rf_grouped_s1: train 258,933 test 111,738 17 s, peak 1829 MB, macro flow=0.881 conversation=0.880
+CICIDS2017 crisis2022_rpd rf_grouped_s2: train 259,202 test 111,469 17 s, peak 1829 MB, macro flow=0.887 conversation=0.886
+CICIDS2017 crisis2022_rpd rf_grouped_s3: train 259,790 test 110,881 17 s, peak 1829 MB, macro flow=0.851 conversation=0.851
+CICIDS2017 crisis2022_rpd rf_grouped_s4: train 260,065 test 110,606 18 s, peak 1829 MB, macro flow=0.885 conversation=0.885
+CICIDS2017 crisis2022_rpd rf_random_s0: train 259,344 test 111,327 18 s, peak 1829 MB, macro flow=0.893 conversation=0.893
+CICIDS2017 crisis2022_rpd rf_random_s1: train 258,982 test 111,689 17 s, peak 1829 MB, macro flow=0.867 conversation=0.867
+CICIDS2017 crisis2022_rpd rf_random_s2: train 259,747 test 110,924 18 s, peak 1829 MB, macro flow=0.863 conversation=0.863
+CICIDS2017 crisis2022_rpd rf_random_s3: train 259,351 test 111,320 18 s, peak 1829 MB, macro flow=0.868 conversation=0.868
+CICIDS2017 crisis2022_rpd rf_random_s4: train 259,646 test 111,025 17 s, peak 1829 MB, macro flow=0.861 conversation=0.861
+CICIDS2017 crisis2022_rpd lgbm_grouped_s0: train 259,138 test 111,533 34 s, peak 1829 MB, macro flow=0.921 conversation=0.921
+CICIDS2017 crisis2022_rpd lgbm_grouped_s1: train 258,933 test 111,738 33 s, peak 1829 MB, macro flow=0.913 conversation=0.912
+CICIDS2017 crisis2022_rpd lgbm_grouped_s2: train 259,202 test 111,469 34 s, peak 1829 MB, macro flow=0.926 conversation=0.926
+CICIDS2017 crisis2022_rpd lgbm_grouped_s3: train 259,790 test 110,881 35 s, peak 1829 MB, macro flow=0.889 conversation=0.889
+CICIDS2017 crisis2022_rpd lgbm_grouped_s4: train 260,065 test 110,606 34 s, peak 1829 MB, macro flow=0.919 conversation=0.918
+CICIDS2017 crisis2022_rpd lgbm_random_s0: train 259,344 test 111,327 34 s, peak 1829 MB, macro flow=0.929 conversation=0.929
+CICIDS2017 crisis2022_rpd lgbm_random_s1: train 258,982 test 111,689 34 s, peak 1829 MB, macro flow=0.887 conversation=0.901
+CICIDS2017 crisis2022_rpd lgbm_random_s2: train 259,747 test 110,924 34 s, peak 1829 MB, macro flow=0.894 conversation=0.894
+CICIDS2017 crisis2022_rpd lgbm_random_s3: train 259,351 test 111,320 34 s, peak 1829 MB, macro flow=0.899 conversation=0.899
+CICIDS2017 crisis2022_rpd lgbm_random_s4: train 259,646 test 111,025 31 s, peak 1829 MB, macro flow=0.902 conversation=0.916
+CICIDS2017 crisis2022_rpd mlp_grouped_s0: train 259,138 test 111,533 21 s, peak 1829 MB, macro flow=0.867 conversation=0.866
+CICIDS2017 crisis2022_rpd mlp_grouped_s1: train 258,933 test 111,738 25 s, peak 1829 MB, macro flow=0.832 conversation=0.832
+CICIDS2017 crisis2022_rpd mlp_grouped_s2: train 259,202 test 111,469 23 s, peak 1829 MB, macro flow=0.829 conversation=0.829
+CICIDS2017 crisis2022_rpd mlp_grouped_s3: train 259,790 test 110,881 25 s, peak 1829 MB, macro flow=0.861 conversation=0.861
+CICIDS2017 crisis2022_rpd mlp_grouped_s4: train 260,065 test 110,606 21 s, peak 1829 MB, macro flow=0.874 conversation=0.874
+CICIDS2017 crisis2022_rpd mlp_random_s0: train 259,344 test 111,327 23 s, peak 1829 MB, macro flow=0.894 conversation=0.908
+CICIDS2017 crisis2022_rpd mlp_random_s1: train 258,982 test 111,689 21 s, peak 1829 MB, macro flow=0.888 conversation=0.902
+CICIDS2017 crisis2022_rpd mlp_random_s2: train 259,747 test 110,924 24 s, peak 1829 MB, macro flow=0.843 conversation=0.843
+CICIDS2017 crisis2022_rpd mlp_random_s3: train 259,351 test 111,320 33 s, peak 1829 MB, macro flow=0.840 conversation=0.840
+CICIDS2017 crisis2022_rpd mlp_random_s4: train 259,646 test 111,025 29 s, peak 1829 MB, macro flow=0.829 conversation=0.844
+CICIDS2017 lycos rf_grouped_s0: train 257,149 test 110,670 14 s, peak 1864 MB, macro flow=0.921 conversation=0.920
+CICIDS2017 lycos rf_grouped_s1: train 256,990 test 110,829 15 s, peak 1864 MB, macro flow=0.882 conversation=0.882
+CICIDS2017 lycos rf_grouped_s2: train 257,221 test 110,598 14 s, peak 1864 MB, macro flow=0.904 conversation=0.904
+CICIDS2017 lycos rf_grouped_s3: train 257,703 test 110,116 14 s, peak 1864 MB, macro flow=0.881 conversation=0.881
+CICIDS2017 lycos rf_grouped_s4: train 258,041 test 109,778 15 s, peak 1864 MB, macro flow=0.906 conversation=0.906
+CICIDS2017 lycos rf_random_s0: train 257,297 test 110,522 14 s, peak 1864 MB, macro flow=0.912 conversation=0.926
+CICIDS2017 lycos rf_random_s1: train 257,086 test 110,733 14 s, peak 1864 MB, macro flow=0.894 conversation=0.894
+CICIDS2017 lycos rf_random_s2: train 256,954 test 110,865 14 s, peak 1864 MB, macro flow=0.910 conversation=0.910
+CICIDS2017 lycos rf_random_s3: train 257,183 test 110,636 14 s, peak 1864 MB, macro flow=0.895 conversation=0.909
+CICIDS2017 lycos rf_random_s4: train 257,560 test 110,259 15 s, peak 1864 MB, macro flow=0.911 conversation=0.911
+CICIDS2017 lycos lgbm_grouped_s0: train 257,149 test 110,670 24 s, peak 1864 MB, macro flow=0.910 conversation=0.909
+CICIDS2017 lycos lgbm_grouped_s1: train 256,990 test 110,829 27 s, peak 1864 MB, macro flow=0.898 conversation=0.898
+CICIDS2017 lycos lgbm_grouped_s2: train 257,221 test 110,598 27 s, peak 1864 MB, macro flow=0.905 conversation=0.905
+CICIDS2017 lycos lgbm_grouped_s3: train 257,703 test 110,116 27 s, peak 1864 MB, macro flow=0.857 conversation=0.857
+CICIDS2017 lycos lgbm_grouped_s4: train 258,041 test 109,778 24 s, peak 1864 MB, macro flow=0.905 conversation=0.905
+CICIDS2017 lycos lgbm_random_s0: train 257,297 test 110,522 24 s, peak 1864 MB, macro flow=0.933 conversation=0.933
+CICIDS2017 lycos lgbm_random_s1: train 257,086 test 110,733 27 s, peak 1864 MB, macro flow=0.927 conversation=0.927
+CICIDS2017 lycos lgbm_random_s2: train 256,954 test 110,865 26 s, peak 1864 MB, macro flow=0.930 conversation=0.930
+CICIDS2017 lycos lgbm_random_s3: train 257,183 test 110,636 27 s, peak 1864 MB, macro flow=0.912 conversation=0.926
+CICIDS2017 lycos lgbm_random_s4: train 257,560 test 110,259 29 s, peak 1864 MB, macro flow=0.905 conversation=0.905
+CICIDS2017 lycos mlp_grouped_s0: train 257,149 test 110,670 32 s, peak 1864 MB, macro flow=0.875 conversation=0.875
+CICIDS2017 lycos mlp_grouped_s1: train 256,990 test 110,829 27 s, peak 1864 MB, macro flow=0.833 conversation=0.833
+CICIDS2017 lycos mlp_grouped_s2: train 257,221 test 110,598 21 s, peak 1864 MB, macro flow=0.828 conversation=0.828
+CICIDS2017 lycos mlp_grouped_s3: train 257,703 test 110,116 18 s, peak 1864 MB, macro flow=0.828 conversation=0.828
+CICIDS2017 lycos mlp_grouped_s4: train 258,041 test 109,778 18 s, peak 1864 MB, macro flow=0.830 conversation=0.830
+CICIDS2017 lycos mlp_random_s0: train 257,297 test 110,522 22 s, peak 1864 MB, macro flow=0.885 conversation=0.899
+CICIDS2017 lycos mlp_random_s1: train 257,086 test 110,733 26 s, peak 1864 MB, macro flow=0.845 conversation=0.845
+CICIDS2017 lycos mlp_random_s2: train 256,954 test 110,865 33 s, peak 1864 MB, macro flow=0.873 conversation=0.873
+CICIDS2017 lycos mlp_random_s3: train 257,183 test 110,636 27 s, peak 1864 MB, macro flow=0.824 conversation=0.838
+CICIDS2017 lycos mlp_random_s4: train 257,560 test 110,259 17 s, peak 1864 MB, macro flow=0.841 conversation=0.841
+CICIDS2017 nfs2023_nte rf_grouped_s0: train 263,149 test 113,176 12 s, peak 1864 MB, macro flow=0.907 conversation=0.908
+CICIDS2017 nfs2023_nte rf_grouped_s1: train 262,833 test 113,492 12 s, peak 1864 MB, macro flow=0.879 conversation=0.879
+CICIDS2017 nfs2023_nte rf_grouped_s2: train 263,160 test 113,165 12 s, peak 1864 MB, macro flow=0.883 conversation=0.884
+CICIDS2017 nfs2023_nte rf_grouped_s3: train 263,760 test 112,565 12 s, peak 1864 MB, macro flow=0.900 conversation=0.901
+CICIDS2017 nfs2023_nte rf_grouped_s4: train 264,217 test 112,108 12 s, peak 1864 MB, macro flow=0.887 conversation=0.887
+CICIDS2017 nfs2023_nte rf_random_s0: train 263,698 test 112,627 12 s, peak 1864 MB, macro flow=0.877 conversation=0.892
+CICIDS2017 nfs2023_nte rf_random_s1: train 263,516 test 112,809 12 s, peak 1864 MB, macro flow=0.886 conversation=0.886
+CICIDS2017 nfs2023_nte rf_random_s2: train 263,160 test 113,165 12 s, peak 1864 MB, macro flow=0.910 conversation=0.910
+CICIDS2017 nfs2023_nte rf_random_s3: train 263,385 test 112,940 12 s, peak 1864 MB, macro flow=0.896 conversation=0.910
+CICIDS2017 nfs2023_nte rf_random_s4: train 263,532 test 112,793 12 s, peak 1864 MB, macro flow=0.912 conversation=0.913
+CICIDS2017 nfs2023_nte lgbm_grouped_s0: train 263,149 test 113,176 25 s, peak 1864 MB, macro flow=0.883 conversation=0.884
+CICIDS2017 nfs2023_nte lgbm_grouped_s1: train 262,833 test 113,492 24 s, peak 1864 MB, macro flow=0.905 conversation=0.905
+CICIDS2017 nfs2023_nte lgbm_grouped_s2: train 263,160 test 113,165 24 s, peak 1864 MB, macro flow=0.919 conversation=0.920
+CICIDS2017 nfs2023_nte lgbm_grouped_s3: train 263,760 test 112,565 24 s, peak 1864 MB, macro flow=0.877 conversation=0.878
+CICIDS2017 nfs2023_nte lgbm_grouped_s4: train 264,217 test 112,108 24 s, peak 1864 MB, macro flow=0.931 conversation=0.931
+CICIDS2017 nfs2023_nte lgbm_random_s0: train 263,698 test 112,627 25 s, peak 1864 MB, macro flow=0.876 conversation=0.890
+CICIDS2017 nfs2023_nte lgbm_random_s1: train 263,516 test 112,809 24 s, peak 1864 MB, macro flow=0.908 conversation=0.908
+CICIDS2017 nfs2023_nte lgbm_random_s2: train 263,160 test 113,165 24 s, peak 1864 MB, macro flow=0.888 conversation=0.889
+CICIDS2017 nfs2023_nte lgbm_random_s3: train 263,385 test 112,940 25 s, peak 1864 MB, macro flow=0.919 conversation=0.933
+CICIDS2017 nfs2023_nte lgbm_random_s4: train 263,532 test 112,793 25 s, peak 1864 MB, macro flow=0.931 conversation=0.931
+CICIDS2017 nfs2023_nte mlp_grouped_s0: train 263,149 test 113,176 29 s, peak 1864 MB, macro flow=0.870 conversation=0.871
+CICIDS2017 nfs2023_nte mlp_grouped_s1: train 262,833 test 113,492 31 s, peak 1864 MB, macro flow=0.832 conversation=0.833
+CICIDS2017 nfs2023_nte mlp_grouped_s2: train 263,160 test 113,165 29 s, peak 1864 MB, macro flow=0.827 conversation=0.828
+CICIDS2017 nfs2023_nte mlp_grouped_s3: train 263,760 test 112,565 25 s, peak 1864 MB, macro flow=0.827 conversation=0.829
+CICIDS2017 nfs2023_nte mlp_grouped_s4: train 264,217 test 112,108 23 s, peak 1864 MB, macro flow=0.825 conversation=0.826
+CICIDS2017 nfs2023_nte mlp_random_s0: train 263,698 test 112,627 24 s, peak 1864 MB, macro flow=0.870 conversation=0.870
+CICIDS2017 nfs2023_nte mlp_random_s1: train 263,516 test 112,809 19 s, peak 1864 MB, macro flow=0.838 conversation=0.838
+CICIDS2017 nfs2023_nte mlp_random_s2: train 263,160 test 113,165 36 s, peak 1864 MB, macro flow=0.842 conversation=0.842
+CICIDS2017 nfs2023_nte mlp_random_s3: train 263,385 test 112,940 31 s, peak 1864 MB, macro flow=0.815 conversation=0.816
+CICIDS2017 nfs2023_nte mlp_random_s4: train 263,532 test 112,793 31 s, peak 1864 MB, macro flow=0.879 conversation=0.879
+CICIDS2017 nfs2023_te rf_grouped_s0: train 397,186 test 170,780 17 s, peak 2020 MB, macro flow=0.766 conversation=0.873
+CICIDS2017 nfs2023_te rf_grouped_s1: train 396,732 test 171,234 17 s, peak 2020 MB, macro flow=0.744 conversation=0.834
+CICIDS2017 nfs2023_te rf_grouped_s2: train 397,143 test 170,823 17 s, peak 2020 MB, macro flow=0.762 conversation=0.867
+CICIDS2017 nfs2023_te rf_grouped_s3: train 397,491 test 170,475 17 s, peak 2020 MB, macro flow=0.760 conversation=0.863
+CICIDS2017 nfs2023_te rf_grouped_s4: train 398,430 test 169,536 17 s, peak 2020 MB, macro flow=0.764 conversation=0.870
+CICIDS2017 nfs2023_te rf_random_s0: train 397,627 test 170,339 17 s, peak 2020 MB, macro flow=0.767 conversation=0.787
+CICIDS2017 nfs2023_te rf_random_s1: train 398,128 test 169,838 17 s, peak 2020 MB, macro flow=0.757 conversation=0.786
+CICIDS2017 nfs2023_te rf_random_s2: train 397,392 test 170,574 17 s, peak 2020 MB, macro flow=0.754 conversation=0.784
+CICIDS2017 nfs2023_te rf_random_s3: train 397,923 test 170,043 17 s, peak 2020 MB, macro flow=0.769 conversation=0.801
+CICIDS2017 nfs2023_te rf_random_s4: train 397,725 test 170,241 17 s, peak 2020 MB, macro flow=0.781 conversation=0.801
+CICIDS2017 nfs2023_te lgbm_grouped_s0: train 397,186 test 170,780 32 s, peak 2020 MB, macro flow=0.778 conversation=0.891
+CICIDS2017 nfs2023_te lgbm_grouped_s1: train 396,732 test 171,234 32 s, peak 2020 MB, macro flow=0.777 conversation=0.888
+CICIDS2017 nfs2023_te lgbm_grouped_s2: train 397,143 test 170,823 32 s, peak 2020 MB, macro flow=0.777 conversation=0.889
+CICIDS2017 nfs2023_te lgbm_grouped_s3: train 397,491 test 170,475 33 s, peak 2020 MB, macro flow=0.764 conversation=0.871
+CICIDS2017 nfs2023_te lgbm_grouped_s4: train 398,430 test 169,536 32 s, peak 2020 MB, macro flow=0.789 conversation=0.905
+CICIDS2017 nfs2023_te lgbm_random_s0: train 397,627 test 170,339 32 s, peak 2020 MB, macro flow=0.781 conversation=0.801
+CICIDS2017 nfs2023_te lgbm_random_s1: train 398,128 test 169,838 32 s, peak 2020 MB, macro flow=0.768 conversation=0.781
+CICIDS2017 nfs2023_te lgbm_random_s2: train 397,392 test 170,574 32 s, peak 2020 MB, macro flow=0.805 conversation=0.845
+CICIDS2017 nfs2023_te lgbm_random_s3: train 397,923 test 170,043 33 s, peak 2020 MB, macro flow=0.793 conversation=0.827
+CICIDS2017 nfs2023_te lgbm_random_s4: train 397,725 test 170,241 32 s, peak 2020 MB, macro flow=0.792 conversation=0.811
+CICIDS2017 nfs2023_te mlp_grouped_s0: train 397,186 test 170,780 79 s, peak 2020 MB, macro flow=0.764 conversation=0.867
+CICIDS2017 nfs2023_te mlp_grouped_s1: train 396,732 test 171,234 62 s, peak 2020 MB, macro flow=0.753 conversation=0.851
+CICIDS2017 nfs2023_te mlp_grouped_s2: train 397,143 test 170,823 38 s, peak 2020 MB, macro flow=0.763 conversation=0.866
+CICIDS2017 nfs2023_te mlp_grouped_s3: train 397,491 test 170,475 56 s, peak 2020 MB, macro flow=0.733 conversation=0.816
+CICIDS2017 nfs2023_te mlp_grouped_s4: train 398,430 test 169,536 67 s, peak 2020 MB, macro flow=0.751 conversation=0.849
+CICIDS2017 nfs2023_te mlp_random_s0: train 397,627 test 170,339 70 s, peak 2020 MB, macro flow=0.747 conversation=0.749
+CICIDS2017 nfs2023_te mlp_random_s1: train 398,128 test 169,838 53 s, peak 2020 MB, macro flow=0.765 conversation=0.793
+CICIDS2017 nfs2023_te mlp_random_s2: train 397,392 test 170,574 30 s, peak 2020 MB, macro flow=0.771 conversation=0.808
+CICIDS2017 nfs2023_te mlp_random_s3: train 397,923 test 170,043 45 s, peak 2020 MB, macro flow=0.680 conversation=0.699
+CICIDS2017 nfs2023_te mlp_random_s4: train 397,725 test 170,241 63 s, peak 2020 MB, macro flow=0.780 conversation=0.799
+CICIDS2017 bccc2017 rf_grouped_s0: train 336,314 test 144,988 23 s, peak 2353 MB, macro flow=0.937 conversation=0.913
+CICIDS2017 bccc2017 rf_grouped_s1: train 336,789 test 144,513 24 s, peak 2353 MB, macro flow=0.926 conversation=0.911
+CICIDS2017 bccc2017 rf_grouped_s2: train 336,732 test 144,570 24 s, peak 2353 MB, macro flow=0.932 conversation=0.912
+CICIDS2017 bccc2017 rf_grouped_s3: train 336,234 test 145,068 23 s, peak 2353 MB, macro flow=0.933 conversation=0.927
+CICIDS2017 bccc2017 rf_grouped_s4: train 337,433 test 143,869 24 s, peak 2353 MB, macro flow=0.945 conversation=0.928
+CICIDS2017 bccc2017 rf_random_s0: train 336,818 test 144,484 24 s, peak 2353 MB, macro flow=0.921 conversation=0.917
+CICIDS2017 bccc2017 rf_random_s1: train 336,804 test 144,498 23 s, peak 2353 MB, macro flow=0.934 conversation=0.927
+CICIDS2017 bccc2017 rf_random_s2: train 336,614 test 144,688 24 s, peak 2353 MB, macro flow=0.926 conversation=0.923
+CICIDS2017 bccc2017 rf_random_s3: train 337,082 test 144,220 23 s, peak 2353 MB, macro flow=0.926 conversation=0.914
+CICIDS2017 bccc2017 rf_random_s4: train 336,890 test 144,412 24 s, peak 2353 MB, macro flow=0.921 conversation=0.921
+CICIDS2017 bccc2017 lgbm_grouped_s0: train 336,314 test 144,988 43 s, peak 2353 MB, macro flow=0.921 conversation=0.909
+CICIDS2017 bccc2017 lgbm_grouped_s1: train 336,789 test 144,513 43 s, peak 2353 MB, macro flow=0.928 conversation=0.922
+CICIDS2017 bccc2017 lgbm_grouped_s2: train 336,732 test 144,570 47 s, peak 2353 MB, macro flow=0.937 conversation=0.926
+CICIDS2017 bccc2017 lgbm_grouped_s3: train 336,234 test 145,068 47 s, peak 2353 MB, macro flow=0.917 conversation=0.902
+CICIDS2017 bccc2017 lgbm_grouped_s4: train 337,433 test 143,869 48 s, peak 2353 MB, macro flow=0.935 conversation=0.910
+CICIDS2017 bccc2017 lgbm_random_s0: train 336,818 test 144,484 48 s, peak 2353 MB, macro flow=0.939 conversation=0.939
+CICIDS2017 bccc2017 lgbm_random_s1: train 336,804 test 144,498 43 s, peak 2353 MB, macro flow=0.942 conversation=0.947
+CICIDS2017 bccc2017 lgbm_random_s2: train 336,614 test 144,688 43 s, peak 2353 MB, macro flow=0.906 conversation=0.903
+CICIDS2017 bccc2017 lgbm_random_s3: train 337,082 test 144,220 48 s, peak 2353 MB, macro flow=0.922 conversation=0.911
+CICIDS2017 bccc2017 lgbm_random_s4: train 336,890 test 144,412 48 s, peak 2353 MB, macro flow=0.934 conversation=0.929
+CICIDS2017 bccc2017 mlp_grouped_s0: train 336,314 test 144,988 34 s, peak 2354 MB, macro flow=0.701 conversation=0.757
+CICIDS2017 bccc2017 mlp_grouped_s1: train 336,789 test 144,513 37 s, peak 2355 MB, macro flow=0.700 conversation=0.757
+CICIDS2017 bccc2017 mlp_grouped_s2: train 336,732 test 144,570 58 s, peak 2361 MB, macro flow=0.724 conversation=0.784
+CICIDS2017 bccc2017 mlp_grouped_s3: train 336,234 test 145,068 65 s, peak 2363 MB, macro flow=0.698 conversation=0.751
+CICIDS2017 bccc2017 mlp_grouped_s4: train 337,433 test 143,869 54 s, peak 2365 MB, macro flow=0.696 conversation=0.751
+CICIDS2017 bccc2017 mlp_random_s0: train 336,818 test 144,484 49 s, peak 2366 MB, macro flow=0.735 conversation=0.758
+CICIDS2017 bccc2017 mlp_random_s1: train 336,804 test 144,498 68 s, peak 2367 MB, macro flow=0.729 conversation=0.745
+CICIDS2017 bccc2017 mlp_random_s2: train 336,614 test 144,688 67 s, peak 2367 MB, macro flow=0.767 conversation=0.783
+CICIDS2017 bccc2017 mlp_random_s3: train 337,082 test 144,220 41 s, peak 2367 MB, macro flow=0.700 conversation=0.714
+CICIDS2017 bccc2017 mlp_random_s4: train 336,890 test 144,412 78 s, peak 2367 MB, macro flow=0.764 conversation=0.785
+      benchmark             arm model    split  seed  n_train  n_test  seconds  peak_rss_mb
+0    CICIDS2017    cic_original    rf  grouped     0   358235  154100     23.6         1240
+1    CICIDS2017    cic_original    rf  grouped     1   357943  154392     23.5         1240
+2    CICIDS2017    cic_original    rf  grouped     2   358339  153996     23.5         1240
+3    CICIDS2017    cic_original    rf  grouped     3   358654  153681     23.0         1240
+4    CICIDS2017    cic_original    rf  grouped     4   359316  153019     23.1         1240
+5    CICIDS2017    cic_original    rf   random     0   358634  153701     23.6         1240
+6    CICIDS2017    cic_original    rf   random     1   358730  153605     23.5         1263
+7    CICIDS2017    cic_original    rf   random     2   358714  153621     23.2         1263
+8    CICIDS2017    cic_original    rf   random     3   358181  154154     22.6         1263
+9    CICIDS2017    cic_original    rf   random     4   358446  153889     23.4         1263
+10   CICIDS2017    cic_original  lgbm  grouped     0   358235  154100     44.5         1352
+11   CICIDS2017    cic_original  lgbm  grouped     1   357943  154392     43.5         1352
+12   CICIDS2017    cic_original  lgbm  grouped     2   358339  153996     44.9         1352
+13   CICIDS2017    cic_original  lgbm  grouped     3   358654  153681     44.8         1361
+14   CICIDS2017    cic_original  lgbm  grouped     4   359316  153019     45.3         1361
+15   CICIDS2017    cic_original  lgbm   random     0   358634  153701     43.7         1361
+16   CICIDS2017    cic_original  lgbm   random     1   358730  153605     45.2         1361
+17   CICIDS2017    cic_original  lgbm   random     2   358714  153621     45.5         1363
+18   CICIDS2017    cic_original  lgbm   random     3   358181  154154     45.0         1363
+19   CICIDS2017    cic_original  lgbm   random     4   358446  153889     44.7         1363
+20   CICIDS2017    cic_original   mlp  grouped     0   358235  154100     74.2         1556
+21   CICIDS2017    cic_original   mlp  grouped     1   357943  154392     77.7         1612
+22   CICIDS2017    cic_original   mlp  grouped     2   358339  153996     79.2         1616
+23   CICIDS2017    cic_original   mlp  grouped     3   358654  153681     73.3         1618
+24   CICIDS2017    cic_original   mlp  grouped     4   359316  153019     80.1         1620
+25   CICIDS2017    cic_original   mlp   random     0   358634  153701     78.8         1625
+26   CICIDS2017    cic_original   mlp   random     1   358730  153605     84.5         1625
+27   CICIDS2017    cic_original   mlp   random     2   358714  153621     76.2         1625
+28   CICIDS2017    cic_original   mlp   random     3   358181  154154     65.5         1625
+29   CICIDS2017    cic_original   mlp   random     4   358446  153889     69.5         1625
+30   CICIDS2017        wtmc2021    rf  grouped     0   258699  111357     17.7         1686
+31   CICIDS2017        wtmc2021    rf  grouped     1   258514  111542     18.0         1686
+32   CICIDS2017        wtmc2021    rf  grouped     2   258760  111296     17.6         1686
+33   CICIDS2017        wtmc2021    rf  grouped     3   259350  110706     17.6         1686
+34   CICIDS2017        wtmc2021    rf  grouped     4   259635  110421     17.8         1686
+35   CICIDS2017        wtmc2021    rf   random     0   259355  110701     17.3         1686
+36   CICIDS2017        wtmc2021    rf   random     1   259071  110985     17.4         1686
+37   CICIDS2017        wtmc2021    rf   random     2   258885  111171     17.4         1686
+38   CICIDS2017        wtmc2021    rf   random     3   258893  111163     16.9         1686
+39   CICIDS2017        wtmc2021    rf   random     4   259222  110834     17.6         1686
+40   CICIDS2017        wtmc2021  lgbm  grouped     0   258699  111357     34.0         1686
+41   CICIDS2017        wtmc2021  lgbm  grouped     1   258514  111542     34.6         1686
+42   CICIDS2017        wtmc2021  lgbm  grouped     2   258760  111296     33.7         1686
+43   CICIDS2017        wtmc2021  lgbm  grouped     3   259350  110706     36.3         1686
+44   CICIDS2017        wtmc2021  lgbm  grouped     4   259635  110421     36.9         1686
+45   CICIDS2017        wtmc2021  lgbm   random     0   259355  110701     34.5         1686
+46   CICIDS2017        wtmc2021  lgbm   random     1   259071  110985     34.3         1686
+47   CICIDS2017        wtmc2021  lgbm   random     2   258885  111171     36.3         1686
+48   CICIDS2017        wtmc2021  lgbm   random     3   258893  111163     36.4         1686
+49   CICIDS2017        wtmc2021  lgbm   random     4   259222  110834     37.0         1686
+50   CICIDS2017        wtmc2021   mlp  grouped     0   258699  111357     15.9         1686
+51   CICIDS2017        wtmc2021   mlp  grouped     1   258514  111542     15.9         1687
+52   CICIDS2017        wtmc2021   mlp  grouped     2   258760  111296     16.7         1687
+53   CICIDS2017        wtmc2021   mlp  grouped     3   259350  110706     17.8         1687
+54   CICIDS2017        wtmc2021   mlp  grouped     4   259635  110421     17.3         1687
+55   CICIDS2017        wtmc2021   mlp   random     0   259355  110701     18.0         1687
+56   CICIDS2017        wtmc2021   mlp   random     1   259071  110985     16.2         1688
+57   CICIDS2017        wtmc2021   mlp   random     2   258885  111171     20.7         1688
+58   CICIDS2017        wtmc2021   mlp   random     3   258893  111163     12.4         1688
+59   CICIDS2017        wtmc2021   mlp   random     4   259222  110834     22.7         1688
+60   CICIDS2017  crisis2022_rpd    rf  grouped     0   259138  111533     17.8         1829
+61   CICIDS2017  crisis2022_rpd    rf  grouped     1   258933  111738     16.7         1829
+62   CICIDS2017  crisis2022_rpd    rf  grouped     2   259202  111469     17.3         1829
+63   CICIDS2017  crisis2022_rpd    rf  grouped     3   259790  110881     16.8         1829
+64   CICIDS2017  crisis2022_rpd    rf  grouped     4   260065  110606     17.5         1829
+65   CICIDS2017  crisis2022_rpd    rf   random     0   259344  111327     17.5         1829
+66   CICIDS2017  crisis2022_rpd    rf   random     1   258982  111689     17.4         1829
+67   CICIDS2017  crisis2022_rpd    rf   random     2   259747  110924     17.6         1829
+68   CICIDS2017  crisis2022_rpd    rf   random     3   259351  111320     17.7         1829
+69   CICIDS2017  crisis2022_rpd    rf   random     4   259646  111025     17.4         1829
+70   CICIDS2017  crisis2022_rpd  lgbm  grouped     0   259138  111533     34.1         1829
+71   CICIDS2017  crisis2022_rpd  lgbm  grouped     1   258933  111738     33.5         1829
+72   CICIDS2017  crisis2022_rpd  lgbm  grouped     2   259202  111469     33.9         1829
+73   CICIDS2017  crisis2022_rpd  lgbm  grouped     3   259790  110881     34.5         1829
+74   CICIDS2017  crisis2022_rpd  lgbm  grouped     4   260065  110606     34.1         1829
+75   CICIDS2017  crisis2022_rpd  lgbm   random     0   259344  111327     34.4         1829
+76   CICIDS2017  crisis2022_rpd  lgbm   random     1   258982  111689     33.9         1829
+77   CICIDS2017  crisis2022_rpd  lgbm   random     2   259747  110924     34.1         1829
+78   CICIDS2017  crisis2022_rpd  lgbm   random     3   259351  111320     34.2         1829
+79   CICIDS2017  crisis2022_rpd  lgbm   random     4   259646  111025     31.5         1829
+80   CICIDS2017  crisis2022_rpd   mlp  grouped     0   259138  111533     21.5         1829
+81   CICIDS2017  crisis2022_rpd   mlp  grouped     1   258933  111738     25.2         1829
+82   CICIDS2017  crisis2022_rpd   mlp  grouped     2   259202  111469     22.8         1829
+83   CICIDS2017  crisis2022_rpd   mlp  grouped     3   259790  110881     25.0         1829
+84   CICIDS2017  crisis2022_rpd   mlp  grouped     4   260065  110606     21.0         1829
+85   CICIDS2017  crisis2022_rpd   mlp   random     0   259344  111327     23.1         1829
+86   CICIDS2017  crisis2022_rpd   mlp   random     1   258982  111689     21.3         1829
+87   CICIDS2017  crisis2022_rpd   mlp   random     2   259747  110924     23.9         1829
+88   CICIDS2017  crisis2022_rpd   mlp   random     3   259351  111320     33.4         1829
+89   CICIDS2017  crisis2022_rpd   mlp   random     4   259646  111025     28.5         1829
+90   CICIDS2017           lycos    rf  grouped     0   257149  110670     14.2         1864
+91   CICIDS2017           lycos    rf  grouped     1   256990  110829     14.5         1864
+92   CICIDS2017           lycos    rf  grouped     2   257221  110598     14.4         1864
+93   CICIDS2017           lycos    rf  grouped     3   257703  110116     14.1         1864
+94   CICIDS2017           lycos    rf  grouped     4   258041  109778     14.6         1864
+95   CICIDS2017           lycos    rf   random     0   257297  110522     13.9         1864
+96   CICIDS2017           lycos    rf   random     1   257086  110733     14.5         1864
+97   CICIDS2017           lycos    rf   random     2   256954  110865     14.4         1864
+98   CICIDS2017           lycos    rf   random     3   257183  110636     14.0         1864
+99   CICIDS2017           lycos    rf   random     4   257560  110259     14.9         1864
+100  CICIDS2017           lycos  lgbm  grouped     0   257149  110670     23.7         1864
+101  CICIDS2017           lycos  lgbm  grouped     1   256990  110829     26.6         1864
+102  CICIDS2017           lycos  lgbm  grouped     2   257221  110598     26.5         1864
+103  CICIDS2017           lycos  lgbm  grouped     3   257703  110116     26.5         1864
+104  CICIDS2017           lycos  lgbm  grouped     4   258041  109778     24.5         1864
+105  CICIDS2017           lycos  lgbm   random     0   257297  110522     24.1         1864
+106  CICIDS2017           lycos  lgbm   random     1   257086  110733     26.8         1864
+107  CICIDS2017           lycos  lgbm   random     2   256954  110865     26.4         1864
+108  CICIDS2017           lycos  lgbm   random     3   257183  110636     26.8         1864
+109  CICIDS2017           lycos  lgbm   random     4   257560  110259     28.7         1864
+110  CICIDS2017           lycos   mlp  grouped     0   257149  110670     31.8         1864
+111  CICIDS2017           lycos   mlp  grouped     1   256990  110829     27.5         1864
+112  CICIDS2017           lycos   mlp  grouped     2   257221  110598     20.6         1864
+113  CICIDS2017           lycos   mlp  grouped     3   257703  110116     18.4         1864
+114  CICIDS2017           lycos   mlp  grouped     4   258041  109778     18.2         1864
+115  CICIDS2017           lycos   mlp   random     0   257297  110522     21.5         1864
+116  CICIDS2017           lycos   mlp   random     1   257086  110733     26.3         1864
+117  CICIDS2017           lycos   mlp   random     2   256954  110865     32.7         1864
+118  CICIDS2017           lycos   mlp   random     3   257183  110636     27.0         1864
+119  CICIDS2017           lycos   mlp   random     4   257560  110259     16.6         1864
+120  CICIDS2017     nfs2023_nte    rf  grouped     0   263149  113176     12.2         1864
+121  CICIDS2017     nfs2023_nte    rf  grouped     1   262833  113492     11.7         1864
+122  CICIDS2017     nfs2023_nte    rf  grouped     2   263160  113165     12.3         1864
+123  CICIDS2017     nfs2023_nte    rf  grouped     3   263760  112565     12.0         1864
+124  CICIDS2017     nfs2023_nte    rf  grouped     4   264217  112108     11.9         1864
+125  CICIDS2017     nfs2023_nte    rf   random     0   263698  112627     12.1         1864
+126  CICIDS2017     nfs2023_nte    rf   random     1   263516  112809     11.9         1864
+127  CICIDS2017     nfs2023_nte    rf   random     2   263160  113165     12.1         1864
+128  CICIDS2017     nfs2023_nte    rf   random     3   263385  112940     11.8         1864
+129  CICIDS2017     nfs2023_nte    rf   random     4   263532  112793     11.8         1864
+130  CICIDS2017     nfs2023_nte  lgbm  grouped     0   263149  113176     24.7         1864
+131  CICIDS2017     nfs2023_nte  lgbm  grouped     1   262833  113492     24.3         1864
+132  CICIDS2017     nfs2023_nte  lgbm  grouped     2   263160  113165     24.1         1864
+133  CICIDS2017     nfs2023_nte  lgbm  grouped     3   263760  112565     24.3         1864
+134  CICIDS2017     nfs2023_nte  lgbm  grouped     4   264217  112108     24.4         1864
+135  CICIDS2017     nfs2023_nte  lgbm   random     0   263698  112627     24.6         1864
+136  CICIDS2017     nfs2023_nte  lgbm   random     1   263516  112809     24.4         1864
+137  CICIDS2017     nfs2023_nte  lgbm   random     2   263160  113165     24.4         1864
+138  CICIDS2017     nfs2023_nte  lgbm   random     3   263385  112940     24.7         1864
+139  CICIDS2017     nfs2023_nte  lgbm   random     4   263532  112793     25.2         1864
+140  CICIDS2017     nfs2023_nte   mlp  grouped     0   263149  113176     29.4         1864
+141  CICIDS2017     nfs2023_nte   mlp  grouped     1   262833  113492     31.3         1864
+142  CICIDS2017     nfs2023_nte   mlp  grouped     2   263160  113165     28.6         1864
+143  CICIDS2017     nfs2023_nte   mlp  grouped     3   263760  112565     25.0         1864
+144  CICIDS2017     nfs2023_nte   mlp  grouped     4   264217  112108     22.6         1864
+145  CICIDS2017     nfs2023_nte   mlp   random     0   263698  112627     24.0         1864
+146  CICIDS2017     nfs2023_nte   mlp   random     1   263516  112809     19.5         1864
+147  CICIDS2017     nfs2023_nte   mlp   random     2   263160  113165     36.1         1864
+148  CICIDS2017     nfs2023_nte   mlp   random     3   263385  112940     31.3         1864
+149  CICIDS2017     nfs2023_nte   mlp   random     4   263532  112793     31.3         1864
+150  CICIDS2017      nfs2023_te    rf  grouped     0   397186  170780     17.2         2020
+151  CICIDS2017      nfs2023_te    rf  grouped     1   396732  171234     16.8         2020
+152  CICIDS2017      nfs2023_te    rf  grouped     2   397143  170823     16.9         2020
+153  CICIDS2017      nfs2023_te    rf  grouped     3   397491  170475     16.9         2020
+154  CICIDS2017      nfs2023_te    rf  grouped     4   398430  169536     17.0         2020
+155  CICIDS2017      nfs2023_te    rf   random     0   397627  170339     17.0         2020
+156  CICIDS2017      nfs2023_te    rf   random     1   398128  169838     16.8         2020
+157  CICIDS2017      nfs2023_te    rf   random     2   397392  170574     17.0         2020
+158  CICIDS2017      nfs2023_te    rf   random     3   397923  170043     17.0         2020
+159  CICIDS2017      nfs2023_te    rf   random     4   397725  170241     16.9         2020
+160  CICIDS2017      nfs2023_te  lgbm  grouped     0   397186  170780     32.0         2020
+161  CICIDS2017      nfs2023_te  lgbm  grouped     1   396732  171234     32.2         2020
+162  CICIDS2017      nfs2023_te  lgbm  grouped     2   397143  170823     32.4         2020
+163  CICIDS2017      nfs2023_te  lgbm  grouped     3   397491  170475     33.0         2020
+164  CICIDS2017      nfs2023_te  lgbm  grouped     4   398430  169536     31.9         2020
+165  CICIDS2017      nfs2023_te  lgbm   random     0   397627  170339     31.5         2020
+166  CICIDS2017      nfs2023_te  lgbm   random     1   398128  169838     31.6         2020
+167  CICIDS2017      nfs2023_te  lgbm   random     2   397392  170574     32.2         2020
+168  CICIDS2017      nfs2023_te  lgbm   random     3   397923  170043     32.7         2020
+169  CICIDS2017      nfs2023_te  lgbm   random     4   397725  170241     32.4         2020
+170  CICIDS2017      nfs2023_te   mlp  grouped     0   397186  170780     79.3         2020
+171  CICIDS2017      nfs2023_te   mlp  grouped     1   396732  171234     61.6         2020
+172  CICIDS2017      nfs2023_te   mlp  grouped     2   397143  170823     38.2         2020
+173  CICIDS2017      nfs2023_te   mlp  grouped     3   397491  170475     56.0         2020
+174  CICIDS2017      nfs2023_te   mlp  grouped     4   398430  169536     66.7         2020
+175  CICIDS2017      nfs2023_te   mlp   random     0   397627  170339     70.3         2020
+176  CICIDS2017      nfs2023_te   mlp   random     1   398128  169838     52.9         2020
+177  CICIDS2017      nfs2023_te   mlp   random     2   397392  170574     30.4         2020
+178  CICIDS2017      nfs2023_te   mlp   random     3   397923  170043     44.7         2020
+179  CICIDS2017      nfs2023_te   mlp   random     4   397725  170241     63.4         2020
+180  CICIDS2017        bccc2017    rf  grouped     0   336314  144988     23.0         2353
+181  CICIDS2017        bccc2017    rf  grouped     1   336789  144513     23.6         2353
+182  CICIDS2017        bccc2017    rf  grouped     2   336732  144570     23.5         2353
+183  CICIDS2017        bccc2017    rf  grouped     3   336234  145068     23.0         2353
+184  CICIDS2017        bccc2017    rf  grouped     4   337433  143869     23.6         2353
+185  CICIDS2017        bccc2017    rf   random     0   336818  144484     23.8         2353
+186  CICIDS2017        bccc2017    rf   random     1   336804  144498     23.4         2353
+187  CICIDS2017        bccc2017    rf   random     2   336614  144688     23.6         2353
+188  CICIDS2017        bccc2017    rf   random     3   337082  144220     23.5         2353
+189  CICIDS2017        bccc2017    rf   random     4   336890  144412     23.6         2353
+190  CICIDS2017        bccc2017  lgbm  grouped     0   336314  144988     43.0         2353
+191  CICIDS2017        bccc2017  lgbm  grouped     1   336789  144513     43.1         2353
+192  CICIDS2017        bccc2017  lgbm  grouped     2   336732  144570     47.2         2353
+193  CICIDS2017        bccc2017  lgbm  grouped     3   336234  145068     47.1         2353
+194  CICIDS2017        bccc2017  lgbm  grouped     4   337433  143869     48.4         2353
+195  CICIDS2017        bccc2017  lgbm   random     0   336818  144484     48.5         2353
+196  CICIDS2017        bccc2017  lgbm   random     1   336804  144498     43.4         2353
+197  CICIDS2017        bccc2017  lgbm   random     2   336614  144688     43.3         2353
+198  CICIDS2017        bccc2017  lgbm   random     3   337082  144220     48.1         2353
+199  CICIDS2017        bccc2017  lgbm   random     4   336890  144412     47.7         2353
+200  CICIDS2017        bccc2017   mlp  grouped     0   336314  144988     34.3         2354
+201  CICIDS2017        bccc2017   mlp  grouped     1   336789  144513     37.1         2355
+202  CICIDS2017        bccc2017   mlp  grouped     2   336732  144570     58.0         2361
+203  CICIDS2017        bccc2017   mlp  grouped     3   336234  145068     64.9         2363
+204  CICIDS2017        bccc2017   mlp  grouped     4   337433  143869     53.9         2365
+205  CICIDS2017        bccc2017   mlp   random     0   336818  144484     48.9         2366
+206  CICIDS2017        bccc2017   mlp   random     1   336804  144498     67.8         2367
+207  CICIDS2017        bccc2017   mlp   random     2   336614  144688     67.3         2367
+208  CICIDS2017        bccc2017   mlp   random     3   337082  144220     41.3         2367
+209  CICIDS2017        bccc2017   mlp   random     4   336890  144412     77.8         2367

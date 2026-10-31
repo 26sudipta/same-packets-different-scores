@@ -1,0 +1,14 @@
+     benchmark               cls  share_arm  share_model  omega2_arm  omega2_model        phase5_verdict           omega_point
+0   CICIDS2017  dos_slowhttptest      0.358        0.243       0.357         0.242  exporter above model  exporter above model
+1   CICIDS2017       ftp_patator      0.489        0.079       0.489         0.078  exporter above model  exporter above model
+2   CICIDS2017     dos_slowloris      0.407        0.151       0.406         0.151  exporter above model  exporter above model
+3   CICIDS2017       ssh_patator      0.970        0.006       0.970         0.006  exporter above model  exporter above model
+4   CICIDS2017    web_bruteforce      0.314        0.033       0.310         0.032  exporter above model  exporter above model
+5   CICIDS2017               bot      0.841        0.038       0.841         0.038  exporter above model  exporter above model
+6   CICIDS2017           web_xss      0.214        0.639       0.213         0.638  model above exporter  model above exporter
+7    UNSW-NB15           generic      0.020        0.485       0.015         0.473  model above exporter  model above exporter
+8    UNSW-NB15               dos      0.177        0.763       0.173         0.755  model above exporter  model above exporter
+9    UNSW-NB15         shellcode      0.757        0.229       0.756         0.228  exporter above model  exporter above model
+10   UNSW-NB15          analysis      0.635        0.093       0.630         0.087  exporter above model  exporter above model
+11   UNSW-NB15          backdoor      0.099        0.793       0.096         0.785  model above exporter  model above exporter
+12   UNSW-NB15             worms      0.371        0.347       0.366         0.339             undecided  exporter above model

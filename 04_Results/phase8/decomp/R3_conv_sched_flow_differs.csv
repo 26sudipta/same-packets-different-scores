@@ -1,0 +1,3 @@
+claim,day,arm,other,seed,test_records,mapped_records,conversations,records_per_conv,share_in_conv_absent_from_other,attempted,class_shares
+R3,,crisis2022_rpd,crisis2022_rp,0,110871,110871,102511,1.081552223663802,0.0,0,benign:0.7627|bot:0.0020|ddos:0.0553|dos_goldeneye:0.0185|dos_hulk:0.0544|dos_slowhttptest:0.0134|dos_slowloris:0.0150|ftp_patator:0.0109|portscan:0.0544|ssh_patator:0.0080|web_bruteforce:0.0037|web_sqli:0.0000|web_xss:0.0018
+R3,,crisis2022_rp,crisis2022_rpd,0,110847,110847,102511,1.0813181024475422,0.0,0,benign:0.7626|bot:0.0020|ddos:0.0553|dos_goldeneye:0.0185|dos_hulk:0.0544|dos_slowhttptest:0.0134|dos_slowloris:0.0150|ftp_patator:0.0109|portscan:0.0545|ssh_patator:0.0080|web_bruteforce:0.0037|web_sqli:0.0000|web_xss:0.0018

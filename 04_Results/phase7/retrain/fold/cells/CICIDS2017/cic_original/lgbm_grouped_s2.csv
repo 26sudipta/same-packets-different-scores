@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,benign,0.9984597531385168,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,bot,0.9806157354618016,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,ddos,0.9997094430992736,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,dos_goldeneye,0.9894700500604178,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,dos_hulk,0.9982868889904066,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,dos_slowhttptest,0.9913793103448276,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,dos_slowloris,0.9973474801061007,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,ftp_patator,0.9642307034057847,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,portscan,0.9999172527927183,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,ssh_patator,0.9977426636568849,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,web_bruteforce,0.9484536082474226,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,web_sqli,0.46153846153846156,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,web_xss,0.5454545454545454,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6
+CICIDS2017,cic_original,lgbm,grouped,2,flow,own,MACRO_CPLUS,0.9132773766382432,"{""num_leaves"": 31, ""learning_rate"": 0.05}",358339,153996,45.6

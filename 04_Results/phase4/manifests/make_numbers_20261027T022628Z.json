@@ -1,0 +1,63 @@
+{
+  "name": "make_numbers",
+  "created_utc": "2026-10-27T02:26:28+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/03_Code/make_numbers.py",
+  "argv": [],
+  "params": {},
+  "git": {
+    "commit": "79aa545a4d1fc2de52a066f2f6b77d76887ccd47",
+    "dirty": false
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase4/agreement_matrix.csv",
+      "bytes": 183703,
+      "sha256": "2708cae7ab45e2c8ec3e89f8f2d20c445c346c55a82f5a296eb0ddab4463917b"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase4/flows_per_conv.csv",
+      "bytes": 119516,
+      "sha256": "1d949c29909e0b2f759d9b57c49dfe316a7850989190004e383bd7aa4f94e134"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase4/alpha.csv",
+      "bytes": 88728,
+      "sha256": "026f86dbc7026b94079eafb753dbe5d19e838a3d9428cf6406d6915e6ccadcb5"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/05_Paper/tables/rq1_agreement.tex",
+      "bytes": 1933,
+      "sha256": "85b5739c379aa4a94388ce8061ce68d9d89a5e07367815e06c42373d026ffb0b"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/05_Paper/tables/rq1_fpc_class.tex",
+      "bytes": 1892,
+      "sha256": "7ad34a3301051052e4843fc850628be6a564c513d7ca86c74edf94865bae766f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/05_Paper/tables/rq1_alpha.tex",
+      "bytes": 1266,
+      "sha256": "1b647de9259da54e9f3fda3b0b3b354c59b7065f1e88eb6938c1462b1ea92b0a"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/05_Paper/tables/rq1_numbers.tex",
+      "bytes": 410,
+      "sha256": "e88dad624cd42c5478c62414918892d63289db473cfbacb1a2bbfe7878934dd1"
+    }
+  ]
+}

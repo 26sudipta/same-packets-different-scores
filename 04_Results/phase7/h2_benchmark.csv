@@ -1,0 +1,43 @@
+variant,benchmark,unit,eligible,exporter_above,holds
+T120,CICIDS2017,conversation,7,5,holds
+T120,CICIDS2017,flow,7,6,holds
+T120,UNSW-NB15,conversation,6,1,does not hold
+T120,UNSW-NB15,flow,6,6,holds
+T30,CICIDS2017,conversation,7,5,holds
+T30,CICIDS2017,flow,7,6,holds
+T30,UNSW-NB15,conversation,6,1,does not hold
+T30,UNSW-NB15,flow,6,6,holds
+T5,CICIDS2017,conversation,7,5,holds
+T5,CICIDS2017,flow,7,6,holds
+T5,UNSW-NB15,conversation,6,1,does not hold
+T5,UNSW-NB15,flow,6,6,holds
+T60,CICIDS2017,conversation,7,5,holds
+T60,CICIDS2017,flow,7,6,holds
+T60,UNSW-NB15,conversation,6,1,does not hold
+T60,UNSW-NB15,flow,6,6,holds
+baseline,CICIDS2017,conversation,7,5,holds
+baseline,CICIDS2017,flow,7,6,holds
+baseline,UNSW-NB15,conversation,6,1,does not hold
+baseline,UNSW-NB15,flow,6,6,holds
+episode,CICIDS2017,conversation,0,0,not estimable
+episode,CICIDS2017,flow,0,0,not estimable
+episode,UNSW-NB15,conversation,5,1,does not hold
+episode,UNSW-NB15,flow,5,5,holds
+fold_retrained,CICIDS2017,conversation,6,6,holds
+fold_retrained,CICIDS2017,flow,6,6,holds
+fold_scoring,CICIDS2017,conversation,6,5,holds
+fold_scoring,CICIDS2017,flow,6,6,holds
+own_retrained,CICIDS2017,conversation,6,6,holds
+own_retrained,CICIDS2017,flow,6,6,holds
+own_scoring,CICIDS2017,conversation,6,6,holds
+own_scoring,CICIDS2017,flow,6,6,holds
+own_scoring,UNSW-NB15,conversation,6,2,does not hold
+own_scoring,UNSW-NB15,flow,6,3,does not hold
+rule_bytes,CICIDS2017,conversation,7,3,does not hold
+rule_bytes,CICIDS2017,flow,7,6,holds
+rule_bytes,UNSW-NB15,conversation,6,1,does not hold
+rule_bytes,UNSW-NB15,flow,6,6,holds
+rule_majority,CICIDS2017,conversation,7,6,holds
+rule_majority,CICIDS2017,flow,7,6,holds
+rule_majority,UNSW-NB15,conversation,6,3,does not hold
+rule_majority,UNSW-NB15,flow,6,6,holds

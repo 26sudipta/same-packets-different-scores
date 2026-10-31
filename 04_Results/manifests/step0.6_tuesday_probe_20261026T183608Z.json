@@ -1,0 +1,69 @@
+{
+  "name": "step0.6_tuesday_probe",
+  "created_utc": "2026-10-26T18:36:08+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/03_Code/manifest.py",
+  "argv": [
+    "--name",
+    "step0.6_tuesday_probe",
+    "--inputs",
+    "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CICIDS2017_Original_LabelledFlows/Tuesday-WorkingHours.pcap_ISCX.csv",
+    "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CICIDS2017_Corrected_WTMC2021/Tuesday-WorkingHours.csv",
+    "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/LYCOS-IDS2017_GitHubMirror/pcap_lycos/Tuesday-WorkingHours.pcap_lycos.csv",
+    "03_Code/reconstruction_agreement.py",
+    "--outputs",
+    "04_Results/smoke_test/step0.6_tuesday_probe.txt",
+    "--param",
+    "day=Tuesday",
+    "purpose=smoke_test_not_for_paper"
+  ],
+  "params": {
+    "day": "Tuesday",
+    "purpose": "smoke_test_not_for_paper"
+  },
+  "git": {
+    "commit": "7b1fa610be4e51c314e6f7f4adfc9e076ee2db46",
+    "dirty": false
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CICIDS2017_Original_LabelledFlows/Tuesday-WorkingHours.pcap_ISCX.csv",
+      "bytes": 174696560,
+      "sha256": "ae9c88e10c41a8eb1ff454ae98bc513454925097d0b0b57180f94e79de445815"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/CICIDS2017_Corrected_WTMC2021/Tuesday-WorkingHours.csv",
+      "bytes": 178453210,
+      "sha256": "59d60eff01526b511fa575a08a9a0e241674276adf1aa07471c947f7d733e19a"
+    },
+    {
+      "path": "/home/sudipta/Research/AI-Driven Cyber Threat Detection and Log Analysis/Datasets/LYCOS-IDS2017_GitHubMirror/pcap_lycos/Tuesday-WorkingHours.pcap_lycos.csv",
+      "bytes": 215809835,
+      "sha256": "98f0ead672be43bd00aae39cd975a691594541676456c3d4e97ca05c72e52d7f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/03_Code/reconstruction_agreement.py",
+      "bytes": 6027,
+      "sha256": "461d0c5fc059763478c19cc6c60b0c124ec72b368e97abef0643a6cf7d80ce67"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/smoke_test/step0.6_tuesday_probe.txt",
+      "bytes": 1540,
+      "sha256": "9850a68851aa3de8988f0121ce5f78d03f17793a5b2d6e75c8a1170fa872c271"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+   claim                        contrast  published_gap  flow_rebuilt_gap  conv_gap  conv_lo  conv_hi                               verdict
+0     R1                              rf         0.0011            0.0011       NaN      NaN      NaN                          not computed
+1     R1                              dt         0.0008            0.0007       NaN      NaN      NaN                          not computed
+2     R1                             lda         0.1550            0.1550       NaN      NaN      NaN                          not computed
+3     R2                             bot         0.3900            0.1834    0.0254   0.0168   0.0347                              survives
+4     R2                  web_bruteforce         0.1800            0.2224    0.0111  -0.0085   0.0312                         not supported
+5     R2                         web_xss         0.6100            0.4581    0.1447   0.0272   0.2680                         not estimable
+6     R2                    infiltration         0.1000            0.1901       NaN      NaN      NaN                         not estimable
+7     R2                      heartbleed         0.1600            0.0400       NaN      NaN      NaN                         not estimable
+8     R2                        web_sqli        -0.1100            0.2143   -0.0890  -0.2933   0.0481                         not estimable
+9     R3                              Q2        -0.2000           -0.2167    0.0000      NaN      NaN  not supported (zero by construction)
+10    R3                              Q3         0.2000               NaN       NaN      NaN      NaN     not examinable, data not obtained
+11    R3                              Q4         0.0000               NaN       NaN      NaN      NaN     not examinable, data not obtained
+12    R4                          bin_v2         0.0500           -0.0090       NaN      NaN      NaN                          not computed
+13    R4                      fuzzers_v2         0.3007            0.2538       NaN      NaN      NaN                          not computed
+14    R4                        worms_v2         0.8072            0.6717       NaN      NaN      NaN                          not computed
+15    R5       a_Tuesday_wtmc2021_vs_cic         0.1291            0.1291       NaN      NaN      NaN                          not computed
+16    R5  a_Tuesday_crisis2022_rp_vs_cic         0.1284               NaN       NaN      NaN      NaN     not examinable, data not obtained
+17    R5    a_Tuesday_nfs2023_nte_vs_cic         0.1284            0.1284       NaN      NaN      NaN                          not computed
+18    R5     a_Tuesday_nfs2023_te_vs_cic         0.1285            0.1285       NaN      NaN      NaN                          not computed
+19    R5            b_Thursday_nte_vs_te         0.0498            0.0498       NaN      NaN      NaN                          not computed
+20    R5       b_Thursday_crisis_vs_wtmc         0.0469               NaN       NaN      NaN      NaN     not examinable, data not obtained
+21    R5           b_Thursday_nte_vs_cic         0.0510            0.0501       NaN      NaN      NaN                          not computed
+22    R5             c_Tuesday_te_vs_nte         0.0001            0.0002       NaN      NaN      NaN                          not computed
+23    R5           c_Wednesday_te_vs_nte        -0.0002           -0.0002       NaN      NaN      NaN                          not computed
+24    R5            c_Thursday_te_vs_nte        -0.0498           -0.0498       NaN      NaN      NaN                          not computed
+25    R5              c_Friday_te_vs_nte        -0.0003           -0.0003       NaN      NaN      NaN                          not computed

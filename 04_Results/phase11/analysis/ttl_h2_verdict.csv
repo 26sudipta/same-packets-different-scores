@@ -1,0 +1,3 @@
+benchmark,setting,kind,eligible,exporter_above,model_above,h2
+UNSW-NB15,with TTL,raw,6,6,0,holds
+UNSW-NB15,without TTL,raw,6,6,0,holds

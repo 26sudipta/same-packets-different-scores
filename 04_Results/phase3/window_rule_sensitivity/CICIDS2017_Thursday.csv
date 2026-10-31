@@ -1,0 +1,6 @@
+start_rule,overlap_rule,conversations
+benign,benign,99996
+excluded,excluded,239079
+web_bruteforce,web_bruteforce,1361
+web_sqli,web_sqli,12
+web_xss,web_xss,662

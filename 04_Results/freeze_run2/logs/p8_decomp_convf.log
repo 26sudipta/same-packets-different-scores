@@ -1,0 +1,24 @@
+[12:04:43] R2: 10 cells, 284,068 bootstrap units
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/03_Code/phase8_decomp.py:433: RuntimeWarning: Mean of empty slice
+  res[i][n].append(np.nanmean(np.stack(acc[n]), axis=0))
+[12:04:46]   R2: 199 of 1000 replicates (3 s)
+[12:04:48]   R2: 399 of 1000 replicates (5 s)
+[12:04:51]   R2: 599 of 1000 replicates (7 s)
+[12:04:53]   R2: 799 of 1000 replicates (10 s)
+[12:04:56]   R2: 999 of 1000 replicates (12 s)
+[12:04:56]   R2: 1000 of 1000 replicates (12 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+[12:04:58] R2_conv_fold_flow: written /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase8/decomp
+[12:04:59] R2: 10 cells, 284,068 bootstrap units
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/03_Code/phase8_decomp.py:433: RuntimeWarning: Mean of empty slice
+  res[i][n].append(np.nanmean(np.stack(acc[n]), axis=0))
+[12:05:01]   R2: 199 of 1000 replicates (2 s)
+[12:05:03]   R2: 399 of 1000 replicates (4 s)
+[12:05:05]   R2: 599 of 1000 replicates (5 s)
+[12:05:07]   R2: 799 of 1000 replicates (7 s)
+[12:05:08]   R2: 999 of 1000 replicates (9 s)
+[12:05:08]   R2: 1000 of 1000 replicates (9 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1396: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+[12:05:11] R2_conv_fold_conv: written /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/04_Results/phase8/decomp

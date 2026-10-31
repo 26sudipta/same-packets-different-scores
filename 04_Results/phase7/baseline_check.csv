@@ -1,0 +1,53 @@
+what,benchmark,unit,population,phase5,phase7
+w_seed_mean,CICIDS2017,flow,own,0.8857142857142856,0.8857142857142856
+w_seed_mean_lo,CICIDS2017,flow,own,0.7795918367346939,0.7795918367346939
+w_seed_mean_hi,CICIDS2017,flow,own,0.9185714285714285,0.9185714285714285
+w_on_seed_means,CICIDS2017,flow,own,0.8775510204081632,0.8775510204081632
+w_on_seed_means_lo,CICIDS2017,flow,own,0.7551020408163265,0.7551020408163265
+w_on_seed_means_hi,CICIDS2017,flow,own,1.0,1.0
+w_seed_mean,CICIDS2017,flow,common,0.8857142857142856,0.8857142857142856
+w_seed_mean_lo,CICIDS2017,flow,common,0.7795918367346939,0.7795918367346939
+w_seed_mean_hi,CICIDS2017,flow,common,0.926530612244898,0.926530612244898
+w_on_seed_means,CICIDS2017,flow,common,0.8775510204081632,0.8775510204081632
+w_on_seed_means_lo,CICIDS2017,flow,common,0.7551020408163265,0.7551020408163265
+w_on_seed_means_hi,CICIDS2017,flow,common,1.0,1.0
+w_seed_mean,CICIDS2017,conversation,own,0.8204081632653061,0.8204081632653061
+w_seed_mean_lo,CICIDS2017,conversation,own,0.7632653061224488,0.7632653061224488
+w_seed_mean_hi,CICIDS2017,conversation,own,0.8693877551020408,0.8693877551020408
+w_on_seed_means,CICIDS2017,conversation,own,0.7959183673469388,0.7959183673469388
+w_on_seed_means_lo,CICIDS2017,conversation,own,0.7551020408163265,0.7551020408163265
+w_on_seed_means_hi,CICIDS2017,conversation,own,0.8775510204081632,0.8775510204081632
+w_seed_mean,CICIDS2017,conversation,common,0.8204081632653061,0.8204081632653061
+w_seed_mean_lo,CICIDS2017,conversation,common,0.7632653061224488,0.7632653061224488
+w_seed_mean_hi,CICIDS2017,conversation,common,0.8693877551020408,0.8693877551020408
+w_on_seed_means,CICIDS2017,conversation,common,0.7959183673469388,0.7959183673469388
+w_on_seed_means_lo,CICIDS2017,conversation,common,0.7551020408163265,0.7551020408163265
+w_on_seed_means_hi,CICIDS2017,conversation,common,0.8775510204081632,0.8775510204081632
+w_seed_mean,UNSW-NB15,flow,own,0.8666666666666666,0.8666666666666666
+w_seed_mean_lo,UNSW-NB15,flow,own,0.7777777777777778,0.7777777777777778
+w_seed_mean_hi,UNSW-NB15,flow,own,0.9555555555555555,0.9555555555555555
+w_on_seed_means,UNSW-NB15,flow,own,1.0,1.0
+w_on_seed_means_lo,UNSW-NB15,flow,own,0.7777777777777778,0.7777777777777778
+w_on_seed_means_hi,UNSW-NB15,flow,own,1.0,1.0
+w_seed_mean,UNSW-NB15,flow,common,0.8666666666666666,0.8666666666666666
+w_seed_mean_lo,UNSW-NB15,flow,common,0.7777777777777778,0.7777777777777778
+w_seed_mean_hi,UNSW-NB15,flow,common,0.9555555555555555,0.9555555555555555
+w_on_seed_means,UNSW-NB15,flow,common,1.0,1.0
+w_on_seed_means_lo,UNSW-NB15,flow,common,0.7777777777777778,0.7777777777777778
+w_on_seed_means_hi,UNSW-NB15,flow,common,1.0,1.0
+w_seed_mean,UNSW-NB15,conversation,own,0.8666666666666666,0.8666666666666666
+w_seed_mean_lo,UNSW-NB15,conversation,own,0.7777777777777778,0.7777777777777778
+w_seed_mean_hi,UNSW-NB15,conversation,own,0.9555555555555555,0.9111111111111111
+w_on_seed_means,UNSW-NB15,conversation,own,0.7777777777777778,0.7777777777777778
+w_on_seed_means_lo,UNSW-NB15,conversation,own,0.7777777777777778,0.7777777777777778
+w_on_seed_means_hi,UNSW-NB15,conversation,own,1.0,1.0
+w_seed_mean,UNSW-NB15,conversation,common,0.8222222222222222,0.8222222222222222
+w_seed_mean_lo,UNSW-NB15,conversation,common,0.7777777777777778,0.7777777777777778
+w_seed_mean_hi,UNSW-NB15,conversation,common,0.9111111111111111,0.9111111111111111
+w_on_seed_means,UNSW-NB15,conversation,common,0.7777777777777778,0.7777777777777778
+w_on_seed_means_lo,UNSW-NB15,conversation,common,0.7777777777777778,0.7777777777777778
+w_on_seed_means_hi,UNSW-NB15,conversation,common,1.0,1.0
+"variance share share, max abs diff over 460 rows",,,,0.0,0.0
+"variance share lo, max abs diff over 460 rows",,,,0.0,0.015073071420192763
+"variance share hi, max abs diff over 460 rows",,,,0.0,0.017107108235359214
+"H2 verdicts differing, of 30",,,,0.0,0.0

@@ -1,0 +1,124 @@
+[09:18:15] cic_original: read Tuesday-WorkingHours.pcap_ISCX.csv (445,909 rows)
+[09:18:25] R5 Tuesday cic_original seed 0: 10 s
+[09:18:35] R5 Tuesday cic_original seed 1: 10 s
+[09:18:44] R5 Tuesday cic_original seed 2: 9 s
+[09:18:53] R5 Tuesday cic_original seed 3: 9 s
+[09:19:03] R5 Tuesday cic_original seed 4: 9 s
+[09:19:04] wtmc2021: read Tuesday-WorkingHours.csv (322,003 rows)
+[09:19:10] R5 Tuesday wtmc2021 seed 0: 6 s
+[09:19:16] R5 Tuesday wtmc2021 seed 1: 6 s
+[09:19:22] R5 Tuesday wtmc2021 seed 2: 6 s
+[09:19:28] R5 Tuesday wtmc2021 seed 3: 6 s
+[09:19:34] R5 Tuesday wtmc2021 seed 4: 6 s
+[09:19:35] nfs2023_nte: read Tuesday.csv (325,677 rows)
+[09:19:40] R5 Tuesday nfs2023_nte seed 0: 5 s
+[09:19:46] R5 Tuesday nfs2023_nte seed 1: 5 s
+[09:19:51] R5 Tuesday nfs2023_nte seed 2: 5 s
+[09:19:57] R5 Tuesday nfs2023_nte seed 3: 5 s
+[09:20:02] R5 Tuesday nfs2023_nte seed 4: 6 s
+[09:20:03] nfs2023_te: read Tuesday.csv (467,254 rows)
+[09:20:12] R5 Tuesday nfs2023_te seed 0: 8 s
+[09:20:20] R5 Tuesday nfs2023_te seed 1: 8 s
+[09:20:28] R5 Tuesday nfs2023_te seed 2: 8 s
+[09:20:36] R5 Tuesday nfs2023_te seed 3: 8 s
+[09:20:44] R5 Tuesday nfs2023_te seed 4: 8 s
+[09:20:45] crisis2022_rpd: read Tuesday-WorkingHours.csv (322,462 rows)
+[09:20:51] R5 Tuesday crisis2022_rpd seed 0: 6 s
+[09:20:58] R5 Tuesday crisis2022_rpd seed 1: 6 s
+[09:21:04] R5 Tuesday crisis2022_rpd seed 2: 6 s
+[09:21:10] R5 Tuesday crisis2022_rpd seed 3: 6 s
+[09:21:16] R5 Tuesday crisis2022_rpd seed 4: 6 s
+[09:21:18] cic_original: read Wednesday-workingHours.pcap_ISCX.csv (692,703 rows)
+[09:21:45] R5 Wednesday cic_original seed 0: 26 s
+[09:22:09] R5 Wednesday cic_original seed 1: 25 s
+[09:22:33] R5 Wednesday cic_original seed 2: 24 s
+[09:22:59] R5 Wednesday cic_original seed 3: 26 s
+[09:23:25] R5 Wednesday cic_original seed 4: 25 s
+[09:23:26] wtmc2021: read Wednesday-WorkingHours.csv (496,779 rows)
+[09:23:44] R5 Wednesday wtmc2021 seed 0: 17 s
+[09:24:01] R5 Wednesday wtmc2021 seed 1: 17 s
+[09:24:19] R5 Wednesday wtmc2021 seed 2: 18 s
+[09:24:37] R5 Wednesday wtmc2021 seed 3: 18 s
+[09:24:54] R5 Wednesday wtmc2021 seed 4: 17 s
+[09:24:55] nfs2023_nte: read Wednesday.csv (503,140 rows)
+[09:25:11] R5 Wednesday nfs2023_nte seed 0: 16 s
+[09:25:26] R5 Wednesday nfs2023_nte seed 1: 15 s
+[09:25:42] R5 Wednesday nfs2023_nte seed 2: 15 s
+[09:25:58] R5 Wednesday nfs2023_nte seed 3: 16 s
+[09:26:13] R5 Wednesday nfs2023_nte seed 4: 16 s
+[09:26:15] nfs2023_te: read Wednesday.csv (865,413 rows)
+[09:26:38] R5 Wednesday nfs2023_te seed 0: 22 s
+[09:27:00] R5 Wednesday nfs2023_te seed 1: 22 s
+[09:27:23] R5 Wednesday nfs2023_te seed 2: 23 s
+[09:27:47] R5 Wednesday nfs2023_te seed 3: 24 s
+[09:28:09] R5 Wednesday nfs2023_te seed 4: 22 s
+[09:28:10] crisis2022_rpd: read Wednesday-WorkingHours.csv (497,115 rows)
+[09:28:28] R5 Wednesday crisis2022_rpd seed 0: 18 s
+[09:28:46] R5 Wednesday crisis2022_rpd seed 1: 17 s
+[09:29:03] R5 Wednesday crisis2022_rpd seed 2: 18 s
+[09:29:21] R5 Wednesday crisis2022_rpd seed 3: 18 s
+[09:29:40] R5 Wednesday crisis2022_rpd seed 4: 19 s
+[09:29:41] cic_original: read Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv (170,366 rows)
+[09:29:42] cic_original: read Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv (288,602 rows)
+[09:29:55] R5 Thursday cic_original seed 0: 13 s
+[09:30:08] R5 Thursday cic_original seed 1: 14 s
+[09:30:21] R5 Thursday cic_original seed 2: 13 s
+[09:30:34] R5 Thursday cic_original seed 3: 13 s
+[09:30:47] R5 Thursday cic_original seed 4: 13 s
+[09:30:48] wtmc2021: read Thursday-WorkingHours.csv (362,368 rows)
+[09:30:57] R5 Thursday wtmc2021 seed 0: 9 s
+[09:31:05] R5 Thursday wtmc2021 seed 1: 9 s
+[09:31:14] R5 Thursday wtmc2021 seed 2: 9 s
+[09:31:22] R5 Thursday wtmc2021 seed 3: 9 s
+[09:31:31] R5 Thursday wtmc2021 seed 4: 8 s
+[09:31:31] nfs2023_nte: read Thursday.csv (358,302 rows)
+[09:31:41] R5 Thursday nfs2023_nte seed 0: 10 s
+[09:31:51] R5 Thursday nfs2023_nte seed 1: 10 s
+[09:32:00] R5 Thursday nfs2023_nte seed 2: 9 s
+[09:32:09] R5 Thursday nfs2023_nte seed 3: 9 s
+[09:32:18] R5 Thursday nfs2023_nte seed 4: 9 s
+[09:32:19] nfs2023_te: read Thursday.csv (485,224 rows)
+[09:32:33] R5 Thursday nfs2023_te seed 0: 13 s
+[09:32:46] R5 Thursday nfs2023_te seed 1: 13 s
+[09:32:59] R5 Thursday nfs2023_te seed 2: 13 s
+[09:33:12] R5 Thursday nfs2023_te seed 3: 13 s
+[09:33:25] R5 Thursday nfs2023_te seed 4: 13 s
+[09:33:26] crisis2022_rpd: read Thursday-WorkingHours.csv (363,853 rows)
+[09:33:37] R5 Thursday crisis2022_rpd seed 0: 11 s
+[09:33:48] R5 Thursday crisis2022_rpd seed 1: 11 s
+[09:33:59] R5 Thursday crisis2022_rpd seed 2: 11 s
+[09:34:10] R5 Thursday crisis2022_rpd seed 3: 11 s
+[09:34:21] R5 Thursday crisis2022_rpd seed 4: 11 s
+[09:34:21] cic_original: read Friday-WorkingHours-Morning.pcap_ISCX.csv (191,033 rows)
+[09:34:22] cic_original: read Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv (286,467 rows)
+[09:34:23] cic_original: read Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv (225,745 rows)
+[09:34:43] R5 Friday cic_original seed 0: 20 s
+[09:35:03] R5 Friday cic_original seed 1: 20 s
+[09:35:22] R5 Friday cic_original seed 2: 19 s
+[09:35:41] R5 Friday cic_original seed 3: 19 s
+[09:35:59] R5 Friday cic_original seed 4: 19 s
+[09:36:01] wtmc2021: read Friday-WorkingHours.csv (547,915 rows)
+[09:36:18] R5 Friday wtmc2021 seed 0: 16 s
+[09:36:34] R5 Friday wtmc2021 seed 1: 16 s
+[09:36:51] R5 Friday wtmc2021 seed 2: 17 s
+[09:37:07] R5 Friday wtmc2021 seed 3: 17 s
+[09:37:23] R5 Friday wtmc2021 seed 4: 16 s
+[09:37:24] nfs2023_nte: read Friday.csv (547,186 rows)
+[09:37:38] R5 Friday nfs2023_nte seed 0: 13 s
+[09:37:51] R5 Friday nfs2023_nte seed 1: 13 s
+[09:38:04] R5 Friday nfs2023_nte seed 2: 13 s
+[09:38:17] R5 Friday nfs2023_nte seed 3: 13 s
+[09:38:30] R5 Friday nfs2023_nte seed 4: 13 s
+[09:38:32] nfs2023_te: read Friday.csv (775,694 rows)
+[09:38:50] R5 Friday nfs2023_te seed 0: 18 s
+[09:39:08] R5 Friday nfs2023_te seed 1: 18 s
+[09:39:27] R5 Friday nfs2023_te seed 2: 19 s
+[09:39:45] R5 Friday nfs2023_te seed 3: 18 s
+[09:40:04] R5 Friday nfs2023_te seed 4: 19 s
+[09:40:05] crisis2022_rpd: read Friday-WorkingHours.csv (548,828 rows)
+[09:40:21] R5 Friday crisis2022_rpd seed 0: 16 s
+[09:40:37] R5 Friday crisis2022_rpd seed 1: 16 s
+[09:40:53] R5 Friday crisis2022_rpd seed 2: 16 s
+[09:41:10] R5 Friday crisis2022_rpd seed 3: 17 s
+[09:41:26] R5 Friday crisis2022_rpd seed 4: 16 s
+[09:41:26] R5 finished in 1392 s

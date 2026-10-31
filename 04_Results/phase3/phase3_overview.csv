@@ -1,0 +1,8 @@
+benchmark,day,conversations,attack_conversations,excluded_conversations,in_all_arms,attack_in_all_arms,attack_classes,records_cic_original,records_wtmc2021,records_crisis2022_rpd,records_lycos,records_nfs2023_nte,records_nfs2023_te,records_bccc2017,records_unsw_original,records_nf_unsw_v3,records_cic_unsw
+CICIDS2017,Monday,339147,0,0,337067,0,,529918.0,371749.0,372425.0,367181.0,376826.0,559775.0,495338.0,,,
+CICIDS2017,Tuesday,292750,6951,0,291806,6951,ftp_patator;ssh_patator,445909.0,322003.0,322462.0,319637.0,325677.0,467254.0,411456.0,,,
+CICIDS2017,Wednesday,467619,173556,0,465288,172883,dos_goldeneye;dos_hulk;dos_slowhttptest;dos_slowloris;heartbleed,692703.0,496779.0,497115.0,495237.0,503140.0,865413.0,766706.0,,,
+CICIDS2017,Thursday,341110,2035,239079,101849,2035,web_bruteforce;web_sqli;web_xss,458968.0,362368.0,363853.0,112481.0,358302.0,485224.0,137886.0,,,
+CICIDS2017,Friday,519307,253971,1468,516273,253545,bot;ddos;portscan,703245.0,547915.0,548828.0,542962.0,547186.0,775694.0,626666.0,,,
+UNSW-NB15,2015-01-22,994753,10570,0,910157,9472,analysis;backdoor;dos;exploits;fuzzers;generic;reconnaissance;shellcode;worms,,,,,,,,1087202.0,1135352.0,1765922.0
+UNSW-NB15,2015-02-18,1030958,55822,0,929446,52571,analysis;backdoor;dos;exploits;fuzzers;generic;reconnaissance;shellcode;worms,,,,,,,,1452842.0,1230072.0,1774319.0

@@ -1,0 +1,9 @@
+population,model,n_classes,rho,p_one_sided,verdict,role
+common,all,11,0.5,0.06095,direction only,primary
+common,rf,11,0.5090909090909091,0.0576,direction only,robustness
+common,lgbm,11,0.10909090909090911,0.37777,direction only,robustness
+common,mlp,11,0.6727272727272727,0.01438,supported,robustness
+own,all,11,0.5272727272727273,0.05021,direction only,robustness
+own,rf,11,0.5454545454545455,0.04412,supported,robustness
+own,lgbm,11,0.19090909090909092,0.28932,direction only,robustness
+own,mlp,11,0.7727272727272727,0.00387,supported,robustness

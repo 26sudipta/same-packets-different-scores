@@ -1,0 +1,36 @@
+tune UNSW-NB15 unsw_dedup rf {'max_depth': None, 'min_samples_leaf': 1}: 0.7160 (9 s)
+tune UNSW-NB15 unsw_dedup rf {'max_depth': None, 'min_samples_leaf': 3}: 0.6939 (9 s)
+tune UNSW-NB15 unsw_dedup rf {'max_depth': 20, 'min_samples_leaf': 1}: 0.7011 (9 s)
+tune UNSW-NB15 unsw_dedup rf {'max_depth': 20, 'min_samples_leaf': 3}: 0.6897 (8 s)
+tune UNSW-NB15 unsw_dedup lgbm {'num_leaves': 31, 'learning_rate': 0.1}: 0.7627 (18 s)
+tune UNSW-NB15 unsw_dedup lgbm {'num_leaves': 31, 'learning_rate': 0.05}: 0.7603 (17 s)
+tune UNSW-NB15 unsw_dedup lgbm {'num_leaves': 127, 'learning_rate': 0.1}: 0.7640 (29 s)
+tune UNSW-NB15 unsw_dedup lgbm {'num_leaves': 127, 'learning_rate': 0.05}: 0.7670 (29 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+tune UNSW-NB15 unsw_dedup mlp {'hidden_layer_sizes': (64,), 'alpha': 0.0001}: 0.6102 (18 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+tune UNSW-NB15 unsw_dedup mlp {'hidden_layer_sizes': (64,), 'alpha': 0.001}: 0.6005 (19 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+tune UNSW-NB15 unsw_dedup mlp {'hidden_layer_sizes': (128, 64), 'alpha': 0.0001}: 0.6761 (52 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+tune UNSW-NB15 unsw_dedup mlp {'hidden_layer_sizes': (128, 64), 'alpha': 0.001}: 0.6589 (58 s)
+tune UNSW-NB15 nf_unsw_v3 rf {'max_depth': None, 'min_samples_leaf': 1}: 0.7914 (9 s)
+tune UNSW-NB15 nf_unsw_v3 rf {'max_depth': None, 'min_samples_leaf': 3}: 0.7935 (9 s)
+tune UNSW-NB15 nf_unsw_v3 rf {'max_depth': 20, 'min_samples_leaf': 1}: 0.7907 (9 s)
+tune UNSW-NB15 nf_unsw_v3 rf {'max_depth': 20, 'min_samples_leaf': 3}: 0.7880 (8 s)
+tune UNSW-NB15 nf_unsw_v3 lgbm {'num_leaves': 31, 'learning_rate': 0.1}: 0.7965 (22 s)
+tune UNSW-NB15 nf_unsw_v3 lgbm {'num_leaves': 31, 'learning_rate': 0.05}: 0.7924 (22 s)
+tune UNSW-NB15 nf_unsw_v3 lgbm {'num_leaves': 127, 'learning_rate': 0.1}: 0.7955 (35 s)
+tune UNSW-NB15 nf_unsw_v3 lgbm {'num_leaves': 127, 'learning_rate': 0.05}: 0.8042 (32 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+tune UNSW-NB15 nf_unsw_v3 mlp {'hidden_layer_sizes': (64,), 'alpha': 0.0001}: 0.6987 (20 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze2/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+tune UNSW-NB15 nf_unsw_v3 mlp {'hidden_layer_sizes': (64,), 'alpha': 0.001}: 0.6813 (21 s)
+tune UNSW-NB15 nf_unsw_v3 mlp {'hidden_layer_sizes': (128, 64), 'alpha': 0.0001}: 0.7160 (53 s)
+tune UNSW-NB15 nf_unsw_v3 mlp {'hidden_layer_sizes': (128, 64), 'alpha': 0.001}: 0.6986 (51 s)

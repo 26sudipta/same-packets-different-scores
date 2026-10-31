@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,benign,0.9976103588166645,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,bot,0.9355191256830601,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,ddos,1.0,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,dos_goldeneye,0.9885380116959064,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,dos_hulk,0.9963562600954134,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,dos_slowhttptest,0.9684274438372799,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,dos_slowloris,0.9795021961932651,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,ftp_patator,0.9736259996596903,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,portscan,0.9984311782676906,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,ssh_patator,0.9952126161644607,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,web_bruteforce,0.8442330558858502,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,web_sqli,0.7142857142857143,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,web_xss,0.6971279373368147,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1
+CICIDS2017,bccc2017,rf,grouped,3,flow,own,MACRO_CPLUS,0.9299130690709083,"{""max_depth"": null, ""min_samples_leaf"": 1}",336234,145068,23.1

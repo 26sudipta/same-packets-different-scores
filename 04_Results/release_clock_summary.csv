@@ -1,0 +1,11 @@
+benchmark,release,utc_offset_hours,windows,windows_start_aligned,windows_both_ends_aligned,median_start_dev_s,max_abs_start_dev_s,tolerance_s,clock_verified
+CICIDS2017,cic_original,-3.0,6,6,6,-50.012,55.24,60.0,True
+CICIDS2017,wtmc2021,2.0,6,6,6,-0.3865,0.88,60.0,True
+CICIDS2017,crisis2022_rpd,-3.0,6,6,6,-0.3865,0.88,60.0,True
+CICIDS2017,lycos,0.0,6,6,5,0.0,0.001,60.0,True
+CICIDS2017,nfs2023_nte,0.0,6,6,5,0.0,0.0,60.0,True
+CICIDS2017,nfs2023_te,0.0,6,6,5,0.0,0.0,60.0,True
+CICIDS2017,bccc2017,-4.0,6,4,2,0.0005,7664.931,60.0,True
+UNSW-NB15,unsw_original,0.0,2,2,1,0.2275,0.342,1.0,True
+UNSW-NB15,nf_unsw_v3,0.0,2,2,2,0.0,0.0,1.0,True
+UNSW-NB15,cic_unsw,-4.0,2,2,2,-0.7725,0.887,1.0,True

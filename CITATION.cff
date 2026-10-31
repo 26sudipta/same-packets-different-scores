@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite the paper and this software."
+title: "Same packets, different scores: code and results"
+type: software
+authors:
+  - family-names: Das
+    given-names: Sudipta
+    affiliation: "International Islamic University Chittagong"
+    email: sudiptadas26022003@gmail.com
+  - family-names: Nath
+    given-names: Nayan
+    affiliation: "International Islamic University Chittagong"
+repository-code: "https://github.com/26sudipta/same-packets-different-scores"
+license: MIT
+keywords:
+  - intrusion detection
+  - flow exporter
+  - evaluation
+  - CICIDS2017
+  - UNSW-NB15
+preferred-citation:
+  type: article
+  title: "Same packets, different scores: exporter invariance as a validity requirement for flow-based intrusion detection evaluation"
+  authors:
+    - family-names: Das
+      given-names: Sudipta
+    - family-names: Nath
+      given-names: Nayan
+  status: submitted
+  year: 2026

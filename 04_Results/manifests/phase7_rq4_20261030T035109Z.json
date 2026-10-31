@@ -1,0 +1,101 @@
+{
+  "name": "phase7_rq4",
+  "created_utc": "2026-10-30T03:51:09+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/03_Code/phase7_rq4.py",
+  "argv": [],
+  "params": {
+    "boot": 1000,
+    "variants": [
+      "baseline",
+      "T5",
+      "T30",
+      "T60",
+      "T120",
+      "rule_majority",
+      "rule_bytes",
+      "episode",
+      "fold_scoring",
+      "own_scoring",
+      "fold_retrained",
+      "own_retrained"
+    ],
+    "large_share": 0.25,
+    "large_spread": 0.05
+  },
+  "git": {
+    "commit": "829e4014321d15d0007b6d784c4b0e1a3b04c917",
+    "dirty": true
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase5/results.csv",
+      "bytes": 3075318,
+      "sha256": "01c2ebebb0c910a5e958c4120c2fd09f7da3e3674e2271b592888b45410255d1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/h4.csv",
+      "bytes": 27287,
+      "sha256": "f2c72a30e5c5f637589af054a958a1c47a3fbd5ae7d4c583e831582209e22c1f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/shares.csv",
+      "bytes": 546417,
+      "sha256": "093f06265b0f3af58fd96fc28d273ffe37efb70f508d78afc4d745192976f644"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/contrasts.csv",
+      "bytes": 214318,
+      "sha256": "2087cd0e9b2744b161a93d1762f46708f74112f04b70b9d455de7d998769412c"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/h2.csv",
+      "bytes": 39197,
+      "sha256": "3784617e2644316060858e1389fd6bbe93327eb36636df4f8d78ec6d6a1b33a4"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/residual.csv",
+      "bytes": 55079,
+      "sha256": "6b996752c23b7606a4f74fe2d8e5af7e933c5b90b7109fc124ec325edb2c626f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/loao.csv",
+      "bytes": 81641,
+      "sha256": "8cc35d4a4d47378652ca4bb006d953ec819020149571d8ea5b106081aef02b81"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/units.csv",
+      "bytes": 54686,
+      "sha256": "ac1d4a79d6229447067218f108d379fef0d82a3e96cfbc5f2ff8063d441b1a80"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/sensitivity_table.csv",
+      "bytes": 4634,
+      "sha256": "739d92b2f18c93f487485bcbe994200d3b0c52e5e59df7fb9901a576e4990dd8"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/sensitivity_classes.csv",
+      "bytes": 3113,
+      "sha256": "04b60039fb20da1f6f519de64198c6b629077be6b3155042e7df537835d5d29f"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase7/h2_benchmark.csv",
+      "bytes": 1763,
+      "sha256": "b2412f8ee65f01123d5fa47a22acda4b711cd0c6412ca49f191018a3fb36ae1f"
+    }
+  ]
+}

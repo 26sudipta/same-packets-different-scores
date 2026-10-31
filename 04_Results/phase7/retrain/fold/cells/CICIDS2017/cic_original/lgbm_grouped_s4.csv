@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,benign,0.9983729033027507,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,bot,0.9830124575311439,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,ddos,0.9998061076102763,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,dos_goldeneye,0.9905084745762712,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,dos_hulk,0.9979777553083923,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,dos_slowhttptest,0.9937747594793436,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,dos_slowloris,0.9992603550295858,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,ftp_patator,0.9619996622192197,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,portscan,0.9994957135653051,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,ssh_patator,0.9943470887507067,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,web_bruteforce,0.9319371727748691,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,web_sqli,0.5454545454545454,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,web_xss,0.631578947368421,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0
+CICIDS2017,cic_original,lgbm,grouped,4,flow,own,MACRO_CPLUS,0.9251943033054485,"{""num_leaves"": 31, ""learning_rate"": 0.05}",359316,153019,42.0

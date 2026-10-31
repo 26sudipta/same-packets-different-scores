@@ -1,0 +1,53 @@
+variant,benchmark,conclusion,cls,baseline,variant_verdict
+T5,CICIDS2017,K4,dos_slowhttptest,model above exporter,undecided
+T60,CICIDS2017,K5,ddos,falls,undecided
+rule_majority,CICIDS2017,K4,ddos,exporter above model,undecided
+rule_majority,CICIDS2017,K4,dos_goldeneye,undecided,exporter above model
+rule_majority,CICIDS2017,K4,dos_slowhttptest,model above exporter,exporter above model
+rule_majority,CICIDS2017,K5,dos_hulk,rises,falls
+rule_majority,CICIDS2017,K5,ftp_patator,rises,undecided
+rule_majority,UNSW-NB15,K4,generic,model above exporter,exporter above model
+rule_majority,UNSW-NB15,K4,worms,undecided,exporter above model
+rule_majority,UNSW-NB15,K5,exploits,falls,undecided
+rule_majority,UNSW-NB15,K5,fuzzers,falls,rises
+rule_majority,UNSW-NB15,K5,generic,falls,undecided
+rule_majority,UNSW-NB15,K5,reconnaissance,falls,rises
+rule_majority,UNSW-NB15,K5,worms,falls,rises
+rule_bytes,CICIDS2017,K4,bot,exporter above model,undecided
+rule_bytes,CICIDS2017,K4,ddos,exporter above model,undecided
+rule_bytes,CICIDS2017,K4,dos_slowloris,exporter above model,undecided
+rule_bytes,CICIDS2017,K4,ssh_patator,exporter above model,undecided
+rule_bytes,CICIDS2017,K5,dos_hulk,rises,undecided
+rule_bytes,CICIDS2017,K5,ftp_patator,rises,falls
+rule_bytes,UNSW-NB15,K4,exploits,exporter above model,model above exporter
+episode,CICIDS2017,K5,benign,falls,rises
+episode,UNSW-NB15,K4,worms,undecided,model above exporter
+episode,UNSW-NB15,K5,benign,falls,undecided
+fold_scoring,CICIDS2017,K5,benign,falls,rises
+own_scoring,CICIDS2017,K4,dos_goldeneye,undecided,exporter above model
+own_scoring,CICIDS2017,K4,dos_slowhttptest,model above exporter,exporter above model
+own_scoring,CICIDS2017,K5,bot,falls,undecided
+own_scoring,CICIDS2017,K5,dos_hulk,rises,falls
+own_scoring,CICIDS2017,K5,dos_slowhttptest,falls,rises
+own_scoring,CICIDS2017,K5,dos_slowloris,falls,rises
+own_scoring,CICIDS2017,K5,portscan,falls,rises
+own_scoring,CICIDS2017,K5,ssh_patator,falls,undecided
+own_scoring,CICIDS2017,K5,web_bruteforce,falls,rises
+own_scoring,UNSW-NB15,K4,analysis,undecided,exporter above model
+own_scoring,UNSW-NB15,K4,exploits,exporter above model,model above exporter
+own_scoring,UNSW-NB15,K5,backdoor,falls,undecided
+fold_retrained,CICIDS2017,K4,dos_goldeneye,undecided,exporter above model
+fold_retrained,CICIDS2017,K4,dos_slowhttptest,model above exporter,exporter above model
+fold_retrained,CICIDS2017,K5,benign,falls,undecided
+fold_retrained,CICIDS2017,K5,dos_slowhttptest,falls,rises
+own_retrained,CICIDS2017,K4,dos_goldeneye,undecided,exporter above model
+own_retrained,CICIDS2017,K4,dos_slowhttptest,model above exporter,exporter above model
+own_retrained,CICIDS2017,K5,benign,falls,rises
+own_retrained,CICIDS2017,K5,bot,falls,undecided
+own_retrained,CICIDS2017,K5,ddos,falls,undecided
+own_retrained,CICIDS2017,K5,dos_goldeneye,falls,undecided
+own_retrained,CICIDS2017,K5,dos_slowhttptest,falls,rises
+own_retrained,CICIDS2017,K5,dos_slowloris,falls,undecided
+own_retrained,CICIDS2017,K5,portscan,falls,rises
+own_retrained,CICIDS2017,K5,ssh_patator,falls,undecided
+own_retrained,CICIDS2017,K5,web_bruteforce,falls,rises

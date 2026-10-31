@@ -1,0 +1,12 @@
+{
+  "title": "Same packets, different scores: code and results",
+  "description": "Code, aggregate results and run manifests for the paper 'Same packets, different scores: exporter invariance as a validity requirement for flow-based intrusion detection evaluation'. The pipeline aligns ten published flow releases of CICIDS2017 and UNSW-NB15 to one clock and one set of conversations and regenerates every number in the paper. No dataset is redistributed.",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Das, Sudipta", "affiliation": "International Islamic University Chittagong"},
+    {"name": "Nath, Nayan", "affiliation": "International Islamic University Chittagong"}
+  ],
+  "license": "MIT",
+  "keywords": ["intrusion detection", "flow exporter", "evaluation", "CICIDS2017", "UNSW-NB15"],
+  "access_right": "open"
+}

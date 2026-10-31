@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,benign,0.9976319065492292,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,bot,0.9336235038084875,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,ddos,0.9999196851658502,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,dos_goldeneye,0.9913611954237684,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,dos_hulk,0.9970990468296727,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,dos_slowhttptest,0.9646044936903663,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,dos_slowloris,0.9813118358373031,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,ftp_patator,0.9760928961748634,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,portscan,0.9985052316890882,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,ssh_patator,0.9934825729668462,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,web_bruteforce,0.8586635127143702,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,web_sqli,0.8,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,web_xss,0.726552179656539,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0
+CICIDS2017,bccc2017,rf,grouped,4,flow,own,MACRO_CPLUS,0.939911389269722,"{""max_depth"": null, ""min_samples_leaf"": 1}",337433,143869,24.0

@@ -1,0 +1,4 @@
+n_conv_1to1,n_conv_multi,n_conv_big,arm_a,arm_b,pairs,records_a,records_b,paired_share_a,paired_share_b
+862382,48050,5,unsw_original,nf_unsw_v3,921451,1087202,1135352,0.847544,0.811599
+272900,719028,0,unsw_original,cic_unsw,1049838,1087202,1765922,0.965633,0.594499
+252860,657304,0,nf_unsw_v3,cic_unsw,934291,1135352,1765922,0.822909,0.529067

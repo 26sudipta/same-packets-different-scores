@@ -1,0 +1,46 @@
+{
+  "name": "gap_sweep_UNSW-NB15_2015-02-18",
+  "created_utc": "2026-10-26T23:57:40+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/03_Code/gap_sweep.py",
+  "argv": [
+    "UNSW-NB15",
+    "2015-02-18"
+  ],
+  "params": {
+    "benchmark": "UNSW-NB15",
+    "day": "2015-02-18",
+    "T_grid": [
+      5,
+      15,
+      30,
+      60,
+      120,
+      300
+    ]
+  },
+  "git": {
+    "commit": "5e22d5a869831ea8c9d308321789d0cda82c63bd",
+    "dirty": false
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026/04_Results/phase3/gap_sweep_UNSW-NB15_2015-02-18.csv",
+      "bytes": 4319,
+      "sha256": "0b965bb2d4c1eb85b6be39602e695403c3f263a104079879fff79f05398c492e"
+    }
+  ]
+}

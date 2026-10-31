@@ -1,0 +1,124 @@
+baseline CICIDS2017: 210 cell units, universe 342,031 (53 s)
+baseline CICIDS2017: bootstrap done (182 s)
+baseline UNSW-NB15: 60 cell units, universe 449,212 (17 s)
+baseline UNSW-NB15: bootstrap done (60 s)
+T5 CICIDS2017: 210 cell units, universe 342,175 (50 s)
+T5 CICIDS2017: bootstrap done (177 s)
+T5 UNSW-NB15: 60 cell units, universe 451,298 (16 s)
+T5 UNSW-NB15: bootstrap done (60 s)
+T30 CICIDS2017: 210 cell units, universe 342,632 (50 s)
+T30 CICIDS2017: bootstrap done (178 s)
+T30 UNSW-NB15: 60 cell units, universe 449,062 (16 s)
+T30 UNSW-NB15: bootstrap done (60 s)
+T60 CICIDS2017: 210 cell units, universe 347,488 (50 s)
+T60 CICIDS2017: bootstrap done (181 s)
+T60 UNSW-NB15: 60 cell units, universe 448,286 (16 s)
+T60 UNSW-NB15: bootstrap done (58 s)
+T120 CICIDS2017: 210 cell units, universe 331,731 (49 s)
+T120 CICIDS2017: bootstrap done (152 s)
+T120 UNSW-NB15: 60 cell units, universe 447,974 (16 s)
+T120 UNSW-NB15: bootstrap done (59 s)
+rule_majority CICIDS2017: 210 cell units, universe 342,031 (51 s)
+rule_majority CICIDS2017: bootstrap done (157 s)
+rule_majority UNSW-NB15: 60 cell units, universe 449,212 (17 s)
+rule_majority UNSW-NB15: bootstrap done (60 s)
+rule_bytes CICIDS2017: 210 cell units, universe 342,031 (51 s)
+rule_bytes CICIDS2017: bootstrap done (159 s)
+rule_bytes UNSW-NB15: 60 cell units, universe 449,212 (17 s)
+rule_bytes UNSW-NB15: bootstrap done (60 s)
+episode CICIDS2017: 210 cell units, universe 257,289 (42 s)
+episode CICIDS2017: bootstrap done (122 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/03_Code/phase7_rq4.py:261: RuntimeWarning: Mean of empty slice
+  arm_means = np.nanmean(Pc, axis=(1, 2))
+episode UNSW-NB15: 60 cell units, universe 397,377 (15 s)
+episode UNSW-NB15: bootstrap done (54 s)
+fold_scoring CICIDS2017: 210 cell units, universe 342,031 (50 s)
+fold_scoring CICIDS2017: bootstrap done (178 s)
+own_scoring CICIDS2017: 210 cell units, universe 342,031 (49 s)
+own_scoring CICIDS2017: bootstrap done (176 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/03_Code/phase7_rq4.py:261: RuntimeWarning: Mean of empty slice
+  arm_means = np.nanmean(Pc, axis=(1, 2))
+own_scoring UNSW-NB15: 60 cell units, universe 449,212 (16 s)
+own_scoring UNSW-NB15: bootstrap done (60 s)
+fold_retrained CICIDS2017: 210 cell units, universe 284,487 (42 s)
+fold_retrained CICIDS2017: bootstrap done (141 s)
+own_retrained CICIDS2017: 210 cell units, universe 284,487 (42 s)
+own_retrained CICIDS2017: bootstrap done (140 s)
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/03_Code/phase7_rq4.py:261: RuntimeWarning: Mean of empty slice
+  arm_means = np.nanmean(Pc, axis=(1, 2))
+own_retrained UNSW-NB15: 0/30 grouped prediction files, skipped
+                                                what   benchmark          unit population    phase5    phase7
+0                                        w_seed_mean  CICIDS2017          flow        own  0.885714  0.885714
+1                                     w_seed_mean_lo  CICIDS2017          flow        own  0.779592  0.779592
+2                                     w_seed_mean_hi  CICIDS2017          flow        own  0.918571  0.918571
+3                                    w_on_seed_means  CICIDS2017          flow        own  0.877551  0.877551
+4                                 w_on_seed_means_lo  CICIDS2017          flow        own  0.755102  0.755102
+5                                 w_on_seed_means_hi  CICIDS2017          flow        own  1.000000  1.000000
+6                                        w_seed_mean  CICIDS2017          flow     common  0.885714  0.885714
+7                                     w_seed_mean_lo  CICIDS2017          flow     common  0.779592  0.779592
+8                                     w_seed_mean_hi  CICIDS2017          flow     common  0.926531  0.926531
+9                                    w_on_seed_means  CICIDS2017          flow     common  0.877551  0.877551
+10                                w_on_seed_means_lo  CICIDS2017          flow     common  0.755102  0.755102
+11                                w_on_seed_means_hi  CICIDS2017          flow     common  1.000000  1.000000
+12                                       w_seed_mean  CICIDS2017  conversation        own  0.820408  0.820408
+13                                    w_seed_mean_lo  CICIDS2017  conversation        own  0.763265  0.763265
+14                                    w_seed_mean_hi  CICIDS2017  conversation        own  0.869388  0.869388
+15                                   w_on_seed_means  CICIDS2017  conversation        own  0.795918  0.795918
+16                                w_on_seed_means_lo  CICIDS2017  conversation        own  0.755102  0.755102
+17                                w_on_seed_means_hi  CICIDS2017  conversation        own  0.877551  0.877551
+18                                       w_seed_mean  CICIDS2017  conversation     common  0.820408  0.820408
+19                                    w_seed_mean_lo  CICIDS2017  conversation     common  0.763265  0.763265
+20                                    w_seed_mean_hi  CICIDS2017  conversation     common  0.869388  0.869388
+21                                   w_on_seed_means  CICIDS2017  conversation     common  0.795918  0.795918
+22                                w_on_seed_means_lo  CICIDS2017  conversation     common  0.755102  0.755102
+23                                w_on_seed_means_hi  CICIDS2017  conversation     common  0.877551  0.877551
+24                                       w_seed_mean   UNSW-NB15          flow        own  1.000000  1.000000
+25                                    w_seed_mean_lo   UNSW-NB15          flow        own  0.900000  0.900000
+26                                    w_seed_mean_hi   UNSW-NB15          flow        own  1.000000  1.000000
+27                                   w_on_seed_means   UNSW-NB15          flow        own  1.000000  1.000000
+28                                w_on_seed_means_lo   UNSW-NB15          flow        own  1.000000  1.000000
+29                                w_on_seed_means_hi   UNSW-NB15          flow        own  1.000000  1.000000
+30                                       w_seed_mean   UNSW-NB15          flow     common  1.000000  1.000000
+31                                    w_seed_mean_lo   UNSW-NB15          flow     common  0.900000  0.900000
+32                                    w_seed_mean_hi   UNSW-NB15          flow     common  1.000000  1.000000
+33                                   w_on_seed_means   UNSW-NB15          flow     common  1.000000  1.000000
+34                                w_on_seed_means_lo   UNSW-NB15          flow     common  1.000000  1.000000
+35                                w_on_seed_means_hi   UNSW-NB15          flow     common  1.000000  1.000000
+36                                       w_seed_mean   UNSW-NB15  conversation        own  1.000000  1.000000
+37                                    w_seed_mean_lo   UNSW-NB15  conversation        own  0.950000  0.950000
+38                                    w_seed_mean_hi   UNSW-NB15  conversation        own  1.000000  1.000000
+39                                   w_on_seed_means   UNSW-NB15  conversation        own  1.000000  1.000000
+40                                w_on_seed_means_lo   UNSW-NB15  conversation        own  1.000000  1.000000
+41                                w_on_seed_means_hi   UNSW-NB15  conversation        own  1.000000  1.000000
+42                                       w_seed_mean   UNSW-NB15  conversation     common  1.000000  1.000000
+43                                    w_seed_mean_lo   UNSW-NB15  conversation     common  0.950000  0.950000
+44                                    w_seed_mean_hi   UNSW-NB15  conversation     common  1.000000  1.000000
+45                                   w_on_seed_means   UNSW-NB15  conversation     common  1.000000  1.000000
+46                                w_on_seed_means_lo   UNSW-NB15  conversation     common  1.000000  1.000000
+47                                w_on_seed_means_hi   UNSW-NB15  conversation     common  1.000000  1.000000
+48  variance share share, max abs diff over 460 rows         NaN           NaN        NaN  0.000000  0.000000
+49     variance share lo, max abs diff over 460 rows         NaN           NaN        NaN  0.000000  0.024438
+50     variance share hi, max abs diff over 460 rows         NaN           NaN        NaN  0.000000  0.020414
+51                      H2 verdicts differing, of 30         NaN           NaN        NaN  0.000000  0.000000
+           variant   benchmark   H4_diff     H4_lo     H4_hi                       K1_H4  K1_changed     K2_H2_flow  K2_changed K3_H2_conversation  K3_changed  K4_changed  K4_not_estimable  K4_of  K5_changed  K5_not_estimable  K5_of                                                                        K6_large_residual                                            K6_enter                              K6_leave
+0         baseline  CICIDS2017 -0.065306 -0.089796  0.008163   not supported (undecided)       False          holds       False              holds       False           0                 0     12           0                 0     12                                                     bot;dos_hulk;ftp_patator;ssh_patator                                                                                          
+1         baseline   UNSW-NB15  0.000000  0.000000  0.100000  not informative (two arms)       False  does not hold       False      does not hold       False           0                 0     10           0                 0     10                                                                 analysis;shellcode;worms                                                                                          
+2               T5  CICIDS2017 -0.065306 -0.089796  0.016327   not supported (undecided)       False          holds       False              holds       False           1                 0     12           0                 0     12                                                     bot;dos_hulk;ftp_patator;ssh_patator                                                                                          
+3               T5   UNSW-NB15  0.000000  0.000000  0.050000  not informative (two arms)       False  does not hold       False      does not hold       False           0                 0     10           0                 0     10                                                                 analysis;shellcode;worms                                                                                          
+4              T30  CICIDS2017 -0.065306 -0.089796  0.016327   not supported (undecided)       False          holds       False              holds       False           0                 0     12           0                 0     12                                                     bot;dos_hulk;ftp_patator;ssh_patator                                                                                          
+5              T30   UNSW-NB15  0.000000  0.000000  0.100000  not informative (two arms)       False  does not hold       False      does not hold       False           0                 0     10           0                 0     10                                                                 analysis;shellcode;worms                                                                                          
+6              T60  CICIDS2017 -0.065306 -0.089796  0.016327   not supported (undecided)       False          holds       False              holds       False           0                 0     12           1                 0     12                                                     bot;dos_hulk;ftp_patator;ssh_patator                                                                                          
+7              T60   UNSW-NB15  0.000000  0.000000  0.100000  not informative (two arms)       False  does not hold       False      does not hold       False           0                 0     10           0                 0     10                                                                 analysis;shellcode;worms                                                                                          
+8             T120  CICIDS2017 -0.065306 -0.089796  0.016327   not supported (undecided)       False          holds       False              holds       False           0                 0     12           0                 0     12                                                     bot;dos_hulk;ftp_patator;ssh_patator                                                                                          
+9             T120   UNSW-NB15  0.000000  0.000000  0.100000  not informative (two arms)       False  does not hold       False      does not hold       False           0                 0     10           0                 0     10                                                                 analysis;shellcode;worms                                                                                          
+10   rule_majority  CICIDS2017 -0.065306 -0.089796  0.016327   not supported (undecided)       False          holds       False              holds       False           3                 0     12           2                 0     12                                                     bot;dos_hulk;ftp_patator;ssh_patator                                                                                          
+11   rule_majority   UNSW-NB15  0.000000  0.000000  0.100000  not informative (two arms)       False  does not hold       False      does not hold       False           0                 0     10           0                 0     10                                                                 analysis;shellcode;worms                                                                                          
+12      rule_bytes  CICIDS2017 -0.048980 -0.089796  0.016327   not supported (undecided)       False          holds       False      does not hold        True           4                 0     12           2                 0     12                                                                                                                                               bot;dos_hulk;ftp_patator;ssh_patator
+13      rule_bytes   UNSW-NB15  0.000000  0.000000  0.100000  not informative (two arms)       False  does not hold       False      does not hold       False           0                 0     10           0                 0     10                                                                 analysis;shellcode;worms                                                                                          
+14         episode  CICIDS2017 -0.061678 -0.099773  0.005438   not supported (undecided)       False  not estimable       False      not estimable       False           0                11     12           1                11     12                                                                                                                                               bot;dos_hulk;ftp_patator;ssh_patator
+15         episode   UNSW-NB15  0.000000  0.000000  0.050000  not informative (two arms)       False  does not hold       False      does not hold       False           1                 1     10           3                 1     10                                                                  generic;shellcode;worms                                             generic                              analysis
+16    fold_scoring  CICIDS2017 -0.334694 -0.355102 -0.269388                    reversed        True          holds       False              holds       False           0                 1     12           1                 1     12                                                     bot;dos_hulk;ftp_patator;ssh_patator                                                                                          
+17     own_scoring  CICIDS2017  0.008163 -0.048980  0.024490   not supported (undecided)       False          holds       False              holds       False           2                 1     12           7                 1     12  bot;ddos;dos_hulk;dos_slowhttptest;dos_slowloris;ftp_patator;ssh_patator;web_bruteforce  ddos;dos_slowhttptest;dos_slowloris;web_bruteforce                                      
+18     own_scoring   UNSW-NB15  0.050000  0.000000  0.100000  not informative (two arms)       False  does not hold       False      does not hold       False           3                 0     10           6                 0     10                                                                 analysis;shellcode;worms                                                                                          
+19  fold_retrained  CICIDS2017 -0.081633 -0.159184  0.040918   not supported (undecided)       False          holds       False              holds       False           2                 1     12           2                 1     12                                    bot;dos_hulk;dos_slowhttptest;ftp_patator;ssh_patator                                    dos_slowhttptest                                      
+20   own_retrained  CICIDS2017 -0.020408 -0.077551  0.040816   not supported (undecided)       False          holds       False              holds       False           2                 1     12           9                 1     12                                                  bot;dos_hulk;ssh_patator;web_bruteforce                                      web_bruteforce                           ftp_patator

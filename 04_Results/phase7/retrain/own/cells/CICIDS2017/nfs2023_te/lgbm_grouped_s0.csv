@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,benign,0.9993598815261808,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,bot,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,ddos,1.0,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,dos_goldeneye,0.992943318916458,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,dos_hulk,0.9999167984025293,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,dos_slowhttptest,0.9794648413192284,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,dos_slowloris,0.9907565902088326,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,ftp_patator,0.9985364833786327,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,portscan,0.9889786921381337,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,ssh_patator,0.9994378864530635,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,web_bruteforce,0.975609756097561,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,web_sqli,0.6666666666666666,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,web_xss,0.8888888888888888,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0
+CICIDS2017,nfs2023_te,lgbm,grouped,0,flow,own,MACRO_CPLUS,0.9600430618458599,"{""num_leaves"": 31, ""learning_rate"": 0.05}",397186,170780,26.0

@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,benign,0.9808355706947056,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,bot,0.6636500754147813,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,ddos,0.9995955347031225,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,dos_goldeneye,0.769704975781594,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,dos_hulk,0.931965696990079,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,dos_slowhttptest,0.9565987599645704,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,dos_slowloris,0.9930515344528084,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,ftp_patator,0.9985413627839134,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,portscan,0.9985004998333888,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,ssh_patator,0.6674082313681868,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,web_bruteforce,0.647887323943662,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,web_sqli,0.0,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,web_xss,0.3333333333333333,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0
+CICIDS2017,nfs2023_te,rf,grouped,3,flow,own,MACRO_CPLUS,0.7646979153280112,"{""max_depth"": null, ""min_samples_leaf"": 3}",397491,170475,17.0

@@ -1,0 +1,48 @@
+{
+  "name": "phase4_fig1",
+  "created_utc": "2026-10-30T07:09:24+00:00",
+  "script": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/03_Code/make_figures.py",
+  "argv": [],
+  "params": {},
+  "git": {
+    "commit": "829e4014321d15d0007b6d784c4b0e1a3b04c917",
+    "dirty": true
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.15.0",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "krippendorff": "0.9.0"
+  },
+  "inputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/04_Results/phase4/flows_per_conv.csv",
+      "bytes": 139629,
+      "sha256": "7c97b93a3c9285c541724bb26d191305ff7d50c47c9cb3edf9fb8f8948a0e6f1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/05_Paper/figures/fig1_flows_per_conversation.pdf",
+      "bytes": 20653,
+      "sha256": "3dd3bef2e7bd7d47523715c14664dfacdb70cf3bae4459117166067d084d8450"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/05_Paper/figures/figA_flows_per_conversation_cic.pdf",
+      "bytes": 27201,
+      "sha256": "bffd37122e03dcb4bb238c9fb75d73825f57d6d510692e7df5020a581330fb3d"
+    },
+    {
+      "path": "/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze3/05_Paper/figures/figA_flows_per_conversation_unsw.pdf",
+      "bytes": 24276,
+      "sha256": "842550b77b10282766f416c8c5dd3635dd2fe428ee8155c644cc31d88eff227d"
+    }
+  ]
+}

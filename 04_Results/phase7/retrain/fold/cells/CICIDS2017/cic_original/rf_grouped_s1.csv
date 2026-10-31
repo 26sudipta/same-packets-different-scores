@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,cic_original,rf,grouped,1,flow,own,benign,0.9978567247891463,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,bot,0.958997722095672,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,ddos,0.999134448932487,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,dos_goldeneye,0.9893213916637961,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,dos_hulk,0.9938035150968905,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,dos_slowhttptest,0.9977973568281938,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,dos_slowloris,0.9977255496588324,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,ftp_patator,0.9619400471539239,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,portscan,0.9994971505196111,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,ssh_patator,0.9937888198757764,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,web_bruteforce,0.8571428571428571,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,web_sqli,0.18181818181818182,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,web_xss,0.46153846153846156,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6
+CICIDS2017,cic_original,rf,grouped,1,flow,own,MACRO_CPLUS,0.8761817097779869,"{""max_depth"": null, ""min_samples_leaf"": 1}",357943,154392,23.6

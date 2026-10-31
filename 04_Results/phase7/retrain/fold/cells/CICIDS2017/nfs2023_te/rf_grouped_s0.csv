@@ -1,0 +1,15 @@
+benchmark,arm,model,split,seed,unit,population,cls,f1,config,n_train,n_test,seconds
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,benign,0.9812935268603248,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,bot,0.6646525679758308,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,ddos,0.9995921363895913,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,dos_goldeneye,0.7688464364437914,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,dos_hulk,0.9359904185241865,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,dos_slowhttptest,0.959349593495935,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,dos_slowloris,0.9897035881435258,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,ftp_patator,0.9993751301812123,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,portscan,0.998351195383347,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,ssh_patator,0.6669136717302705,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,web_bruteforce,0.6349206349206349,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,web_sqli,0.2222222222222222,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,web_xss,0.4444444444444444,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2
+CICIDS2017,nfs2023_te,rf,grouped,0,flow,own,MACRO_CPLUS,0.7896658128242551,"{""max_depth"": null, ""min_samples_leaf"": 3}",397186,170780,17.2

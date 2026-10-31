@@ -1,0 +1,50 @@
+[16:52:36] R1: 22 cells, 395,522 bootstrap units
+[16:52:40]   R1: 199 of 1000 replicates (4 s)
+[16:52:44]   R1: 399 of 1000 replicates (8 s)
+[16:52:47]   R1: 599 of 1000 replicates (11 s)
+[16:52:50]   R1: 799 of 1000 replicates (14 s)
+[16:52:54]   R1: 999 of 1000 replicates (18 s)
+[16:52:54]   R1: 1000 of 1000 replicates (18 s)
+[16:52:56] R1: written /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/04_Results/phase8/decomp
+[16:53:06] R2: 10 cells, 1,878,939 bootstrap units
+[16:53:30]   R2: 199 of 1000 replicates (23 s)
+[16:53:52]   R2: 399 of 1000 replicates (45 s)
+[16:54:14]   R2: 599 of 1000 replicates (66 s)
+[16:54:35]   R2: 799 of 1000 replicates (88 s)
+[16:54:57]   R2: 999 of 1000 replicates (109 s)
+[16:54:58]   R2: 1000 of 1000 replicates (111 s)
+[16:55:01] R2: written /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/04_Results/phase8/decomp
+[16:55:50] R3: 30 cells, 1,908,058 bootstrap units
+[16:55:54]   Q3: no paired cells, skipped
+[16:55:54]   Q4: no paired cells, skipped
+[16:55:55]   Q3_dt: no paired cells, skipped
+[16:55:55]   Q3_rf: no paired cells, skipped
+[16:55:55]   Q3_nb: no paired cells, skipped
+[16:55:55]   Q4_dt: no paired cells, skipped
+[16:55:55]   Q4_rf: no paired cells, skipped
+[16:55:55]   Q4_nb: no paired cells, skipped
+[16:56:22]   R3: 199 of 1000 replicates (27 s)
+[16:56:43]   R3: 399 of 1000 replicates (48 s)
+[16:57:04]   R3: 599 of 1000 replicates (69 s)
+[16:57:25]   R3: 799 of 1000 replicates (90 s)
+[16:57:45]   R3: 999 of 1000 replicates (110 s)
+[16:57:46]   R3: 1000 of 1000 replicates (111 s)
+[16:57:52] R3: written /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/04_Results/phase8/decomp
+[16:58:17] R4: 30 cells, 9,113,268 bootstrap units
+[16:59:32]   R4: 199 of 1000 replicates (72 s)
+[17:00:36]   R4: 399 of 1000 replicates (135 s)
+[17:01:39]   R4: 599 of 1000 replicates (199 s)
+[17:02:44]   R4: 799 of 1000 replicates (263 s)
+[17:03:48]   R4: 999 of 1000 replicates (328 s)
+[17:03:51]   R4: 1000 of 1000 replicates (331 s)
+[17:03:55] R4: written /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/04_Results/phase8/decomp
+[17:04:28] R5: 70 cells, 1,134,204 bootstrap units
+[17:04:29]   a_Tuesday_crisis2022_rp_vs_cic: no paired cells, skipped
+[17:04:29]   b_Thursday_crisis_vs_wtmc: no paired cells, skipped
+[17:04:40]   R5: 199 of 1000 replicates (12 s)
+[17:04:51]   R5: 399 of 1000 replicates (22 s)
+[17:05:01]   R5: 599 of 1000 replicates (32 s)
+[17:05:11]   R5: 799 of 1000 replicates (42 s)
+[17:05:21]   R5: 999 of 1000 replicates (52 s)
+[17:05:21]   R5: 1000 of 1000 replicates (52 s)
+[17:05:42] R5: written /home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/04_Results/phase8/decomp

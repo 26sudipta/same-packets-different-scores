@@ -1,0 +1,215 @@
+CICIDS2017 cic_original rf_grouped_s0: train 358,235 test 154,100 23 s, peak 1737 MB, macro flow=0.899
+CICIDS2017 cic_original rf_grouped_s1: train 357,943 test 154,392 24 s, peak 1737 MB, macro flow=0.876
+CICIDS2017 cic_original rf_grouped_s2: train 358,339 test 153,996 23 s, peak 1737 MB, macro flow=0.884
+CICIDS2017 cic_original rf_grouped_s3: train 358,654 test 153,681 23 s, peak 1737 MB, macro flow=0.875
+CICIDS2017 cic_original rf_grouped_s4: train 359,316 test 153,019 24 s, peak 1737 MB, macro flow=0.904
+CICIDS2017 cic_original lgbm_grouped_s0: train 358,235 test 154,100 44 s, peak 1737 MB, macro flow=0.944
+CICIDS2017 cic_original lgbm_grouped_s1: train 357,943 test 154,392 44 s, peak 1737 MB, macro flow=0.906
+CICIDS2017 cic_original lgbm_grouped_s2: train 358,339 test 153,996 41 s, peak 1737 MB, macro flow=0.913
+CICIDS2017 cic_original lgbm_grouped_s3: train 358,654 test 153,681 45 s, peak 1737 MB, macro flow=0.896
+CICIDS2017 cic_original lgbm_grouped_s4: train 359,316 test 153,019 45 s, peak 1737 MB, macro flow=0.925
+CICIDS2017 cic_original mlp_grouped_s0: train 358,235 test 154,100 55 s, peak 1747 MB, macro flow=0.798
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+CICIDS2017 cic_original mlp_grouped_s1: train 357,943 test 154,392 90 s, peak 1825 MB, macro flow=0.859
+/home/sudipta/Claude/Projects/AI-Driven Cyber Threat Detection and Log Analysis/Journal_Paper_2026_freeze/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (50) reached and the optimization hasn't converged yet.
+  warnings.warn(
+CICIDS2017 cic_original mlp_grouped_s2: train 358,339 test 153,996 77 s, peak 1829 MB, macro flow=0.820
+CICIDS2017 cic_original mlp_grouped_s3: train 358,654 test 153,681 68 s, peak 1835 MB, macro flow=0.840
+CICIDS2017 cic_original mlp_grouped_s4: train 359,316 test 153,019 65 s, peak 1835 MB, macro flow=0.837
+CICIDS2017 wtmc2021 rf_grouped_s0: train 258,699 test 111,357 19 s, peak 2517 MB, macro flow=0.960
+CICIDS2017 wtmc2021 rf_grouped_s1: train 258,514 test 111,542 19 s, peak 2517 MB, macro flow=0.958
+CICIDS2017 wtmc2021 rf_grouped_s2: train 258,760 test 111,296 18 s, peak 2517 MB, macro flow=0.923
+CICIDS2017 wtmc2021 rf_grouped_s3: train 259,350 test 110,706 18 s, peak 2517 MB, macro flow=0.946
+CICIDS2017 wtmc2021 rf_grouped_s4: train 259,635 test 110,421 18 s, peak 2517 MB, macro flow=0.960
+CICIDS2017 wtmc2021 lgbm_grouped_s0: train 258,699 test 111,357 30 s, peak 2517 MB, macro flow=0.974
+CICIDS2017 wtmc2021 lgbm_grouped_s1: train 258,514 test 111,542 30 s, peak 2517 MB, macro flow=0.962
+CICIDS2017 wtmc2021 lgbm_grouped_s2: train 258,760 test 111,296 31 s, peak 2517 MB, macro flow=0.958
+CICIDS2017 wtmc2021 lgbm_grouped_s3: train 259,350 test 110,706 31 s, peak 2517 MB, macro flow=0.960
+CICIDS2017 wtmc2021 lgbm_grouped_s4: train 259,635 test 110,421 31 s, peak 2517 MB, macro flow=0.987
+CICIDS2017 wtmc2021 mlp_grouped_s0: train 258,699 test 111,357 16 s, peak 2517 MB, macro flow=0.907
+CICIDS2017 wtmc2021 mlp_grouped_s1: train 258,514 test 111,542 15 s, peak 2517 MB, macro flow=0.903
+CICIDS2017 wtmc2021 mlp_grouped_s2: train 258,760 test 111,296 16 s, peak 2517 MB, macro flow=0.927
+CICIDS2017 wtmc2021 mlp_grouped_s3: train 259,350 test 110,706 16 s, peak 2517 MB, macro flow=0.894
+CICIDS2017 wtmc2021 mlp_grouped_s4: train 259,635 test 110,421 17 s, peak 2517 MB, macro flow=0.962
+CICIDS2017 crisis2022_rpd rf_grouped_s0: train 259,138 test 111,533 18 s, peak 2889 MB, macro flow=0.940
+CICIDS2017 crisis2022_rpd rf_grouped_s1: train 258,933 test 111,738 18 s, peak 2889 MB, macro flow=0.937
+CICIDS2017 crisis2022_rpd rf_grouped_s2: train 259,202 test 111,469 18 s, peak 2889 MB, macro flow=0.921
+CICIDS2017 crisis2022_rpd rf_grouped_s3: train 259,790 test 110,881 18 s, peak 2889 MB, macro flow=0.925
+CICIDS2017 crisis2022_rpd rf_grouped_s4: train 260,065 test 110,606 18 s, peak 2889 MB, macro flow=0.939
+CICIDS2017 crisis2022_rpd lgbm_grouped_s0: train 259,138 test 111,533 29 s, peak 2889 MB, macro flow=0.960
+CICIDS2017 crisis2022_rpd lgbm_grouped_s1: train 258,933 test 111,738 29 s, peak 2889 MB, macro flow=0.964
+CICIDS2017 crisis2022_rpd lgbm_grouped_s2: train 259,202 test 111,469 29 s, peak 2889 MB, macro flow=0.957
+CICIDS2017 crisis2022_rpd lgbm_grouped_s3: train 259,790 test 110,881 30 s, peak 2889 MB, macro flow=0.925
+CICIDS2017 crisis2022_rpd lgbm_grouped_s4: train 260,065 test 110,606 30 s, peak 2889 MB, macro flow=0.974
+CICIDS2017 crisis2022_rpd mlp_grouped_s0: train 259,138 test 111,533 18 s, peak 2889 MB, macro flow=0.909
+CICIDS2017 crisis2022_rpd mlp_grouped_s1: train 258,933 test 111,738 25 s, peak 2889 MB, macro flow=0.929
+CICIDS2017 crisis2022_rpd mlp_grouped_s2: train 259,202 test 111,469 28 s, peak 2889 MB, macro flow=0.870
+CICIDS2017 crisis2022_rpd mlp_grouped_s3: train 259,790 test 110,881 25 s, peak 2889 MB, macro flow=0.893
+CICIDS2017 crisis2022_rpd mlp_grouped_s4: train 260,065 test 110,606 18 s, peak 2889 MB, macro flow=0.949
+CICIDS2017 lycos rf_grouped_s0: train 257,149 test 110,670 15 s, peak 2944 MB, macro flow=0.976
+CICIDS2017 lycos rf_grouped_s1: train 256,990 test 110,829 15 s, peak 2944 MB, macro flow=0.937
+CICIDS2017 lycos rf_grouped_s2: train 257,221 test 110,598 14 s, peak 2944 MB, macro flow=0.943
+CICIDS2017 lycos rf_grouped_s3: train 257,703 test 110,116 15 s, peak 2944 MB, macro flow=0.925
+CICIDS2017 lycos rf_grouped_s4: train 258,041 test 109,778 15 s, peak 2944 MB, macro flow=0.960
+CICIDS2017 lycos lgbm_grouped_s0: train 257,149 test 110,670 26 s, peak 2944 MB, macro flow=0.968
+CICIDS2017 lycos lgbm_grouped_s1: train 256,990 test 110,829 26 s, peak 2944 MB, macro flow=0.955
+CICIDS2017 lycos lgbm_grouped_s2: train 257,221 test 110,598 25 s, peak 2944 MB, macro flow=0.942
+CICIDS2017 lycos lgbm_grouped_s3: train 257,703 test 110,116 24 s, peak 2944 MB, macro flow=0.925
+CICIDS2017 lycos lgbm_grouped_s4: train 258,041 test 109,778 25 s, peak 2944 MB, macro flow=0.961
+CICIDS2017 lycos mlp_grouped_s0: train 257,149 test 110,670 24 s, peak 2944 MB, macro flow=0.908
+CICIDS2017 lycos mlp_grouped_s1: train 256,990 test 110,829 18 s, peak 2944 MB, macro flow=0.908
+CICIDS2017 lycos mlp_grouped_s2: train 257,221 test 110,598 15 s, peak 2944 MB, macro flow=0.889
+CICIDS2017 lycos mlp_grouped_s3: train 257,703 test 110,116 17 s, peak 2944 MB, macro flow=0.892
+CICIDS2017 lycos mlp_grouped_s4: train 258,041 test 109,778 16 s, peak 2944 MB, macro flow=0.896
+CICIDS2017 nfs2023_nte rf_grouped_s0: train 263,149 test 113,176 12 s, peak 2974 MB, macro flow=0.955
+CICIDS2017 nfs2023_nte rf_grouped_s1: train 262,833 test 113,492 12 s, peak 2974 MB, macro flow=0.936
+CICIDS2017 nfs2023_nte rf_grouped_s2: train 263,160 test 113,165 12 s, peak 2974 MB, macro flow=0.920
+CICIDS2017 nfs2023_nte rf_grouped_s3: train 263,760 test 112,565 12 s, peak 2974 MB, macro flow=0.943
+CICIDS2017 nfs2023_nte rf_grouped_s4: train 264,217 test 112,108 12 s, peak 2974 MB, macro flow=0.959
+CICIDS2017 nfs2023_nte lgbm_grouped_s0: train 263,149 test 113,176 20 s, peak 2974 MB, macro flow=0.938
+CICIDS2017 nfs2023_nte lgbm_grouped_s1: train 262,833 test 113,492 20 s, peak 2974 MB, macro flow=0.958
+CICIDS2017 nfs2023_nte lgbm_grouped_s2: train 263,160 test 113,165 20 s, peak 2974 MB, macro flow=0.955
+CICIDS2017 nfs2023_nte lgbm_grouped_s3: train 263,760 test 112,565 20 s, peak 2974 MB, macro flow=0.922
+CICIDS2017 nfs2023_nte lgbm_grouped_s4: train 264,217 test 112,108 20 s, peak 2974 MB, macro flow=0.978
+CICIDS2017 nfs2023_nte mlp_grouped_s0: train 263,149 test 113,176 36 s, peak 2974 MB, macro flow=0.897
+CICIDS2017 nfs2023_nte mlp_grouped_s1: train 262,833 test 113,492 22 s, peak 2974 MB, macro flow=0.904
+CICIDS2017 nfs2023_nte mlp_grouped_s2: train 263,160 test 113,165 40 s, peak 2974 MB, macro flow=0.929
+CICIDS2017 nfs2023_nte mlp_grouped_s3: train 263,760 test 112,565 41 s, peak 2974 MB, macro flow=0.874
+CICIDS2017 nfs2023_nte mlp_grouped_s4: train 264,217 test 112,108 25 s, peak 2974 MB, macro flow=0.903
+CICIDS2017 nfs2023_te rf_grouped_s0: train 397,186 test 170,780 17 s, peak 3087 MB, macro flow=0.790
+CICIDS2017 nfs2023_te rf_grouped_s1: train 396,732 test 171,234 17 s, peak 3087 MB, macro flow=0.771
+CICIDS2017 nfs2023_te rf_grouped_s2: train 397,143 test 170,823 17 s, peak 3087 MB, macro flow=0.779
+CICIDS2017 nfs2023_te rf_grouped_s3: train 397,491 test 170,475 17 s, peak 3087 MB, macro flow=0.765
+CICIDS2017 nfs2023_te rf_grouped_s4: train 398,430 test 169,536 17 s, peak 3087 MB, macro flow=0.788
+CICIDS2017 nfs2023_te lgbm_grouped_s0: train 397,186 test 170,780 31 s, peak 3087 MB, macro flow=0.805
+CICIDS2017 nfs2023_te lgbm_grouped_s1: train 396,732 test 171,234 31 s, peak 3087 MB, macro flow=0.803
+CICIDS2017 nfs2023_te lgbm_grouped_s2: train 397,143 test 170,823 31 s, peak 3087 MB, macro flow=0.806
+CICIDS2017 nfs2023_te lgbm_grouped_s3: train 397,491 test 170,475 31 s, peak 3087 MB, macro flow=0.807
+CICIDS2017 nfs2023_te lgbm_grouped_s4: train 398,430 test 169,536 31 s, peak 3087 MB, macro flow=0.816
+CICIDS2017 nfs2023_te mlp_grouped_s0: train 397,186 test 170,780 56 s, peak 3087 MB, macro flow=0.770
+CICIDS2017 nfs2023_te mlp_grouped_s1: train 396,732 test 171,234 67 s, peak 3087 MB, macro flow=0.800
+CICIDS2017 nfs2023_te mlp_grouped_s2: train 397,143 test 170,823 64 s, peak 3087 MB, macro flow=0.767
+CICIDS2017 nfs2023_te mlp_grouped_s3: train 397,491 test 170,475 56 s, peak 3087 MB, macro flow=0.762
+CICIDS2017 nfs2023_te mlp_grouped_s4: train 398,430 test 169,536 67 s, peak 3087 MB, macro flow=0.802
+CICIDS2017 bccc2017 rf_grouped_s0: train 336,314 test 144,988 23 s, peak 3087 MB, macro flow=0.938
+CICIDS2017 bccc2017 rf_grouped_s1: train 336,789 test 144,513 24 s, peak 3087 MB, macro flow=0.926
+CICIDS2017 bccc2017 rf_grouped_s2: train 336,732 test 144,570 24 s, peak 3087 MB, macro flow=0.901
+CICIDS2017 bccc2017 rf_grouped_s3: train 336,234 test 145,068 23 s, peak 3087 MB, macro flow=0.919
+CICIDS2017 bccc2017 rf_grouped_s4: train 337,433 test 143,869 23 s, peak 3087 MB, macro flow=0.955
+CICIDS2017 bccc2017 lgbm_grouped_s0: train 336,314 test 144,988 41 s, peak 3087 MB, macro flow=0.937
+CICIDS2017 bccc2017 lgbm_grouped_s1: train 336,789 test 144,513 42 s, peak 3087 MB, macro flow=0.943
+CICIDS2017 bccc2017 lgbm_grouped_s2: train 336,732 test 144,570 41 s, peak 3087 MB, macro flow=0.936
+CICIDS2017 bccc2017 lgbm_grouped_s3: train 336,234 test 145,068 42 s, peak 3087 MB, macro flow=0.908
+CICIDS2017 bccc2017 lgbm_grouped_s4: train 337,433 test 143,869 46 s, peak 3087 MB, macro flow=0.952
+CICIDS2017 bccc2017 mlp_grouped_s0: train 336,314 test 144,988 48 s, peak 3087 MB, macro flow=0.727
+CICIDS2017 bccc2017 mlp_grouped_s1: train 336,789 test 144,513 36 s, peak 3087 MB, macro flow=0.769
+CICIDS2017 bccc2017 mlp_grouped_s2: train 336,732 test 144,570 34 s, peak 3087 MB, macro flow=0.755
+CICIDS2017 bccc2017 mlp_grouped_s3: train 336,234 test 145,068 34 s, peak 3087 MB, macro flow=0.738
+CICIDS2017 bccc2017 mlp_grouped_s4: train 337,433 test 143,869 32 s, peak 3087 MB, macro flow=0.761
+      benchmark             arm model    split  seed  n_train  n_test  seconds  peak_rss_mb
+0    CICIDS2017    cic_original    rf  grouped     0   358235  154100     23.4         1737
+1    CICIDS2017    cic_original    rf  grouped     1   357943  154392     23.7         1737
+2    CICIDS2017    cic_original    rf  grouped     2   358339  153996     23.2         1737
+3    CICIDS2017    cic_original    rf  grouped     3   358654  153681     23.4         1737
+4    CICIDS2017    cic_original    rf  grouped     4   359316  153019     23.6         1737
+5    CICIDS2017    cic_original  lgbm  grouped     0   358235  154100     43.7         1737
+6    CICIDS2017    cic_original  lgbm  grouped     1   357943  154392     44.2         1737
+7    CICIDS2017    cic_original  lgbm  grouped     2   358339  153996     41.1         1737
+8    CICIDS2017    cic_original  lgbm  grouped     3   358654  153681     44.6         1737
+9    CICIDS2017    cic_original  lgbm  grouped     4   359316  153019     44.7         1737
+10   CICIDS2017    cic_original   mlp  grouped     0   358235  154100     54.7         1747
+11   CICIDS2017    cic_original   mlp  grouped     1   357943  154392     89.8         1825
+12   CICIDS2017    cic_original   mlp  grouped     2   358339  153996     76.6         1829
+13   CICIDS2017    cic_original   mlp  grouped     3   358654  153681     67.7         1835
+14   CICIDS2017    cic_original   mlp  grouped     4   359316  153019     65.0         1835
+15   CICIDS2017        wtmc2021    rf  grouped     0   258699  111357     18.8         2517
+16   CICIDS2017        wtmc2021    rf  grouped     1   258514  111542     18.5         2517
+17   CICIDS2017        wtmc2021    rf  grouped     2   258760  111296     18.0         2517
+18   CICIDS2017        wtmc2021    rf  grouped     3   259350  110706     18.0         2517
+19   CICIDS2017        wtmc2021    rf  grouped     4   259635  110421     18.4         2517
+20   CICIDS2017        wtmc2021  lgbm  grouped     0   258699  111357     30.3         2517
+21   CICIDS2017        wtmc2021  lgbm  grouped     1   258514  111542     30.1         2517
+22   CICIDS2017        wtmc2021  lgbm  grouped     2   258760  111296     30.5         2517
+23   CICIDS2017        wtmc2021  lgbm  grouped     3   259350  110706     30.7         2517
+24   CICIDS2017        wtmc2021  lgbm  grouped     4   259635  110421     30.8         2517
+25   CICIDS2017        wtmc2021   mlp  grouped     0   258699  111357     15.9         2517
+26   CICIDS2017        wtmc2021   mlp  grouped     1   258514  111542     14.8         2517
+27   CICIDS2017        wtmc2021   mlp  grouped     2   258760  111296     16.3         2517
+28   CICIDS2017        wtmc2021   mlp  grouped     3   259350  110706     15.7         2517
+29   CICIDS2017        wtmc2021   mlp  grouped     4   259635  110421     17.1         2517
+30   CICIDS2017  crisis2022_rpd    rf  grouped     0   259138  111533     18.0         2889
+31   CICIDS2017  crisis2022_rpd    rf  grouped     1   258933  111738     18.0         2889
+32   CICIDS2017  crisis2022_rpd    rf  grouped     2   259202  111469     17.8         2889
+33   CICIDS2017  crisis2022_rpd    rf  grouped     3   259790  110881     18.0         2889
+34   CICIDS2017  crisis2022_rpd    rf  grouped     4   260065  110606     17.8         2889
+35   CICIDS2017  crisis2022_rpd  lgbm  grouped     0   259138  111533     29.3         2889
+36   CICIDS2017  crisis2022_rpd  lgbm  grouped     1   258933  111738     29.2         2889
+37   CICIDS2017  crisis2022_rpd  lgbm  grouped     2   259202  111469     29.3         2889
+38   CICIDS2017  crisis2022_rpd  lgbm  grouped     3   259790  110881     29.6         2889
+39   CICIDS2017  crisis2022_rpd  lgbm  grouped     4   260065  110606     29.8         2889
+40   CICIDS2017  crisis2022_rpd   mlp  grouped     0   259138  111533     18.4         2889
+41   CICIDS2017  crisis2022_rpd   mlp  grouped     1   258933  111738     25.4         2889
+42   CICIDS2017  crisis2022_rpd   mlp  grouped     2   259202  111469     28.0         2889
+43   CICIDS2017  crisis2022_rpd   mlp  grouped     3   259790  110881     24.5         2889
+44   CICIDS2017  crisis2022_rpd   mlp  grouped     4   260065  110606     17.6         2889
+45   CICIDS2017           lycos    rf  grouped     0   257149  110670     14.8         2944
+46   CICIDS2017           lycos    rf  grouped     1   256990  110829     14.9         2944
+47   CICIDS2017           lycos    rf  grouped     2   257221  110598     14.4         2944
+48   CICIDS2017           lycos    rf  grouped     3   257703  110116     14.9         2944
+49   CICIDS2017           lycos    rf  grouped     4   258041  109778     14.8         2944
+50   CICIDS2017           lycos  lgbm  grouped     0   257149  110670     25.5         2944
+51   CICIDS2017           lycos  lgbm  grouped     1   256990  110829     25.6         2944
+52   CICIDS2017           lycos  lgbm  grouped     2   257221  110598     25.2         2944
+53   CICIDS2017           lycos  lgbm  grouped     3   257703  110116     24.0         2944
+54   CICIDS2017           lycos  lgbm  grouped     4   258041  109778     25.3         2944
+55   CICIDS2017           lycos   mlp  grouped     0   257149  110670     24.2         2944
+56   CICIDS2017           lycos   mlp  grouped     1   256990  110829     18.0         2944
+57   CICIDS2017           lycos   mlp  grouped     2   257221  110598     15.2         2944
+58   CICIDS2017           lycos   mlp  grouped     3   257703  110116     17.1         2944
+59   CICIDS2017           lycos   mlp  grouped     4   258041  109778     16.0         2944
+60   CICIDS2017     nfs2023_nte    rf  grouped     0   263149  113176     12.1         2974
+61   CICIDS2017     nfs2023_nte    rf  grouped     1   262833  113492     12.4         2974
+62   CICIDS2017     nfs2023_nte    rf  grouped     2   263160  113165     12.1         2974
+63   CICIDS2017     nfs2023_nte    rf  grouped     3   263760  112565     11.8         2974
+64   CICIDS2017     nfs2023_nte    rf  grouped     4   264217  112108     11.9         2974
+65   CICIDS2017     nfs2023_nte  lgbm  grouped     0   263149  113176     20.3         2974
+66   CICIDS2017     nfs2023_nte  lgbm  grouped     1   262833  113492     20.0         2974
+67   CICIDS2017     nfs2023_nte  lgbm  grouped     2   263160  113165     19.9         2974
+68   CICIDS2017     nfs2023_nte  lgbm  grouped     3   263760  112565     20.2         2974
+69   CICIDS2017     nfs2023_nte  lgbm  grouped     4   264217  112108     20.3         2974
+70   CICIDS2017     nfs2023_nte   mlp  grouped     0   263149  113176     35.7         2974
+71   CICIDS2017     nfs2023_nte   mlp  grouped     1   262833  113492     22.0         2974
+72   CICIDS2017     nfs2023_nte   mlp  grouped     2   263160  113165     40.3         2974
+73   CICIDS2017     nfs2023_nte   mlp  grouped     3   263760  112565     41.1         2974
+74   CICIDS2017     nfs2023_nte   mlp  grouped     4   264217  112108     24.5         2974
+75   CICIDS2017      nfs2023_te    rf  grouped     0   397186  170780     17.4         3087
+76   CICIDS2017      nfs2023_te    rf  grouped     1   396732  171234     17.0         3087
+77   CICIDS2017      nfs2023_te    rf  grouped     2   397143  170823     17.0         3087
+78   CICIDS2017      nfs2023_te    rf  grouped     3   397491  170475     17.0         3087
+79   CICIDS2017      nfs2023_te    rf  grouped     4   398430  169536     17.0         3087
+80   CICIDS2017      nfs2023_te  lgbm  grouped     0   397186  170780     30.6         3087
+81   CICIDS2017      nfs2023_te  lgbm  grouped     1   396732  171234     31.1         3087
+82   CICIDS2017      nfs2023_te  lgbm  grouped     2   397143  170823     30.7         3087
+83   CICIDS2017      nfs2023_te  lgbm  grouped     3   397491  170475     30.8         3087
+84   CICIDS2017      nfs2023_te  lgbm  grouped     4   398430  169536     31.1         3087
+85   CICIDS2017      nfs2023_te   mlp  grouped     0   397186  170780     55.8         3087
+86   CICIDS2017      nfs2023_te   mlp  grouped     1   396732  171234     67.1         3087
+87   CICIDS2017      nfs2023_te   mlp  grouped     2   397143  170823     63.8         3087
+88   CICIDS2017      nfs2023_te   mlp  grouped     3   397491  170475     56.3         3087
+89   CICIDS2017      nfs2023_te   mlp  grouped     4   398430  169536     67.1         3087
+90   CICIDS2017        bccc2017    rf  grouped     0   336314  144988     23.0         3087
+91   CICIDS2017        bccc2017    rf  grouped     1   336789  144513     24.0         3087
+92   CICIDS2017        bccc2017    rf  grouped     2   336732  144570     24.0         3087
+93   CICIDS2017        bccc2017    rf  grouped     3   336234  145068     23.3         3087
+94   CICIDS2017        bccc2017    rf  grouped     4   337433  143869     23.1         3087
+95   CICIDS2017        bccc2017  lgbm  grouped     0   336314  144988     40.6         3087
+96   CICIDS2017        bccc2017  lgbm  grouped     1   336789  144513     42.0         3087
+97   CICIDS2017        bccc2017  lgbm  grouped     2   336732  144570     41.4         3087
+98   CICIDS2017        bccc2017  lgbm  grouped     3   336234  145068     41.7         3087
+99   CICIDS2017        bccc2017  lgbm  grouped     4   337433  143869     45.6         3087
+100  CICIDS2017        bccc2017   mlp  grouped     0   336314  144988     48.3         3087
+101  CICIDS2017        bccc2017   mlp  grouped     1   336789  144513     36.1         3087
+102  CICIDS2017        bccc2017   mlp  grouped     2   336732  144570     34.3         3087
+103  CICIDS2017        bccc2017   mlp  grouped     3   336234  145068     33.6         3087
+104  CICIDS2017        bccc2017   mlp  grouped     4   337433  143869     31.7         3087
